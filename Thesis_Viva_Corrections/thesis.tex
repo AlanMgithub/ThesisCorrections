@@ -1,0 +1,304 @@
+\include{Macros/MacroFile1}
+
+%TODO: Template below for e-viewing
+%\documentclass[oneside,12pt]{Classes/CUEDthesisPSnPDF}
+%TODO: Template below is used for printing, the margins need to be adjusted
+\documentclass[twoside,openright,12pt]{Classes/CUEDthesisPSnPDF}
+%TODO: Package below removes enumeration on blank pages
+\usepackage{emptypage}
+
+\usepackage{comment}
+\usepackage{hyperref}
+\usepackage{soul}
+\usepackage{verbatim}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{StyleFiles/watermark}
+\usepackage{soul}
+\usepackage{etoolbox}
+\usepackage{tikz}
+\usetikzlibrary{matrix}
+\usepackage[all]{xy}
+\usepackage{fancyvrb}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{bytefield}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tcolorbox}
+
+
+% Quote style >>
+\usepackage{epigraph}
+\usepackage{etoolbox}
+%\epigraphsize{\small}% Default
+\setlength\epigraphwidth{0.99\textwidth}
+\setlength\epigraphrule{0pt}
+% <<
+
+
+%
+% CHAPTER TITLE STYLE
+%
+
+% STYLE NO. 1
+%
+%\usepackage[T1]{fontenc}
+%\usepackage{titlesec, blindtext, color}
+%\definecolor{gray75}{gray}{0.75}
+%\newcommand{\hsp}{\hspace{20pt}}
+%\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+
+
+% STYLE NO. 2
+%
+\usepackage[T1]{fontenc}
+\usepackage{titlesec, blindtext, color}
+\usepackage{fix-cm}
+\titleformat{\chapter}[display]
+  %{\bfseries\LARGE}
+  {\bfseries\Huge}
+  {\filright\MakeUppercase{\Large\chaptertitlename} \Huge\thechapter}
+  {1ex}
+  {\titlerule\vspace{1ex}\filleft}
+  [\vspace{1ex}\titlerule]
+
+
+% STYLE NO. 3
+%
+%Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
+%GOOD OPTIONS: Sonny, Glenn, Bjornstrup
+%\usepackage[Lenny]{fncychap}
+
+
+
+
+
+
+
+% % TITLE PAGE
+\title{\Huge Time-Based Memory Coherence}
+
+\ifpdf
+  \author{Alan Mujumdar}
+  \collegeordept{Computer Laboratory}
+  \university{University of Cambridge}
+  \college{Christs College}
+% insert below the file name that contains the crest in-place of 'UnivShield'
+  \crest{\includegraphics[width=30mm]{UnivShield}}
+\else
+  \author{Alan Mujumdar}
+  \collegeordept{Computer Laboratory}
+  \university{University of Cambridge}
+  \college{Christs College}
+  
+  
+% insert below the file name that contains the crest in-place of 'UnivShield'
+  \crest{\includegraphics[bb = 0 0 292 336, width=30mm]{UnivShield}}
+\fi
+
+
+
+%\renewcommand{\submittedtext}{Ack}
+\degree{Doctor of Philosophy}
+\degreedate{4 January 2016}
+
+
+% turn off those nasty overfull and underfull hboxes
+\hbadness=10000
+\hfuzz=50pt
+
+
+\begin{document}
+
+%\language{english}
+
+\renewcommand\baselinestretch{1.2}
+\baselineskip=18pt plus1pt
+
+% A page with the abstract on including title and author etc may be
+% required to be handed in separately. If this is not so, then comment
+% the below 3 lines (between '\begin{abstractseparte}' and 
+% 'end{abstractseparate}'), normally like a declaration ... needs some more
+% work, mind as environment abstracts creates a new page!
+%\begin{abstractseparate}
+%  \input{Abstract/abstract}
+%\end{abstractseparate}
+
+
+% Using the watermark package which is in StyleFiles/
+% and to remove DRAFT COPY ONLY appearing on the top of all pages comment out below line
+%\watermark{DRAFT COPY ONLY}
+
+
+\maketitle
+
+% 4 lines below ensure that there is a blank page before a new chapter
+%\newpage
+%\thispagestyle{empty}
+%\mbox{}
+%\newevenside
+
+
+%set the number of sectioning levels that get number and appear in the contents
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+%TODO: Abstract *************************************************************
+%\include{Abstract/abstract}
+\clearpage
+\thispagestyle{empty}
+\mbox{}
+
+\patchcmd{\abstract}{\null\vfil}{}{}{}
+\begin{abstractseparate}
+Cache coherency is the dominant mechanism for data sharing in commercial multiprocessor systems. Such mechanisms are complex to implement and can become costly (both power and performance) for larger systems.  Many cache coherency mechanisms, like directory-based approaches, aim to carefully coordinate data sharing, a distributed problem demanding a high volume of coherency messages to maintain order. 
+
+This thesis explores an alternative approach, focused on the lifespan of data in caches, which can be monitored locally.  We demonstrate that this time-based coherency approach can be simpler to implement, requires no coherency messages, performs surprisingly well, and can be more efficient under appropriate circumstances.
+
+The proposed time-based coherency approach is inspired by software oriented time-based coherency mechanisms. % and self-invalidating techniques used in some GPU caches. 
+To thoroughly evaluate this approach, I have designed a multi-core version of the BERI processor, implemented on FPGA and supporting the FreeBSD operating system. Thus, a full system evaluation was made possible. A directory-based coherency scheme was also implemented to provide a baseline comparable with commercial approaches.
+
+Cache coherency mechanisms have also been exploited to break security, since a malicious thread can interfere with the temporal properties of a program under attack. We demonstrate that time-based coherence can be tuned to make side-channel observations more challenging, which we believe can be used, together with other techniques, to mitigate side-channel attacks.
+\end{abstractseparate}
+
+
+%TODO: Declaration *********************************************************
+\clearpage
+\thispagestyle{empty}
+\mbox{}
+
+\chapter*{Declaration}
+\thispagestyle{empty}
+This dissertation is my own work and contains nothing which is the outcome of
+work done in collaboration with others, except where specified in the text. This
+dissertation is not substantially the same as any that I have submitted for a
+degree or diploma or other qualification at any other university. This
+dissertation does not exceed the prescribed limit of 60,000 words.
+
+% Leaving some space for the signature:
+\vspace{15mm}
+
+\begin{flushright}
+Alan Mujumdar
+\\
+4 January 2016
+\end{flushright}
+\vfill
+
+
+%TODO: Acknowledgements ***************************************************
+\clearpage
+\thispagestyle{empty}
+\mbox{}
+
+\chapter*{Acknowledgements}
+\thispagestyle{empty}
+
+I would like to thank my supervisor, Simon Moore, for his incredible advice, guidance, and support throughout the course of my PhD. I also want to thank all the members of the CTSRD and MRC2 projects, for their moral, intellectual and engineering support. 
+In particular, Robert Watson for his exceptional advice, and fantastic OS and engineering support;
+Matthew Naylor, this dissertation would not be possible without his encouragement and incredible guidance on memory consistency;
+Jonathan Woodruff, who is never short of fantastic architectural suggestions, engineering support, quick wit, and for designing the original BERI processor;
+Alexandre Joannou, for all the heated discussions on cache coherence which have lead to some very interesting engineering solutions;
+Brooks Davis, for all his work on OS support and debugging, certainly this dissertation would not be possible without it;
+Stacey Son, for his excellent advice and software support;
+Robert Norton, who can always answer a tricky question and for his technical support;
+David Chisnall, for his advice and great compiler support;
+Michael Roe, his work on testing has been incredibly important for all my multiprocessor work;
+Theo Markettos, also known as the hardware guru, for his advice and support;
+Nirav Dave, for all his advice in the early stages of coherence design;
+Colin Rothwell, for his general advice and comedy of course;
+Peter Neumann, for his historical perspective and good humour;
+Andrew Moore, whose advice is always spot on;
+The Defense Advanced Research Programs Agency, whose support of
+the CTSRD and MRC2 projects was fundamental to the development of CHERI.
+
+I also want to thank my close friends who have provided strong moral support throughout the course of this PhD. In particular, James Snee, Niall Murphy, Karthik Nilakant, Guilherme Frederico, Keri Wong, Tanika Mei, Catherine Kochmar, Chuen Yan Leung, Miranda Lewis, and Emily Thomas. Finally, I want to thank my entire family for supporting and encouraging me throughout the course of this PhD, especially, Ashok, Irina, and Anita Mujumdar.
+
+
+%TODO: Contents ***********************************************************
+\clearpage
+\thispagestyle{empty}
+\mbox{}
+
+\tableofcontents
+\listoffigures
+\listoftables
+%\printglossary  %% Print the nomenclature
+%\addcontentsline{toc}{chapter}{Nomenclature}
+
+
+
+%TODO: Chapters ***********************************************************
+% 3 lines below ensure that there is a blank page before a new chapter
+\clearpage
+\thispagestyle{empty}
+\mbox{}
+%TODO: Intro
+\include{Introduction/introduction}
+
+% 3 lines below ensure that there is a blank page before a new chapter
+\clearpage
+\thispagestyle{empty}
+\mbox{}
+%TODO: Background
+\include{Background/background}
+
+% 3 lines below ensure that there is a blank page before a new chapter
+\clearpage
+\thispagestyle{empty}
+\mbox{}
+%TODO: Methods
+\include{Chapter3/chapter3}
+
+% 3 lines below ensure that there is a blank page before a new chapter
+\clearpage
+\thispagestyle{empty}
+\mbox{}
+%TODO: Coherence
+\include{Chapter1/chapter1}
+
+% 3 lines below ensure that there is a blank page before a new chapter
+\clearpage
+\thispagestyle{empty}
+\mbox{}
+%TODO: SCA
+\include{Chapter2/chapter2}
+
+% 3 lines below ensure that there is a blank page before a new chapter
+\clearpage
+\thispagestyle{empty}
+\mbox{}
+%TODO: results
+\include{Results/results}
+
+% 3 lines below ensure that there is a blank page before a new chapter
+\clearpage
+\thispagestyle{empty}
+\mbox{}
+%TODO: Conclude
+\include{Conclusion/conclusion}
+
+% 3 lines below ensure that there is a blank page before a new chapter
+%\clearpage
+%\thispagestyle{empty}
+%\mbox{}
+
+%TODO: References
+%\bibliographystyle{Classes/CUEDbiblio}
+%\bibliographystyle{Classes/jmb}
+%\bibliographystyle{plainnat} %this works with package natbib
+
+%\bibliographystyle{plain} % bibliography style
+\bibliographystyle{unsrt}
+
+%\bibliographystyle{apalike}
+%\bibliographystyle{alpha}
+\renewcommand{\bibname}{References} % changes default name Bibliography to References
+\cleardoublepage
+\addcontentsline{toc}{chapter}{References} %adds References to contents page 
+\bibliography{References/references} % References file
+
+
+\end{document}

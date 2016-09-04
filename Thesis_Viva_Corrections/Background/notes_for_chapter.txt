@@ -1,0 +1,425 @@
+
+% Extra text
+\begin{comment}
+	There is a great diversity in memory models, coherence, architectures in general. Where is all of this heading. It seems like traditional shared memory multiprocessor designs are not disappearing yet and if we believe the predictions, commercial CMPs will be available soon. This leads to the topic of scalable coherence, it is widely accepted that directory coherence can scale to thousands of cores (with limitations of course), besides tracking coherence for such a large number of cores is both impractical and necessary, software simply does not exhibit such parallelism and GPUs can be used for this purpose. For the sake of argument lets say that we want to run hyper-parallel applications on a CMP with lots of shared data and coherence. The coherence traffic is likely going to outweigh all other memory traffic, so a coherence protocol with low communication and/or communication overheads is preferable [TODO: Reference GPU time-based paper]. Lets now assume that our CMP runs conventional but parallel software. We would expect fairly low levels of shared data communication, with exception of few applications that use broadcast communication [TODO: Reference graphene paper]. This CMP system can use something like a distributed directory [TODO: Reference] to maintain global coherence. However, CMPs usually follow tiled designs, where each tile represents a PE or a cluster of PE, the later is more likely. OS running on the CMP will try to maintain software access locality to this cluster or local tiles [TODO: Reference some CMP paper], as this would be the most efficient, low latency way of communicating between the PEs. Is a directory necessary for such type of communication, inter-tile probably yes, but within a tile other traditional coherence schemes can be used, or maybe a scheme that requires very low communication overheads such as a time-based protocol. As I demonstrate in this thesis, time-based coherence can be used to design an efficient and simple memory architecture that performs at par or even better than a directory scheme.
+\end{comment}
+
+
+
+%**************************************************************************************
+% RAW Papers for Time-based coherence
+%**************************************************************************************
+\begin{comment}
+\begin{itemize}
+\item (x1988) A Cache Coherence Scheme With Fast Selective Invalidation.
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5240}
+\textcolor{red}{``we present a cache coherence enforcement scheme in which all references are marked at compile time but invalidation decisions are made when the data is actually referenced.''
+!!! ``The algorithm proposed by Veidenbaum [VeidSS] relies on a compiler to insert invalidate-cache instructions at places where a reassignment of processors will take place. This approach requires minimal hardware assistance when compared to other algorithms in this section. All shared variables except synchronisation primitives are
+cacheable in this algorithm. The main disadvantage of this approach is the possibility of unnecessary misses due to the indiscriminate invalidation.''
+!!! A write-back policy does not appear to be a good choice for the following reasons.}
+Proposes a TLB based invalidate protocol and a compiler inserted protocol. Indiscriminate invalidation is bad but single cycle, selective invalidation is sequential and potentially worse. Write-back schemes are a poor choice as shared memory may not be up to date. Stale data is a major concern for the authors as they are not sure how to apply this to parallel programs. Lack of good compiler support is specified too. Their new algorithm uses write-through policy and prefetching.
+
+\item (x1992a) Design and Analysis of a Scalable Cache Coherence Scheme Based on Clocks and Timestamps. 
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=113080}
+Main motivation is the lack of scalability in coherence algorithms (snooping and some directories).
+Incoherence mentioned - Not caching data in loops.
+Compiler assistance is briefly mentioned.
+The idea of time-stamping words in cache lines is proposed.
+Discussion of how the proposed scheme works with the loop code described earlier.  
+Cache behaviour on miss/hit/etc is discussed in detail.
+Evaluated through traces in VAX architecture.
+Detailed results section.
+
+\item (x1992b) {Not directly related to self-inv}
+ An Effective Write Policy for Software Coherence Schemes. 
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=236636}
+Discussion on write-back policies. Lots of information, used this paper before.
+
+\item (x1993) Cache Coherence Using Local Knowledge. 
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1263526&tag=1}
+Timestamp based coherence using only 1 bit per cache line.
+Synchronization events are used to update main memory, private caches can be either write-through or write-back.
+Compiler may need to insert explicit invalidations for stale data.
+Notion of both static and dynamic coherence strategies.
+Fast Selective Invalidates (FSI), Life Span Strategy (LSS), Parallel Explicit Invalidation (PEI) are contrasted as previous approaches.
+Clock overflow in TS is mentioned as a limitation.
+TS1 uses 1 bit epoch for each cache line. This bit is reset by a special instruction at the end of an epoch. 
+Any lines that were not accessed during the epoch (e) are left unchanged for (e+1).  
+
+\item (x1994a) A Compiler-Directed Cache Coherence Scheme with Improved Intertask Locality. 
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=344343}
+Epochs are used, epoch counter.
+Time-tag for each cache data, 4 bits is sufficient..
+Cache flush on epoch avoided by overflow reset mechanism.
+Stale access avoidance.
+Challenges in multi-word caches.
+Two-phase invalidation.
+
+\item (x1994b) {Related to locking mechanisms}
+ A New Hardware Cache Coherence Scheme. 
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=390399&tag=1}
+Lock-free and time-based invalidation.
+
+\item (x1995) Dynamic Self-Invalidation: Reducing Coherence Overhead in Shared-Memory Multiprocessors. 
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=524548}
+DSI eliminates invalidation messages by auto-invalidating local blocks.
+Eliminating invalidation is critical under sequential consistency, latency can increase program's critical path.
+DSI is applicable to software, hardware and hybrid schemes.
+Evaluation based in directories and write-invalidate protocols.
+Sequentially consistent protocol execution time improved by up to 41\%.
+Weak protocol invalidation messages reduced by 26\%.
+Speculatively identifies blocks to self-invalidate.
+Directory maintains a history of the sharing pattern.
+Acknowledgement messages after self-inv are still required for the directory to track coherence.
+Additional coherence states incorporated.
+Testing suite used contains SPLASH-2 and a few SPEC benchmarks.
+Evaluated on a simulator modeling a SuperSPARC proc.
+
+\item (x1996a) Compiler and Hardware Support for Cache Coherence in Large-Scale Multiprocessors: Design Considerations and Performance Study. 
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1563055&tag=1}
+Hardware supported, compiler directed coherence (HSCD).
+Compiler assigns cacheable and volatile at compile time.
+Varying granularity inv instructions are available.
+Notion of epochs in code. Parallel threads can only be scheduled at the beginning of a parallel epoch.
+To preserve consistency main memory should be updated at the end of an epoch.
+Stale reference sequence described.
+Software cache bypass scheme (SC). Used to update main mem directly.
+Two-phase invalidation scheme (TPI). Epoch number stored in a register in each proc (Rcounter). Time-tag used to record epoch for each piece of data. New memory operation called Time-Read, used for potentially stale reference, its augmented with an offset. Tag updated on a miss.
+Comparison of write-through vs write-back policies.
+
+\item (x1996b) A Timestamp-based Selective Invalidation Scheme for Multiprocessor Cache Coherence. 
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=538566}
+Combines benefits of TPI and TS1. 
+This paper needs to be referenced.
+
+\item (x1997) Cache Coherence using Local Knowledge
+\url{https://scholarship.rice.edu/bitstream/handle/1911/19146/9727541.PDF?sequence=1&isAllowed=y}
+TODO: Thesis on timestamp coherence.
+
+\item (x1999a) Hardware and Compiler-Directed Cache Coherence in Large-Scale Multiprocessors: Design Considerations and Performance Study. 
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=850834}
+Largely builds on concepts described in previous papers.
+Detailed discussion of how time-tags are added in memory.
+This paper needs to be referenced.
+
+\item (x1999b) Compiler Analysis for Cache Coherence: Interprocedural Array Data-Flow Analysis and Its Impact on Cache Performance
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=879772}
+Same paper as above, more or less but with a more of a compiler angle.  
+
+\item (x2000) Selective, Accurate, and Timely Self-Invalidation Using Last-Touch Prediction. 
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=854385}
+Reducing coherence overhead by predicting a self-invalidating block.
+Trace based correlation is key for LTP.
+Accuracy of self-inv is 79\%.
+Storage overhead reduced by 58\%.
+LTP based in single instruction achieves an average accuracy of 41\% due to instruction reuse. 
+Distributed shared memory execution speedup is 11\%.
+Fairly complex predictor.
+Simulated DSM, same as the one used in Dynamic Self-Inv paper.
+Blend of SPLASH-2 and SPEC.
+(2008-2010) Software-Based Cache Coherence with Hardware-Assisted Selective Self-Invalidations Using Bloom Filters. 
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5492677}
+
+\item (x2008) An OS-based alternative to full hardware coherence on tiled CMPs
+\url{http://homepages.inf.ed.ac.uk/mc/Publications/fensch_thesis.pdf}
+TODO: PhD Thesis. Related research and additional data on Splash-2. 
+Uses bloom filters to selectively bulk invalidate cache lines.
+SPLASH-2 based evaluation.
+Caches are invalidated and dirty lines are written back at synchronization points.
+Hardware costs of this scheme is described.
+Compiler support required.
+
+\item (x2011a)  Library Cache Coherence. 
+\url{http://dspace.mit.edu/bitstream/handle/1721.1/62580/MIT-CSAIL-TR-2011-027.pdf?sequence=1}
+Attempts to reduce directory multicast invalidation messages through self-inv.
+LCC has 1.85x lower mem latency compared to MESI.
+Mentions scalability issues for snoopy caches when core count exceeds 32.
+LCC guarantees sequential consistency.
+Claims infinite scalability.
+A global timer is available to all caches.
+Each memory address has a unique L2 location.
+Timestamp saved for every L1/L2 cache.
+Private caches are filled only by the home L2, I infer this as no updates.
+No additional compiler support.
+Evaluated with SPLASH-2.
+Tested with a varying time stamp offset.
+
+\item (x2011b) DeNovo: Rethinking the Memory Hierarchy for Disciplined Parallelism. 
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6113797}
+DeNovo aims to reduce the number of cache coherence states used.
+Shows 15x fewer reachable states than MESI.
+Communication granularity and cache-to-cache transfers have been added.
+Uses language annotation, allows memory to know which regions are read/written and hence, perform self-invalidation.
+GEMS simulation.
+Software-oblivious caches assume that writes and reads to the same location can happen concurrently.  
+Task migration can be accommodated with self-invalidations before migration. 
+No directory storage or write invalidation overhead. DeNovo removes the need for ownership on a write, data race freedom.
+Compiler inserts self-invalidation instructions, per write effect region.
+Concurrent writers are not allowed so if a line is touched then a bit is set, self-inv does not need to happen if the line was only touched by the same core.
+Seems to force write-through behaviour.
+DeNovo is a 3 state protocol.
+Lack of transient states.
+Storage overhead
+ds are described.
+SPLASH-2
+
+\item (x2012a) Cache Miss Characterization in  Hierarchical Large-Scale Cache-Coherent Systems. 
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6280362&tag=1}
+Evaluated using mostly SPLASH-2.
+Lots of motivation from this paper to reduce coherence traffic.
+
+\item (x2012b) Lazy Cache Invalidation for Self-Modifying Codes. 
+\url{http://web.eecs.umich.edu/~tnm/trev_test/papersPDF/CASES_2012_Lazy.pdf}
+Designed for JIT compiled code, for smartphone applications.
+Challenges due to higher i-cache invalidations.
+ Software assisted coherence serializes cache line invalidations.
+Single instruction invalidates caches in page-sized chunks.
+Shows an example of software assisted coherence.
+New code written gets a version number, both for the cache line and TLB entry. Version number are compared with the TLB lookup, in case of a mismatch the line is fetched from memory.
+If the version number rolls over then the entire cache must be invalidated.
+Cache flush can be prevented by invalidating each line serially, this option is not explored due to rare occurrence of version overflows.
+Caches are physically tagged so reading stale data due to version aliasing is impossible. 
+They use pginv instruction which invalidates an entire page entry, this is done by changing the version number in the TLB.
+GEM5 simulation, ARM ISA.
+JIT compiled code is used.
+
+\item (x2014a) Cache Coherence For GPU Architectures. 
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6756705}
+also 
+\url{https://www.ece.ubc.ca/~aamodt/papers/isingh.hpca2013.pdf}
+GPU versatility in accelerating algorithms with non uniform communication patterns.
+Description of GPU architecture.
+Recent AMD GPU’s have supported non-coherent caches (L1’s), stale data can introduce errors in applications that expect a coherent memory system.
+Simplest coherence scheme is achieved by disabling the L1 caches, at the cost of 88\% worse performance.
+MESI in a GPU introduces 127\% interconnect traffic.
+Directory based write-through protocol (GPU-VI) designed for GPU’s is tested, 31\% traffic overhead.
+Time based coherence through synchronised counters.
+TTL prediction mechanism used.
+TC-strong and TC-weak protocols are introduced. TC-strong is similar to the Library cache coherence protocol [mentioned in notes above]
+. TC-weak uses a time based memory fence.
+TC-strong: Uses write-through L1’s and write-back L2. Release consistency with write atomicity. Each cache line has a timestamp which is compared to the global time. Writes are stalled if valid time stamps exist (better description in paper).
+TC-weak: Eliminates write stalling. Stalling only on explicit memory fences. Writes to unexpired time stamped cache lines. Tracks global timestamp through GWCT’s. GWCT table contains 48 entries. 
+Simulated with GPGPU-Sim with Ruby memory system model from GEMS.  
+
+\item (x2014b) TSO-CC: Consistency directed cache coherence for TSO. 
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6835927}
+Opens with the argument that traditional directory protocols are designed around SC.
+Argues that CMP coherence protocols are too strict.
+Proposes TSO-CC, performance comparable to MESI.
+Portability of RC models is the main motivation for TSO-CC.
+No sharer tracking.
+Reads to local cache are allowed up to a predefined number of accesses. 
+Each core maintains a timestamp table.
+Limitations are mentioned.
+GEM5, SPLASH-2 and PARSEC.
+Scalability testing performed.
+
+\item (x2015a) DeNovoSync: Efficient Support for Arbitrary Synchronization without Writer-Initiated Invalidations. 
+\url{http://rsim.cs.uiuc.edu/Pubs/15-ASPLOS-denovosync.pdf}
+TODO
+
+\item (x2015b) Tardis: Time Traveling Coherence Algorithm for Distributed Shared Memory
+\url{http://arxiv.org/pdf/1501.04504v2.pdf}
+TODO: Paper from MIT
+
+\item (x2015c) A Proof of Correctness for the Tardis Cache Coherence Protocol
+\url{http://arxiv.org/pdf/1505.06459v1.pdf}
+TODO
+
+\item (x2015d) OSPREY: Implementation of Memory Consistency Models for Cache Coherence Protocols involving Invalidation-Free Data Access
+\url{http://people.csail.mit.edu/devadas/pubs/osprey.pdf}
+TODO
+\end{itemize}
+\end{comment}
+
+
+
+
+
+
+
+%**************************************************************************************
+% RAW Papers for Side-Channel Attacks
+%**************************************************************************************
+\begin{comment}
+\begin{itemize}
+\item (1991) Reducing Timing Channels with Fuzzy Time
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=130768}
+Primarily directed at RAM side-channel attacks. Variations in the clock rates are introduced on the VAX architecture. 
+
+\item (1992) Lattice Scheduling and Covert Channels
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=213271}
+Software channels are available but they are slow compared to hardware channels (caches). Possibly the first description of a prime+probe attack (page 2). Highlights VAX architecture specifics such as the wait instruction which is useful for covert attacks. RISC cache flush is expensive but the author explains how the lattice scheduler gets around this issue by scheduling processes in a way that caches need not be cleared. 
+
+\item (1996) Timing Attacks on Implementations of Diffie-Hellman, RSA, DSS, and Other Systems
+\url{http://courses.csail.mit.edu/6.857/2006/handouts/TimingAttacks.pdf}
+Explanation on how key bits can be extracted through timed memory accesses. Timing of modular exponentiation operations. Attacks can be mitigated through a fixed time approach but this results in huge performance penalties. Random timing can be used but it only forces the attacker to take more samples, and profile the caches.
+
+\item (1997) Cache Behavior Prediction by Abstract Interpretation
+\url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.94.722&rep=rep1&type=pdf}
+Description of cache profiling techniques. Useful when talking about future research into cache leakage analysis tootls. 
+
+\item (2000) Side Channel Cryptanalysis of Product Ciphers
+\url{https://www.schneier.com/paper-side-channel2.pdf}
+Focuses on DES, RC5 and other crypto schemes. Description of how keys can be statistically extracted through time measurements.
+
+\item (2002) Theoretical Use of Cache Memory as a Cryptanalytic Side-Channel
+\url{https://eprint.iacr.org/2002/169.pdf}
+Caches do their best to use spacial and temporal properties of data for better read/write times. Primarily focused on S-box attacks, mathematical descriptions. Removing the cache through uncached memory accesses can prevent some attacks at the cost of performance. Full or random cache warming; loading the entire s-box and avoiding misses. Rapid avalanche effect; small changes in input cause drastic output changes. Non-deterministic access ordering; use instruction level parallelism to break dependencies and add entropy. Non-deterministic cache placement; randomise cache mapping policies (caches could still be profiled).
+
+\item (2003) Cryptanalysis of DES Implemented on Computers with Cache
+\url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.135.1221&rep=rep1&type=pdf}
+S-box attacks discussion, key extraction, DES attack, prime+probe attack. Graph defining the relationship between cache misses and encryption time for same key but different plain texts. Longer encryption time directly correlates with cache misses. Using this information to statistically extract the key. 
+!!! AES did not show a statistical correlation between cache misses and encryption time.
+
+\item (2003) Remote Timing Attacks are Practical
+\url{https://crypto.stanford.edu/~dabo/papers/ssl-timing.pdf}
+Attacks on OpenSSL, timing and statistically extracting a key.
+
+\item (2005) Cache-timing attacks on AES
+\url{http://cr.yp.to/antiforgery/cachetiming-20050414.pdf}
+Summary of AES, timing the rounds of the AES to extract statistical key time correlations. Complete attack on a server described. The trojan send back packets with timing info. Offline phase for running a local correlation test.
+
+\item (2005) CACHE MISSING FOR FUN AND PROFIT
+\url{http://www.daemonology.net/papers/cachemissing.pdf}
+Description of an independently discovers prime+probe attack. Mention of multiple cache levels and attacks on different levels. Tricks to avoid noise due to the hardware prefetcher. OpenSSL key theft. Reference to an application ``footprint''. Suggestions to use cache replacement policies that are less predictable. Scheduler level protection. Protecting application libraries. 
+
+\item (2005) Cache Attacks and Countermeasures: the Case of AES
+\url{https://defuse.ca/files2/cache.pdf}
+	\textcolor{red}{
+	Systems concurrently execute programmes with different privileges. Kernel/userspace separation, process memory protection, system permissions, virtual machines, sandboxes, and other techniques are used to ensure desired access control semantics. 
+	The model is highly idealized and does not consider the intricacies of actual implementation.   
+	The processor and its infrastructure is a resource that all processes compete for, hence, processes will indirectly influence each other's behaviour. 
+	Data stored in a cache is protected by virtual memory mechanisms, however, the cache behaviour itself is exposed to a certain degree and can be profiled.
+	** Best result demonstrated: dm-crypt encrypted file attack, 800 accesses, 65ms of measurement and 3 sec of analysis.
+	Authors demonstrate an attack where no knowledge of ciphertext or plaintext is required.
+	** Useful related work section (Many relevant papers) 
+	** Comprehensive description of known attacks
+	One-round attack
+	Two-round attack
+	Measurement via Evict+Time
+	Measurement via Prime+Probe (I use this)
+	Description of priming and probing while eliminating cache thrashing.
+	Prime+Prove is proven to be much more efficient and less noisy than the Evict+Time method.
+	Simultaneous multithreading can assist with SCA’s
+	** Authors refer to software AES masking techniques. Some hardware ones are mentioned too (page 23)
+	?? Normalizing the cache can mitigate some attacks such as prime+probe (page 24). What about the case where there is a capacity miss and some of the AES data is pushed to the LLC? Can a neighbouring processor observe variations in cache behaviour? Can this be done while AES is running?
+	** Separating the two processes and mapping them to different cache sets does not work. Intel and AMD hardware behaviour is to blame (page 25).
+	!! Authors mention using uncached accesses but site issues with limited architectures providing this function. ARM explicitly states this as undefined behaviour. Maybe use this in the background chapter and use some of the findings from April-May.
+	** GOOD BIT HERE FOR A COUNTER ARGUMENT - Arguments against fixed timing and noise injection into AES (page 27).
+	OS support.
+	Hardware AES support.
+	}
+
+\item (2005) Partitioned Cache Architecture as a Side-Channel Defence Mechanism
+\url{https://eprint.iacr.org/2005/280.pdf}
+More on S-boxes and a small iteration on his previous paper.
+
+\item (2006) Software mitigations to hedge AES against cache-based software side channel vulnerabilities
+\url{https://eprint.iacr.org/2006/052.pdf}
+Mitigation techniques: compact s-box table, frequently randomized tables, pre-loading cache lines.
+
+\item (2006) Robust Final-Round Cache-Trace Attacks Against AES
+\url{https://github.com/jcb82/aes_cache/blob/master/papers/B06-eprint-aes_cache_trace.pdf}
+\textcolor{red}{``Proving that cache trace attacks are still effective in this scenario with the number of samples required being inversely related to the percentage of cache which is pre-loaded.'', correlation graph for number of test samples vs success rate.} 
+
+\item (2006) Cache-Collision Timing Attacks Against AES
+\url{https://github.com/jcb82/aes_cache/blob/master/papers/BM06-CHES-aes_cache_timing.pdf}
+\textcolor{red}{Description of attacks on rounds of AES}
+
+\item (2007) An Analytical Model for Time-Driven Cache Attacks
+\url{https://www.iacr.org/archive/fse2007/45930404/45930404.pdf}
+Just an elaboration on work done in papers above.
+
+\item (2007) New Cache Designs for Thwarting Software Cache-based Side Channel Attacks
+\url{http://palms.ee.princeton.edu/system/files/p494-wang.pdf}
+Mitigation of attacks. Software solutions: pre-load AES tables, do not use lookup tables; both have issues. Hardware solutions: disable caches, separate threads, new eviction strategies, cache ISA revisions for more cache transparency and control. \textcolor{red}{New hardware technique, Partition-Locked Cache (PLcache). Segment/Page protection through a region marked as locked. Also described is Random Permutation Cache (RPcache)} 
+
+\item (2008) Caches in WCET Analysis [PhD Thesis]
+\url{http://www.rw.cdl.uni-saarland.de/~reineke/publications/DissertationCachesInWCETAnalysis.pdf}
+\textcolor{red}{\textbf{TODO}}
+
+\item (2009) A Provably Secure And Efficient Countermeasure Against Timing Attacks
+\url{https://eprint.iacr.org/2009/089.pdf}
+Algorithm modification based countermeasures. 
+
+\item (2009) Efficient cache attacks on AES, and countermeasures
+\url{http://www.tau.ac.il/~tromer/papers/cache-joc-official.pdf}
+Elaboration on: \textcolor{green}{(2005) Cache Attacks and Countermeasures: the Case of AES
+\url{https://defuse.ca/files2/cache.pdf}}
+
+\item (2009) Hey, You, Get Off of My Cloud: Exploring Information Leakage in Third-Party Compute Clouds
+\url{https://cseweb.ucsd.edu/~hovav/dist/cloudsec.pdf}
+!!! Direct attack on VM's in the cloud (Amazon EC2). Exploiting placements in the cloud to eventually achieve attackers VM to be collocated with the desired victim. Prime -> trigger -> probe strategy to extract timing info from caches. Keystroke timing attack on ssh terminal. 
+
+\item (2009) Cache-Timing Template Attacks
+\url{https://www.iacr.org/archive/asiacrypt2009/59120664/59120664.pdf}
+Successful attack demonstration using vector quantization and hidden Markov models.
+
+\item (2011) Cache Games – Bringing Access-Based Cache Attacks on AES to Practice
+\url{https://eprint.iacr.org/2010/594.pdf}
+\textcolor{red}{Using a neural network trained to correlate timings. No need for plain- or ciphertexts. Works against compressed table mitigation technique. Under 3 second learning phase - 100 encryptions monitored and a 3 min key recovery phase. 
+Usual AES description albeit in a lot of detail. \textbf{Mitigation}: no caches, hamper high-resolution hardware counters (comes at the cost of critical applications potentially failing), OS helps pre-load data, uncachable lookup tables, limit time period between context switches, AES specific hardware accelerator that is inaccessible to the attacker.}
+
+\item (2011) Remote Timing Attacks are Still Practical
+\url{https://eprint.iacr.org/2011/232.pdf}
+OpenSSl attack. Local attack where accurate timing on OpenSSL ECDSA routines followed by a remote attack. Attack using lattice methods. 
+
+\item (2012) Automatic Quantification of Cache Side-Channels
+\url{https://eprint.iacr.org/2012/034.pdf}
+Static analysis of channels. Analysing cache states.
+
+\item (2012) Compiler Mitigations for Time Attacks on Modern x86 Processors
+\url{http://users.elis.ugent.be/~brdsutte/research/publications/2012TACOvancleemput.pdf}
+``-The study of several mitigation techniques against timing variations caused by data
+flow behavior on modern x86 processor pipelines.
+—A demonstration of the fact that compilers can provide strong protection only at a
+high performance overhead, and without forward compatibility.
+—A demonstration of the fact that weaker protection, without portable security guar-
+antees, can be provided at lower levels of overhead.''
+
+\item (2012) Are AES x86 Cache Timing Attacks Still Feasible?
+\url{https://cseweb.ucsd.edu/~kmowery/papers/aes-cache-timing.pdf}
+\textcolor{red}{Lots of reasons why x86 based side-channel attacks have become infeasible. We want CHERI to be like this.}
+
+\item (2013) Security Testing of a Secure Cache Design
+\url{http://palms.ee.princeton.edu/system/files/HASP_vfinal.pdf}
+\textcolor{red}{``Newcache introduces a level of indirection in the memory-cache map-
+ping by employing a logical direct mapped (LDM) cache (which does not exist physically). larger size than the physical cache and is indexed using a longer index than needed for the physical cache. Hence the memory-cache mapping consists of a fixed mapping from
+the memory to the ephemeral cache and a fully-associative mapping from the LDM to the physical cache.''}
+Description of evict and time attack and prime and probe attack.
+
+\item (2013) CacheAudit: A Tool for the Static Analysis of Cache Side Channels
+\url{https://eprint.iacr.org/2013/253.pdf}
+\textcolor{red}{Automated cache configuration and executable binary analysis framework. Can't test existing cache models but can provide some guarantees on software.}
+
+\item (2013) Practical Timing Side Channel Attacks Against Kernel Space ASLR
+\url{http://www.ieee-security.org/TC/SP2013/papers/4977a191.pdf}
+Limitations of Address Space Layout Randomization (ASLR) highlighted. Cache based and TLB based attacks. 
+1: ``One effective mitigation technique is to modify the execution time of the page fault handler: if there is no correlation between the current allocation state of a faulting memory address and the observable time for handling that, the timing side channel for address translation vanishes.''
+2: ``If the kernel space randomization is only applied to virtual addresses, then knowing physical addresses does not help in defeating ASLR.''
+
+\item (2013) Architecting against Software Cache-Based Side-Channel Attacks
+\url{http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6178238}
+(PLcache) and (RPcache)
+
+\item (2013) D\"{u}ppel: Retrofitting commodity operating systems to mitigate cache side channels in the cloud
+\url{https://www.cs.unc.edu/~reiter/papers/2013/CCS.pdf}
+``
+1: Should mitigate side-channel attacks via time-shared caches.
+2: Should not require any hypervisor modification.
+3: Should not require modifying applications or libraries.
+4: Should induce little performance overhead.
+
+Limitation: (1) When SMT is enabled on processors, some time-shared caches can become simultaneously shared caches. (2) A simultaneously shared cache, e.g., the last level cache, might also be targeted by side-channel attacks.
+''
+\item (2014) Flush+Reload: A High Resolution, Low Noise, L3 Cache Side-Channel Attack
+\url{https://www.usenix.org/system/files/conference/usenixsecurity14/sec14-paper-yarom.pdf}
+\textcolor{red}{Targets the last level cache. Variant of prime+probe attack. Latest processors attacked. Profiled multiple OS's. !!! TODO: MITIGATION TECHNIQUES !!!}
+
+\item (2015) Thwarting Cache Side-Channel Attacks Through Dynamic Software Diversity
+\url{http://www.ics.uci.edu/~perl/ndss15_sidechannels.pdf}
+Compiler directed application behaviour randomisation.
+\end{itemize}
+
+\end{comment}

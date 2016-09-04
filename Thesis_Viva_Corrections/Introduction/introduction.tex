@@ -1,0 +1,100 @@
+\makeatletter
+\newcommand{\rmnum}[1]{\romannumeral #1 }
+\newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+\ifpdf
+\graphicspath{{Introducation/IntroducationFigs/PNG/}{Introducation/IntroducationFigs/PDF/}{Introducation/IntroducationFigs/}}
+\else
+\graphicspath{{Introducation/IntroducationFigs/EPS/}{Introducation/IntroducationFigs/}}
+\fi
+
+\makeatletter
+\patchcmd{\epigraph}{\@epitext{#1}}{\itshape\@epitext{#1}}{}{}
+\makeatother
+
+\chapter{Introduction}
+	\vspace{2mm}
+
+	%https://groups.google.com/forum/#!topic/comp.arch/xiAfohT2Epc
+	\renewcommand{\textflush}{flushepinormal}
+	\epigraph{``One good thing about reduced instruction set computers is that the definition of the underlying concept keeps changing.  Consequently the concept will always be state of the art.''}{--- \textup{Yale Patt}, 1991}
+
+	\vspace{10mm}
+
+	\noindent
+	Cache coherency is the dominant mechanism for data sharing in commercial multiprocessor systems. Such mechanisms are complex to implement and can become costly (both power and performance) for larger systems.
+	Many cache coherency mechanisms, like directory-based approaches, aim to carefully coordinate data sharing, a distributed problem demanding a high volume of coherency messages to maintain order.
+	
+	This dissertation explores an alternative approach focused on the lifespan of data in caches, which can be monitored locally. 
+	I demonstrate that this time-based coherency approach can be simpler to implement, requires no coherency messages, performs surprisingly well, and can be more efficient under appropriate circumstances.
+
+	\section{Strict vs.\ Relaxed Consistency}
+		The choice of a memory consistency model is a tradeoff between the complexity of designing the memory system and the programming model. Strong memory models are easier to reason about and require less software support, but they may not be ideal for all parallel applications. 
+		%Weaker models usually require more software support, imposing lower constraints on hardware design and relaxed behaviour may speed-up parallel applications, demonstrated by Mosberger \cite{Mosberger93}.
+		Weaker memory models impose lower hardware design constraints but also require more software support. Relaxed memory behaviour encourages rigorous software design and may speed-up parallel applications \cite{Mosberger93},
+		although, some research suggest that multiprocessors should support sequential consistency, as relaxed models may not provide enough of a performance advantage to justify the additional software complexity \cite{Hill98}.
+		
+		Design of a cache coherence scheme is affected by the chosen memory consistency model and vice-versa. Intel x86 processors support strict memory ordering; ARM and PowerPC exhibit highly relaxed consistency models \cite{Maranget12}. This diversity forces cross-compatible software applications and operating systems into supporting a range of strong and weak models. 
+		
+		In this dissertation I present the time-based coherence model which supports highly relaxed memory consistency, more relaxed than PowerPC. While coherence based on time-stamps and self-invalidation of cache lines has been demonstrated before, this scheme does not use any coherence messaging, relying solely on cache self-invalidation and common synchronisation mechanisms. 
+		
+		The coherence model is integrated into multi-core BERI, and built on FPGA running the FreeBSD operating system. I compare the time-based coherence design to a directory-based coherence scheme also built into multi-core BERI. The directory model uses a strong consistency scheme, equivalent to x86. I demonstrate that the time-based model can perform close to a directory-based scheme, surpassing it in some selected cases.
+
+	\section{Avoiding Coherence Messaging}
+		Hardware memory coherence is ubiquitous in most multiprocessor systems. While many mechanisms can be used to delegate coherence at a software level, hardware support greatly reduces penalties. 
+		The efficiency of a coherence scheme often depends on the distribution of coherence messages: implementation complexity, area overheads, power consumption, memory traffic, resource contention, etc. 
+		
+		Message based coherence mechanisms attempt to reduce the amount of messaging to a minimum. An ideal mechanism would issue precise messages, aimed solely at shared data and only delivered to active users of said data. 
+		Coherence based on snooping forces the private caches constantly monitor the shared fabric for any memory updates. 
+		Increasing the number of coherence states is one way of improving messaging precision, since fine-grained data tracking will results in better directed messages.
+		
+		Efficient coherence messaging may be difficult to achieve and reason about, so would it be possible to eliminate it all together? If we observe common synchronisation and memory safety techniques employed by software, it is possible to construct a coherence mechanism based on assigning an expiry time for each memory line using a timestamp, and a mechanism for purging stale data upon timestamp expiry.
+		
+		The BERI time-based coherence mechanism satisfies both of these requirements. This coherence scheme operates from within the private caches and does not require any coherence messaging. This mechanism is compared to a directory-based coherence scheme, which is efficient and scalable but also requires explicit coherence communication.
+		
+		The time-based model can closely approach the parallel performance of a directory, while reducing some coherence overheads. The biggest advantage of the time-based scheme is the overall implementation simplicity and modularity.
+
+\vspace{5mm}
+	\section{Reducing Side-Channel Leakage}
+		Time-based coherence exhibits a property not commonly found or attributed to coherence schemes, masking of cache side-channel leakage. Spying through cache side-channels has been widely explored in a number of publications. Protection against these attacks has become especially critical in recent years with the advent of cloud services and a general push towards extensive data sharing. 
+		
+		Software and hardware designers have explored a number of side-channel mitigation techniques, particularly in relation to cryptographic algorithms. Some schemes are already common: dedicated hardware, avoiding data caching, additional OS support, etc. \cite{Osvik06,Tromer10}. 
+		Despite the added layers of protection, some attacks are still feasible. Therefore, adding a further layer through a cache coherence mechanism would be beneficial to the overall security, especially since the masking effect is inherent to this scheme. 
+		
+		The coherence mechanism is able to mask cache timing side-channels within a private cache, which is usually the most effective level of attack. It achieves this through cache self-invalidation. The implementation of synchronisation instructions allows the cache to efficiently purge data after a critical operation, thereby limiting the accuracy of timing data gathered by an attacker.
+		Caches equipped with the self-invalidation mechanism can be further tuned to reduce any leakage.
+		
+		Most side-channel mitigation techniques provide a degree of protection; time-based coherence contributes to the overall security.
+
+\clearpage
+	\section{Hypotheses}
+		\label{hypotheses}
+		In this dissertation I examine the following hypotheses:
+		\begin{enumerate}
+			\item Cache coherence is possible without explicit coherent messaging (hardware or software directed).
+			\item Time-based local-cache self-invalidation is sufficient for relaxed memory consistency.
+			\item Existing software synchronisation techniques provide all the necessary mechanisms required for time-based coherence.
+			\item Time-based coherence is competitive with conventional directory-based coherence.
+			\item Time-based coherence offers mitigation against cache side-channel attacks.
+		\end{enumerate}
+
+
+	\section{Contributions}
+		\begin{itemize}
+			\item Extending the BERI processor to a fully functional multi-core system with FreeBSD support.
+			\item Designing and evaluating a novel relaxed consistency time-based cache coherence mechanism. It is compared with a directory-based coherence scheme on the BERI multi-core platform.
+			\item Exploring the mitigation of cache timing side-channels through the time-based cache coherence mechanism.
+		\end{itemize}
+		
+	\section{Dissertation Overview}
+		This dissertation is constructed as follows:
+		
+		\begin{description}
+			\item [Chapter 2] presents background material and relevant research on cache coherence models and timing side-channel attacks.
+			\item [Chapter 3] describes the architecture of BERI and its variants. I discuss the details of multi-core design and coherence implementations, the testing and simulation environment, and FreeBSD support for FPGA-based BERI prototypes.
+			\item [Chapter 4] compares and contrasts the BERI multiprocessor coherence models.
+			\item [Chapter 5] verifies the memory consistency behaviour of BERI time-based coherence and compares it to the BERI directory coherence model. Various tools are used to evaluate the consistency model and justify the observed behaviour.
+			\item [Chapter 6] evaluates the performance of the two coherence models using the Splash-2 parallel benchmarks. The results are reinforced by testing some basic FreeBSD applications and observing any negative side-effects of coherence on single threaded performance.
+			\item [Chapter 7] describes side-channel attacks and evaluates the side-channel masking provided by time-based coherence.
+			\item [Chapter 8] draws conclusions.
+		\end{description}

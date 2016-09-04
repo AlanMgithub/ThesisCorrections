@@ -1,0 +1,810 @@
+\begin{thebibliography}{100}
+
+\bibitem{Mosberger93}
+David Mosberger.
+\newblock Memory consistency models.
+\newblock {\em SIGOPS Oper. Syst. Rev.}, 27(1):18--26, January 1993.
+
+\bibitem{Hill98}
+M.D. Hill.
+\newblock Multiprocessors should support simple memory consistency models.
+\newblock {\em Computer}, 31(8):28--34, August 1998.
+
+\bibitem{Maranget12}
+Luc Maranget, Susmit Sarkar, and Peter Sewell.
+\newblock A tutorial introduction to the {ARM} and {POWER} relaxed memory
+  models.
+\newblock Technical report, INRIA and University of Cambridge, October 2012.
+
+\bibitem{Osvik06}
+Dag~Arne Osvik, Adi Shamir, and Eran Tromer.
+\newblock Cache attacks and countermeasures: The case of {AES}.
+\newblock In {\em Proceedings of the 2006 The Cryptographers' Track at the RSA
+  Conference on Topics in Cryptology}, CT-RSA'06, pages 1--20, Berlin,
+  Heidelberg, 2006. Springer-Verlag.
+
+\bibitem{Tromer10}
+Eran Tromer, Dag~Arne Osvik, and Adi Shamir.
+\newblock Efficient cache attacks on {AES}, and countermeasures.
+\newblock {\em J. Cryptol.}, 23(2):37--71, January 2010.
+
+\bibitem{Hennessy06}
+John~L. Hennessy and David~A. Patterson.
+\newblock {\em Computer Architecture, Fourth Edition: A Quantitative Approach}.
+\newblock Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 2006.
+
+\bibitem{Miller15}
+David~S. Miller.
+\newblock Cache and {TLB} flushing under {Linux}, the {Linux} kernel archives.
+\newblock https://www.kernel.org/doc/Documentation/cachetlb.txt.
+
+\bibitem{Lee98}
+Jae~Bum Lee and Chu~Shik Jhon.
+\newblock Reducing coherence overhead of barrier synchronization in software
+  {DSMs}.
+\newblock In {\em Supercomputing, 1998.SC98. IEEE/ACM Conference on}, pages
+  27--27, November 1998.
+
+\bibitem{Hwang96}
+T.S. Hwang, N.P. Lu, and C.P. Chung.
+\newblock Delayed precise invalidation - {A} software cache coherence scheme.
+\newblock {\em Computers and Digital Techniques, IEE Proceedings},
+  143(5):337--344, September 1996.
+
+\bibitem{Cheong88}
+H.~Cheong and A.~V. Vaidenbaum.
+\newblock A cache coherence scheme with fast selective invalidation.
+\newblock {\em SIGARCH Comput. Archit. News}, 16(2):299--307, May 1988.
+
+\bibitem{Hoichi90}
+Hoichi Cheong and A.V. Veidenbaum.
+\newblock Compiler-directed cache management in multiprocessors.
+\newblock {\em Computer}, 23(6):39--47, June 1990.
+
+\bibitem{Choi94}
+L.~Choi and Pen-Chung Yew.
+\newblock A compiler-directed cache coherence scheme with improved intertask
+  locality.
+\newblock In {\em Supercomputing '94., Proceedings}, pages 773--782, November
+  1994.
+
+\bibitem{Choi96}
+Pen-Chung Yew and L.~Choi.
+\newblock Compiler and hardware support for cache coherence in large-scale
+  multiprocessors: Design considerations and performance study.
+\newblock In {\em Computer Architecture, 1996 23rd Annual International
+  Symposium on}, pages 283--283, May 1996.
+
+\bibitem{Choi00_0}
+L.~Choi and Pen-Chung Yew.
+\newblock Hardware and compiler-directed cache coherence in large-scale
+  multiprocessors: Design considerations and performance study.
+\newblock {\em Parallel and Distributed Systems, IEEE Transactions on},
+  11(4):375--394, April 2000.
+
+\bibitem{Choi00_1}
+L.~Choi and Pen-Chung Yew.
+\newblock Compiler analysis for cache coherence: interprocedural array
+  data-flow analysis and its impact on cache performance.
+\newblock {\em Parallel and Distributed Systems, IEEE Transactions on},
+  11(9):879--896, September 2000.
+
+\bibitem{Fensch08}
+C.~Fensch and M.~Cintra.
+\newblock An {OS}-based alternative to full hardware coherence on tiled {CMPs}.
+\newblock In {\em High Performance Computer Architecture, 2008. HPCA 2008. IEEE
+  14th International Symposium on}, pages 355--366, February 2008.
+
+\bibitem{Smith82}
+Alan~Jay Smith.
+\newblock Cache memories.
+\newblock {\em ACM Comput. Surv.}, 14(3):473--530, 1982.
+
+\bibitem{Jouppi91_1}
+Norman~P. Jouppi.
+\newblock Cache write policies and performance.
+\newblock Technical report, Western Research Laboratory, December 1991.
+
+\bibitem{Chen92}
+Y.C. Chen and A.V. Veidenbaum.
+\newblock An effective write policy for software coherence schemes.
+\newblock In {\em Supercomputing '92., Proceedings}, pages 661--672, November
+  1992.
+
+\bibitem{Vangal08}
+Sriram~R. Vangal, Jason Howard, Gregory Ruhl, Saurabh Dighe, Howard Wilson,
+  James Tschanz, David Finan, Arvind Singh, Tiju Jacob, Nitin Borkar, and
+  Shekhar Borkar.
+\newblock An 80-tile sub-100-{W} {TeraFLOPS} processor in 65-nm {CMOS}, 2008.
+
+\bibitem{Mattson08}
+Timothy~G. Mattson, Rob Van~der Wijngaart, and Michael Frumkin.
+\newblock Programming the {Intel} 80-core network-on-a-chip terascale
+  processor.
+\newblock In {\em Proceedings of the 2008 ACM/IEEE Conference on
+  Supercomputing}, SC '08, pages 38:1--38:11, Piscataway, NJ, USA, 2008. IEEE
+  Press.
+
+\bibitem{Mattson10}
+T.G. Mattson, R.F. van~der Wijngaart, M.~Riepen, T.~Lehnig, P.~Brett, W.~Haas,
+  P.~Kennedy, J.~Howard, S.~Vangal, N.~Borkar, G.~Ruhl, and S.~Dighe.
+\newblock The 48-core {SCC} processor: the programmer's view.
+\newblock In {\em High Performance Computing, Networking, Storage and Analysis
+  (SC), 2010 International Conference for}, pages 1--11, November 2010.
+
+\bibitem{Martin12}
+Milo M.~K. Martin, Mark~D. Hill, and Daniel~J. Sorin.
+\newblock Why on-chip cache coherence is here to stay.
+\newblock {\em Commun. ACM}, 55(7):78--89, July 2012.
+
+\bibitem{Sanchez12}
+D.~Sanchez and C.~Kozyrakis.
+\newblock {SCD}: A scalable coherence directory with flexible sharer set
+  encoding.
+\newblock In {\em High Performance Computer Architecture (HPCA), 2012 IEEE 18th
+  International Symposium on}, pages 1--12, February 2012.
+
+\bibitem{Mullins04}
+R.~Mullins, A.~West, and S.~Moore.
+\newblock Low-latency virtual-channel routers for on-chip networks.
+\newblock In {\em Computer Architecture, 2004. Proceedings. 31st Annual
+  International Symposium on}, pages 188--197, June 2004.
+
+\bibitem{Dally01}
+W.J. Dally and B.~Towles.
+\newblock Route packets, not wires: on-chip interconnection networks.
+\newblock In {\em Design Automation Conference, 2001. Proceedings}, pages
+  684--689, 2001.
+
+\bibitem{Byrd99}
+G.~T. Byrd and M.~J. Flynn.
+\newblock Producer-consumer communication in distributed shared memory
+  multiprocessors.
+\newblock {\em Proceedings of the IEEE}, 87(3):456--466, 1999.
+
+\bibitem{xeon11}
+Intel~Corporation Data Center~Group.
+\newblock {Intel}{$^{\textregistered}$} {Xeon}{$^{\textregistered}$} processor
+  {E7} family: Reliability, availability, and serviceability.
+\newblock Technical report, Intel Corporation, 2011.
+
+\bibitem{Rahman13}
+Rezaur Rahman.
+\newblock {\em Intel Xeon Phi Coprocessor Architecture and Tools: The Guide for
+  Application Developers}.
+\newblock Apress, Berkely, CA, USA, 1st edition, 2013.
+
+\bibitem{Ziakas10}
+D.~Ziakas, A.~Baum, R.A. Maddox, and R.J. Safranek.
+\newblock Intel{$^{\textregistered}$} \ {QuickPath} interconnect architectural
+  features supporting scalable system architectures.
+\newblock In {\em High Performance Interconnects (HOTI), 2010 IEEE 18th Annual
+  Symposium on}, pages 1--6, August 2010.
+
+\bibitem{Lenoski92}
+Daniel Lenoski, James Laudon, Kourosh Gharachorloo, Wolf dietrich Weber, Anoop
+  Gupta, John Hennessy, Mark Horowitz, Monica~S. Lam, and Dash The~Ease of~use.
+\newblock The {Stanford DASH} multiprocessor.
+\newblock {\em IEEE Computer}, 25:63--79, 1992.
+
+\bibitem{Hammond00}
+Lance Hammond, Benedict~A. Hubbert, Michael Siu, Manohar~K. Prabhu, Michael~K.
+  Chen, and Kunle Olukotun.
+\newblock The {Stanford Hydra CMP}.
+\newblock {\em IEEE Micro}, 20:71--84, 2000.
+
+\bibitem{Chaiken90}
+David Chaiken, Craig Fields, Kiyoshi Kurihara, and Anant Agarwal.
+\newblock Directory-based cache coherence in large-scale multiprocessors.
+\newblock {\em Computer}, 23(6):49--58, June 1990.
+
+\bibitem{Agarwal88}
+A.~Agarwal, R.~Simoni, J.~Hennessy, and M.~Horowitz.
+\newblock An evaluation of directory schemes for cache coherence.
+\newblock In {\em Computer Architecture, 1988. Conference Proceedings. 15th
+  Annual International Symposium on}, pages 280--289, May 1988.
+
+\bibitem{Stenstrom90}
+P.~Stenstrom.
+\newblock A survey of cache coherence schemes for multiprocessors.
+\newblock {\em Computer}, 23(6):12--24, June 1990.
+
+\bibitem{Lilja93}
+David~J. Lilja.
+\newblock Cache coherence in large-scale shared-memory multiprocessors: Issues
+  and comparisons.
+\newblock {\em ACM Comput. Surv.}, 25(3):303--338, 1993.
+
+\bibitem{Cheng94}
+J.~Cheng, U.~Finger, and C.~O'Donnell.
+\newblock A new hardware cache coherence scheme.
+\newblock In {\em EUROMICRO 94. System Architecture and Integration.
+  Proceedings of the 20th EUROMICRO Conference.}, pages 117--124, September
+  1994.
+
+\bibitem{Ros12}
+A.~Ros, B.~Cuesta, M.E. G\'{o}mez, A.~Robles, and J.~Duato.
+\newblock Cache miss characterization in hierarchical large-scale
+  cache-coherent systems.
+\newblock In {\em Parallel and Distributed Processing with Applications (ISPA),
+  2012 IEEE 10th International Symposium on}, pages 691--696, July 2012.
+
+\bibitem{Keleher94}
+Pete Keleher, Alan~L. Cox, Sandhya Dwarkadas, and Willy Zwaenepoel.
+\newblock Treadmarks: Distributed shared memory on standard workstations and
+  operating systems.
+\newblock In {\em Proceedings of the USENIX Winter 1994 Technical Conference on
+  USENIX Winter 1994 Technical Conference}, WTEC'94, pages 10--10, Berkeley,
+  CA, USA, 1994. USENIX Association.
+
+\bibitem{Shim11}
+Keun~Sup Shim, Myong~Hyon Cho, Mieszko Lis, Omer Khan, and Srinivas Devadas.
+\newblock {Library Cache Coherence}.
+\newblock Technical report, Massachusetts Institute of Technology, 2011.
+
+\bibitem{Lis11}
+M.~Lis, Keun~Sup Shim, Myong~Hyon Cho, and S.~Devadas.
+\newblock Memory coherence in the age of multicores.
+\newblock In {\em Computer Design (ICCD), 2011 IEEE 29th International
+  Conference on}, pages 1--8, October 2011.
+
+\bibitem{Yu15_0}
+Xiangyao Yu and Srinivas Devadas.
+\newblock Tardis: Time traveling coherence algorithm for distributed shared
+  memory.
+\newblock 2015.
+
+\bibitem{Yu15_1}
+Xiangyao Yu, Muralidaran Vijayaraghavan, and Srinivas Devadas.
+\newblock A proof of correctness for the {Tardis} cache coherence protocol.
+\newblock {\em CoRR}, abs/1505.06459, 2015.
+
+\bibitem{Kurian15}
+George Kurian, Qingchuan Shi, Srinivas Devadas, and Omer Khan.
+\newblock Osprey: Implementation of memory consistency models for cache
+  coherence protocols involving invalidation-free data access.
+\newblock 2015.
+
+\bibitem{Singh13}
+I.~Singh, A.~Shriraman, W.W.L. Fung, M.~O'Connor, and T.M. Aamodt.
+\newblock Cache coherence for {GPU} architectures.
+\newblock In {\em High Performance Computer Architecture (HPCA2013), 2013 IEEE
+  19th International Symposium on}, pages 578--590, February 2013.
+
+\bibitem{Singh14}
+I.~Singh, A.~Shriraman, W.W.L. Fung, M.~O'Connor, and T.M. Aamodt.
+\newblock Cache coherence for {GPU} architectures.
+\newblock {\em Micro, IEEE}, 34(3):69--79, May 2014.
+
+\bibitem{Elver14}
+M.~Elver and V.~Nagarajan.
+\newblock {TSO-CC}: Consistency directed cache coherence for {TSO}.
+\newblock In {\em High Performance Computer Architecture (HPCA), 2014 IEEE 20th
+  International Symposium on}, pages 165--176, February 2014.
+
+\bibitem{Gutierrez12}
+Anthony Gutierrez, Joseph Pusdesris, Ronald~G. Dreslinski, and Trevor Mudge.
+\newblock Lazy cache invalidation for self-modifying codes.
+\newblock In {\em Proceedings of the 2012 International Conference on
+  Compilers, Architectures and Synthesis for Embedded Systems}, CASES '12,
+  pages 151--160, New York, NY, USA, 2012. ACM.
+
+\bibitem{Min92}
+S.L. Min and Jean-Loup Baer.
+\newblock Design and analysis of a scalable cache coherence scheme based on
+  clocks and timestamps.
+\newblock {\em Parallel and Distributed Systems, IEEE Transactions on},
+  3(1):25--44, January 1992.
+
+\bibitem{Xin96}
+Xin Yuan, R.~Melhem, and R.~Gupta.
+\newblock A timestamp-based selective invalidation scheme for multiprocessor
+  cache coherence.
+\newblock In {\em Parallel Processing, 1996. Vol.3. Software., Proceedings of
+  the 1996 International Conference on}, volume~3, pages 114--121 vol.3, August
+  1996.
+
+\bibitem{Darnell93}
+E.~Darnell and K.~Kennedy.
+\newblock Cache coherence using local knowledge.
+\newblock In {\em Supercomputing '93. Proceedings}, pages 720--729, November
+  1993.
+
+\bibitem{Lebeck95}
+A.R. Lebeck and D.A. Wood.
+\newblock Dynamic self-invalidation: reducing coherence overhead in
+  shared-memory multiprocessors.
+\newblock In {\em Computer Architecture, 1995. Proceedings., 22nd Annual
+  International Symposium on}, pages 48--59, June 1995.
+
+\bibitem{Lai00}
+An-Chow Lai and B.~Falsafi.
+\newblock Selective, accurate, and timely self-invalidation using last-touch
+  prediction.
+\newblock In {\em Computer Architecture, 2000. Proceedings of the 27th
+  International Symposium on}, pages 139--148, June 2000.
+
+\bibitem{Choi11}
+Byn Choi, R.~Komuravelli, Hyojin Sung, R.~Smolinski, N.~Honarmand, S.V. Adve,
+  V.S. Adve, N.P. Carter, and Ching-Tsun Chou.
+\newblock {DeNovo}: Rethinking the memory hierarchy for disciplined
+  parallelism.
+\newblock In {\em Parallel Architectures and Compilation Techniques (PACT),
+  2011 International Conference on}, pages 155--166, October 2011.
+
+\bibitem{Sung15}
+Hyojin Sung and Sarita~V. Adve.
+\newblock {DeNovoSync}: Efficient support for arbitrary synchronization without
+  writer-initiated invalidations.
+\newblock {\em SIGARCH Comput. Archit. News}, 43(1):545--559, March 2015.
+
+\bibitem{Lamport78}
+Leslie Lamport.
+\newblock Time, clocks, and the ordering of events in a distributed system.
+\newblock {\em Commun. ACM}, 21(7):558--565, July 1978.
+
+\bibitem{SPARCInternational94}
+CORPORATE {SPARC}~International, Inc.
+\newblock {\em The {SPARC} Architecture Manual (Version 9)}.
+\newblock Prentice-Hall, Inc., Upper Saddle River, NJ, USA, 1994.
+
+\bibitem{Sarkar11}
+Susmit Sarkar, Peter Sewell, Jade Alglave, Luc Maranget, and Derek Williams.
+\newblock Understanding {POWER} multiprocessors.
+\newblock In {\em Proceedings of the 32Nd ACM SIGPLAN Conference on Programming
+  Language Design and Implementation}, PLDI '11, pages 175--186, New York, NY,
+  USA, 2011. ACM.
+
+\bibitem{AXE_checker}
+Matthew Naylor and Simon Moore.
+\newblock A checker for {SPARC} memory consistency.
+\newblock https://github.com/CTSRD-CHERI/axe/blob/master/doc/report.pdf, August
+  2015.
+
+\bibitem{CHERI_litmus}
+Matthew Naylor.
+\newblock {CHERI-Litmus, University of Cambridge}.
+\newblock GitHub repository, https://github.com/CTSRD-CHERI/CHERI-Litmus,
+  November 2015.
+
+\bibitem{bluecheck}
+Matthew Naylor and Simon~W. Moore.
+\newblock A generic synthesisable test bench.
+\newblock In {\em Proceedings of the 13th ACM/IEEE Conference on Formal Methods
+  and Models for Codesign (MEMOCODE)}, 2015.
+
+\bibitem{Lamport79}
+L.~Lamport.
+\newblock How to make a multiprocessor computer that correctly executes
+  multiprocess programs.
+\newblock {\em IEEE Trans. Comput.}, 28(9):690--691, 1979.
+
+\bibitem{Oracle15}
+Oracle{$^{\textregistered}$}.
+\newblock Oracle {Solaris} 11 information library, {Writing Device Drivers}.
+\newblock http://docs.oracle.com/cd/E23824\_01/pdf/819-3196.pdf, 2012.
+
+\bibitem{Mangard07}
+Stefan Mangard, Elisabeth Oswald, and Thomas Popp.
+\newblock {\em Power Analysis Attacks: Revealing the Secrets of Smart Cards
+  (Advances in Information Security)}.
+\newblock Springer-Verlag New York, Inc., Secaucus, NJ, USA, 2007.
+
+\bibitem{Liu13}
+Fangfei Liu and Ruby~B. Lee.
+\newblock Security testing of a secure cache design.
+\newblock In {\em Proceedings of the 2Nd International Workshop on Hardware and
+  Architectural Support for Security and Privacy}, HASP '13, pages 3:1--3:8,
+  New York, NY, USA, 2013. ACM.
+
+\bibitem{Ristenpart09}
+Thomas Ristenpart, Eran Tromer, Hovav Shacham, and Stefan Savage.
+\newblock Hey, you, get off of my cloud: Exploring information leakage in
+  third-party compute clouds.
+\newblock In {\em Proceedings of the 16th ACM Conference on Computer and
+  Communications Security}, CCS '09, pages 199--212, New York, NY, USA, 2009.
+  ACM.
+
+\bibitem{Kocher96}
+Paul~C. Kocher.
+\newblock Timing attacks on implementations of {Diffie-Hellman}, {RSA}, {DSS},
+  and other systems.
+\newblock In {\em Proceedings of the 16th Annual International Cryptology
+  Conference on Advances in Cryptology}, CRYPTO '96, pages 104--113, London,
+  UK, UK, 1996. Springer-Verlag.
+
+\bibitem{Tsunoo03}
+Yukiyasu Tsunoo, Teruo Saito, Tomoyasu Suzaki, and Maki Shigeri.
+\newblock Cryptanalysis of {DES} implemented on computers with cache.
+\newblock In {\em Proc. of CHES 2003, Springer LNCS}, pages 62--76.
+  Springer-Verlag, 2003.
+
+\bibitem{Kelsey98}
+John Kelsey, Bruce Schneier, David Wagner, and Chris Hall.
+\newblock Side-channel cryptanalysis of product ciphers.
+\newblock In {\em JOURNAL OF COMPUTER SECURITY}, pages 97--110.
+  Springer-Verlag, 1998.
+
+\bibitem{Brumley03}
+David Brumley and Dan Boneh.
+\newblock Remote timing attacks are practical.
+\newblock In {\em Proceedings of the 12th Conference on USENIX Security
+  Symposium - Volume 12}, SSYM'03, pages 1--1, Berkeley, CA, USA, 2003. USENIX
+  Association.
+
+\bibitem{Bernstein05}
+Daniel~J. Bernstein.
+\newblock Cache-timing attacks on {AES}.
+\newblock Technical report, University of Illinois at Chicago, 2005.
+
+\bibitem{Percival05}
+Colin Percival.
+\newblock Cache missing for fun and profit.
+\newblock In {\em Proc. of BSDCan 2005}, 2005.
+
+\bibitem{Bonneau06_0}
+Joseph Bonneau.
+\newblock Robust final-round cache-trace attacks against {AES}.
+\newblock {\em IACR Cryptology ePrint Archive}, 2006:374, 2006.
+
+\bibitem{Bonneau06_1}
+Joseph Bonneau and Ilya Mironov.
+\newblock Cache-collision timing attacks against {AES}.
+\newblock In {\em in Proc. Cryptographic Hardware and Embedded Systems (CHES)
+  2006. Lecture Notes in Computer Science}, pages 201--215. Springer, 2006.
+
+\bibitem{Hu92}
+W.-M. Hu.
+\newblock Lattice scheduling and covert channels.
+\newblock In {\em Research in Security and Privacy, 1992. Proceedings., 1992
+  IEEE Computer Society Symposium on}, pages 52--61, May 1992.
+
+\bibitem{Brumley09}
+Billy~Bob Brumley and Risto~M. Hakala.
+\newblock Cache-timing template attacks.
+\newblock In {\em Proceedings of the 15th International Conference on the
+  Theory and Application of Cryptology and Information Security: Advances in
+  Cryptology}, ASIACRYPT '09, pages 667--684, Berlin, Heidelberg, 2009.
+  Springer-Verlag.
+
+\bibitem{Hu91}
+W.M. Hu.
+\newblock Reducing timing channels with fuzzy time.
+\newblock In {\em Research in Security and Privacy, 1991. Proceedings., 1991
+  IEEE Computer Society Symposium on}, pages 8--20, May 1991.
+
+\bibitem{Tiri07}
+Kris Tiri, Onur Acii\c{c}mez, Michael Neve, and Flemming Andersen.
+\newblock An analytical model for time-driven cache attacks.
+\newblock In Alex Biryukov, editor, {\em FSE}, volume 4593 of {\em Lecture
+  Notes in Computer Science}, pages 399--413. Springer, 2007.
+
+\bibitem{Wang07}
+Zhenghong Wang and Ruby~B. Lee.
+\newblock New cache designs for thwarting software cache-based side-channel
+  attacks.
+\newblock {\em SIGARCH Comput. Archit. News}, 35(2):494--505, June 2007.
+
+\bibitem{Page02}
+D.~Page.
+\newblock Theoretical use of cache memory as a cryptanalytic side-channel.
+\newblock Technical Report CSTR-02-003, Department of Computer Science,
+  University of Bristol, June 2002.
+
+\bibitem{Page05}
+D.~Page.
+\newblock Partitioned cache architecture as a side-channel defence mechanism.
+  {IACR Eprint archive}.
+\newblock http://eprint.iacr.org/2005/280, 2005.
+
+\bibitem{Brickell06}
+Ernie Brickell, Gary Graunke, Michael Neve, and Jean pierre Seifert.
+\newblock Software mitigations to hedge {AES} against cache-based software
+  side-channel vulnerabilities, 2006.
+
+\bibitem{Chadwick12}
+Gregory~A Chadwick and Simon~W Moore.
+\newblock Mamba: A scalable communication centric multi-threaded processor
+  architecture.
+\newblock In {\em Computer Design ({ICCD}), 2012 {IEEE} 30th International
+  Conference on}, pages 277--283. {IEEE}, 2012.
+
+\bibitem{Chadwick13}
+Gregory~A. Chadwick.
+\newblock {Communication centric, multi-core, fine-grained processor
+  architecture}.
+\newblock Technical Report UCAM-CL-TR-832, University of Cambridge, Computer
+  Laboratory, April 2013.
+
+\bibitem{MIPS}
+Joe Heinrich.
+\newblock {\em MIPS R4000 User's Manual}.
+\newblock MIPS Technologies, second edition, 1994.
+
+\bibitem{jon_thesis}
+Jonathan~David Woodruff.
+\newblock {CHERI}: A {RISC} capability machine for practical memory safety.
+\newblock Technical report, University of Cambridge, March 2014.
+
+\bibitem{BERITech_0}
+Brooks Davis Wojciech Koszek Simon W. Moore Steven J. Murdoch Peter G.~Neumann
+  Robert N.M.~Watson, David~Chisnall and Jonathan Woodruff.
+\newblock {Bluespec Extensible RISC Implementation: BERI} software reference.
+\newblock Technical report, University of Cambridge, April 2014.
+
+\bibitem{BERITech_1}
+David Chisnall Brooks Davis Wojciech Koszek A. Theodore Markettos Simon W.
+  Moore Steven J. Murdoch Peter G. Neumann Robert~Norton Robert N.M.~Watson,
+  Jonathan~Woodruff and Michael Roe.
+\newblock {Bluespec Extensible RISC Implementation: BERI} hardware reference.
+\newblock Technical report, University of Cambridge, April 2014.
+
+\bibitem{CTSRD}
+SRI and University Cambridge.
+\newblock {CRASH-Worthy Trustworthy Systems R\&D (CTSRD)}.
+\newblock 2010.
+
+\bibitem{MRC2}
+SRI and University Cambridge.
+\newblock {Modular Research-based Composably trustworthy Mission-oriented
+  Resilient Clouds (MRC squared)}.
+\newblock 2011.
+
+\bibitem{Woodruff14}
+J.~Woodruff, R.N.M. Watson, D.~Chisnall, S.W. Moore, J.~Anderson, B.~Davis,
+  B.~Laurie, P.G. Neumann, R.~Norton, and M.~Roe.
+\newblock The {CHERI} capability model: Revisiting {RISC} in an age of risk.
+\newblock In {\em Computer Architecture (ISCA), 2014 ACM/IEEE 41st
+  International Symposium on}, pages 457--468, June 2014.
+
+\bibitem{Watson12}
+Robert N.~M. Watson, Peter~G. Neumann, Jonathan Woodruff, Jonathan Anderson,
+  Ross Anderson, Nirav Dave, Ben Laurie, Simon~W. Moore, Steven~J. Murdoch,
+  Philip Paeps, Michael Roe, and Hassen Saidi.
+\newblock {CHERI: A} research platform deconflating hardware virtualization and
+  protection, 2012.
+
+\bibitem{Watson15}
+R.N.M. Watson, J.~Woodruff, P.G. Neumann, S.W. Moore, J.~Anderson, D.~Chisnall,
+  N.~Dave, B.~Davis, K.~Gudka, B.~Laurie, S.J. Murdoch, R.~Norton, M.~Roe,
+  S.~Son, and M.~Vadera.
+\newblock {CHERI: A} hybrid capability-system architecture for scalable
+  software compartmentalization.
+\newblock In {\em Security and Privacy (SP), 2015 IEEE Symposium on}, pages
+  20--37, May 2015.
+
+\bibitem{bluespec}
+Bluespec,~Inc., Waltham,~MA.
+\newblock {\em Bluespec SystemVerilog Version~3.8 Reference Guide}, November
+  2004.
+
+\bibitem{richards10}
+D.~Richards and D.~Lester.
+\newblock A prototype embedding of {Bluespec SystemVerilog} in the {PVS}
+  theorem prover.
+\newblock In {\em Methods Symposium}, page 139. Citeseer, 2010.
+
+\bibitem{BSVREF}
+Bluespec-Inc.
+\newblock {\em Bluespec System Verilog Reference Guide}.
+\newblock Bluespec Inc., October 2009.
+
+\bibitem{TerasicDE4}
+Terasic~Technologies Inc.
+\newblock {\em DE4 User Manual}, 2010.
+
+\bibitem{Norton15}
+Robert~McNeill Norton.
+\newblock Hardware support for compartmentalisation.
+\newblock {PhD} approved, September 2015.
+
+\bibitem{ctsrd15}
+Robert N.~M. Watson.
+\newblock {CTSRD} {--} rethinking the hardware-software interface for security.
+
+\bibitem{Yices15}
+Bruno Dutertre.
+\newblock {\em Yices Manual}.
+\newblock SRI International, October 2015.
+
+\bibitem{Chisnall15}
+David Chisnall, Colin Rothwell, Robert~N.M. Watson, Jonathan Woodruff, Munraj
+  Vadera, Simon~W. Moore, Michael Roe, Brooks Davis, and Peter~G. Neumann.
+\newblock Beyond the {PDP-11}: Architectural support for a memory-safe {C}
+  abstract machine.
+\newblock {\em SIGARCH Comput. Archit. News}, 43(1):117--130, March 2015.
+
+\bibitem{Chisnall14}
+David Chisnall.
+\newblock {LLVM} in the {FreeBSD} toolchain.
+\newblock In {\em AsiaBSDCon 2014. Proceedings}.
+
+\bibitem{Frigui95}
+I.~Frigui and A.S. Alfa.
+\newblock Approximate method for polling systems with time-limited-based
+  polling tables.
+\newblock In {\em WESCANEX 95. Communications, Power, and Computing. Conference
+  Proceedings., IEEE}, volume~2, pages 398--402 vol.2, May 1995.
+
+\bibitem{Lawrence98}
+Ramon Lawrence.
+\newblock A survey of cache coherence mechanisms in shared memory
+  multiprocessors, {University of Manitoba}, 1998.
+
+\bibitem{Tomasevic92}
+M.~Tomasevic and V.~Milutinovic.
+\newblock A simulation study of snoopy cache coherence protocols.
+\newblock In {\em System Sciences, 1992. Proceedings of the Twenty-Fifth Hawaii
+  International Conference on}, volume~i, pages 427--436 vol.1, January 1992.
+
+\bibitem{Gupta90}
+Anoop Gupta, Wolf dietrich Weber, and Todd Mowry.
+\newblock Reducing memory and traffic requirements for scalable directory-based
+  cache coherence schemes.
+\newblock In {\em In International Conference on Parallel Processing}, pages
+  312--321, 1990.
+
+\bibitem{Cuesta11}
+B.~Cuesta, A.~Ros, M.E. G\'{o}mez, A.~Robles, and J.~Duato.
+\newblock Increasing the effectiveness of directory caches by deactivating
+  coherence for private memory blocks.
+\newblock In {\em Computer Architecture (ISCA), 2011 38th Annual International
+  Symposium on}, pages 93--103, June 2011.
+
+\bibitem{Cuesta13}
+B.~Cuesta, A.~Ros, M.E. G\'{o}mez, A.~Robles, and J.~Duato.
+\newblock Increasing the effectiveness of directory caches by avoiding the
+  tracking of noncoherent memory blocks.
+\newblock {\em Computers, IEEE Transactions on}, 62(3):482--495, March 2013.
+
+\bibitem{James90}
+D.V. James, A.T. Laundrie, S.~Gjessing, and G.S. Sohi.
+\newblock Distributed-directory scheme: scalable coherent interface.
+\newblock {\em Computer}, 23(6):74--77, June 1990.
+
+\bibitem{Merrill03}
+David~C. Merrill.
+\newblock The {Linux FAQ}.
+\newblock Technical report, {The Linux Document Project}, September 2003.
+
+\bibitem{maspar90}
+John~R. Nickolls.
+\newblock The design of the {MasPar MP-1: A} cost effective massively parallel
+  computer.
+\newblock In {\em Proceedings of IEEE Compcon Spring 1990 IEEE Computer Society
+  Press Reprint}, 1990.
+
+\bibitem{godson3}
+Weiwu Hu, Jian Wang, Xiang Gao, Yunji Chen, Qi~Liu, and Guojie Li.
+\newblock Godson-3: {A} scalable multicore {RISC} processor with x86 emulation.
+\newblock {\em Micro, IEEE}, 29(2):17--29, March 2009.
+
+\bibitem{hp_the_machine}
+Hewlett~Packard Labs.
+\newblock {The Machine: A} new kind of computer, {HP}.
+\newblock http://www.labs.hpe.com/research/systems-research/themachine/.
+
+\bibitem{Alglave11}
+Jade Alglave, Luc Maranget, Susmit Sarkar, and Peter Sewell.
+\newblock Litmus: Running tests against hardware.
+\newblock In {\em Proceedings of the 17th International Conference on Tools and
+  Algorithms for the Construction and Analysis of Systems: Part of the Joint
+  European Conferences on Theory and Practice of Software}, TACAS'11/ETAPS'11,
+  pages 41--44, Berlin, Heidelberg, 2011. Springer-Verlag.
+
+\bibitem{Brumley11}
+Billy~Bob Brumley and Nicola Tuveri.
+\newblock Remote timing attacks are still practical.
+\newblock In {\em Proceedings of the 16th European Conference on Research in
+  Computer Security}, ESORICS'11, pages 355--371, Berlin, Heidelberg, 2011.
+  Springer-Verlag.
+
+\bibitem{Hund13}
+R.~Hund, C.~Willems, and T.~Holz.
+\newblock Practical timing side-channel attacks against kernel space {ASLR}.
+\newblock In {\em Security and Privacy (SP), 2013 IEEE Symposium on}, pages
+  191--205, May 2013.
+
+\bibitem{Yarom14}
+Yuval Yarom and Katrina Falkner.
+\newblock {FLUSH+RELOAD}: A high resolution, low noise, {L3} cache side-channel
+  attack.
+\newblock In {\em 23rd USENIX Security Symposium (USENIX Security 14)}, pages
+  719--732, San Diego, CA, August 2014. USENIX Association.
+
+\bibitem{Daly02}
+Alan Daly and William Marnane.
+\newblock Efficient architectures for implementing montgomery modular
+  multiplication and {RSA} modular exponentiation on reconfigurable logic.
+\newblock In {\em Proceedings of the 2002 ACM/SIGDA Tenth International
+  Symposium on Field-programmable Gate Arrays}, FPGA '02, pages 40--49, New
+  York, NY, USA, 2002. ACM.
+
+\bibitem{Mowery12}
+Keaton Mowery, Sriram Keelveedhi, and Hovav Shacham.
+\newblock Are {AES} x86 cache timing attacks still feasible?
+\newblock In {\em Proceedings of the 2012 ACM Workshop on Cloud Computing
+  Security Workshop}, CCSW '12, pages 19--24, New York, NY, USA, 2012. ACM.
+
+\bibitem{Irazoqui15}
+G.~Irazoqui, T.~Eisenbarth, and B.~Sunar.
+\newblock {S\$A}: A shared cache attack that works across cores and defies {VM}
+  sandboxing and its application to {AES}.
+\newblock In {\em Security and Privacy (SP), 2015 IEEE Symposium on}, pages
+  591--604, May 2015.
+
+\bibitem{cpuaffinity_0}
+Jeffrey Roberson.
+\newblock {FreeBSD} system calls manual -- cpuset\_getaffinity().
+\newblock
+  https://www.freebsd.org/cgi/man.cgi?query=cpuset\_getaffinity\&sektion=2,
+  September 2010.
+
+\bibitem{cpuaffinity_1}
+Dan Nelson.
+\newblock Can {I} bind {POSIX} thread to cpu core?, {FreeBSD} lists.
+\newblock
+  http://lists.freebsd.org/pipermail/freebsd-hackers/2009-June/029012.html,
+  June 2009.
+
+\bibitem{splash2_0}
+Yi~Liu.
+\newblock {Splash-2 Benchmarks}.
+\newblock https://github.com/liuyix/splash2\_benchmark.
+
+\bibitem{splash2_1}
+Stacey Son.
+\newblock {Splash-2 Benchmarks}.
+\newblock https://github.com/staceyson/splash2.
+
+\bibitem{splash2_2}
+Princeton University.
+\newblock {PARSEC 3.0 Documentation, {Princeton} Application Repository}.
+\newblock http://parsec.cs.princeton.edu/parsec3-doc.htm.
+
+\bibitem{Woo95}
+S.C. Woo, M.~Ohara, E.~Torrie, J.P. Singh, and A.~Gupta.
+\newblock The {Splash-2} programs: characterization and methodological
+  considerations.
+\newblock In {\em Computer Architecture, 1995. Proceedings., 22nd Annual
+  International Symposium on}, pages 24--36, June 1995.
+
+\bibitem{Bienia08}
+C.~Bienia, S.~Kumar, and K.~Li.
+\newblock {Parsec} vs. {Splash-2}: A quantitative comparison of two
+  multithreaded benchmark suites on chip-multiprocessors.
+\newblock In {\em Workload Characterization, 2008. IISWC 2008. IEEE
+  International Symposium on}, pages 47--56, September 2008.
+
+\bibitem{Barrow-Williams09}
+N.~Barrow-Williams, C.~Fensch, and S.~Moore.
+\newblock A communication characterisation of {Splash-2} and {Parsec}.
+\newblock In {\em Workload Characterization, 2009. IISWC 2009. IEEE
+  International Symposium on}, pages 86--97, October 2009.
+
+\bibitem{GEM5}
+Nathan Binkert, Bradford Beckmann, Gabriel Black, Steven~K. Reinhardt, Ali
+  Saidi, Arkaprava Basu, Joel Hestness, Derek~R. Hower, Tushar Krishna, Somayeh
+  Sardashti, Rathijit Sen, Korey Sewell, Muhammad Shoaib, Nilay Vaish, Mark~D.
+  Hill, and David~A. Wood.
+\newblock The gem5 simulator.
+\newblock {\em SIGARCH Comput. Archit. News}, 39(2):1--7, August 2011.
+
+\bibitem{Fox15}
+Anthony Fox.
+\newblock Improved tool support for {Machine-Code} decompilation in {HOL4}.
+\newblock In {\em Interactive Theorem Proving, ITP}, 2015.
+
+\bibitem{Doychev13}
+Goran Doychev, Dominik Feld, Boris K\"{o}pf, Laurent Mauborgne, and Jan
+  Reineke.
+\newblock {CacheAudit}: A tool for the static analysis of cache side-channels.
+\newblock In {\em Proceedings of the 22Nd USENIX Conference on Security},
+  SEC'13, pages 431--446, Berkeley, CA, USA, 2013. USENIX Association.
+
+\bibitem{Ferdinand99}
+Christian Ferdinand, Florian Martin, Reinhard Wilhelm, and Martin Alt.
+\newblock Cache behavior prediction by abstract interpretation.
+\newblock {\em Sci. Comput. Program.}, 35(2-3):163--189, November 1999.
+
+\end{thebibliography}

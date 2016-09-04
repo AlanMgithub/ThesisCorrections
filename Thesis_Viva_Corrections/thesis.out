@@ -1,0 +1,144 @@
+\BOOKMARK [0][]{chapter.1}{1 Introduction}{}% 1
+\BOOKMARK [1][]{section.1.1}{1.1 Strict vs. Relaxed Consistency}{chapter.1}% 2
+\BOOKMARK [1][]{section.1.2}{1.2 Avoiding Coherence Messaging}{chapter.1}% 3
+\BOOKMARK [1][]{section.1.3}{1.3 Reducing Side-Channel Leakage}{chapter.1}% 4
+\BOOKMARK [1][]{section.1.4}{1.4 Hypotheses}{chapter.1}% 5
+\BOOKMARK [1][]{section.1.5}{1.5 Contributions}{chapter.1}% 6
+\BOOKMARK [1][]{section.1.6}{1.6 Dissertation Overview}{chapter.1}% 7
+\BOOKMARK [0][]{chapter.2}{2 Background}{}% 8
+\BOOKMARK [1][]{section.2.1}{2.1 Software Directed Coherence}{chapter.2}% 9
+\BOOKMARK [1][]{section.2.2}{2.2 Directory-Based Coherence}{chapter.2}% 10
+\BOOKMARK [1][]{section.2.3}{2.3 Time-Based Coherence}{chapter.2}% 11
+\BOOKMARK [2][]{subsection.2.3.1}{2.3.1 Early Research}{section.2.3}% 12
+\BOOKMARK [2][]{subsection.2.3.2}{2.3.2 Compiler-Assisted Approach}{section.2.3}% 13
+\BOOKMARK [2][]{subsection.2.3.3}{2.3.3 Hardware-Assisted Approach}{section.2.3}% 14
+\BOOKMARK [2][]{subsection.2.3.4}{2.3.4 BERI Time-Based Approach}{section.2.3}% 15
+\BOOKMARK [1][]{section.2.4}{2.4 Memory Consistency}{chapter.2}% 16
+\BOOKMARK [2][]{subsection.2.4.1}{2.4.1 Memory Consistency Trace Format}{section.2.4}% 17
+\BOOKMARK [2][]{subsection.2.4.2}{2.4.2 Defining Memory Consistency}{section.2.4}% 18
+\BOOKMARK [3][]{subsubsection.2.4.2.1}{2.4.2.1 Sequential Consistency}{subsection.2.4.2}% 19
+\BOOKMARK [3][]{subsubsection.2.4.2.2}{2.4.2.2 Total Store Order}{subsection.2.4.2}% 20
+\BOOKMARK [3][]{subsubsection.2.4.2.3}{2.4.2.3 Partial Store Order}{subsection.2.4.2}% 21
+\BOOKMARK [3][]{subsubsection.2.4.2.4}{2.4.2.4 Relaxed Memory Order}{subsection.2.4.2}% 22
+\BOOKMARK [1][]{section.2.5}{2.5 Cache Side-Channel Attacks}{chapter.2}% 23
+\BOOKMARK [2][]{subsection.2.5.1}{2.5.1 Cryptography and SCAs}{section.2.5}% 24
+\BOOKMARK [2][]{subsection.2.5.2}{2.5.2 SCA Mitigation}{section.2.5}% 25
+\BOOKMARK [1][]{section.2.6}{2.6 Summary}{chapter.2}% 26
+\BOOKMARK [0][]{chapter.3}{3 BERI Multiprocessor Architecture}{}% 27
+\BOOKMARK [1][]{section.3.1}{3.1 BERI Architecture}{chapter.3}% 28
+\BOOKMARK [1][]{section.3.2}{3.2 Bluespec System Verilog}{chapter.3}% 29
+\BOOKMARK [1][]{section.3.3}{3.3 Multiprocessor BERI Design}{chapter.3}% 30
+\BOOKMARK [2][]{subsection.3.3.1}{3.3.1 Memory Modification}{section.3.3}% 31
+\BOOKMARK [2][]{subsection.3.3.2}{3.3.2 Core Identification}{section.3.3}% 32
+\BOOKMARK [2][]{subsection.3.3.3}{3.3.3 Interrupt Delivery}{section.3.3}% 33
+\BOOKMARK [2][]{subsection.3.3.4}{3.3.4 Load Linked and Store Conditional}{section.3.3}% 34
+\BOOKMARK [1][]{section.3.4}{3.4 FPGA Implementation}{chapter.3}% 35
+\BOOKMARK [1][]{section.3.5}{3.5 Testing and Debugging}{chapter.3}% 36
+\BOOKMARK [2][]{subsection.3.5.1}{3.5.1 Hardware and Software Tracing}{section.3.5}% 37
+\BOOKMARK [2][]{subsection.3.5.2}{3.5.2 Cheritest}{section.3.5}% 38
+\BOOKMARK [2][]{subsection.3.5.3}{3.5.3 Bare Metal Tests}{section.3.5}% 39
+\BOOKMARK [2][]{subsection.3.5.4}{3.5.4 CHERI Litmus Tests}{section.3.5}% 40
+\BOOKMARK [2][]{subsection.3.5.5}{3.5.5 Memory Consistency Checker}{section.3.5}% 41
+\BOOKMARK [2][]{subsection.3.5.6}{3.5.6 Benchmarks on FreeBSD}{section.3.5}% 42
+\BOOKMARK [1][]{section.3.6}{3.6 Summary}{chapter.3}% 43
+\BOOKMARK [0][]{chapter.4}{4 BERI Coherence Models}{}% 44
+\BOOKMARK [1][]{section.4.1}{4.1 BERI Time-Based Coherence}{chapter.4}% 45
+\BOOKMARK [2][]{subsection.4.1.1}{4.1.1 Time Counter}{section.4.1}% 46
+\BOOKMARK [2][]{subsection.4.1.2}{4.1.2 Tag Timestamp}{section.4.1}% 47
+\BOOKMARK [2][]{subsection.4.1.3}{4.1.3 Time-out Selection}{section.4.1}% 48
+\BOOKMARK [2][]{subsection.4.1.4}{4.1.4 Polling Detection Mechanism}{section.4.1}% 49
+\BOOKMARK [2][]{subsection.4.1.5}{4.1.5 TTS Memory Overhead}{section.4.1}% 50
+\BOOKMARK [2][]{subsection.4.1.6}{4.1.6 SYNC Instruction Behaviour}{section.4.1}% 51
+\BOOKMARK [2][]{subsection.4.1.7}{4.1.7 SYNC-only Coherence}{section.4.1}% 52
+\BOOKMARK [1][]{section.4.2}{4.2 BERI Directory Coherence}{chapter.4}% 53
+\BOOKMARK [2][]{subsection.4.2.1}{4.2.1 Tracking Shared Memory}{section.4.2}% 54
+\BOOKMARK [2][]{subsection.4.2.2}{4.2.2 Inclusion Policy}{section.4.2}% 55
+\BOOKMARK [2][]{subsection.4.2.3}{4.2.3 Coherence Messaging Overheads}{section.4.2}% 56
+\BOOKMARK [2][]{subsection.4.2.4}{4.2.4 Design Comparison}{section.4.2}% 57
+\BOOKMARK [2][]{subsection.4.2.5}{4.2.5 Data Cache Structure}{section.4.2}% 58
+\BOOKMARK [2][]{subsection.4.2.6}{4.2.6 Last Level Cache Structure}{section.4.2}% 59
+\BOOKMARK [1][]{section.4.3}{4.3 Comparative Cache Design}{chapter.4}% 60
+\BOOKMARK [1][]{section.4.4}{4.4 Coherence Hardware Overhead Comparison}{chapter.4}% 61
+\BOOKMARK [1][]{section.4.5}{4.5 Application of Time-Based Coherence }{chapter.4}% 62
+\BOOKMARK [0][]{chapter.5}{5 Memory Consistency Verification}{}% 63
+\BOOKMARK [1][]{section.5.1}{5.1 Verifying BERI Time-Based Coherence}{chapter.5}% 64
+\BOOKMARK [2][]{subsection.5.1.1}{5.1.1 Observable Relaxed Behaviour}{section.5.1}% 65
+\BOOKMARK [2][]{subsection.5.1.2}{5.1.2 Non-Observable Relaxed Behaviour}{section.5.1}% 66
+\BOOKMARK [2][]{subsection.5.1.3}{5.1.3 Forbidden Behaviour}{section.5.1}% 67
+\BOOKMARK [2][]{subsection.5.1.4}{5.1.4 CHERI Litmus Tests}{section.5.1}% 68
+\BOOKMARK [2][]{subsection.5.1.5}{5.1.5 AXE Trace Evaluation}{section.5.1}% 69
+\BOOKMARK [3][]{subsubsection.5.1.5.1}{5.1.5.1 Sequential Consistency Test}{subsection.5.1.5}% 70
+\BOOKMARK [3][]{subsubsection.5.1.5.2}{5.1.5.2 Total Store Order Consistency Test}{subsection.5.1.5}% 71
+\BOOKMARK [3][]{subsubsection.5.1.5.3}{5.1.5.3 Partial Store Order Consistency Test}{subsection.5.1.5}% 72
+\BOOKMARK [2][]{subsection.5.1.6}{5.1.6 Regression Testing}{section.5.1}% 73
+\BOOKMARK [1][]{section.5.2}{5.2 Verifying BERI Directory Coherence}{chapter.5}% 74
+\BOOKMARK [2][]{subsection.5.2.1}{5.2.1 AXE Trace Evaluation}{section.5.2}% 75
+\BOOKMARK [2][]{subsection.5.2.2}{5.2.2 Regression Testing}{section.5.2}% 76
+\BOOKMARK [1][]{section.5.3}{5.3 Performance Evaluation Using Litmus}{chapter.5}% 77
+\BOOKMARK [1][]{section.5.4}{5.4 Summary}{chapter.5}% 78
+\BOOKMARK [0][]{chapter.6}{6 Cache Side-Channel Attacks}{}% 79
+\BOOKMARK [1][]{section.6.1}{6.1 Effects of Coherence on SCAs}{chapter.6}% 80
+\BOOKMARK [1][]{section.6.2}{6.2 SCAs on BERI/CHERI}{chapter.6}% 81
+\BOOKMARK [2][]{subsection.6.2.1}{6.2.1 Cryptography and SCAs}{section.6.2}% 82
+\BOOKMARK [2][]{subsection.6.2.2}{6.2.2 State of the art SCA Mitigation}{section.6.2}% 83
+\BOOKMARK [2][]{subsection.6.2.3}{6.2.3 Exploiting Time-Based Coherence for SCA Mitigation}{section.6.2}% 84
+\BOOKMARK [1][]{section.6.3}{6.3 BERI SCA Analysis}{chapter.6}% 85
+\BOOKMARK [2][]{subsection.6.3.1}{6.3.1 Memory Footprint Analysis}{section.6.3}% 86
+\BOOKMARK [2][]{subsection.6.3.2}{6.3.2 Effects of Coherence on SCAs}{section.6.3}% 87
+\BOOKMARK [3][]{subsubsection.6.3.2.1}{6.3.2.1 Directory Coherence \205 SCA}{subsection.6.3.2}% 88
+\BOOKMARK [3][]{subsubsection.6.3.2.2}{6.3.2.2 Time-Based Coherence \205 SCA}{subsection.6.3.2}% 89
+\BOOKMARK [1][]{section.6.4}{6.4 Experimental Set-up}{chapter.6}% 90
+\BOOKMARK [1][]{section.6.5}{6.5 Bare Metal Testing}{chapter.6}% 91
+\BOOKMARK [2][]{subsection.6.5.1}{6.5.1 Collocated Tests}{section.6.5}% 92
+\BOOKMARK [3][]{subsubsection.6.5.1.1}{6.5.1.1 Results}{subsection.6.5.1}% 93
+\BOOKMARK [3][]{subsubsection.6.5.1.2}{6.5.1.2 Evaluation}{subsection.6.5.1}% 94
+\BOOKMARK [2][]{subsection.6.5.2}{6.5.2 Distributed Tests}{section.6.5}% 95
+\BOOKMARK [1][]{section.6.6}{6.6 SCA Testing Including an OS}{chapter.6}% 96
+\BOOKMARK [1][]{section.6.7}{6.7 Protection Level of Time-Based Coherence}{chapter.6}% 97
+\BOOKMARK [1][]{section.6.8}{6.8 Protecting the LLC}{chapter.6}% 98
+\BOOKMARK [1][]{section.6.9}{6.9 Summary}{chapter.6}% 99
+\BOOKMARK [0][]{chapter.7}{7 Corrections: Side-Channel Attacks}{}% 100
+\BOOKMARK [1][]{section.7.1}{7.1 Protection vs. Performance}{chapter.7}% 101
+\BOOKMARK [1][]{section.7.2}{7.2 Improved Private Cache Protection}{chapter.7}% 102
+\BOOKMARK [2][]{subsection.7.2.1}{7.2.1 Attacking the Data Cache}{section.7.2}% 103
+\BOOKMARK [1][]{section.7.3}{7.3 Protecting the L2}{chapter.7}% 104
+\BOOKMARK [2][]{subsection.7.3.1}{7.3.1 Attacking Shared Memory}{section.7.3}% 105
+\BOOKMARK [1][]{section.7.4}{7.4 Refining the Attack Model}{chapter.7}% 106
+\BOOKMARK [1][]{section.7.5}{7.5 Spy Algorithm}{chapter.7}% 107
+\BOOKMARK [2][]{subsection.7.5.1}{7.5.1 Data Cache Attack}{section.7.5}% 108
+\BOOKMARK [2][]{subsection.7.5.2}{7.5.2 L2 Cache Attack}{section.7.5}% 109
+\BOOKMARK [1][]{section.7.6}{7.6 Modifying Coherence Against SCA's}{chapter.7}% 110
+\BOOKMARK [0][]{chapter.8}{8 Coherence Results and Evaluation}{}% 111
+\BOOKMARK [1][]{section.8.1}{8.1 Splash-2 Benchmarks}{chapter.8}% 112
+\BOOKMARK [1][]{section.8.2}{8.2 Effects of Time-outs on Performance}{chapter.8}% 113
+\BOOKMARK [1][]{section.8.3}{8.3 Optimising Time-Based Coherence}{chapter.8}% 114
+\BOOKMARK [1][]{section.8.4}{8.4 Extended Splash-2 Comparison}{chapter.8}% 115
+\BOOKMARK [1][]{section.8.5}{8.5 Effects of Cache Size on Performance}{chapter.8}% 116
+\BOOKMARK [1][]{section.8.6}{8.6 Evaluating FreeBSD Commands}{chapter.8}% 117
+\BOOKMARK [2][]{subsection.8.6.1}{8.6.1 DD}{section.8.6}% 118
+\BOOKMARK [2][]{subsection.8.6.2}{8.6.2 CP}{section.8.6}% 119
+\BOOKMARK [2][]{subsection.8.6.3}{8.6.3 GREP}{section.8.6}% 120
+\BOOKMARK [2][]{subsection.8.6.4}{8.6.4 MD5}{section.8.6}% 121
+\BOOKMARK [2][]{subsection.8.6.5}{8.6.5 SHA-256}{section.8.6}% 122
+\BOOKMARK [1][]{section.8.7}{8.7 Communication Energy Estimation}{chapter.8}% 123
+\BOOKMARK [2][]{subsection.8.7.1}{8.7.1 Parallel Execution}{section.8.7}% 124
+\BOOKMARK [2][]{subsection.8.7.2}{8.7.2 Independent Concurrent Execution}{section.8.7}% 125
+\BOOKMARK [1][]{section.8.8}{8.8 Scalability Estimation}{chapter.8}% 126
+\BOOKMARK [2][]{subsection.8.8.1}{8.8.1 Directory-based coherence}{section.8.8}% 127
+\BOOKMARK [2][]{subsection.8.8.2}{8.8.2 Time-based coherence}{section.8.8}% 128
+\BOOKMARK [1][]{section.8.9}{8.9 Simplicity}{chapter.8}% 129
+\BOOKMARK [1][]{section.8.10}{8.10 Summary}{chapter.8}% 130
+\BOOKMARK [0][]{chapter.9}{9 Conclusions and Future Research}{}% 131
+\BOOKMARK [1][]{section.9.1}{9.1 Coherence}{chapter.9}% 132
+\BOOKMARK [2][]{subsection.9.1.1}{9.1.1 Performance Evaluation}{section.9.1}% 133
+\BOOKMARK [2][]{subsection.9.1.2}{9.1.2 Memory Consistency}{section.9.1}% 134
+\BOOKMARK [1][]{section.9.2}{9.2 Side-Channel Attacks}{chapter.9}% 135
+\BOOKMARK [1][]{section.9.3}{9.3 Engineering Contributions}{chapter.9}% 136
+\BOOKMARK [1][]{section.9.4}{9.4 Conclusion}{chapter.9}% 137
+\BOOKMARK [1][]{section.9.5}{9.5 Future Research}{chapter.9}% 138
+\BOOKMARK [2][]{subsection.9.5.1}{9.5.1 Capability Enhancement of Time-Based Coherence}{section.9.5}% 139
+\BOOKMARK [2][]{subsection.9.5.2}{9.5.2 Scalability}{section.9.5}% 140
+\BOOKMARK [2][]{subsection.9.5.3}{9.5.3 Cache Configurations}{section.9.5}% 141
+\BOOKMARK [2][]{subsection.9.5.4}{9.5.4 Hardware Speculation}{section.9.5}% 142
+\BOOKMARK [2][]{subsection.9.5.5}{9.5.5 Side-Channel Leakage Detection}{section.9.5}% 143
+\BOOKMARK [0][]{subsection.9.5.5}{References}{}% 144

@@ -1,0 +1,137 @@
+\makeatletter
+%\newcommand{\rmnum}[1]{\romannumeral #1 }
+%\newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+\ifpdf
+\graphicspath{{Conclusion/ConclusionFigs/PNG/}{Conclusion/ConclusionFigs/PDF/}{Conclusion/ConclusionFigs/}}
+\else
+\graphicspath{{Conclusion/ConclusionFigs/EPS/}{Conclusion/ConclusionFigs/}}
+\fi
+
+\chapter{Conclusions and Future Research}
+	In this dissertation I have presented a novel time-based cache coherence mechanism, built into the BERI multiprocessor platform.
+	Hardware coherence is typically managed through shared memory or dedicated logic, however, this time-based scheme removes the need for any coherence messaging, and does not require any form of snooping or sharer tracking. Coherence is controlled directly through the private CPU caches. This top down approach reduces the need for any coherence logic, since data is updated whenever a cache line expires.
+	
+	Another novel aspect of this coherence model is the ability to mask local cache side-channel attacks, a feature not typically attributed to cache coherence. To the best of my knowledge, there is no other cache coherence scheme which offers explicit side-channel masking as a part of the default mechanism. However, the masking techniques displayed by this coherence scheme have been previously investigated.
+
+	\section{Coherence}
+		The work described in this dissertation is based on two cache coherence schemes that I have developed as a part of the multiprocessor extension to BERI. The BERI directory-based implementation is representative of a typical directory coherence protocol. The directory keeps track of data sharing and resides in the shared L2 cache, communicating with the private caches through a coherence network. The  protocol has been verified to support a strong memory consistency model, using a range of memory consistency checking tools. This coherence scheme in not as advanced as some directory protocols \cite{Sanchez12,Cuesta11,Cuesta13}, however, I have introduced some performance optimisations such as the L1 cache short-tags scheme. This mechanism allows parallel memory and invalidate lookups in the L1 caches, reducing overall cache blocking.
+		
+		The time-based cache coherence protocol is the second scheme implemented in multiprocessor BERI. Unlike other schemes based on timestamps and cache self-invalidation, this mechanism does not require any additional software support and relies on common software synchronisation techniques.
+		Additionally, this time-based scheme is designed on a general purpose platform supporting a broad range of software applications together with standard OS support.
+
+		The cache self-invalidation behaviour guarantees forward progress for memory polling operations, as stale data will eventually expire and be replaced. However, waiting for cache line time-outs is not an efficient way of updating memory, this drawback is diminished by incorporating private cache polling detection logic. This mechanism is not directly a part of the coherence model, and acts as an optimisation, similar to a memory prefetcher or other speculation logic.
+
+		The coherence scheme enforces a relaxed memory consistency model; correctness of this design has been proven through rigorous memory consistency analysis. Relaxed memory consistency is implemented on commercial processor architectures such as ARM and PowerPC, supporting common operating systems and software. 
+		
+		\subsection{Performance Evaluation}
+			The time-based coherence model is compared against the directory-based coherence scheme. The two protocols are compared through a range of Splash-2 benchmarks and some common FreeBSD applications. The time-based coherence scheme shows a comparable performance and occasionally outperforms the directory. 
+			
+			The polling detection optimisation significantly improves the corner cases where the regular time-based model suffers performance penalties. The time-based coherence scheme and the polling detection mechanism can be further improved, but it will require a much wider analysis of software applications which are not currently available on our system.
+	
+		\subsection{Memory Consistency}
+			I have made some observations while analysing the memory consistency behaviour of BERI coherence protocols. The choice of a consistency model is usually related to legacy hardware and software; Intel processors use advanced hardware designs to enforce strict memory consistency. While this design can significantly reduce software complexity, some performance may be lost.
+			
+			A weak consistency model can always be strengthened through appropriate software synchronisation primitives, however, a strict model can not be weakened. The choice of a consistency model usually falls in one of two categories: (1) a strong hardware coherence model will result in higher development costs and design complexity, but simpler software design, (2)  a weak model is easier to implement in hardware, but requires strong software synchronisation support.
+			
+			The hardware implementation of synchronisation schemes may be open to interpretation and could lead to performance drawbacks. For instance, FreeBSD generously uses SYNC instructions to ensure a consistent memory behaviour, however, coherence designs such as the time-based scheme suffer from frequent cache invalidates. Further evidence is provided by Sung and Adve \cite{Sung15}. Relaxed consistency systems can benefit from a wider range of synchronisation primitives, MIPS lacks this support but other ISAs such as ARM have a wider selection.
+
+	\section{Side-Channel Attacks}
+		Another interesting aspect of cache coherence schemes not typically explored is the resilience to side-channel attacks. Coherence models are typically optimised to achieve maximum parallel performance. However, they are rarely, if ever used to mitigate or mask cache side-channel leakage. I demonstrate that the time-based coherence model provides some mitigation against L1 cache side-channel attacks out of the box.
+		
+		While the time-out aspect of this scheme provides some side-channel masking, the maximum effect is achieved whenever a critical application executes a SYNC instruction as its final operation. This achieves a full L1 single cycle flush, removing all data from that cache. The coherence scheme does not mitigate attacks at the shared memory level, but solutions to this problem are suggested in Chapter \ref{chapter_sca}.
+	
+	
+	\section{Engineering Contributions}
+		Work described in this dissertation has lead to a number of engineering contributions in the CTSRD \& MRC2 projects \cite{CTSRD,MRC2}. Major achievements have been listed below:
+	
+		\paragraph{The BERI multiprocessor architecture}
+			\begin{enumerate}
+				\item A core identification mechanism.
+				\item Modifications to memory interfaces.
+				\item Two major cache coherence mechanisms.
+				\item Caches have been modified to accommodate the coherence schemes.
+				\item Load Linked and Store Conditional instruction implementation for the multiprocessor.
+				\item Testing and verification of all multiprocessor designs.
+				\item Changes to the hardware synthesis procedure.
+			\end{enumerate}
+
+		\paragraph{Bringing up FreeBSD on multi-core BERI}
+			\begin{enumerate}
+				\item Identifying and resolving cache coherence bugs.
+				\item Diagnosing incorrect OS booting behaviour.
+				\item Resolving Load Linked and Store Conditional bugs in hardware.
+				\item Diagnosing incorrect TLB behaviour.
+				\item Identifying incorrect OS driven multiprocessor interrupts.
+			\end{enumerate}	
+		\paragraph{Tests created for multi-core BERI}
+			\begin{enumerate}
+				\item Bare metal tests for evaluating multiprocessor behaviour.
+				\item A range of OS based applications used for diagnosing coherence drawbacks.
+				\item Tests for evaluating the resilience of cache coherence to timing side-channel attacks (bare metal and OS).
+			\end{enumerate}
+
+	
+	\section{Conclusion}
+		With reference to the original hypotheses in Section \ref{hypotheses}, the following conclusions can be drawn:
+	
+		\begin{enumerate}
+			\item The detailed evaluation in this dissertation provides compelling evidence that cache coherency is achievable without explicit coherent messaging, either hardware or software directed.  
+			\item Time-based local-cache self-invalidation is indeed sufficient to support a relaxed memory consistency model. Validation has been completed through full system testing, running a selection of concurrent benchmarks, and through the AXE trace checker.
+			\item Existing load-linked/store-conditional and sync instructions were demonstrably sufficient to run complex concurrent code unmodified, including the FreeBSD operating system and Splash-2 benchmarks.
+			\item A detailed performance analysis was undertaken comparing the time-based coherency scheme (with and without refinements) against my implementation of a directory-based scheme. My results indicate that the refined time-based scheme is sometimes more efficient than the directory-based scheme, but often lags behind a fraction. That said, the differences were often only within a few percent, and refinements to either model are likely to nudge either model ahead of the other. Results so far are most complete for a dual-core system, and detailed analysis of large-scale multi-core systems is left as future work.
+			\item Side-channel attacks on time-based coherence have been analysed.  The self-invalidation mechanism has demonstrably been shown to mitigate such attacks, particularly when the invalidation time period is reduced.  Moreover, software can make judicious use of the synchronisation instruction which flushes the cache on the time-based model, thereby reducing L1 cache side channels.
+			\end{enumerate}
+	
+\begin{comment}
+		The time-based coherence mechanism described in this dissertation is proof that cache coherence can be achieved without any explicit coherence communication. This scheme maintains global coherence by exploiting common software synchronisation techniques (barriers and locks) and by periodically auto-updating stale cached data. The coherence scheme complies with a well defined and wide used relaxed memory consistency model, which provides strong programmer assurances and software guarantees.
+		
+		The time-based coherence model can be competitive against a conventional directory-based coherence protocol, however, certain hardware optimisations are necessary. The absence of explicit coherence messaging reduces the hardware logic overheads of the time-based protocol, potentially reducing the coherence communication energy expenditure. However, further evaluation is necessary to verify the energy costs.
+		
+		The time-based coherence model can provide some mitigation against private cache side-channel attacks. It uses the software synchronisation mechanisms for cache flushing and adds entropy to memory access latency. The coherence scheme does not actively protect the last level cache, however, the cache could be adapted to use this mitigation technique.
+\end{comment}
+	
+	\section{Future Research}
+		\label{section_further_research}
+		
+		\subsection{Capability Enhancement of Time-Based Coherence}
+			The time-based coherence model can benefit from software directed dynamic time-out selection. The time-based mechanism currently does not differentiate between shared and unshared data. Unshared data does not need to be self-invalidated, so the number of false self-invalidates can be greatly reduced if the cache can make this differentiation. 
+			
+			The polling detector can speculatively identify some shared memory accesses, however, it could be significantly complemented by software hints. In order to support dynamic self-invalidation, we require compiler support and a hardware mechanism to change cache settings. C11 currently supports atomic operations, used to declare shared data. The Capability approach could be used to assign time-out values to shared data. Since Capabilities specify the range of protected memory, the mechanism can be used to specify regions of shared memory. Compiler support for such instructions is currently in development and beyond the scope of this dissertation.
+	
+			Under the capability model implemented in CHERI, each pointer to a memory location can be compiled with the capability extension. A load or store through the pointer would result in a capability co-processor lookup, in addition to the regular TLB lookup. This mechanism protects the memory location pointed by the pointer, and prevents out-of-bound accesses to said memory. The capability pointer extension has several reserved bits that can be used for other architectural enhancements. The time-out of a memory block can be tuned depending on the nature of the process; the time-out information can be carried in the reserved bits of the capability.
+			
+			When a master-pointer capability is created, the time-out for the given process can be selected. Moreover, specific shared pointers can carry individually set time-outs. The master-capability contains information regarding the memory bounds. This information will be stored in the private cache of the executing core, along with the time-out specified in the capability. A combination of the two provides the cache with sufficient information as to how long the data will be held in the cache. Non-shared data could reside in the cache until evicted or explicitly invalidated, thereby improving spacial and temporal locality of a regular fixed-time-out time-based coherence protocol. 
+			
+			The data cache will contain a table of available time-outs, ranging from very short to infinite. A simple 2-3 bit field in the capability will dictate the time-out selection. For a C11 style atomic operation the time-out can be low, $\sim$1,000--10,000 cache cycles. For other blocks of data the time-out can be larger, $\sim$1,000,000 cache cycles or more. The data cache will hold an address-range table holding all time-out selections. When a line is loaded into the cache, the current address will be checked against the table. If the address falls within a certain range then the time-out specified will be used, otherwise a default time-out will be set. When a master-capability is loaded, the table will be populated and the time-out in the capability will be used in its tag-time-stamp. 
+			
+			The rest of the cache behaviour for LL/SC and SYNC instruction will remain the same. The large default time-out will continue to guarantee some progress and eliminate deadlocks.
+				
+		\subsection{Scalability}
+			Research illustrated in this dissertation shows that a growing support for relaxed memory models can simplify cache coherence designs, while still approaching the performance levels of more sophisticated designs. Scalability analysis of the time-based scheme has been limited by FPGA capacity, but new developments may allow a more comprehensive study. The BERI core used in this research can be extended with advanced memory features and used for further relaxed memory consistency research. 
+		
+			This study has been limited to a dual-core evaluation, however, using a larger FPGA chip can overcome this limitation.
+			An alternative approach would be a hardware based memory-only evaluation using a framework similar to AXE, but absence of non-memory operations may skew the results.
+			Simulators such as GEM5 \cite{GEM5} or L3 \cite{Fox15} can also be used for larger scale testing.
+		
+		\subsection{Cache Configurations}
+			BERI uses a simple cache design, suitable for time-based coherence testing. The coherence model could be re-evaluated on improved versions of the BERI memory system in the future.
+			
+		\subsection{Hardware Speculation}
+			In this dissertation I have introduced the polling detection scheme as an optimisation for the time-based coherence protocol. Further hardware optimisations and speculation techniques could reduce the amount of memory communication required for this protocol, thus, leading to a more efficient and effective coherence scheme.
+			
+		\subsection{Side-Channel Leakage Detection}
+			Side-channels can be introduced by the application code and the compiler, tools such as CacheAudit \cite{Doychev13} can be used to quantify side-channel, however, software analysis is not sufficient to prevent all attacks.
+			
+			To our knowledge there is no standardised way of checking side-channel leakage in hardware models, specifically caches. Researchers in this field typically develop their own prototypes for conducting leakage analysis. One hardware profiling tool is described by Ferdinand et al. \cite{Ferdinand99}. This research was first published in 1999 and an updated version would be preferable.
+			
+			FPGA's are frequently used for hardware prototyping. Soft-core processor models, such as the BERI processor, and memory systems can be built and evaluated on FPGA's. Hardware prototyping tools typically use verilog or similar HDL languages, so there is a potential for designing a hardware SCA testing framework. 
+			
+			The efforts described in Chapter \ref{chapter_sca} illustrate the benefits of testing hardware and not just evaluating software vulnerabilities. The experiments I have designed could be extended and integrated into a model checker (such as AXE), allowing the quantification of cache SCA resilience and acting as a platform for future development.
+			
+			%There haven't been many cache analysis tools designed specifically for hardware based cache leakage analysis, typically  done by applying the known SCAs on new hardware.  
+	
+			%Software such as CacheAudit \cite{Doychev13} allows a programmer to verify and analyse the potential of an application to leak side-channels information. 
+			
+			%However, to our knowledge there is no standardised way of checking side-channel leakage in hardware models, specifically caches. FPGA's are frequently used for hardware prototyping. Soft-core processor models, such as the BERI processor, and memory systems can be built and evaluated on FPGA's. Hardware prototyping tools typically use verilog or similar HDL languages, so there is a potential for designing a hardware SCA testing framework. The efforts described in this chapter illustrate the benefits of testing hardware and not just evaluating software vulnerabilities. The experiments I have designed could be extended and integrate into a model checker (such as AXE), allowing the quantification of cache SCA resilience and acting as a platform for future development. 
+

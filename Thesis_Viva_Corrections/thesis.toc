@@ -1,0 +1,205 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{19}{chapter.1}
+\contentsline {section}{\numberline {1.1}Strict vs.\ Relaxed Consistency}{19}{section.1.1}
+\contentsline {section}{\numberline {1.2}Avoiding Coherence Messaging}{20}{section.1.2}
+\contentsline {section}{\numberline {1.3}Reducing Side-Channel Leakage}{21}{section.1.3}
+\contentsline {section}{\numberline {1.4}Hypotheses}{22}{section.1.4}
+\contentsline {section}{\numberline {1.5}Contributions}{22}{section.1.5}
+\contentsline {section}{\numberline {1.6}Dissertation Overview}{22}{section.1.6}
+\contentsline {chapter}{\numberline {2}Background}{25}{chapter.2}
+\contentsline {section}{\numberline {2.1}Software Directed Coherence}{26}{section.2.1}
+\contentsline {section}{\numberline {2.2}Directory-Based Coherence}{27}{section.2.2}
+\contentsline {section}{\numberline {2.3}Time-Based Coherence}{28}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Early Research}{29}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Compiler-Assisted Approach}{29}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Hardware-Assisted Approach}{31}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}BERI Time-Based Approach}{32}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}Memory Consistency}{32}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Memory Consistency Trace Format}{33}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Defining Memory Consistency}{33}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}Sequential Consistency}{33}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.2}Total Store Order}{34}{subsubsection.2.4.2.2}
+\contentsline {subsubsection}{\numberline {2.4.2.3}Partial Store Order}{35}{subsubsection.2.4.2.3}
+\contentsline {subsubsection}{\numberline {2.4.2.4}Relaxed Memory Order}{35}{subsubsection.2.4.2.4}
+\contentsline {section}{\numberline {2.5}Cache Side-Channel Attacks}{37}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Cryptography and SCAs}{38}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}SCA Mitigation}{39}{subsection.2.5.2}
+\contentsline {paragraph}{General Techniques}{40}{Item.8}
+\contentsline {paragraph}{AES Specific Techniques}{40}{Item.16}
+\contentsline {section}{\numberline {2.6}Summary}{41}{section.2.6}
+\contentsline {chapter}{\numberline {3}BERI Multiprocessor Architecture}{43}{chapter.3}
+\contentsline {section}{\numberline {3.1}BERI Architecture}{43}{section.3.1}
+\contentsline {paragraph}{Pipeline Stages}{43}{section.3.1}
+\contentsline {paragraph}{Memory System}{44}{figure.caption.14}
+\contentsline {paragraph}{Peripherals}{45}{figure.caption.14}
+\contentsline {section}{\numberline {3.2}Bluespec System Verilog}{45}{section.3.2}
+\contentsline {section}{\numberline {3.3}Multiprocessor BERI Design}{45}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Memory Modification}{46}{subsection.3.3.1}
+\contentsline {paragraph}{Directory Coherence}{46}{subsection.3.3.1}
+\contentsline {paragraph}{Time-Based Coherence}{46}{figure.caption.15}
+\contentsline {subsection}{\numberline {3.3.2}Core Identification}{47}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Interrupt Delivery}{47}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Load Linked and Store Conditional}{48}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}FPGA Implementation}{49}{section.3.4}
+\contentsline {section}{\numberline {3.5}Testing and Debugging}{51}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Hardware and Software Tracing}{51}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Cheritest}{51}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Bare Metal Tests}{51}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}CHERI Litmus Tests}{52}{subsection.3.5.4}
+\contentsline {subsection}{\numberline {3.5.5}Memory Consistency Checker}{52}{subsection.3.5.5}
+\contentsline {subsection}{\numberline {3.5.6}Benchmarks on FreeBSD}{52}{subsection.3.5.6}
+\contentsline {section}{\numberline {3.6}Summary}{53}{section.3.6}
+\contentsline {chapter}{\numberline {4}BERI Coherence Models}{55}{chapter.4}
+\contentsline {section}{\numberline {4.1}BERI Time-Based Coherence}{56}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Time Counter}{56}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Tag Timestamp}{56}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Time-out Selection}{57}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Polling Detection Mechanism}{58}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}TTS Memory Overhead}{59}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.6}SYNC Instruction Behaviour}{60}{subsection.4.1.6}
+\contentsline {subsection}{\numberline {4.1.7}SYNC-only Coherence}{61}{subsection.4.1.7}
+\contentsline {section}{\numberline {4.2}BERI Directory Coherence}{62}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Tracking Shared Memory}{65}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Inclusion Policy}{65}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Coherence Messaging Overheads}{65}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Design Comparison}{66}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Data Cache Structure}{66}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Last Level Cache Structure}{68}{subsection.4.2.6}
+\contentsline {section}{\numberline {4.3}Comparative Cache Design}{69}{section.4.3}
+\contentsline {paragraph}{Inclusion Policy:}{69}{section.4.3}
+\contentsline {paragraph}{Associativity:}{69}{section.4.3}
+\contentsline {paragraph}{Line Eviction:}{69}{section.4.3}
+\contentsline {paragraph}{Virtual and Physical Addressing:}{69}{section.4.3}
+\contentsline {paragraph}{Cache Line Granularity:}{70}{section.4.3}
+\contentsline {paragraph}{Line Aliasing:}{70}{section.4.3}
+\contentsline {paragraph}{False Sharing:}{70}{section.4.3}
+\contentsline {paragraph}{Memory Operation Reordering:}{71}{section.4.3}
+\contentsline {paragraph}{Prefetching:}{71}{section.4.3}
+\contentsline {paragraph}{Alignment:}{71}{section.4.3}
+\contentsline {paragraph}{Cache Instructions:}{71}{section.4.3}
+\contentsline {paragraph}{Write Buffers:}{72}{section.4.3}
+\contentsline {paragraph}{Write Hit Policy:}{72}{section.4.3}
+\contentsline {paragraph}{Write Miss Policy:}{72}{section.4.3}
+\contentsline {section}{\numberline {4.4}Coherence Hardware Overhead Comparison}{73}{section.4.4}
+\contentsline {paragraph}{Time-Based Coherence Overheads}{73}{section.4.4}
+\contentsline {paragraph}{Directory Coherence Overheads}{73}{section.4.4}
+\contentsline {paragraph}{FPGA Area Overheads}{73}{section.4.4}
+\contentsline {section}{\numberline {4.5}Application of Time-Based Coherence }{75}{section.4.5}
+\contentsline {paragraph}{Simplicity}{75}{section.4.5}
+\contentsline {paragraph}{Usability}{75}{section.4.5}
+\contentsline {paragraph}{Scalability}{75}{section.4.5}
+\contentsline {chapter}{\numberline {5}Memory Consistency Verification}{77}{chapter.5}
+\contentsline {section}{\numberline {5.1}Verifying BERI Time-Based Coherence}{77}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Observable Relaxed Behaviour}{78}{subsection.5.1.1}
+\contentsline {paragraph}{Test (MP+sync+dep)}{78}{subsection.5.1.1}
+\contentsline {paragraph}{Test (WRC+sync+dep)}{79}{figure.caption.28}
+\contentsline {paragraph}{Test (W+RWC+sync+dep+sync)}{80}{figure.caption.29}
+\contentsline {subsection}{\numberline {5.1.2}Non-Observable Relaxed Behaviour}{81}{subsection.5.1.2}
+\contentsline {paragraph}{Test (LB+sync+dep)}{81}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Forbidden Behaviour}{82}{subsection.5.1.3}
+\contentsline {paragraph}{Test (MP+syncs)}{82}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}CHERI Litmus Tests}{83}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}AXE Trace Evaluation}{86}{subsection.5.1.5}
+\contentsline {subsubsection}{\numberline {5.1.5.1}Sequential Consistency Test}{86}{subsubsection.5.1.5.1}
+\contentsline {subsubsection}{\numberline {5.1.5.2}Total Store Order Consistency Test}{87}{subsubsection.5.1.5.2}
+\contentsline {subsubsection}{\numberline {5.1.5.3}Partial Store Order Consistency Test}{87}{subsubsection.5.1.5.3}
+\contentsline {subsection}{\numberline {5.1.6}Regression Testing}{88}{subsection.5.1.6}
+\contentsline {section}{\numberline {5.2}Verifying BERI Directory Coherence}{90}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}AXE Trace Evaluation}{90}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Regression Testing}{91}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Performance Evaluation Using Litmus}{91}{section.5.3}
+\contentsline {section}{\numberline {5.4}Summary}{93}{section.5.4}
+\contentsline {chapter}{\numberline {6}Cache Side-Channel Attacks}{95}{chapter.6}
+\contentsline {section}{\numberline {6.1}Effects of Coherence on SCAs}{95}{section.6.1}
+\contentsline {section}{\numberline {6.2}SCAs on BERI/CHERI}{96}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Cryptography and SCAs}{96}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}State of the art SCA Mitigation}{97}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Exploiting Time-Based Coherence for SCA Mitigation}{97}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}BERI SCA Analysis}{98}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Memory Footprint Analysis}{98}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Effects of Coherence on SCAs}{100}{subsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.2.1}Directory Coherence -- SCA}{100}{subsubsection.6.3.2.1}
+\contentsline {subsubsection}{\numberline {6.3.2.2}Time-Based Coherence -- SCA}{100}{subsubsection.6.3.2.2}
+\contentsline {section}{\numberline {6.4}Experimental Set-up}{102}{section.6.4}
+\contentsline {section}{\numberline {6.5}Bare Metal Testing}{103}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Collocated Tests}{103}{subsection.6.5.1}
+\contentsline {subsubsection}{\numberline {6.5.1.1}Results}{103}{subsubsection.6.5.1.1}
+\contentsline {paragraph}{Expected Behaviour}{104}{subsubsection.6.5.1.1}
+\contentsline {paragraph}{Observed Behaviour - Single-Core}{104}{subsubsection.6.5.1.1}
+\contentsline {paragraph}{Observed Behaviour - Directory}{104}{subsubsection.6.5.1.1}
+\contentsline {paragraph}{Observed Behaviour - Time-Based}{105}{subsubsection.6.5.1.1}
+\contentsline {subsubsection}{\numberline {6.5.1.2}Evaluation}{105}{subsubsection.6.5.1.2}
+\contentsline {paragraph}{Figure \ref {baremetal_core_pin_std_1} --}{105}{subsubsection.6.5.1.2}
+\contentsline {paragraph}{Figure \ref {baremetal_core_pin_std_2x} --}{106}{subsubsection.6.5.1.2}
+\contentsline {paragraph}{Figure \ref {baremetal_core_pin_long_1} --}{110}{figure.caption.48}
+\contentsline {paragraph}{Figure \ref {baremetal_core_pin_long_2x} --}{111}{figure.caption.48}
+\contentsline {paragraph}{Figure \ref {baremetal_core_pin_reverse} --}{114}{figure.caption.50}
+\contentsline {subsection}{\numberline {6.5.2}Distributed Tests}{116}{subsection.6.5.2}
+\contentsline {paragraph}{Expected Behaviour}{116}{subsection.6.5.2}
+\contentsline {paragraph}{Observed Behaviour - Directory}{116}{subsection.6.5.2}
+\contentsline {paragraph}{Observed Behaviour - Time-Based}{117}{subsection.6.5.2}
+\contentsline {section}{\numberline {6.6}SCA Testing Including an OS}{118}{section.6.6}
+\contentsline {paragraph}{Figure \ref {freebsd_sca_corepin_1} --}{119}{section.6.6}
+\contentsline {paragraph}{Figure \ref {freebsd_sca_corepin_2} --}{122}{figure.caption.54}
+\contentsline {section}{\numberline {6.7}Protection Level of Time-Based Coherence}{123}{section.6.7}
+\contentsline {section}{\numberline {6.8}Protecting the LLC}{124}{section.6.8}
+\contentsline {section}{\numberline {6.9}Summary}{125}{section.6.9}
+\contentsline {chapter}{\numberline {7}Corrections: Side-Channel Attacks}{127}{chapter.7}
+\contentsline {section}{\numberline {7.1}Protection vs. Performance}{127}{section.7.1}
+\contentsline {section}{\numberline {7.2}Improved Private Cache Protection}{127}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Attacking the Data Cache}{128}{subsection.7.2.1}
+\contentsline {section}{\numberline {7.3}Protecting the L2}{130}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Attacking Shared Memory}{130}{subsection.7.3.1}
+\contentsline {section}{\numberline {7.4}Refining the Attack Model}{131}{section.7.4}
+\contentsline {section}{\numberline {7.5}Spy Algorithm}{133}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Data Cache Attack}{133}{subsection.7.5.1}
+\contentsline {paragraph}{Spy's Perspective}{133}{subsection.7.5.1}
+\contentsline {paragraph}{Victim's Perspective}{134}{Item.45}
+\contentsline {subsection}{\numberline {7.5.2}L2 Cache Attack}{134}{subsection.7.5.2}
+\contentsline {paragraph}{Spy's Perspective}{134}{subsection.7.5.2}
+\contentsline {paragraph}{Victim's Perspective}{135}{Item.49}
+\contentsline {section}{\numberline {7.6}Modifying Coherence Against SCA's}{135}{section.7.6}
+\contentsline {paragraph}{Last level cache attacks,}{136}{section.7.6}
+\contentsline {paragraph}{Attacks on ARM.}{137}{section.7.6}
+\contentsline {chapter}{\numberline {8}Coherence Results and Evaluation}{141}{chapter.8}
+\contentsline {section}{\numberline {8.1}Splash-2 Benchmarks}{141}{section.8.1}
+\contentsline {section}{\numberline {8.2}Effects of Time-outs on Performance}{143}{section.8.2}
+\contentsline {paragraph}{Figure \ref {splash_combined}}{143}{section.8.2}
+\contentsline {paragraph}{Figure \ref {splash_combined_ratio}}{144}{figure.caption.56}
+\contentsline {paragraph}{Figure \ref {splash_combined_inv_ratio}}{144}{figure.caption.56}
+\contentsline {section}{\numberline {8.3}Optimising Time-Based Coherence}{148}{section.8.3}
+\contentsline {section}{\numberline {8.4}Extended Splash-2 Comparison}{150}{section.8.4}
+\contentsline {paragraph}{Figure \ref {splash_extended_standard} --}{151}{section.8.4}
+\contentsline {paragraph}{Figure \ref {splash_extended_polling} --}{151}{section.8.4}
+\contentsline {section}{\numberline {8.5}Effects of Cache Size on Performance}{154}{section.8.5}
+\contentsline {section}{\numberline {8.6}Evaluating FreeBSD Commands}{157}{section.8.6}
+\contentsline {subsection}{\numberline {8.6.1}DD}{158}{subsection.8.6.1}
+\contentsline {subsection}{\numberline {8.6.2}CP}{158}{subsection.8.6.2}
+\contentsline {subsection}{\numberline {8.6.3}GREP}{160}{subsection.8.6.3}
+\contentsline {subsection}{\numberline {8.6.4}MD5}{161}{subsection.8.6.4}
+\contentsline {subsection}{\numberline {8.6.5}SHA-256}{162}{subsection.8.6.5}
+\contentsline {section}{\numberline {8.7}Communication Energy Estimation}{163}{section.8.7}
+\contentsline {subsection}{\numberline {8.7.1}Parallel Execution}{163}{subsection.8.7.1}
+\contentsline {subsection}{\numberline {8.7.2}Independent Concurrent Execution}{165}{subsection.8.7.2}
+\contentsline {section}{\numberline {8.8}Scalability Estimation}{166}{section.8.8}
+\contentsline {subsection}{\numberline {8.8.1}Directory-based coherence}{166}{subsection.8.8.1}
+\contentsline {subsection}{\numberline {8.8.2}Time-based coherence}{166}{subsection.8.8.2}
+\contentsline {section}{\numberline {8.9}Simplicity}{167}{section.8.9}
+\contentsline {section}{\numberline {8.10}Summary}{167}{section.8.10}
+\contentsline {chapter}{\numberline {9}Conclusions and Future Research}{169}{chapter.9}
+\contentsline {section}{\numberline {9.1}Coherence}{169}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Performance Evaluation}{170}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Memory Consistency}{170}{subsection.9.1.2}
+\contentsline {section}{\numberline {9.2}Side-Channel Attacks}{171}{section.9.2}
+\contentsline {section}{\numberline {9.3}Engineering Contributions}{171}{section.9.3}
+\contentsline {paragraph}{The BERI multiprocessor architecture}{171}{section.9.3}
+\contentsline {paragraph}{Bringing up FreeBSD on multi-core BERI}{172}{Item.73}
+\contentsline {paragraph}{Tests created for multi-core BERI}{172}{Item.78}
+\contentsline {section}{\numberline {9.4}Conclusion}{172}{section.9.4}
+\contentsline {section}{\numberline {9.5}Future Research}{173}{section.9.5}
+\contentsline {subsection}{\numberline {9.5.1}Capability Enhancement of Time-Based Coherence}{173}{subsection.9.5.1}
+\contentsline {subsection}{\numberline {9.5.2}Scalability}{174}{subsection.9.5.2}
+\contentsline {subsection}{\numberline {9.5.3}Cache Configurations}{175}{subsection.9.5.3}
+\contentsline {subsection}{\numberline {9.5.4}Hardware Speculation}{175}{subsection.9.5.4}
+\contentsline {subsection}{\numberline {9.5.5}Side-Channel Leakage Detection}{175}{subsection.9.5.5}
+\contentsline {chapter}{References}{177}{subsection.9.5.5}

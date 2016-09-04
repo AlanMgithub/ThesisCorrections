@@ -1,0 +1,2149 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.6.24)  24 DEC 2015 12:46
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**thesis.tex
+(./thesis.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+\@input{Macros/MacroFile1.aux}
+\openout2 = `Macros/MacroFile1.aux'.
+
+(./Macros/MacroFile1.tex) (./Classes/CUEDthesisPSnPDF.cls
+
+LaTeX Warning: You have requested document class `Classes/CUEDthesisPSnPDF',
+               but the document class provides `CUEDthesisPSnPDF'.
+
+Document Class: CUEDthesisPSnPDF 2003/01/11 v1.2 CUED thesis class
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/amsfonts/eucal.sty
+Package: eucal 2009/06/22 v3.00 Euler Script fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/09/25 3.9l The Babel package
+
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/09/25 3.9l Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen103
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
+))
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks15
+\footnotemargin=\dimen104
+\c@pp@next@reset=\count90
+\c@@fnserial=\count91
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
+\nomlabelwidth=\dimen105
+\nom@tempdim=\dimen106
+\nomitemsep=\skip52
+)
+\@glossaryfile=\write3
+\openout3 = `thesis.glo'.
+
+
+Writing glossary file thesis.glo 
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+) (/auto/groups/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen107
+\Hy@linkcounter=\count92
+\Hy@pagecounter=\count93
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count94
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `plainpages' set `false' on input line 4319.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4319.
+
+
+Package hyperref Warning: Values of option `pdfpagelayout':
+(hyperref)                * `SinglePage'
+(hyperref)                * `OneColumn'
+(hyperref)                * `TwoColumnLeft'
+(hyperref)                * `TwoColumnRight'
+(hyperref)                * `TwoPageLeft' (PDF 1.5)
+(hyperref)                * `TwoPageRight' (PDF 1.5)
+(hyperref)                * An empty value disables the option.
+(hyperref)                Unknown value `useoutlines' on input line 4319.
+
+Package hyperref Info: Option `bookmarks' set `true' on input line 4319.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4319.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4319
+.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4319.
+Package hyperref Info: Option `linktocpage' set `true' on input line 4319.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
+Package hyperref Info: Option `hyperindex' set `true' on input line 4319.
+Package hyperref Info: Option `hyperfigures' set `true' on input line 4319.
+Package hyperref Info: Hyper figures ON on input line 4441.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing ON on input line 4461.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/hyperref/backref.sty
+Package: backref 2012/07/25 v1.38 Bibliographical back referencing
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+\c@Hy@tempcnt=\count95
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen108
+\Fld@menulength=\count96
+\Field@Width=\dimen109
+\Fld@charsize=\dimen110
+Package hyperref Info: Hyper figures ON on input line 6293.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing ON on input line 6308.
+Package hyperref Info: Link coloring ON on input line 6313.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count97
+\c@Item=\count98
+\c@Hfootnote=\count99
+)
+
+Package hyperref Message: Driver: hpdftex.
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count100
+\c@bookmark@seq@number=\count101
+\Hy@SectionHShift=\skip53
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+))
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/emptypage/emptypage.sty
+Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty 
+pages
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write4
+
+Excluding comment 'comment')
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks17
+\SOUL@lasttoken=\toks18
+\SOUL@cmds=\toks19
+\SOUL@buffer=\toks20
+\SOUL@token=\toks21
+\SOUL@spaceskip=\skip54
+\SOUL@ttwidth=\dimen113
+\SOUL@uldp=\dimen114
+\SOUL@ulht=\dimen115
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks22
+\verbatim@line=\toks23
+\verbatim@in@stream=\read1
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip55
+
+For additional information on amsmath, use the `?' option.
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks24
+\ex@=\dimen116
+))
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen117
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count102
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count103
+\leftroot@=\count104
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count105
+\DOTSCASE@=\count106
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen118
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count107
+\c@MaxMatrixCols=\count108
+\dotsspace@=\muskip11
+\c@parentequation=\count109
+\dspbrk@lvl=\count110
+\tag@help=\toks25
+\row@=\count111
+\column@=\count112
+\maxfields@=\count113
+\andhelp@=\toks26
+\eqnshift@=\dimen119
+\alignsep@=\dimen120
+\tagshift@=\dimen121
+\tagwidth@=\dimen122
+\totwidth@=\dimen123
+\lineht@=\dimen124
+\@envbody=\toks27
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count114
+\lst@gtempboxa=\box28
+\lst@token=\toks29
+\lst@length=\count115
+\lst@currlwidth=\dimen125
+\lst@column=\count116
+\lst@pos=\count117
+\lst@lostspace=\dimen126
+\lst@width=\dimen127
+\lst@newlines=\count118
+\lst@lineno=\count119
+\lst@maxwidth=\dimen128
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count120
+\lst@skipnumbers=\count121
+\lst@framebox=\box29
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(./StyleFiles/watermark.sty
+
+LaTeX Warning: You have requested package `StyleFiles/watermark',
+               but the package provides `watermark'.
+
+Package: watermark 2002/01/29 v1.00 Watermarks (NCC)
+) (/auto/groups/texlive/2015/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/05/04 v2.2 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count122
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.
+tex
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen129
+\pgfutil@tempdimb=\dimen130
+
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-
+lists.tex))
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.d
+ef
+\pgfutil@abb=\box30
+ (/auto/groups/texlive/2015/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+))
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
+ (/auto/groups/texlive/2015/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.t
+ex
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.te
+x
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
+
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered
+.code.tex
+\pgfkeys@tmptoks=\toks33
+))
+\pgf@x=\dimen131
+\pgf@y=\dimen132
+\pgf@xa=\dimen133
+\pgf@ya=\dimen134
+\pgf@xb=\dimen135
+\pgf@yb=\dimen136
+\pgf@xc=\dimen137
+\pgf@yc=\dimen138
+\w@pgf@writea=\write5
+\r@pgf@reada=\read2
+\c@pgf@counta=\count123
+\c@pgf@countb=\count124
+\c@pgf@countc=\count125
+\c@pgf@countd=\count126
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
+
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex
+.def
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
+
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common
+-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpat
+h.code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count127
+\pgfsyssoftpath@bigbuffer@items=\count128
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotoco
+l.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/auto/groups/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.t
+ex
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+ (/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.t
+ex
+\pgfmath@dimen=\dimen139
+\pgfmath@count=\count129
+\pgfmath@box=\box31
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.cod
+e.tex
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.bas
+ic.code.tex)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.tri
+gonometric.code.tex)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.ran
+dom.code.tex)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.com
+parison.code.tex)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.bas
+e.code.tex)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rou
+nd.code.tex)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.mis
+c.code.tex)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.int
+egerarithmetics.code.tex)))
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.te
+x
+\c@pgfmathroundto@lastzeros=\count130
+))
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.
+code.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen140
+\pgf@picmaxx=\dimen141
+\pgf@picminy=\dimen142
+\pgf@picmaxy=\dimen143
+\pgf@pathminx=\dimen144
+\pgf@pathmaxx=\dimen145
+\pgf@pathminy=\dimen146
+\pgf@pathmaxy=\dimen147
+\pgf@xx=\dimen148
+\pgf@xy=\dimen149
+\pgf@yx=\dimen150
+\pgf@yy=\dimen151
+\pgf@zx=\dimen152
+\pgf@zy=\dimen153
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathcon
+struct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen154
+\pgf@path@lasty=\dimen155
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusa
+ge.code.tex
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+\pgf@shorten@end@additional=\dimen156
+\pgf@shorten@start@additional=\dimen157
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.
+code.tex
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
+\pgfpic=\box32
+\pgf@hbox=\box33
+\pgf@layerbox@main=\box34
+\pgf@picture@serial@count=\count131
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphic
+state.code.tex
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+\pgflinewidth=\dimen158
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransfo
+rmations.code.tex
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+\pgf@pt@x=\dimen159
+\pgf@pt@y=\dimen160
+\pgf@pt@temp=\dimen161
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.c
+ode.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects
+.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathpro
+cessing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.
+code.tex
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+\pgfarrowsep=\dimen162
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.c
+ode.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen163
+\pgf@sys@shading@range@num=\count132
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.c
+ode.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexterna
+l.code.tex
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
+\pgfexternal@startupbox=\box35
+))
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.
+code.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspa
+rency.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepattern
+s.code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.c
+ode.tex
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
+\pgfnodeparttextbox=\box36
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.cod
+e.tex
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-versi
+on-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen164
+\pgf@nodesepend=\dimen165
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-versi
+on-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
+))
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.te
+x)) (/auto/groups/texlive/2015/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen166
+\pgffor@skip=\dimen167
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
+))
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.c
+ode.tex
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
+
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/libraries/pgflibraryploth
+andlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
+\pgf@plot@mark@count=\count133
+\pgfplotmarksize=\dimen168
+)
+\tikz@lastx=\dimen169
+\tikz@lasty=\dimen170
+\tikz@lastxsaved=\dimen171
+\tikz@lastysaved=\dimen172
+\tikzleveldistance=\dimen173
+\tikzsiblingdistance=\dimen174
+\tikz@figbox=\box37
+\tikz@figbox@bg=\box38
+\tikz@tempbox=\box39
+\tikz@tempbox@bg=\box40
+\tikztreelevel=\count134
+\tikznumberofchildren=\count135
+\tikznumberofcurrentchild=\count136
+\tikz@fig@count=\count137
+
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.c
+ode.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count138
+\pgfmatrixcurrentcolumn=\count139
+\pgf@matrix@numberofcolumns=\count140
+)
+\tikz@expandcount=\count141
+
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
+)))
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librar
+ies/tikzlibrarymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2013/07/12 v3.0.0 (rcs-revision 1.4)
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xy.sty
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing:
+catcodes, docmode,
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xyrecat.tex)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xyidioms.tex)
+
+ Xy-pic version 3.8.9 <2013/10/06>
+ Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
+ Xy-pic is free software: see the User's Guide for details.
+
+Loading kernel: messages; fonts; allocations: state,
+\X@c=\dimen175
+\Y@c=\dimen176
+\U@c=\dimen177
+\D@c=\dimen178
+\L@c=\dimen179
+\R@c=\dimen180
+\Edge@c=\toks42
+\X@p=\dimen181
+\Y@p=\dimen182
+\U@p=\dimen183
+\D@p=\dimen184
+\L@p=\dimen185
+\R@p=\dimen186
+\Edge@p=\toks43
+\X@origin=\dimen187
+\Y@origin=\dimen188
+\X@xbase=\dimen189
+\Y@xbase=\dimen190
+\X@ybase=\dimen191
+\Y@ybase=\dimen192
+\X@min=\dimen193
+\Y@min=\dimen194
+\X@max=\dimen195
+\Y@max=\dimen196
+\lastobjectbox@=\box41
+\zerodotbox@=\box42
+\almostz@=\dimen197
+ direction,
+\d@X=\dimen198
+\d@Y=\dimen199
+\K@=\count142
+\KK@=\count143
+\Direction=\count144
+\K@dXdY=\dimen200
+\K@dYdX=\dimen201
+\xyread@=\read3
+\xywrite@=\write6
+\csp@=\count145
+\quotPTK@=\dimen202
+
+utility macros; pictures: \xy, positions,
+\swaptoks@@=\toks44
+\connectobjectbox@@=\box43
+ objects,
+\styletoks@=\toks45
+ decorations;
+kernel objects: directionals, circles, text; options; algorithms: directions,
+edges, connections;  Xy-pic loaded)
+Package: xy 2013/10/06 Xy-pic version 3.8.9
+
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xyall.tex
+ Xy-pic option: All features v.3.8
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xycurve.tex
+ Xy-pic option: Curve and Spline extension v.3.12 curve,
+\crv@cnt@=\count146
+\crvpts@=\toks46
+\splinebox@=\box44
+\splineval@=\dimen203
+\splinedepth@=\dimen204
+\splinetol@=\dimen205
+\splinelength@=\dimen206
+ circles,
+\L@=\dimen207
+ loaded)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xyframe.tex
+ Xy-pic option: Frame and Bracket extension v.3.14 loaded)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xycmtip.tex
+ Xy-pic option: Computer Modern tip extension v.3.7
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xytips.tex
+ Xy-pic option: More Tips extension v.3.11 loaded) loaded)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xyline.tex
+ Xy-pic option: Line styles extension v.3.10
+\xylinethick@=\dimen208
+ loaded)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xyrotate.tex
+ Xy-pic option: Rotate and Scale extension v.3.8 loaded)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xycolor.tex
+ Xy-pic option: Colour extension v.3.11 loaded)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xymatrix.tex
+ Xy-pic option: Matrix feature v.3.14
+\Row=\count147
+\Col=\count148
+\queue@=\toks47
+\queue@@=\toks48
+\qcount@=\count149
+\qcount@@=\count150
+\matrixsize@=\count151
+ loaded)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xyarrow.tex
+ Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xygraph.tex
+ Xy-pic option: Graph feature v.3.11 loaded) loaded)
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xypdf.tex
+ Xy-pic option: PDF driver v.1.7 Xy-pic pdf driver: `color' extension support
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xypdf-co.tex loaded)
+Xy-pic pdf driver: `curve' extension support
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xypdf-cu.tex loaded)
+Xy-pic pdf driver: `frame' extension support
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xypdf-fr.tex loaded)
+Xy-pic pdf driver: `line' extension support
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xypdf-li.tex loaded)
+Xy-pic pdf driver: `rotate' extension support
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/xypic/xypdf-ro.tex loaded)
+loaded)) (/auto/groups/texlive/2015/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count152
+\FV@InFile=\read4
+\FV@TabBox=\box45
+\c@FancyVerbLine=\count153
+\FV@StepNumber=\count154
+\FV@OutFile=\write7
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen209
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/bytefield/bytefield.sty
+Package: bytefield 2014/06/03 v2.2 Network protocol diagrams
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count155
+\calc@Bcount=\count156
+\calc@Adimen=\dimen210
+\calc@Bdimen=\dimen211
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count157
+\calc@Cskip=\skip60
+)
+\bytefield@height=\skip61
+\bytefield@height@increment=\skip62
+\entire@bytefield@picture=\box46
+\bf@bitwidth=\skip63
+\bf@bitheight=\skip64
+\units@wide=\skip65
+\units@tall=\skip66
+\units@high=\skip67
+\header@xpos=\skip68
+\c@header@val=\count158
+\c@max@header@val=\count159
+\curly@box=\box47
+\wordlabelr@start=\skip69
+\wordlabelr@end=\skip70
+\wordlabell@start=\skip71
+\wordlabell@end=\skip72
+\total@lbox@width=\skip73
+\label@box@width=\skip74
+\label@box@height=\skip75
+\word@label@box=\box48
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen212
+\captionmargin@=\dimen213
+\captionwidth=\dimen214
+\caption@tempdima=\dimen215
+\caption@indent=\dimen216
+\caption@parindent=\dimen217
+\caption@hangindent=\dimen218
+)
+\c@ContinuedFloat=\count160
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count161
+\c@subtable=\count162
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2015/06/12 version 3.61 text color boxes
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box49
+\tcb@upperbox=\box50
+\tcb@lowerbox=\box51
+\tcb@phantombox=\box52
+\c@tcbbreakpart=\count163
+\c@tcblayer=\count164
+\tcb@temp=\box53
+\tcb@temp=\box54
+\tcb@temp=\box55
+\tcb@temp=\box56
+\tcb@out=\write8
+\tcb@record@out=\write9
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/epigraph/epigraph.sty
+Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
+\beforeepigraphskip=\skip76
+\afterepigraphskip=\skip77
+\epigraphwidth=\skip78
+\epigraphrule=\skip79
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box57
+\beforetitleunit=\skip80
+\aftertitleunit=\skip81
+\ttl@plus=\dimen219
+\ttl@minus=\dimen220
+\ttl@toksa=\toks49
+\titlewidth=\dimen221
+\titlewidthlast=\dimen222
+\titlewidthfirst=\dimen223
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count165
+\c@Blindtext=\count166
+\c@blind@countparstart=\count167
+\blind@countxx=\count168
+\blindtext@numBlindtext=\count169
+\blind@countyy=\count170
+\c@blindlist=\count171
+\c@blindlistlevel=\count172
+\c@blindlist@level=\count173
+\blind@listitem=\count174
+\c@blind@listcount=\count175
+\c@blind@levelcount=\count176
+\blind@mathformula=\count177
+\blind@Mathformula=\count178
+\c@blind@randomcount=\count179
+\c@blind@randommax=\count180
+\c@blind@pangramcount=\count181
+\c@blind@pangrammax=\count182
+)
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)) (./thesis.aux (./Introduction/introduction.aux) (./Background/background.aux
+)
+(./Chapter3/chapter3.aux) (./Chapter1/chapter1.aux) (./Results/results.aux)
+(./Chapter2/chapter2.aux) (./Conclusion/conclusion.aux))
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+
+(/auto/groups/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count183
+\scratchdimen=\dimen224
+\scratchbox=\box58
+\nofMPsegments=\count184
+\nofMParguments=\count185
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count186
+\MPscratchDim=\dimen225
+\MPnumerator=\count187
+\makeMPintoPDFobject=\count188
+\everyMPtoPDFconversion=\toks51
+) (/auto/groups/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.jpg,.pdf,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box59
+Package hyperref Info: Link coloring ON on input line 112.
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/auto/groups/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count189
+)
+LaTeX Info: Redefining \ref on input line 112.
+LaTeX Info: Redefining \pageref on input line 112.
+LaTeX Info: Redefining \nameref on input line 112.
+(./thesis.out) (./thesis.out)
+\@outlinefile=\write10
+\openout10 = `thesis.out'.
+
+\c@lstlisting=\count190
+ ABD: EveryShipout initializing macros
+LaTeX Font Info:    Try loading font information for U+msa on input line 112.
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 112.
+
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Package xypdf Info: Line width: 0.47998pt on input line 112.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+<ThesisFigs/UnivShield.png, id=500, 888.31876pt x 1027.84pt>
+File: ThesisFigs/UnivShield.png Graphic file (type png)
+
+<use ThesisFigs/UnivShield.png>
+Package pdftex.def Info: ThesisFigs/UnivShield.png used on input line 134.
+(pdftex.def)             Requested size: 85.35826pt x 98.75934pt.
+ [1
+
+
+
+{/auto/groups/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./The
+sisFigs/UnivShield.png>] [2
+
+] [3] [4
+
+] [5
+
+]
+[6
+
+] [7
+
+] [8
+
+] (./thesis.toc [9
+
+] [10] [11])
+\tf@toc=\write11
+\openout11 = `thesis.toc'.
+
+ [12] (./thesis.lof [13
+
+])
+\tf@lof=\write12
+\openout12 = `thesis.lof'.
+
+ [14]
+(./thesis.lot)
+\tf@lot=\write13
+\openout13 = `thesis.lot'.
+
+ [15
+
+] [16
+
+]
+\openout2 = `Introduction/introduction.aux'.
+
+ (./Introduction/introduction.tex
+Chapter 1.
+[17
+
+
+] [18]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
+ (/auto/groups/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
+
+[19]) [20] [21
+
+
+]
+\openout2 = `Background/background.aux'.
+
+ (./Background/background.tex
+Chapter 2.
+[22
+
+
+] [23] [24] [25] [26] [27] [28] [29]
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 241.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 241.
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 241.
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 241.
+
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 251.
+(/auto/groups/texlive/2015/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <12> not available
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 254.
+
+
+Package xcolor Warning: Incompatible color definition on input line 258.
+
+
+Package xcolor Warning: Incompatible color definition on input line 260.
+
+
+Package xcolor Warning: Incompatible color definition on input line 262.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 300.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 300.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 300.
+
+[30]
+
+Package xcolor Warning: Incompatible color definition on input line 316.
+
+
+Package xcolor Warning: Incompatible color definition on input line 318.
+
+[31]
+<Background/BackgroundFigs/consistency_sets.pdf, id=1069, 796.9775pt x 597.2312
+5pt>
+File: Background/BackgroundFigs/consistency_sets.pdf Graphic file (type pdf)
+ <use Background/BackgroundFigs/consistency_sets.pdf>
+Package pdftex.def Info: Background/BackgroundFigs/consistency_sets.pdf used on
+ input line 333.
+(pdftex.def)             Requested size: 320.08656pt x 198.72482pt.
+
+
+Package xcolor Warning: Incompatible color definition on input line 354.
+
+
+Package xcolor Warning: Incompatible color definition on input line 356.
+
+[32 <./Background/BackgroundFigs/consistency_sets.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 380.
+
+
+Package xcolor Warning: Incompatible color definition on input line 381.
+
+
+Package xcolor Warning: Incompatible color definition on input line 381.
+
+
+Package xcolor Warning: Incompatible color definition on input line 383.
+
+[33] [34] [35] [36]) [37] [38
+
+
+]
+\openout2 = `Chapter3/chapter3.aux'.
+
+ (./Chapter3/chapter3.tex
+Chapter 3.
+[39
+
+
+]
+<Chapter3/Chapter3Figs/BERI_pipeline.pdf, id=1216, 757.83125pt x 581.17125pt>
+File: Chapter3/Chapter3Figs/BERI_pipeline.pdf Graphic file (type pdf)
+
+<use Chapter3/Chapter3Figs/BERI_pipeline.pdf>
+Package pdftex.def Info: Chapter3/Chapter3Figs/BERI_pipeline.pdf used on input 
+line 29.
+(pdftex.def)             Requested size: 426.7994pt x 327.30708pt.
+ [40 <./Chapter3/Chapter3Figs/BERI_pipeline.pdf>] [41]
+<Chapter3/Chapter3Figs/BERI_directory.pdf, id=1256, 772.8875pt x 544.0325pt>
+File: Chapter3/Chapter3Figs/BERI_directory.pdf Graphic file (type pdf)
+
+<use Chapter3/Chapter3Figs/BERI_directory.pdf>
+Package pdftex.def Info: Chapter3/Chapter3Figs/BERI_directory.pdf used on input
+ line 64.
+(pdftex.def)             Requested size: 426.78767pt x 300.41418pt.
+
+<Chapter3/Chapter3Figs/BERI_timebased.pdf, id=1258, 772.8875pt x 544.0325pt>
+File: Chapter3/Chapter3Figs/BERI_timebased.pdf Graphic file (type pdf)
+
+<use Chapter3/Chapter3Figs/BERI_timebased.pdf>
+Package pdftex.def Info: Chapter3/Chapter3Figs/BERI_timebased.pdf used on input
+ line 73.
+(pdftex.def)             Requested size: 426.78767pt x 300.41418pt.
+ [42 <./Chapter3/Chapter3Figs/BERI_directory.pdf>] [43 <./Chapter3/Chapter3Figs
+/BERI_timebased.pdf>]
+<Chapter3/Chapter3Figs/BERI_llsc.pdf, id=1324, 796.9775pt x 597.23125pt>
+File: Chapter3/Chapter3Figs/BERI_llsc.pdf Graphic file (type pdf)
+
+<use Chapter3/Chapter3Figs/BERI_llsc.pdf>
+Package pdftex.def Info: Chapter3/Chapter3Figs/BERI_llsc.pdf used on input line
+ 114.
+(pdftex.def)             Requested size: 426.78613pt x 229.9249pt.
+ [44 <./Chapter3/Chapter3Figs/BERI_llsc.pdf>]
+<Chapter3/Chapter3Figs/quartus_dualcore_legend.pdf, id=1353, 763.85374pt x 41.1
+5375pt>
+File: Chapter3/Chapter3Figs/quartus_dualcore_legend.pdf Graphic file (type pdf)
+
+ <use Chapter3/Chapter3Figs/quartus_dualcore_legend.pdf>
+Package pdftex.def Info: Chapter3/Chapter3Figs/quartus_dualcore_legend.pdf used
+ on input line 138.
+(pdftex.def)             Requested size: 392.64725pt x 21.15453pt.
+
+<Chapter3/Chapter3Figs/quartus_dualcore_full.pdf, id=1354, 522.95375pt x 832.10
+875pt>
+File: Chapter3/Chapter3Figs/quartus_dualcore_full.pdf Graphic file (type pdf)
+ <use Chapter3/Chapter3Figs/quartus_dualcore_full.pdf>
+Package pdftex.def Info: Chapter3/Chapter3Figs/quartus_dualcore_full.pdf used o
+n input line 158.
+(pdftex.def)             Requested size: 177.11877pt x 281.83398pt.
+
+<Chapter3/Chapter3Figs/quartus_dualcore_cores.pdf, id=1355, 522.95375pt x 832.1
+0875pt>
+File: Chapter3/Chapter3Figs/quartus_dualcore_cores.pdf Graphic file (type pdf)
+ <use Chapter3/Chapter3Figs/quartus_dualcore_cores.pdf>
+Package pdftex.def Info: Chapter3/Chapter3Figs/quartus_dualcore_cores.pdf used 
+on input line 165.
+(pdftex.def)             Requested size: 177.11877pt x 281.83398pt.
+
+<Chapter3/Chapter3Figs/quartus_dualcore_memory.pdf, id=1356, 522.95375pt x 832.
+10875pt>
+File: Chapter3/Chapter3Figs/quartus_dualcore_memory.pdf Graphic file (type pdf)
+
+ <use Chapter3/Chapter3Figs/quartus_dualcore_memory.pdf>
+Package pdftex.def Info: Chapter3/Chapter3Figs/quartus_dualcore_memory.pdf used
+ on input line 172.
+(pdftex.def)             Requested size: 177.11877pt x 281.83398pt.
+
+<Chapter3/Chapter3Figs/quartus_dualcore_caches.pdf, id=1357, 522.95375pt x 832.
+10875pt>
+File: Chapter3/Chapter3Figs/quartus_dualcore_caches.pdf Graphic file (type pdf)
+
+ <use Chapter3/Chapter3Figs/quartus_dualcore_caches.pdf>
+Package pdftex.def Info: Chapter3/Chapter3Figs/quartus_dualcore_caches.pdf used
+ on input line 178.
+(pdftex.def)             Requested size: 177.11877pt x 281.83398pt.
+ [45] [46 <./Chapter3/Chapter3Figs/quartus_dualcore_legend.pdf> <./Chapter3/Cha
+pter3Figs/quartus_dualcore_full.pdf
+
+pdfTeX warning: pdflatex (file ./Chapter3/Chapter3Figs/quartus_dualcore_full.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Chapter3/Chapter3Figs/quartus_dualcore_cores.pdf
+
+pdfTeX warning: pdflatex (file ./Chapter3/Chapter3Figs/quartus_dualcore_cores.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Chapter3/Chapter3Figs/quartus_dualcore_memory.pdf
+
+pdfTeX warning: pdflatex (file ./Chapter3/Chapter3Figs/quartus_dualcore_memory.
+pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Chapter3/Chapter3Figs/quartus_dualcore_caches.pdf
+
+pdfTeX warning: pdflatex (file ./Chapter3/Chapter3Figs/quartus_dualcore_caches.
+pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [47]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [48] [49] [50
+
+
+]
+\openout2 = `Chapter1/chapter1.aux'.
+
+ (./Chapter1/chapter1.tex
+Chapter 4.
+[51
+
+
+] [52] [53]
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+ [54]
+<Chapter1/Chapter1Figs/BERI_sync.pdf, id=1476, 772.8875pt x 245.91875pt>
+File: Chapter1/Chapter1Figs/BERI_sync.pdf Graphic file (type pdf)
+
+<use Chapter1/Chapter1Figs/BERI_sync.pdf>
+Package pdftex.def Info: Chapter1/Chapter1Figs/BERI_sync.pdf used on input line
+ 107.
+(pdftex.def)             Requested size: 426.78767pt x 135.79607pt.
+ [55 <./Chapter1/Chapter1Figs/BERI_sync.pdf>] [56] [57] [58
+
+] [59]
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+ [60]
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+\height=\dimen226 (locally)
+\depth=\dimen227 (locally)
+\totalheight=\dimen228 (locally)
+\width=\dimen229 (locally)
+ [61] [62] [63
+
+] [64] [65] [66] [67] [68
+
+]
+<Chapter1/Chapter1Figs/quartus_graph.pdf, id=1595, 550.055pt x 223.83624pt>
+File: Chapter1/Chapter1Figs/quartus_graph.pdf Graphic file (type pdf)
+
+<use Chapter1/Chapter1Figs/quartus_graph.pdf>
+Package pdftex.def Info: Chapter1/Chapter1Figs/quartus_graph.pdf used on input 
+line 364.
+(pdftex.def)             Requested size: 426.8086pt x 173.68304pt.
+ [69 <./Chapter1/Chapter1Figs/quartus_graph.pdf>] [70
+
+]
+Chapter 5.
+[71
+
+] <xymatrix 3x4 262> [72
+
+] <xymatrix 5x4 342> [73
+
+] <xymatrix 5x4 376>
+[74
+
+] <xymatrix 3x4 262> [75
+
+] <xymatrix 3x4 303> [76
+
+]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[77
+
+]
+
+Package xcolor Warning: Incompatible color definition on input line 807.
+
+
+Package xcolor Warning: Incompatible color definition on input line 807.
+
+
+Package xcolor Warning: Incompatible color definition on input line 807.
+
+
+Package xcolor Warning: Incompatible color definition on input line 807.
+
+
+Package xcolor Warning: Incompatible color definition on input line 807.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[78] [79]
+
+Package xcolor Warning: Incompatible color definition on input line 849.
+
+
+Package xcolor Warning: Incompatible color definition on input line 850.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[80]
+
+Package xcolor Warning: Incompatible color definition on input line 902.
+
+
+Package xcolor Warning: Incompatible color definition on input line 903.
+
+
+Package xcolor Warning: Incompatible color definition on input line 904.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[81]
+
+Package xcolor Warning: Incompatible color definition on input line 952.
+
+
+Package xcolor Warning: Incompatible color definition on input line 953.
+
+
+Package xcolor Warning: Incompatible color definition on input line 954.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[82] [83]
+
+Package xcolor Warning: Incompatible color definition on input line 1036.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1037.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1038.
+
+[84] [85]
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 1118.
+
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 1118.
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1118.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 1118.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 1118.
+
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 1118.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 1118.
+
+[86
+
+]) [87] [88
+
+
+]
+\openout2 = `Results/results.aux'.
+
+ (./Results/results.tex
+Chapter 6.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[89
+
+
+] [90]
+<Results/ResultsFigs/splash_combined_freebsd.pdf, id=1760, 642.4pt x 241.90375p
+t>
+File: Results/ResultsFigs/splash_combined_freebsd.pdf Graphic file (type pdf)
+ <use Results/ResultsFigs/splash_combined_freebsd.pdf>
+Package pdftex.def Info: Results/ResultsFigs/splash_combined_freebsd.pdf used o
+n input line 78.
+(pdftex.def)             Requested size: 426.79855pt x 160.71632pt.
+
+<Results/ResultsFigs/splash_combined_ratio.pdf, id=1761, 651.43375pt x 913.4125
+pt>
+File: Results/ResultsFigs/splash_combined_ratio.pdf Graphic file (type pdf)
+ <use Results/ResultsFigs/splash_combined_ratio.pdf>
+Package pdftex.def Info: Results/ResultsFigs/splash_combined_ratio.pdf used on 
+input line 87.
+(pdftex.def)             Requested size: 426.80653pt x 598.44986pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Results/ResultsFigs/splash_combined_inv_ratio.pdf, id=1762, 651.43375pt x 913.
+4125pt>
+File: Results/ResultsFigs/splash_combined_inv_ratio.pdf Graphic file (type pdf)
+
+ <use Results/ResultsFigs/splash_combined_inv_ratio.pdf>
+Package pdftex.def Info: Results/ResultsFigs/splash_combined_inv_ratio.pdf used
+ on input line 95.
+(pdftex.def)             Requested size: 426.80653pt x 598.44986pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[91 <./Results/ResultsFigs/splash_combined_freebsd.pdf>] [92] [93] [94 <./Resul
+ts/ResultsFigs/splash_combined_ratio.pdf>] [95 <./Results/ResultsFigs/splash_co
+mbined_inv_ratio.pdf>]
+<Results/ResultsFigs/splash_16thread_freebsd.pdf, id=2051, 641.39626pt x 246.92
+25pt>
+File: Results/ResultsFigs/splash_16thread_freebsd.pdf Graphic file (type pdf)
+ <use Results/ResultsFigs/splash_16thread_freebsd.pdf>
+Package pdftex.def Info: Results/ResultsFigs/splash_16thread_freebsd.pdf used o
+n input line 134.
+(pdftex.def)             Requested size: 426.79718pt x 164.30688pt.
+ [96
+
+ <./Results/ResultsFigs/splash_16thread_freebsd.pdf>]
+<Results/ResultsFigs/splash_16thread_hit_ratio.pdf, id=2102, 631.35875pt x 432.
+61626pt>
+File: Results/ResultsFigs/splash_16thread_hit_ratio.pdf Graphic file (type pdf)
+
+ <use Results/ResultsFigs/splash_16thread_hit_ratio.pdf>
+Package pdftex.def Info: Results/ResultsFigs/splash_16thread_hit_ratio.pdf used
+ on input line 143.
+(pdftex.def)             Requested size: 426.79424pt x 292.44565pt.
+
+<Results/ResultsFigs/splash_16thread_inv_ratio.pdf, id=2103, 631.35875pt x 432.
+61626pt>
+File: Results/ResultsFigs/splash_16thread_inv_ratio.pdf Graphic file (type pdf)
+
+ <use Results/ResultsFigs/splash_16thread_inv_ratio.pdf>
+Package pdftex.def Info: Results/ResultsFigs/splash_16thread_inv_ratio.pdf used
+ on input line 151.
+(pdftex.def)             Requested size: 426.79424pt x 292.44565pt.
+ [97
+
+ <./Results/ResultsFigs/splash_16thread_hit_ratio.pdf> <./Results/ResultsFigs/s
+plash_16thread_inv_ratio.pdf>] [98
+
+] [99]
+<Results/ResultsFigs/splash_extended_standard.pdf, id=2265, 642.4pt x 896.34875
+pt>
+File: Results/ResultsFigs/splash_extended_standard.pdf Graphic file (type pdf)
+ <use Results/ResultsFigs/splash_extended_standard.pdf>
+Package pdftex.def Info: Results/ResultsFigs/splash_extended_standard.pdf used 
+on input line 179.
+(pdftex.def)             Requested size: 426.79855pt x 595.51736pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Results/ResultsFigs/splash_extended_polling.pdf, id=2266, 642.4pt x 896.34875p
+t>
+File: Results/ResultsFigs/splash_extended_polling.pdf Graphic file (type pdf)
+ <use Results/ResultsFigs/splash_extended_polling.pdf>
+Package pdftex.def Info: Results/ResultsFigs/splash_extended_polling.pdf used o
+n input line 187.
+(pdftex.def)             Requested size: 426.79855pt x 595.51736pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[100 <./Results/ResultsFigs/splash_extended_standard.pdf>] [101 <./Results/Resu
+ltsFigs/splash_extended_polling.pdf>] [102
+
+
+]
+<Results/ResultsFigs/splash_big_cache_full.pdf, id=2549, 660.4675pt x 913.4125p
+t>
+File: Results/ResultsFigs/splash_big_cache_full.pdf Graphic file (type pdf)
+ <use Results/ResultsFigs/splash_big_cache_full.pdf>
+Package pdftex.def Info: Results/ResultsFigs/splash_big_cache_full.pdf used on 
+input line 209.
+(pdftex.def)             Requested size: 426.80954pt x 590.26852pt.
+ [103
+
+ <./Results/ResultsFigs/splash_big_cache_full.pdf>] [104]
+<Results/ResultsFigs/dd_freebsd_full.pdf, id=2724, 634.37pt x 652.4375pt>
+File: Results/ResultsFigs/dd_freebsd_full.pdf Graphic file (type pdf)
+
+<use Results/ResultsFigs/dd_freebsd_full.pdf>
+Package pdftex.def Info: Results/ResultsFigs/dd_freebsd_full.pdf used on input 
+line 249.
+(pdftex.def)             Requested size: 426.80675pt x 438.96265pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[105
+
+] [106 <./Results/ResultsFigs/dd_freebsd_full.pdf>]
+<Results/ResultsFigs/cp_freebsd_full.pdf, id=2833, 641.39626pt x 446.66875pt>
+File: Results/ResultsFigs/cp_freebsd_full.pdf Graphic file (type pdf)
+
+<use Results/ResultsFigs/cp_freebsd_full.pdf>
+Package pdftex.def Info: Results/ResultsFigs/cp_freebsd_full.pdf used on input 
+line 265.
+(pdftex.def)             Requested size: 426.79718pt x 297.22182pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[107
+
+] [108 <./Results/ResultsFigs/cp_freebsd_full.pdf>]
+<Results/ResultsFigs/grep_freebsd_full.pdf, id=2900, 634.37pt x 433.62pt>
+File: Results/ResultsFigs/grep_freebsd_full.pdf Graphic file (type pdf)
+
+<use Results/ResultsFigs/grep_freebsd_full.pdf>
+Package pdftex.def Info: Results/ResultsFigs/grep_freebsd_full.pdf used on inpu
+t line 282.
+(pdftex.def)             Requested size: 426.80675pt x 291.74133pt.
+ [109
+
+ <./Results/ResultsFigs/grep_freebsd_full.pdf>]
+<Results/ResultsFigs/md5_freebsd_full.pdf, id=2965, 634.37pt x 435.6275pt>
+File: Results/ResultsFigs/md5_freebsd_full.pdf Graphic file (type pdf)
+
+<use Results/ResultsFigs/md5_freebsd_full.pdf>
+Package pdftex.def Info: Results/ResultsFigs/md5_freebsd_full.pdf used on input
+ line 297.
+(pdftex.def)             Requested size: 426.80675pt x 293.09198pt.
+ [110
+
+ <./Results/ResultsFigs/md5_freebsd_full.pdf>]
+<Results/ResultsFigs/sha_freebsd_full.pdf, id=3025, 641.39626pt x 446.66875pt>
+File: Results/ResultsFigs/sha_freebsd_full.pdf Graphic file (type pdf)
+
+<use Results/ResultsFigs/sha_freebsd_full.pdf>
+Package pdftex.def Info: Results/ResultsFigs/sha_freebsd_full.pdf used on input
+ line 312.
+(pdftex.def)             Requested size: 426.79718pt x 297.22182pt.
+ [111
+
+ <./Results/ResultsFigs/sha_freebsd_full.pdf>] [112
+
+] [113] [114]) [115
+
+] [116
+
+
+]
+\openout2 = `Chapter2/chapter2.aux'.
+
+ (./Chapter2/chapter2.tex
+Chapter 7.
+[117
+
+
+] [118] [119]
+<Chapter2/Chapter2Figs/prime_and_probe.pdf, id=3148, 746.79pt x 552.0625pt>
+File: Chapter2/Chapter2Figs/prime_and_probe.pdf Graphic file (type pdf)
+
+<use Chapter2/Chapter2Figs/prime_and_probe.pdf>
+Package pdftex.def Info: Chapter2/Chapter2Figs/prime_and_probe.pdf used on inpu
+t line 58.
+(pdftex.def)             Requested size: 426.79143pt x 315.50443pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[120] [121 <./Chapter2/Chapter2Figs/prime_and_probe.pdf>] [122]
+<Chapter2/Chapter2Figs/prime_and_probe_time_based.pdf, id=3189, 746.79pt x 552.
+0625pt>
+File: Chapter2/Chapter2Figs/prime_and_probe_time_based.pdf Graphic file (type p
+df)
+ <use Chapter2/Chapter2Figs/prime_and_probe_time_based.pdf>
+Package pdftex.def Info: Chapter2/Chapter2Figs/prime_and_probe_time_based.pdf u
+sed on input line 96.
+(pdftex.def)             Requested size: 426.79143pt x 315.50443pt.
+ [123 <./Chapter2/Chapter2Figs/prime_and_probe_time_based.pdf>] [124]
+
+LaTeX Warning: Reference `vaucher_system_info' on page 125 undefined on input l
+ine 120.
+
+[125] [126] [127] [128] [129]
+<Chapter2/Chapter2Figs/sca_baremetal_standard_1.pdf, id=3260, 1123.19624pt x 69
+6.6025pt>
+File: Chapter2/Chapter2Figs/sca_baremetal_standard_1.pdf Graphic file (type pdf
+)
+ <use Chapter2/Chapter2Figs/sca_baremetal_standard_1.pdf>
+Package pdftex.def Info: Chapter2/Chapter2Figs/sca_baremetal_standard_1.pdf use
+d on input line 207.
+(pdftex.def)             Requested size: 682.86928pt x 423.51321pt.
+
+
+LaTeX Warning: Float too large for page by 27.40308pt on input line 210.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Chapter2/Chapter2Figs/sca_baremetal_standard_2x.pdf, id=3261, 1103.12125pt x 6
+96.6025pt>
+File: Chapter2/Chapter2Figs/sca_baremetal_standard_2x.pdf Graphic file (type pd
+f)
+ <use Chapter2/Chapter2Figs/sca_baremetal_standard_2x.pdf>
+Package pdftex.def Info: Chapter2/Chapter2Figs/sca_baremetal_standard_2x.pdf us
+ed on input line 214.
+(pdftex.def)             Requested size: 675.84863pt x 426.78703pt.
+
+
+LaTeX Warning: Float too large for page by 20.38243pt on input line 217.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[130] [131 <./Chapter2/Chapter2Figs/sca_baremetal_standard_1.pdf>] [132 <./Chap
+ter2/Chapter2Figs/sca_baremetal_standard_2x.pdf>] [133
+
+]
+<Chapter2/Chapter2Figs/sca_baremetal_long_1.pdf, id=3640, 1123.19624pt x 696.60
+25pt>
+File: Chapter2/Chapter2Figs/sca_baremetal_long_1.pdf Graphic file (type pdf)
+ <use Chapter2/Chapter2Figs/sca_baremetal_long_1.pdf>
+Package pdftex.def Info: Chapter2/Chapter2Figs/sca_baremetal_long_1.pdf used on
+ input line 251.
+(pdftex.def)             Requested size: 682.86928pt x 423.51321pt.
+
+
+LaTeX Warning: Float too large for page by 27.40308pt on input line 254.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Chapter2/Chapter2Figs/sca_baremetal_long_2x.pdf, id=3641, 1103.12125pt x 696.6
+025pt>
+File: Chapter2/Chapter2Figs/sca_baremetal_long_2x.pdf Graphic file (type pdf)
+ <use Chapter2/Chapter2Figs/sca_baremetal_long_2x.pdf>
+Package pdftex.def Info: Chapter2/Chapter2Figs/sca_baremetal_long_2x.pdf used o
+n input line 258.
+(pdftex.def)             Requested size: 675.84863pt x 426.78703pt.
+
+
+LaTeX Warning: Float too large for page by 20.38243pt on input line 261.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[134] [135 <./Chapter2/Chapter2Figs/sca_baremetal_long_1.pdf>] [136 <./Chapter2
+/Chapter2Figs/sca_baremetal_long_2x.pdf>]
+<Chapter2/Chapter2Figs/sca_baremetal_reverse_1.pdf, id=4016, 1109.14375pt x 694
+.595pt>
+File: Chapter2/Chapter2Figs/sca_baremetal_reverse_1.pdf Graphic file (type pdf)
+
+ <use Chapter2/Chapter2Figs/sca_baremetal_reverse_1.pdf>
+Package pdftex.def Info: Chapter2/Chapter2Figs/sca_baremetal_reverse_1.pdf used
+ on input line 281.
+(pdftex.def)             Requested size: 681.53549pt x 426.80774pt.
+
+
+LaTeX Warning: Float too large for page by 26.06929pt on input line 284.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[137
+
+] [138 <./Chapter2/Chapter2Figs/sca_baremetal_reverse_1.pdf>] [139
+
+]
+[140] [141
+
+] [142]
+<Chapter2/Chapter2Figs/freebsd_sca_corepin_1.pdf, id=4214, 1099.10625pt x 696.6
+025pt>
+File: Chapter2/Chapter2Figs/freebsd_sca_corepin_1.pdf Graphic file (type pdf)
+ <use Chapter2/Chapter2Figs/freebsd_sca_corepin_1.pdf>
+Package pdftex.def Info: Chapter2/Chapter2Figs/freebsd_sca_corepin_1.pdf used o
+n input line 378.
+(pdftex.def)             Requested size: 673.38876pt x 426.78703pt.
+
+
+LaTeX Warning: Float too large for page by 17.92256pt on input line 381.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<Chapter2/Chapter2Figs/freebsd_sca_corepin_2.pdf, id=4215, 1099.10625pt x 696.6
+025pt>
+File: Chapter2/Chapter2Figs/freebsd_sca_corepin_2.pdf Graphic file (type pdf)
+ <use Chapter2/Chapter2Figs/freebsd_sca_corepin_2.pdf>
+Package pdftex.def Info: Chapter2/Chapter2Figs/freebsd_sca_corepin_2.pdf used o
+n input line 385.
+(pdftex.def)             Requested size: 673.38876pt x 426.78703pt.
+
+
+LaTeX Warning: Float too large for page by 17.92256pt on input line 388.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[143] [144 <./Chapter2/Chapter2Figs/freebsd_sca_corepin_1.pdf>] [145 <./Chapter
+2/Chapter2Figs/freebsd_sca_corepin_2.pdf>] [146
+
+] [147]) [148] [149
+
+
+]
+\openout2 = `Conclusion/conclusion.aux'.
+
+
+(./Conclusion/conclusion.tex
+Chapter 8.
+[150
+
+
+] [151] [152] [153]) [154] (./thesis.bbl (./thesis.brf)
+\tf@brf=\write14
+\openout14 = `thesis.brf'.
+
+ [155
+
+
+] [156
+
+]
+[157] [158]
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 200.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 200.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 200.
+
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 200.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 200.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 200.
+
+[159] [160] [161] [162]
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 487.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 487.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 487.
+
+[163] [164] [165] [166]
+
+LaTeX Warning: Command \textregistered invalid in math mode on input line 736.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 736.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 736.
+
+[167]) [168]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 277.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 277.
+ (./thesis.aux (./Introduction/introduction.aux)
+(./Background/background.aux) (./Chapter3/chapter3.aux)
+(./Chapter1/chapter1.aux) (./Results/results.aux) (./Chapter2/chapter2.aux)
+(./Conclusion/conclusion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 277.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 277.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: C51CC3E30C4D8BCA11F3FA1FBB103457;9477.
+Package rerunfilecheck Info: File `thesis.brf' has not changed.
+(rerunfilecheck)             Checksum: 9D7B4C5C037FFA96337EDEA324EAE9FE;6527.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 277.
+ ) 
+Here is how much of TeX's memory you used:
+ 27188 strings out of 493089
+ 482818 string characters out of 6133952
+ 617524 words of memory out of 5000000
+ 29494 multiletter control sequences out of 15000+600000
+ 30803 words of font info for 86 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,16n,73p,3238b,1088s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/auto/groups/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.en
+c}{/auto/groups/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</auto/grou
+ps/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></auto/gro
+ups/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></auto/gr
+oups/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></auto/gr
+oups/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></auto/gr
+oups/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></auto/gro
+ups/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></auto/gr
+oups/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></auto/gr
+oups/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></auto/gr
+oups/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></a
+uto/groups/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.p
+fb></auto/groups/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.p
+fb></auto/groups/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0500.p
+fb></auto/groups/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0600.p
+fb></auto/groups/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0700.p
+fb></auto/groups/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0800.p
+fb></auto/groups/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.p
+fb></auto/groups/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.p
+fb></auto/groups/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.p
+fb></auto/groups/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsl1200.p
+fb></auto/groups/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti1000.p
+fb></auto/groups/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti1200.p
+fb></auto/groups/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt1200.p
+fb></auto/groups/texlive/2015/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></a
+uto/groups/texlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></auto/gr
+oups/texlive/2015/texmf-dist/fonts/type1/public/xypic/xyatip10.pfb></auto/group
+s/texlive/2015/texmf-dist/fonts/type1/public/xypic/xybtip10.pfb>
+Output written on thesis.pdf (168 pages, 44926406 bytes).
+PDF statistics:
+ 5102 PDF objects out of 5155 (max. 8388607)
+ 4636 compressed objects within 47 object streams
+ 548 named destinations out of 1000 (max. 500000)
+ 1195 words of extra memory for PDF output out of 10000 (max. 10000000)
+

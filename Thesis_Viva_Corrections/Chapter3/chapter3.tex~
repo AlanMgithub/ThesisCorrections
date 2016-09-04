@@ -1,0 +1,81 @@
+\makeatletter
+%\newcommand{\rmnum}[1]{\romannumeral #1 }
+%\newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+\ifpdf
+\graphicspath{{Chapter2/Chapter2Figs/PNG/}{Chapter2/Chapter2Figs/PDF/}{Chapter2/Chapter2Figs/}}
+\else
+\graphicspath{{Chapter2/Chapter2Figs/EPS/}{Chapter2/Chapter2Figs/}}
+\fi
+
+\chapter{Cache Side-Channel Attacks}
+
+\textbf{Side-Channel Attack(SCA)}
+
+\section{Chapter Summary}
+	\begin{itemize}
+		\item \# The background chapter should have a detailed description of cache side-channel attacks so this chapter will focus on BERI specifics
+		\item \# Why side-channel attack protection is important, and especially in the CHERI context
+		\item \# Cryptography undermined by underlying hardware architecture
+		\item Current software techniques used in AES and other cryptographic algorithms for attack mitigation (Does this go in background?)
+		\item \# Proposed hardware solutions for attack mitigation 
+		\item Related work
+		\item ...
+		\item How do BERI side-channel vulnerabilities compare to other processors
+		\item Detecting the memory footprint of a victim process using a spy process
+		\item Highlight the nuances of my BERI caches and how that affects the testing software
+		\item Describe the theory behind my a time-based cache coherence protocol can mask side-channel leakage
+		\item Describing bare metal tests
+		\item FreeBSD testing software (Using shared memory primitives, core pinning, separate spy-victim processes)
+		\item Describing AES
+		\item Algorithms used in AES and key/data based memory usage
+		\item Why choose AES for testing? PROTECTING ALL APPLICATIONS FROM SIDE-CHANNEL ATTACKS IS BENEFICIAL! AES IS SECURITY CRITICAL SO EASIER TO ARGUE
+		\item Memory latency testing granularity
+		\item What protection do we get by using time-based coherence on its own?
+		\item Performance degradation for AES with time-based coherence, if any!
+		\item Does this extra entropy mask the algorithm enough or just forces higher spy sampling?
+		\item ...
+		\item Does the LLC benefit from these masking effects?
+		\item Can capabilities be used to protect cryptographic algorithms from side-channel attacks
+		\item ...
+		\item Is there any way to protect LLC from side-channel attacks 
+		\item \huge{What do we conclude from this work???}
+	\end{itemize}
+
+\section{CHERI and SCA Mitigation}
+
+The CHERI architecture is designed to provide fine grained memory protection. Capabilities allow the OS to allocate a fixed memory chunk to a security critical application. This chunk of memory is available exclusively to trusted processes. This mechanism provides robust protection again software based attacks such as buffer overflows. However, the capability model is helpless against SCA's.
+
+An SCA is a software or hardware based attack that attempts to extract useful information by exploiting specific hardware behaviour. The attack does not seek weaknesses in software algorithms (in many cases cryptographic), instead it relies on physical properties of the system. System timing information, power consumption, electromagnetic emanation, are just some of the basic exploitable properties. 
+
+Various computations exhibit different power consumption. Tracing the power source can provide a detailed analysis of the power usage variation in the system. Power models can be used to analyse this trace and determine the computations performed by the system with a degree of probability. Similarly, an application can be used to memory latency variation. This fluctuation could determine the memory footprint of other applications ruining on the system. In this chapter we primarily focus on mitigating cache SCA's on CHERI.
+
+\subsection{Leaking data protected by Capabilities}
+
+Capabilities provide memory bounds for application data. This data is stored in memory just like any other data. Capabilities primarily influence the TLB translations of the data but do not affect the caches or main memory itself. Cap's are also stored in memory but with an additional Tag bit. 
+
+Cache SCA's attempt to determine the memory footprint of a particular application and thereby uncover the operations performed by this application. As far as the spy is concerned, the memory footprint of an capability protected application and a regular application is similar. Major differences will be linked to the TLB translation and any additional memory occupied by the capabilities themselves. If a cryptographic algorithm is performed by the system with capability protection, it will be safeguarded against memory leaks but not SCA's.
+
+\subsection{Cryptography and SCA's}         
+
+The behaviour of a cryptographic algorithm is dependant on the input data, key, or often both. A variation in any of the parameters will result in a different set of cryptographic steps. Computing resources required by the algorithm can be limited in order to eliminate any information leakage though side-channels. However, the robustness of these techniques varies.
+
+Encryption algorithms such as RSA, ElGamal, and Digital Signature Algorithm [Ref: wiki, timing attack] use modular exponentiation in one of the steps. This operation calculates the remainder (z) when as integer (x) is raised to the power (p) and divided by a positive integer (y). This algorithm is recursive and the input parameters will affect the memory usage. 
+
+TODO: More information here
+
+\subsection{State of the art SCA Mitigation}     
+
+TODO
+
+\subsection{Solution: CHERI SCA Mitigation}
+
+Cache coherence largely affects the behaviour and shared memory usage of parallel applications. Traditional cache coherence mechanisms are designed for parallel performance and memory consistency. While the addition of a coherence scheme affects memory behaviour, it does nothing for concealing memory usage. 
+
+We have already introduced the concept of time-based cache coherence. This mechanism simple and easy to implement in the context of BERI architecture. Private caches systematically self-invalidate and thereby maintain coherence. An added side effect of this behaviour is a subtle masking of the memory footprint of a specific process. 
+
+TODO: Capability enhanced time-based coherence with SDA protection.  
+
+\subsection{Related Work}
+
+TODO

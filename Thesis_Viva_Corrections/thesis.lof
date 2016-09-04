@@ -1,0 +1,60 @@
+\select@language {english}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Parallel software behaviour\relax }}{30}{figure.caption.6}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Memory consistency model hierarchy}}{36}{figure.caption.11}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces BERI processor architecture\relax }}{44}{figure.caption.14}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces BERI dual-core processor, directory-based coherence\relax }}{46}{figure.caption.15}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces BERI dual-core processor, time-based coherence\relax }}{47}{figure.caption.16}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces BERI LL/SC mechanism\relax }}{48}{figure.caption.17}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Dual-core BERI, Quartus FPGA layout\relax }}{50}{figure.caption.18}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces BERI time-based coherence mechanism}}{57}{figure.caption.20}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces L1 data cache memory polling detector\relax }}{59}{figure.caption.21}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces L1 data cache tags, 16KB cache}}{60}{figure.caption.22}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces L1 data cache tags, 32KB cache}}{60}{figure.caption.22}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces BERI multiprocessor SYNC mechanism\relax }}{61}{figure.caption.23}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces L1 data cache tags, default}}{67}{figure.caption.24}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces L1 data cache tags, short-tags optimisation}}{67}{figure.caption.24}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces L2 cache tags, dual-core directory}}{68}{figure.caption.25}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces L2 cache tags, quad-core directory}}{68}{figure.caption.25}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces L2 cache tags, dual-core time-based}}{68}{figure.caption.25}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Normalised Quartus overheads}}{74}{figure.caption.27}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Test (MP+sync+dep)\relax }}{78}{figure.caption.28}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Test (WRC+sync+dep)\relax }}{79}{figure.caption.29}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Test (W+RWC+sync+dep+sync)\relax }}{80}{figure.caption.30}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Test (LB+sync+dep)\relax }}{81}{figure.caption.31}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Test (MP+syncs)\relax }}{82}{figure.caption.32}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Message passing 1, default and modified tests}}{83}{figure.caption.33}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Message passing 2, default test\relax }}{84}{figure.caption.34}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Barrier implementation\relax }}{84}{figure.caption.35}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Litmus NOP test\relax }}{92}{figure.caption.43}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Prime+Probe attack\relax }}{99}{figure.caption.45}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Prime+Probe attack, time-based coherence\relax }}{101}{figure.caption.46}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Bare metal side-channel attack, chart (1a)\relax }}{108}{figure.caption.47}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Bare metal side-channel attack, chart (1b)\relax }}{109}{figure.caption.48}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Bare metal side-channel attack, chart (2a)\relax }}{112}{figure.caption.49}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Bare metal side-channel attack, chart (2b)\relax }}{113}{figure.caption.50}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Bare metal side-channel attack, chart (3)\relax }}{115}{figure.caption.51}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces FreeBSD side-channel attack (L1 data cache)\relax }}{120}{figure.caption.53}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces FreeBSD side-channel attack (L2 cache)\relax }}{121}{figure.caption.54}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Splash-2 execution time, 2 software threads}}{144}{figure.caption.56}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Splash-2 hit/miss ratios}}{146}{figure.caption.57}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Splash-2 directory-invalidate and self-invalidate ratios}}{147}{figure.caption.58}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Splash-2 execution time, 16 software threads}}{148}{figure.caption.59}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Splash-2 hit/miss ratios, 16 threads\relax }}{149}{figure.caption.60}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Splash-2 directory-invalidate and self-invalidate ratios, 16 threads\relax }}{149}{figure.caption.61}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Splash-2 extended benchmarks, part 1}}{152}{figure.caption.62}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Splash-2 extended benchmarks, part 2}}{153}{figure.caption.63}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Splash-2 cache size vs. coherence}}{155}{figure.caption.64}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces FreeBSD DD performance evaluation\relax }}{159}{figure.caption.65}
+\contentsline {figure}{\numberline {8.11}{\ignorespaces FreeBSD CP performance evaluation\relax }}{160}{figure.caption.66}
+\contentsline {figure}{\numberline {8.12}{\ignorespaces FreeBSD GREP performance evaluation\relax }}{161}{figure.caption.67}
+\contentsline {figure}{\numberline {8.13}{\ignorespaces FreeBSD MD5 performance evaluation\relax }}{162}{figure.caption.68}
+\contentsline {figure}{\numberline {8.14}{\ignorespaces FreeBSD SHA-256 performance evaluation\relax }}{163}{figure.caption.69}
+\addvspace {10\p@ }
