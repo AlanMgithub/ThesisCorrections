@@ -1,0 +1,254 @@
+Warning: file 'mem64.hex' for memory 'mem_memory' has a gap at addresses 2192 to 8191.
+
+K:ª
+T:756
+V:30
+M:0
+H:0
+X:0
+Y:0
+K:128
+T:867
+V:64
+M:4
+H:4
+X:4
+Y:4
+K:256
+T:729
+V:171
+M:1
+H:1
+X:1
+Y:1
+K:384
+T:751
+V:213
+M:3
+H:3
+X:3
+Y:3
+K:512
+T:769
+V:261
+M:1
+H:1
+X:1
+Y:1
+K:640
+T:785
+V:309
+M:9
+H:9
+X:9
+Y:9
+K:768
+T:797
+V:357
+M:7
+H:7
+X:7
+Y:7
+K:896
+T:819
+V:405
+M:5
+H:5
+X:5
+Y:5
+K:1024
+T:837
+V:453
+M:3
+H:3
+X:3
+Y:3
+K:1152
+T:859
+V:501
+M:1
+H:1
+X:1
+Y:1
+K:1280
+T:877
+V:549
+M:9
+H:9
+X:9
+Y:9
+K:1408
+T:899
+V:597
+M:7
+H:7
+X:7
+Y:7
+K:1536
+T:917
+V:645
+M:5
+H:5
+X:5
+Y:5
+K:1664
+T:939
+V:693
+M:3
+H:3
+X:3
+Y:3
+K:1792
+T:957
+V:741
+M:1
+H:1
+X:1
+Y:1
+K:1920
+T:979
+V:789
+M:9
+H:9
+X:9
+Y:9
+K:2048
+T:997
+V:837
+M:7
+H:7
+X:7
+Y:7
+K:2176
+T:1019
+V:885
+M:5
+H:5
+X:5
+Y:5
+K:2304
+T:1037
+V:933
+M:3
+H:3
+X:3
+Y:3
+K:2432
+T:1059
+V:981
+M:1
+H:1
+X:1
+Y:1
+K:2560
+T:1077
+V:1029
+M:9
+H:9
+X:9
+Y:9
+K:2688
+T:1099
+V:1077
+M:7
+H:7
+X:7
+Y:7
+K:2816
+T:1117
+V:1125
+M:5
+H:5
+X:5
+Y:5
+K:2944
+T:1139
+V:1173
+M:3
+H:3
+X:3
+Y:3
+K:3072
+T:1157
+V:1221
+M:1
+H:1
+X:1
+Y:1
+K:3200
+T:1179
+V:1269
+M:9
+H:9
+X:9
+Y:9
+K:3328
+T:1197
+V:1317
+M:7
+H:7
+X:7
+Y:7
+K:3456
+T:1219
+V:1365
+M:5
+H:5
+X:5
+Y:5
+K:3584
+T:1237
+V:1413
+M:3
+H:3
+X:3
+Y:3
+K:3712
+T:1259
+V:1461
+M:1
+H:1
+X:1
+Y:1
+K:3840
+T:1277
+V:1509
+M:9
+H:9
+X:9
+Y:9
+K:3968
+T:1299
+V:1557
+M:7
+H:7
+X:7
+Y:7Loaded module '../../cherilibs/trunk/peripherals/dram.so' (dram)
+Loaded module '../../cherilibs/trunk/peripherals/ethercap.so' (ethercap)
+Loaded module '../../cherilibs/trunk/peripherals/uart.so' (uart)
+Loaded module '../../cherilibs/trunk/peripherals/fb.so' (framebuffer)
+Loaded module '../../cherilibs/trunk/peripherals/sdcard.so' (sdcard)
+Loaded module '../../cherilibs/trunk/peripherals/virtio_block.so' (virtio_block)
+dram0: module dram
+dram0: address 0x0
+dram0: length 0x40000000
+dtb: module dram
+dtb: address 0x7f010000
+dtb: length 0x10000
+dtb: option path=./sim.dtb
+dtb: option type=mmap
+dtb: option cow=yes
+uart0: module uart
+uart0: address 0x7f000000
+uart0: length 0x20
+uart0: irq 0
+uart0: option type=stdio
+uart1: module uart
+uart1: address 0x7f001000
+uart1: length 0x20
+uart1: option type=null
+uart2: module uart
+uart2: address 0x7f002000
+uart2: length 0x20
+uart2: option type=null
+stream 0: /tmp/beri_debug_listen_socket_02807stream 1: /tmp/beri_debug_listen_socket_12807
