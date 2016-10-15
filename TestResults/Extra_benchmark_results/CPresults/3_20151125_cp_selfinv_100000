@@ -1,0 +1,793 @@
+# ./cp_benchmark_shell.sh 
+tput: no terminal type specified and no TERM environmental variable.
+....................... CP TESTING ..............................
+.................................................................
+Running CP test Small
+Count = 
+Start
+*** Performance Counters Core:0 ***
+	Count:3664650061
+	Miss:18090955727
+	Hit:297994312882
+	X:8099194616
+	Y:298811794934
+*** Performance Counters Core:1 ***
+	Count:3665755920
+	Miss:13129268211
+	Hit:293834669394
+	X:4575684011
+	Y:296087584894
+*** Performance Counters Core:0 ***
+	Count:3689184193
+	Miss:18091269317
+	Hit:297997088868
+	X:8099353050
+	Y:298814591688
+*** Performance Counters Core:1 ***
+	Count:3690293098
+	Miss:13130171402
+	Hit:293836329310
+	X:4575919238
+	Y:296089373132
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:3695125183
+	Miss:18091389029
+	Hit:297997676848
+	X:8099416029
+	Y:298815189718
+*** Performance Counters Core:1 ***
+	Count:3696197879
+	Miss:13130393394
+	Hit:293836744384
+	X:4575993257
+	Y:296089800881
+*** Performance Counters Core:0 ***
+	Count:3720469430
+	Miss:18091665242
+	Hit:298000687316
+	X:8099552035
+	Y:298818218519
+*** Performance Counters Core:1 ***
+	Count:3721560426
+	Miss:13131291300
+	Hit:293838545115
+	X:4576229109
+	Y:296091728178
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:3726295564
+	Miss:18091767037
+	Hit:298001297933
+	X:8099603853
+	Y:298818838740
+*** Performance Counters Core:1 ***
+	Count:3727391299
+	Miss:13131512556
+	Hit:293838950240
+	X:4576302936
+	Y:296092146056
+*** Performance Counters Core:0 ***
+	Count:3751807975
+	Miss:18092066992
+	Hit:298004286278
+	X:8099756853
+	Y:298821845997
+*** Performance Counters Core:1 ***
+	Count:3752873348
+	Miss:13132401937
+	Hit:293840785254
+	X:4576537674
+	Y:296094108394
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:3757583180
+	Miss:18092173068
+	Hit:298004880880
+	X:8099811613
+	Y:298822450305
+*** Performance Counters Core:1 ***
+	Count:3758680364
+	Miss:13132624082
+	Hit:293841180849
+	X:4576611939
+	Y:296094516666
+*** Performance Counters Core:0 ***
+	Count:3782943528
+	Miss:18092468031
+	Hit:298007841999
+	X:8099959971
+	Y:298825430475
+*** Performance Counters Core:1 ***
+	Count:3784109064
+	Miss:13133521524
+	Hit:293842999751
+	X:4576845578
+	Y:296096461616
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:3788960538
+	Miss:18092590565
+	Hit:298008434252
+	X:8100023835
+	Y:298826033088
+*** Performance Counters Core:1 ***
+	Count:3790114671
+	Miss:13133744064
+	Hit:293843415634
+	X:4576921029
+	Y:296096890322
+*** Performance Counters Core:0 ***
+	Count:3814675769
+	Miss:18092926594
+	Hit:298011340405
+	X:8100193745
+	Y:298828959991
+*** Performance Counters Core:1 ***
+	Count:3815801814
+	Miss:13134636557
+	Hit:293845248818
+	X:4577159999
+	Y:296098851059
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:3820682236
+	Miss:18093051100
+	Hit:298011924819
+	X:8100258544
+	Y:298829554893
+*** Performance Counters Core:1 ***
+	Count:3821774848
+	Miss:13134858432
+	Hit:293845654128
+	X:4577234023
+	Y:296099269155
+*** Performance Counters Core:0 ***
+	Count:3844169636
+	Miss:18093589010
+	Hit:298014403842
+	X:8100445520
+	Y:298832061934
+*** Performance Counters Core:1 ***
+	Count:3845236368
+	Miss:13135473088
+	Hit:293847638707
+	X:4577424055
+	Y:296101322229
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:3849906906
+	Miss:18093700632
+	Hit:298014987309
+	X:8100503789
+	Y:298832655095
+*** Performance Counters Core:1 ***
+	Count:3850967250
+	Miss:13135692979
+	Hit:293848032007
+	X:4577497817
+	Y:296101728260
+*** Performance Counters Core:0 ***
+	Count:3875326041
+	Miss:18094003740
+	Hit:298017949072
+	X:8100657106
+	Y:298835635991
+*** Performance Counters Core:1 ***
+	Count:3876380274
+	Miss:13136583501
+	Hit:293849844668
+	X:4577735486
+	Y:296103668303
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:3881223882
+	Miss:18094119192
+	Hit:298018545090
+	X:8100717190
+	Y:298836242031
+*** Performance Counters Core:1 ***
+	Count:3882329926
+	Miss:13136805644
+	Hit:293850259692
+	X:4577809199
+	Y:296104096038
+*** Performance Counters Core:0 ***
+	Count:3906564927
+	Miss:18094624662
+	Hit:298021101518
+	X:8100921928
+	Y:298838831806
+*** Performance Counters Core:1 ***
+	Count:3907664793
+	Miss:13137512090
+	Hit:293852473047
+	X:4578001674
+	Y:296106419138
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:3912399277
+	Miss:18094736300
+	Hit:298021701469
+	X:8100980966
+	Y:298839441458
+*** Performance Counters Core:1 ***
+	Count:3913471504
+	Miss:13137730386
+	Hit:293852883817
+	X:4578074028
+	Y:296106842608
+*** Performance Counters Core:0 ***
+	Count:3937844970
+	Miss:18095070360
+	Hit:298024558679
+	X:8101134772
+	Y:298842324516
+*** Performance Counters Core:1 ***
+	Count:3938929724
+	Miss:13138551491
+	Hit:293854944479
+	X:4578285342
+	Y:296109019941
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:3943700623
+	Miss:18095185400
+	Hit:298025143974
+	X:8101196148
+	Y:298842919732
+*** Performance Counters Core:1 ***
+	Count:3944773335
+	Miss:13138773174
+	Hit:293855339782
+	X:4578358887
+	Y:296109427525
+*** Performance Counters Core:0 ***
+	Count:3969145961
+	Miss:18095763492
+	Hit:298027773124
+	X:8101411700
+	Y:298845575819
+*** Performance Counters Core:1 ***
+	Count:3970190371
+	Miss:13139416582
+	Hit:293857490229
+	X:4578542844
+	Y:296111696281
+End
+.................................................................
+Running CP test Medium
+Count = 
+Start
+*** Performance Counters Core:0 ***
+	Count:3976145905
+	Miss:18095925910
+	Hit:298028439269
+	X:8101496997
+	Y:298846254123
+*** Performance Counters Core:1 ***
+	Count:3977192591
+	Miss:13139647252
+	Hit:293858035843
+	X:4578622132
+	Y:296112254595
+*** Performance Counters Core:0 ***
+	Count:4030052715
+	Miss:18097328882
+	Hit:298032811692
+	X:8101993490
+	Y:298850737394
+*** Performance Counters Core:1 ***
+	Count:4031048693
+	Miss:13141050372
+	Hit:293862648663
+	X:4578988907
+	Y:296117008266
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:4035818181
+	Miss:18097470096
+	Hit:298033342092
+	X:8102059155
+	Y:298851278492
+*** Performance Counters Core:1 ***
+	Count:4036897974
+	Miss:13141251013
+	Hit:293863087704
+	X:4579060497
+	Y:296117458167
+*** Performance Counters Core:0 ***
+	Count:4100223201
+	Miss:18098917205
+	Hit:298039248212
+	X:8102582685
+	Y:298857294358
+*** Performance Counters Core:1 ***
+	Count:4101359534
+	Miss:13142786398
+	Hit:293869129181
+	X:4579486073
+	Y:296123635509
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:4106157939
+	Miss:18099035719
+	Hit:298039850689
+	X:8102645877
+	Y:298857906868
+*** Performance Counters Core:1 ***
+	Count:4107236017
+	Miss:13143000270
+	Hit:293869554841
+	X:4579555991
+	Y:296124073956
+*** Performance Counters Core:0 ***
+	Count:4170194225
+	Miss:18100460891
+	Hit:298045776822
+	X:8103159101
+	Y:298863942469
+*** Performance Counters Core:1 ***
+	Count:4171232376
+	Miss:13144530555
+	Hit:293875558729
+	X:4579986523
+	Y:296130214546
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:4175947605
+	Miss:18100680678
+	Hit:298046223108
+	X:8103238835
+	Y:298864400305
+*** Performance Counters Core:1 ***
+	Count:4176973617
+	Miss:13144635869
+	Hit:293876132184
+	X:4580033773
+	Y:296130800300
+*** Performance Counters Core:0 ***
+	Count:4241466840
+	Miss:18101693847
+	Hit:298053500207
+	X:8103628950
+	Y:298871713581
+*** Performance Counters Core:1 ***
+	Count:4242524758
+	Miss:13146680321
+	Hit:293880799960
+	X:4580612013
+	Y:296135685455
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:4175947605
+	Miss:18100680678
+	Hit:298046223108
+	X:8103238835
+	Y:298864400305
+*** Performance Counters Core:1 ***
+	Count:4176973617
+	Miss:13144635869
+	Hit:293876132184
+	X:4580033773
+	Y:296130800300
+*** Performance Counters Core:0 ***
+	Count:4241466840
+	Miss:18101693847
+	Hit:298053500207
+	X:8103628950
+	Y:298871713581
+*** Performance Counters Core:1 ***
+	Count:4242524758
+	Miss:13146680321
+	Hit:293880799960
+	X:4580612013
+	Y:296135685455
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:4175947605
+	Miss:18100680678
+	Hit:298046223108
+	X:8103238835
+	Y:298864400305
+*** Performance Counters Core:1 ***
+	Count:4176973617
+	Miss:13144635869
+	Hit:293876132184
+	X:4580033773
+	Y:296130800300
+*** Performance Counters Core:0 ***
+	Count:4241466840
+	Miss:18101693847
+	Hit:298053500207
+	X:8103628950
+	Y:298871713581
+*** Performance Counters Core:1 ***
+	Count:4242524758
+	Miss:13146680321
+	Hit:293880799960
+	X:4580612013
+	Y:296135685455
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:4175947605
+	Miss:18100680678
+	Hit:298046223108
+	X:8103238835
+	Y:298864400305
+*** Performance Counters Core:1 ***
+	Count:4176973617
+	Miss:13144635869
+	Hit:293876132184
+	X:4580033773
+	Y:296130800300
+*** Performance Counters Core:0 ***
+	Count:4241466840
+	Miss:18101693847
+	Hit:298053500207
+	X:8103628950
+	Y:298871713581
+*** Performance Counters Core:1 ***
+	Count:4242524758
+	Miss:13146680321
+	Hit:293880799960
+	X:4580612013
+	Y:296135685455
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:4175947605
+	Miss:18100680678
+	Hit:298046223108
+	X:8103238835
+	Y:298864400305
+*** Performance Counters Core:1 ***
+	Count:4176973617
+	Miss:13144635869
+	Hit:293876132184
+	X:4580033773
+	Y:296130800300
+*** Performance Counters Core:0 ***
+	Count:4241466840
+	Miss:18101693847
+	Hit:298053500207
+	X:8103628950
+	Y:298871713581
+*** Performance Counters Core:1 ***
+	Count:4242524758
+	Miss:13146680321
+	Hit:293880799960
+	X:4580612013
+	Y:296135685455
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:4175947605
+	Miss:18100680678
+	Hit:298046223108
+	X:8103238835
+	Y:298864400305
+*** Performance Counters Core:1 ***
+	Count:4176973617
+	Miss:13144635869
+	Hit:293876132184
+	X:4580033773
+	Y:296130800300
+*** Performance Counters Core:0 ***
+	Count:4241466840
+	Miss:18101693847
+	Hit:298053500207
+	X:8103628950
+	Y:298871713581
+*** Performance Counters Core:1 ***
+	Count:4242524758
+	Miss:13146680321
+	Hit:293880799960
+	X:4580612013
+	Y:296135685455
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:4175947605
+	Miss:18100680678
+	Hit:298046223108
+	X:8103238835
+	Y:298864400305
+*** Performance Counters Core:1 ***
+	Count:4176973617
+	Miss:13144635869
+	Hit:293876132184
+	X:4580033773
+	Y:296130800300
+*** Performance Counters Core:0 ***
+	Count:4241466840
+	Miss:18101693847
+	Hit:298053500207
+	X:8103628950
+	Y:298871713581
+*** Performance Counters Core:1 ***
+	Count:4242524758
+	Miss:13146680321
+	Hit:293880799960
+	X:4580612013
+	Y:296135685455
+End
+.................................................................
+Running CP test Big
+Count = 
+Start
+*** Performance Counters Core:0 ***
+	Count:371663430
+	Miss:18111244028
+	Hit:298094009579
+	X:8107129126
+	Y:298912859027
+*** Performance Counters Core:1 ***
+	Count:372680495
+	Miss:13157297003
+	Hit:293918548279
+	X:4583749115
+	Y:296174315627
+*** Performance Counters Core:0 ***
+	Count:446830714
+	Miss:18113746131
+	Hit:298098902818
+	X:8107933465
+	Y:298917950987
+*** Performance Counters Core:1 ***
+	Count:447856638
+	Miss:13158945184
+	Hit:293925487882
+	X:4584236707
+	Y:296181328761
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:452702222
+	Miss:18113865295
+	Hit:298099478509
+	X:8107995947
+	Y:298918536644
+*** Performance Counters Core:1 ***
+	Count:453734549
+	Miss:13159166773
+	Hit:293925893801
+	X:4584311177
+	Y:296181747554
+*** Performance Counters Core:0 ***
+	Count:551613275
+	Miss:18116214207
+	Hit:298108135421
+	X:8108818204
+	Y:298927381007
+*** Performance Counters Core:1 ***
+	Count:552731807
+	Miss:13161366792
+	Hit:293935575983
+	X:4584926995
+	Y:296191575606
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:557455281
+	Miss:18116329221
+	Hit:298108730866
+	X:8108879095
+	Y:298927986163
+*** Performance Counters Core:1 ***
+	Count:558510697
+	Miss:13161580507
+	Hit:293935987984
+	X:4584996831
+	Y:296192000317
+*** Performance Counters Core:0 ***
+	Count:658334722
+	Miss:18118058373
+	Hit:298119628352
+	X:8109485722
+	Y:298938949742
+*** Performance Counters Core:1 ***
+	Count:659394381
+	Miss:13164517556
+	Hit:293943376266
+	X:4585863675
+	Y:296199673200
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:664125399
+	Miss:18118171609
+	Hit:298120205365
+	X:8109544273
+	Y:298939536507
+*** Performance Counters Core:1 ***
+	Count:665179512
+	Miss:13164738689
+	Hit:293943763453
+	X:4585937461
+	Y:296200073069
+*** Performance Counters Core:0 ***
+	Count:764070309
+	Miss:18120093908
+	Hit:298130939317
+	X:8110215361
+	Y:298950331971
+*** Performance Counters Core:1 ***
+	Count:765138691
+	Miss:13167558410
+	Hit:293951083628
+	X:4586790349
+	Y:296207674294
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:770051284
+	Miss:18120210835
+	Hit:298131542723
+	X:8110275580
+	Y:298950945374
+*** Performance Counters Core:1 ***
+	Count:771121910
+	Miss:13167784466
+	Hit:293951487083
+	X:4586865685
+	Y:296208092020
+*** Performance Counters Core:0 ***
+	Count:870870845
+	Miss:18121956986
+	Hit:298142379026
+	X:8110890166
+	Y:298961848786
+*** Performance Counters Core:1 ***
+	Count:872002935
+	Miss:13170735043
+	Hit:293958889691
+	X:4587742934
+	Y:296215786398
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:876793618
+	Miss:18122074167
+	Hit:298142971068
+	X:8110950472
+	Y:298962451042
+*** Performance Counters Core:1 ***
+	Count:877930381
+	Miss:13170957511
+	Hit:293959292287
+	X:4587816775
+	Y:296216201740
+*** Performance Counters Core:0 ***
+	Count:978046558
+	Miss:18123807382
+	Hit:298153894849
+	X:8111592420
+	Y:298973432337
+*** Performance Counters Core:1 ***
+	Count:979114335
+	Miss:13174041367
+	Hit:293966312677
+	X:4588720421
+	Y:296223522329
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:983818831
+	Miss:18123916470
+	Hit:298154480707
+	X:8111649890
+	Y:298974027852
+*** Performance Counters Core:1 ***
+	Count:984869246
+	Miss:13174262829
+	Hit:293966703822
+	X:4588794072
+	Y:296223926174
+*** Performance Counters Core:0 ***
+	Count:1082623520
+	Miss:18126276331
+	Hit:298163108005
+	X:8112503825
+	Y:298982846475
+*** Performance Counters Core:1 ***
+	Count:1083661051
+	Miss:13176408211
+	Hit:293976526521
+	X:4589385667
+	Y:296233902848
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:1088662913
+	Miss:18126394450
+	Hit:298163719566
+	X:8112566187
+	Y:298983468013
+*** Performance Counters Core:1 ***
+	Count:1089717499
+	Miss:13176633201
+	Hit:293976949955
+	X:4589460765
+	Y:296234339042
+*** Performance Counters Core:0 ***
+	Count:1187917386
+	Miss:18128569476
+	Hit:298172948601
+	X:8113373848
+	Y:298992870056
+*** Performance Counters Core:1 ***
+	Count:1188969469
+	Miss:13179042154
+	Hit:293986017272
+	X:4590131229
+	Y:296243572357
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:1193820939
+	Miss:18128685608
+	Hit:298173533088
+	X:8113434732
+	Y:298993464662
+*** Performance Counters Core:1 ***
+	Count:1194903431
+	Miss:13179266133
+	Hit:293986412148
+	X:4590206337
+	Y:296243980040
+*** Performance Counters Core:0 ***
+	Count:1292268378
+	Miss:18130992072
+	Hit:298182352710
+	X:8114317944
+	Y:299002463493
+*** Performance Counters Core:1 ***
+	Count:1293418470
+	Miss:13181443287
+	Hit:293995896458
+	X:4590778720
+	Y:296253631254
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:1298213690
+	Miss:18131107640
+	Hit:298182946535
+	X:8114378300
+	Y:299003067269
+*** Performance Counters Core:1 ***
+	Count:1299316484
+	Miss:13181667229
+	Hit:293996292518
+	X:4590853548
+	Y:296254039985
+*** Performance Counters Core:0 ***
+	Count:1398815371
+	Miss:18133077095
+	Hit:298193694444
+	X:8115057643
+	Y:299013876059
+*** Performance Counters Core:1 ***
+	Count:1399876769
+	Miss:13184463859
+	Hit:294003615034
+	X:4591692856
+	Y:296261657855
+End
+

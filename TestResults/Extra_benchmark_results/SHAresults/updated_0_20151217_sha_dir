@@ -1,0 +1,824 @@
+# ./sha_benchmark_shell.sh 
+tput: no terminal type specified and no TERM environmental variable.
+...................... SHA TESTING ..............................
+.................................................................
+Running SHA test Small
+Count = 
+Start
+*** Performance Counters Core:0 ***
+	Count:4135737529
+	Miss:47506268892
+	Hit:1698901633273
+	X:25839318110
+	Y:13925530981
+*** Performance Counters Core:1 ***
+	Count:4136682451
+	Miss:49749512528
+	Hit:1673327362292
+	X:27311082707
+	Y:13882658080
+SHA256 (small_text_file.txt) = 00700b826987e8dc236d708ba15cdbe025a0c7bbc2375a75c175136dbb262735
+*** Performance Counters Core:0 ***
+	Count:4192803318
+	Miss:47506435082
+	Hit:1698909232328
+	X:25839412118
+	Y:13925572409
+*** Performance Counters Core:1 ***
+	Count:4193744801
+	Miss:49750419361
+	Hit:1673331237611
+	X:27311467333
+	Y:13882806214
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:4197945427
+	Miss:47506481996
+	Hit:1698909828905
+	X:25839433120
+	Y:13925580911
+*** Performance Counters Core:1 ***
+	Count:4198889938
+	Miss:49750567807
+	Hit:1673331654896
+	X:27311507276
+	Y:13882819197
+SHA256 (small_text_file.txt) = 00700b826987e8dc236d708ba15cdbe025a0c7bbc2375a75c175136dbb262735
+*** Performance Counters Core:0 ***
+	Count:4255050861
+	Miss:47506622026
+	Hit:1698917525869
+	X:25839505638
+	Y:13925611999
+*** Performance Counters Core:1 ***
+	Count:4255993521
+	Miss:49751542098
+	Hit:1673335414408
+	X:27311937266
+	Y:13882991066
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:4260195496
+	Miss:47506668071
+	Hit:1698918127821
+	X:25839525967
+	Y:13925620141
+*** Performance Counters Core:1 ***
+	Count:4261169993
+	Miss:49751689774
+	Hit:1673335836856
+	X:27311978414
+	Y:13883004463
+SHA256 (small_text_file.txt) = 00700b826987e8dc236d708ba15cdbe025a0c7bbc2375a75c175136dbb262735
+*** Performance Counters Core:0 ***
+	Count:21494244
+	Miss:47506810067
+	Hit:1698925696021
+	X:25839601171
+	Y:13925652340
+*** Performance Counters Core:1 ***
+	Count:22447680
+	Miss:49752573752
+	Hit:1673339686528
+	X:27312329660
+	Y:13883140268
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:26592439
+	Miss:47506856827
+	Hit:1698926287504
+	X:25839622392
+	Y:13925660742
+*** Performance Counters Core:1 ***
+	Count:27529764
+	Miss:49752720376
+	Hit:1673340098517
+	X:27312369008
+	Y:13883153128
+SHA256 (small_text_file.txt) = 00700b826987e8dc236d708ba15cdbe025a0c7bbc2375a75c175136dbb262735
+*** Performance Counters Core:0 ***
+	Count:79260165
+	Miss:47507227194
+	Hit:1698932809004
+	X:25839771006
+	Y:13925719803
+*** Performance Counters Core:1 ***
+	Count:80204324
+	Miss:49753297873
+	Hit:1673344361036
+	X:27312602340
+	Y:13883244489
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:84448969
+	Miss:47507280147
+	Hit:1698933389130
+	X:25839796982
+	Y:13925730595
+*** Performance Counters Core:1 ***
+	Count:85331616
+	Miss:49753444201
+	Hit:1673344771649
+	X:27312641768
+	Y:13883257263
+SHA256 (small_text_file.txt) = 00700b826987e8dc236d708ba15cdbe025a0c7bbc2375a75c175136dbb262735
+*** Performance Counters Core:0 ***
+	Count:140064173
+	Miss:47507428151
+	Hit:1698940863084
+	X:25839875710
+	Y:13925764394
+*** Performance Counters Core:1 ***
+	Count:140998623
+	Miss:49754305606
+	Hit:1673348641297
+	X:27312941927
+	Y:13883369767
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:145221478
+	Miss:47507475283
+	Hit:1698941459718
+	X:25839896940
+	Y:13925772916
+*** Performance Counters Core:1 ***
+	Count:146159605
+	Miss:49754452875
+	Hit:1673349063635
+	X:27312981760
+	Y:13883382549
+SHA256 (small_text_file.txt) = 00700b826987e8dc236d708ba15cdbe025a0c7bbc2375a75c175136dbb262735
+*** Performance Counters Core:0 ***
+	Count:201213237
+	Miss:47507619454
+	Hit:1698948988023
+	X:25839972845
+	Y:13925805045
+*** Performance Counters Core:1 ***
+	Count:202168206
+	Miss:49755379919
+	Hit:1673352877140
+	X:27313331246
+	Y:13883515047
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:206419622
+	Miss:47507673047
+	Hit:1698949569028
+	X:25839998978
+	Y:13925816025
+*** Performance Counters Core:1 ***
+	Count:207282340
+	Miss:49755526718
+	Hit:1673353287790
+	X:27313371212
+	Y:13883528134
+SHA256 (small_text_file.txt) = 00700b826987e8dc236d708ba15cdbe025a0c7bbc2375a75c175136dbb262735
+*** Performance Counters Core:0 ***
+	Count:262682338
+	Miss:47507829521
+	Hit:1698957111026
+	X:25840084253
+	Y:13925853160
+*** Performance Counters Core:1 ***
+	Count:263649881
+	Miss:49756423547
+	Hit:1673357133609
+	X:27313752016
+	Y:13883675395
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:267833464
+	Miss:47507881231
+	Hit:1698957688664
+	X:25840109662
+	Y:13925863803
+*** Performance Counters Core:1 ***
+	Count:268763257
+	Miss:49756570317
+	Hit:1673357545416
+	X:27313790434
+	Y:13883688131
+SHA256 (small_text_file.txt) = 00700b826987e8dc236d708ba15cdbe025a0c7bbc2375a75c175136dbb262735
+*** Performance Counters Core:0 ***
+	Count:325112104
+	Miss:47508038597
+	Hit:1698965358187
+	X:25840193731
+	Y:13925900389
+*** Performance Counters Core:1 ***
+	Count:326054762
+	Miss:49757548540
+	Hit:1673361303295
+	X:27314217249
+	Y:13883861460
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:391588316
+	Miss:47508270990
+	Hit:1698974112410
+	X:25840308946
+	Y:13925948393
+*** Performance Counters Core:1 ***
+	Count:392616328
+	Miss:49758735566
+	Hit:1673366016403
+	X:27314650157
+	Y:13884023330
+SHA256 (small_text_file.txt) = 00700b826987e8dc236d708ba15cdbe025a0c7bbc2375a75c175136dbb262735
+*** Performance Counters Core:0 ***
+	Count:447451440
+	Miss:47508413219
+	Hit:1698981622144
+	X:25840384240
+	Y:13925980328
+*** Performance Counters Core:1 ***
+	Count:448336704
+	Miss:49759648860
+	Hit:1673369826808
+	X:27314960768
+	Y:13884140210
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:391588316
+	Miss:47508270990
+	Hit:1698974112410
+	X:25840308946
+	Y:13925948393
+*** Performance Counters Core:1 ***
+	Count:392616328
+	Miss:49758735566
+	Hit:1673366016403
+	X:27314650157
+	Y:13884023330
+SHA256 (small_text_file.txt) = 00700b826987e8dc236d708ba15cdbe025a0c7bbc2375a75c175136dbb262735
+*** Performance Counters Core:0 ***
+	Count:447451440
+	Miss:47508413219
+	Hit:1698981622144
+	X:25840384240
+	Y:13925980328
+*** Performance Counters Core:1 ***
+	Count:448336704
+	Miss:49759648860
+	Hit:1673369826808
+	X:27314960768
+	Y:13884140210
+End
+.................................................................
+Running SHA test Medium
+Count = 
+Start
+*** Performance Counters Core:0 ***
+	Count:453688920
+	Miss:47508484724
+	Hit:1698982315668
+	X:25840418432
+	Y:13925993998
+*** Performance Counters Core:1 ***
+	Count:454451934
+	Miss:49759800272
+	Hit:1673370368362
+	X:27315002749
+	Y:13884154087
+SHA256 (medium_text_file.txt) = f269dbfd887f55b696017ce7b22010b5c2cdef24c67e3e826d114d6e512f7312
+*** Performance Counters Core:0 ***
+	Count:706643380
+	Miss:47509055072
+	Hit:1699016406960
+	X:25840746669
+	Y:13926137880
+*** Performance Counters Core:1 ***
+	Count:707580621
+	Miss:49762139867
+	Hit:1673387542361
+	X:27316110762
+	Y:13884627891
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:711732011
+	Miss:47509103271
+	Hit:1699016987816
+	X:25840768428
+	Y:13926146758
+*** Performance Counters Core:1 ***
+	Count:712670324
+	Miss:49762287053
+	Hit:1673387954945
+	X:27316149201
+	Y:13884640566
+SHA256 (medium_text_file.txt) = f269dbfd887f55b696017ce7b22010b5c2cdef24c67e3e826d114d6e512f7312
+*** Performance Counters Core:0 ***
+	Count:962403874
+	Miss:47510002747
+	Hit:1699049476957
+	X:25841177098
+	Y:13926318036
+*** Performance Counters Core:1 ***
+	Count:963370135
+	Miss:49764168579
+	Hit:1673406559691
+	X:27317129089
+	Y:13885058443
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:967530540
+	Miss:47510049031
+	Hit:1699050075473
+	X:25841197410
+	Y:13926326256
+*** Performance Counters Core:1 ***
+	Count:968464931
+	Miss:49764315329
+	Hit:1673406978806
+	X:27317167771
+	Y:13885070915
+SHA256 (medium_text_file.txt) = f269dbfd887f55b696017ce7b22010b5c2cdef24c67e3e826d114d6e512f7312
+*** Performance Counters Core:0 ***
+	Count:1220712493
+	Miss:47510539534
+	Hit:1699084589367
+	X:25841471031
+	Y:13926443046
+*** Performance Counters Core:1 ***
+	Count:1221659991
+	Miss:49766678755
+	Hit:1673423865820
+	X:27318352371
+	Y:13885569207
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:1225924605
+	Miss:47510676692
+	Hit:1699085074338
+	X:25841499097
+	Y:13926454575
+*** Performance Counters Core:1 ***
+	Count:1226776093
+	Miss:49766735739
+	Hit:1673424430066
+	X:27318378303
+	Y:13885578183
+SHA256 (medium_text_file.txt) = f269dbfd887f55b696017ce7b22010b5c2cdef24c67e3e826d114d6e512f7312
+*** Performance Counters Core:0 ***
+	Count:1480152102
+	Miss:47511189680
+	Hit:1699119686848
+	X:25841786175
+	Y:13926578775
+*** Performance Counters Core:1 ***
+	Count:1481094873
+	Miss:49769183392
+	Hit:1673441252490
+	X:27319629660
+	Y:13886111156
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:1485213916
+	Miss:47511234867
+	Hit:1699120279270
+	X:25841806296
+	Y:13926586784
+*** Performance Counters Core:1 ***
+	Count:1486189582
+	Miss:49769330695
+	Hit:1673441665804
+	X:27319670456
+	Y:13886124338
+SHA256 (medium_text_file.txt) = f269dbfd887f55b696017ce7b22010b5c2cdef24c67e3e826d114d6e512f7312
+*** Performance Counters Core:0 ***
+	Count:1737958121
+	Miss:47511729542
+	Hit:1699154730124
+	X:25842079428
+	Y:13926704231
+*** Performance Counters Core:1 ***
+	Count:1738837409
+	Miss:49771670545
+	Hit:1673458596872
+	X:27320826369
+	Y:13886613129
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:1742981741
+	Miss:47511775714
+	Hit:1699155308583
+	X:25842100043
+	Y:13926712546
+*** Performance Counters Core:1 ***
+	Count:1743929560
+	Miss:49771817025
+	Hit:1673459008624
+	X:27320865219
+	Y:13886625716
+SHA256 (medium_text_file.txt) = f269dbfd887f55b696017ce7b22010b5c2cdef24c67e3e826d114d6e512f7312
+*** Performance Counters Core:0 ***
+	Count:1996200278
+	Miss:47512294977
+	Hit:1699189769546
+	X:25842394924
+	Y:13926840233
+*** Performance Counters Core:1 ***
+	Count:1997155903
+	Miss:49774200768
+	Hit:1673475908667
+	X:27321993048
+	Y:13887103728
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:2001270482
+	Miss:47512340388
+	Hit:1699190357402
+	X:25842415018
+	Y:13926848334
+*** Performance Counters Core:1 ***
+	Count:2002255516
+	Miss:49774347848
+	Hit:1673476322678
+	X:27322032771
+	Y:13887116468
+SHA256 (medium_text_file.txt) = f269dbfd887f55b696017ce7b22010b5c2cdef24c67e3e826d114d6e512f7312
+*** Performance Counters Core:0 ***
+	Count:2254097817
+	Miss:47512861495
+	Hit:1699224772878
+	X:25842709135
+	Y:13926975213
+*** Performance Counters Core:1 ***
+	Count:2255047018
+	Miss:49776674407
+	Hit:1673493249717
+	X:27323153433
+	Y:13887586743
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:2259223903
+	Miss:47512912755
+	Hit:1699225354196
+	X:25842734113
+	Y:13926985626
+*** Performance Counters Core:1 ***
+	Count:2260172781
+	Miss:49776821517
+	Hit:1673493662618
+	X:27323192708
+	Y:13887599624
+SHA256 (medium_text_file.txt) = f269dbfd887f55b696017ce7b22010b5c2cdef24c67e3e826d114d6e512f7312
+*** Performance Counters Core:0 ***
+	Count:2511917066
+	Miss:47513424211
+	Hit:1699259791635
+	X:25843018999
+	Y:13927107707
+*** Performance Counters Core:1 ***
+	Count:2512786086
+	Miss:49779213997
+	Hit:1673510518166
+	X:27324345577
+	Y:13888083926
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:2517032167
+	Miss:47513557910
+	Hit:1699260268815
+	X:25843049206
+	Y:13927119789
+*** Performance Counters Core:1 ***
+	Count:2518005795
+	Miss:49779271510
+	Hit:1673511093986
+	X:27324372219
+	Y:13888093005
+SHA256 (medium_text_file.txt) = f269dbfd887f55b696017ce7b22010b5c2cdef24c67e3e826d114d6e512f7312
+*** Performance Counters Core:0 ***
+	Count:2772769015
+	Miss:47514288612
+	Hit:1699294090577
+	X:25843452385
+	Y:13927296809
+*** Performance Counters Core:1 ***
+	Count:2773755585
+	Miss:49781634677
+	Hit:1673528459895
+	X:27325569137
+	Y:13888599181
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:2778014028
+	Miss:47514428620
+	Hit:1699294564486
+	X:25843487396
+	Y:13927311260
+*** Performance Counters Core:1 ***
+	Count:2778937733
+	Miss:49781693848
+	Hit:1673529023086
+	X:27325595570
+	Y:13888608295
+SHA256 (medium_text_file.txt) = f269dbfd887f55b696017ce7b22010b5c2cdef24c67e3e826d114d6e512f7312
+*** Performance Counters Core:0 ***
+	Count:3031972500
+	Miss:47514950737
+	Hit:1699329112366
+	X:25843781438
+	Y:13927437575
+*** Performance Counters Core:1 ***
+	Count:3032935797
+	Miss:49784141546
+	Hit:1673545855895
+	X:27326829465
+	Y:13889136258
+End
+.................................................................
+Running SHA test Big
+Count = 
+Start
+*** Performance Counters Core:0 ***
+	Count:3038489124
+	Miss:47515100951
+	Hit:1699329737394
+	X:25843818309
+	Y:13927452784
+*** Performance Counters Core:1 ***
+	Count:3039236457
+	Miss:49784229558
+	Hit:1673546506567
+	X:27326869713
+	Y:13889150472
+SHA256 (big_text_file.txt) = f7f9e3d002f1e5c062980c672cfca2ec116f5e53110b4102eea50ca15e88e6fc
+*** Performance Counters Core:0 ***
+	Count:3539036983
+	Miss:47516056351
+	Hit:1699398020160
+	X:25844359157
+	Y:13927685587
+*** Performance Counters Core:1 ***
+	Count:3539997601
+	Miss:49788334951
+	Hit:1673579986217
+	X:27328976233
+	Y:13890056652
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:3544180053
+	Miss:47516109229
+	Hit:1699398594435
+	X:25844384895
+	Y:13927696379
+*** Performance Counters Core:1 ***
+	Count:3545134373
+	Miss:49788481474
+	Hit:1673580400328
+	X:27329014574
+	Y:13890069301
+SHA256 (big_text_file.txt) = f7f9e3d002f1e5c062980c672cfca2ec116f5e53110b4102eea50ca15e88e6fc
+*** Performance Counters Core:0 ***
+	Count:4043939012
+	Miss:47517076755
+	Hit:1699466830977
+	X:25844931886
+	Y:13927931171
+*** Performance Counters Core:1 ***
+	Count:4044830524
+	Miss:49792662323
+	Hit:1673613821435
+	X:27331095289
+	Y:13890961588
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:4049070104
+	Miss:47517128308
+	Hit:1699467405596
+	X:25844957320
+	Y:13927941736
+*** Performance Counters Core:1 ***
+	Count:4049993897
+	Miss:49792808875
+	Hit:1673614231428
+	X:27331135278
+	Y:13890974673
+SHA256 (big_text_file.txt) = f7f9e3d002f1e5c062980c672cfca2ec116f5e53110b4102eea50ca15e88e6fc
+*** Performance Counters Core:0 ***
+	Count:254391432
+	Miss:47518062421
+	Hit:1699535752909
+	X:25845479344
+	Y:13928164339
+*** Performance Counters Core:1 ***
+	Count:255324784
+	Miss:49796953455
+	Hit:1673647698199
+	X:27333246478
+	Y:13891880792
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:259586173
+	Miss:47518114977
+	Hit:1699536335883
+	X:25845505018
+	Y:13928175122
+*** Performance Counters Core:1 ***
+	Count:260510202
+	Miss:49797100878
+	Hit:1673648115111
+	X:27333285359
+	Y:13891893736
+SHA256 (big_text_file.txt) = f7f9e3d002f1e5c062980c672cfca2ec116f5e53110b4102eea50ca15e88e6fc
+*** Performance Counters Core:0 ***
+	Count:760175412
+	Miss:47519068513
+	Hit:1699604685881
+	X:25846039439
+	Y:13928405275
+*** Performance Counters Core:1 ***
+	Count:761124966
+	Miss:49801294120
+	Hit:1673681516162
+	X:27335420679
+	Y:13892810636
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:765221945
+	Miss:47519114665
+	Hit:1699605270923
+	X:25846059723
+	Y:13928413447
+*** Performance Counters Core:1 ***
+	Count:766175887
+	Miss:49801440952
+	Hit:1673681927730
+	X:27335459628
+	Y:13892823428
+SHA256 (big_text_file.txt) = f7f9e3d002f1e5c062980c672cfca2ec116f5e53110b4102eea50ca15e88e6fc
+*** Performance Counters Core:0 ***
+	Count:1264464630
+	Miss:47520046799
+	Hit:1699673525230
+	X:25846577828
+	Y:13928634961
+*** Performance Counters Core:1 ***
+	Count:1265426948
+	Miss:49805590501
+	Hit:1673715366742
+	X:27337572037
+	Y:13893734876
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:1776093750
+	Miss:47521121830
+	Hit:1699743081467
+	X:25847174765
+	Y:13928889698
+*** Performance Counters Core:1 ***
+	Count:1777077054
+	Miss:49810115919
+	Hit:1673749580641
+	X:27339838164
+	Y:13894712330
+SHA256 (big_text_file.txt) = f7f9e3d002f1e5c062980c672cfca2ec116f5e53110b4102eea50ca15e88e6fc
+*** Performance Counters Core:0 ***
+	Count:2277774810
+	Miss:47522057172
+	Hit:1699811620511
+	X:25847700779
+	Y:13929114635
+*** Performance Counters Core:1 ***
+	Count:2278720717
+	Miss:49814325212
+	Hit:1673783010179
+	X:27341992745
+	Y:13895645224
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:1776093750
+	Miss:47521121830
+	Hit:1699743081467
+	X:25847174765
+	Y:13928889698
+*** Performance Counters Core:1 ***
+	Count:1777077054
+	Miss:49810115919
+	Hit:1673749580641
+	X:27339838164
+	Y:13894712330
+SHA256 (big_text_file.txt) = f7f9e3d002f1e5c062980c672cfca2ec116f5e53110b4102eea50ca15e88e6fc
+*** Performance Counters Core:0 ***
+	Count:2277774810
+	Miss:47522057172
+	Hit:1699811620511
+	X:25847700779
+	Y:13929114635
+*** Performance Counters Core:1 ***
+	Count:2278720717
+	Miss:49814325212
+	Hit:1673783010179
+	X:27341992745
+	Y:13895645224
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:2282916691
+	Miss:47522103908
+	Hit:1699812215290
+	X:25847721430
+	Y:13929122987
+*** Performance Counters Core:1 ***
+	Count:2283794943
+	Miss:49814473304
+	Hit:1673783418404
+	X:27342031756
+	Y:13895658122
+SHA256 (big_text_file.txt) = f7f9e3d002f1e5c062980c672cfca2ec116f5e53110b4102eea50ca15e88e6fc
+*** Performance Counters Core:0 ***
+	Count:2783551245
+	Miss:47523236591
+	Hit:1699880319418
+	X:25848287547
+	Y:13929366275
+*** Performance Counters Core:1 ***
+	Count:2784528369
+	Miss:49818494254
+	Hit:1673817137879
+	X:27344095520
+	Y:13896553628
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:2788730928
+	Miss:47523286741
+	Hit:1699880909608
+	X:25848311110
+	Y:13929376037
+*** Performance Counters Core:1 ***
+	Count:2789695402
+	Miss:49818640688
+	Hit:1673817560262
+	X:27344134501
+	Y:13896566302
+SHA256 (big_text_file.txt) = f7f9e3d002f1e5c062980c672cfca2ec116f5e53110b4102eea50ca15e88e6fc
+*** Performance Counters Core:0 ***
+	Count:3288546495
+	Miss:47524206337
+	Hit:1699949245255
+	X:25848828229
+	Y:13929597077
+*** Performance Counters Core:1 ***
+	Count:3289541895
+	Miss:49822738094
+	Hit:1673851054114
+	X:27346219138
+	Y:13897458031
+End
+Start
+*** Performance Counters Core:0 ***
+	Count:3293688771
+	Miss:47524252735
+	Hit:1699949845306
+	X:25848848542
+	Y:13929605273
+*** Performance Counters Core:1 ***
+	Count:3294647127
+	Miss:49822885342
+	Hit:1673851474235
+	X:27346258751
+	Y:13897470612
+SHA256 (big_text_file.txt) = f7f9e3d002f1e5c062980c672cfca2ec116f5e53110b4102eea50ca15e88e6fc
+*** Performance Counters Core:0 ***
+	Count:3794649358
+	Miss:47525202068
+	Hit:1700018239545
+	X:25849386245
+	Y:13929837074
+*** Performance Counters Core:1 ***
+	Count:3795591499
+	Miss:49827074319
+	Hit:1673884886348
+	X:27348393376
+	Y:13898395599
+End
+# 
+

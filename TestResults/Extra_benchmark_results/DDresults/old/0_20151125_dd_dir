@@ -1,0 +1,301 @@
+# ./dd_benchmark_shell.sh 
+tput: no terminal type specified and no TERM environmental variable.
+....................... DD TESTING ..............................
+.................................................................
+Running DD test 1K
+Count = 1
+1+0 records in
+1+0 records out
+1024 bytes transferred in 0.002183 secs (469084 bytes/sec)
+1+0 records in
+1+0 records out
+1024 bytes transferred in 0.002654 secs (385871 bytes/sec)
+1+0 records in
+1+0 records out
+1024 bytes transferred in 0.002433 secs (420883 bytes/sec)
+1+0 records in
+1+0 records out
+1024 bytes transferred in 0.001978 secs (517765 bytes/sec)
+1+0 records in
+1+0 records out
+1024 bytes transferred in 0.002160 secs (474046 bytes/sec)
+Count = 10
+10+0 records in
+10+0 records out
+10240 bytes transferred in 0.003335 secs (3070271 bytes/sec)
+10+0 records in
+10+0 records out
+10240 bytes transferred in 0.003628 secs (2822235 bytes/sec)
+10+0 records in
+10+0 records out
+10240 bytes transferred in 0.003163 secs (3237279 bytes/sec)
+10+0 records in
+10+0 records out
+10240 bytes transferred in 0.004059 secs (2522913 bytes/sec)
+10+0 records in
+10+0 records out
+10240 bytes transferred in 0.003749 secs (2731635 bytes/sec)
+Count = 100
+100+0 records in
+100+0 records out
+102400 bytes transferred in 0.015706 secs (6519897 bytes/sec)
+100+0 records in
+100+0 records out
+102400 bytes transferred in 0.016419 secs (6236536 bytes/sec)
+100+0 records in
+100+0 records out
+102400 bytes transferred in 0.015567 secs (6578136 bytes/sec)
+100+0 records in
+100+0 records out
+102400 bytes transferred in 0.016668 secs (6143387 bytes/sec)
+100+0 records in
+100+0 records out
+102400 bytes transferred in 0.015753 secs (6500188 bytes/sec)
+Count = 1000
+1000+0 records in
+1000+0 records out
+1024000 bytes transferred in 0.138359 secs (7401048 bytes/sec)
+1000+0 records in
+1000+0 records out
+1024000 bytes transferred in 0.136292 secs (7513283 bytes/sec)
+1000+0 records in
+1000+0 records out
+1024000 bytes transferred in 0.139475 secs (7341831 bytes/sec)
+1000+0 records in
+1000+0 records out
+1024000 bytes transferred in 0.137051 secs (7471655 bytes/sec)
+1000+0 records in
+1000+0 records out
+1024000 bytes transferred in 0.138910 secs (7371673 bytes/sec)
+Count = 10000
+10000+0 records in
+10000+0 records out
+10240000 bytes transferred in 1.338879 secs (7648191 bytes/sec)
+10000+0 records in
+10000+0 records out
+10240000 bytes transferred in 1.365160 secs (7500953 bytes/sec)
+10000+0 records in
+10000+0 records out
+10240000 bytes transferred in 1.359123 secs (7534268 bytes/sec)
+10000+0 records in
+10000+0 records out
+10240000 bytes transferred in 1.345199 secs (7612257 bytes/sec)
+10000+0 records in
+10000+0 records out
+10240000 bytes transferred in 1.442302 secs (7099760 bytes/sec)
+Count = 100000
+100000+0 records in
+100000+0 records out
+102400000 bytes transferred in 13.415915 secs (7632726 bytes/sec)
+100000+0 records in
+100000+0 records out
+102400000 bytes transferred in 13.746199 secs (7449332 bytes/sec)
+100000+0 records in
+100000+0 records out
+102400000 bytes transferred in 13.429877 secs (7624791 bytes/sec)
+100000+0 records in
+100000+0 records out
+102400000 bytes transferred in 13.695266 secs (7477036 bytes/sec)
+100000+0 records in
+100000+0 records out
+102400000 bytes transferred in 13.157325 secs (7782737 bytes/sec)
+.................................................................
+Running DD test 10K
+Count = 1
+1+0 records in
+1+0 records out
+10240 bytes transferred in 0.003079 secs (3326241 bytes/sec)
+1+0 records in
+1+0 records out
+10240 bytes transferred in 0.003633 secs (2818506 bytes/sec)
+1+0 records in
+1+0 records out
+10240 bytes transferred in 0.003235 secs (3165731 bytes/sec)
+1+0 records in
+1+0 records out
+10240 bytes transferred in 0.003627 secs (2823542 bytes/sec)
+1+0 records in
+1+0 records out
+10240 bytes transferred in 0.002853 secs (3588689 bytes/sec)
+Count = 10
+10+0 records in
+10+0 records out
+102400 bytes transferred in 0.006531 secs (15679213 bytes/sec)
+10+0 records in
+10+0 records out
+102400 bytes transferred in 0.005165 secs (19825597 bytes/sec)
+10+0 records in
+10+0 records out
+102400 bytes transferred in 0.005692 secs (17990889 bytes/sec)
+10+0 records in
+10+0 records out
+102400 bytes transferred in 0.004570 secs (22407345 bytes/sec)
+10+0 records in
+10+0 records out
+102400 bytes transferred in 0.006268 secs (16337054 bytes/sec)
+Count = 100
+100+0 records in
+100+0 records out
+1024000 bytes transferred in 0.025160 secs (40698941 bytes/sec)
+100+0 records in
+100+0 records out
+1024000 bytes transferred in 0.024987 secs (40980785 bytes/sec)
+100+0 records in
+100+0 records out
+1024000 bytes transferred in 0.024986 secs (40983557 bytes/sec)
+100+0 records in
+100+0 records out
+1024000 bytes transferred in 0.025139 secs (40733441 bytes/sec)
+100+0 records in
+100+0 records out
+1024000 bytes transferred in 0.025169 secs (40684776 bytes/sec)
+Count = 1000
+1000+0 records in
+1000+0 records out
+10240000 bytes transferred in 0.221702 secs (46188099 bytes/sec)
+1000+0 records in
+1000+0 records out
+10240000 bytes transferred in 0.217470 secs (47087043 bytes/sec)
+1000+0 records in
+1000+0 records out
+10240000 bytes transferred in 0.215482 secs (47521285 bytes/sec)
+1000+0 records in
+1000+0 records out
+10240000 bytes transferred in 0.215162 secs (47591992 bytes/sec)
+1000+0 records in
+1000+0 records out
+10240000 bytes transferred in 0.215916 secs (47425882 bytes/sec)
+Count = 10000
+10000+0 records in
+10000+0 records out
+102400000 bytes transferred in 2.178929 secs (46995564 bytes/sec)
+10000+0 records in
+10000+0 records out
+102400000 bytes transferred in 2.134017 secs (47984616 bytes/sec)
+10000+0 records in
+10000+0 records out
+102400000 bytes transferred in 2.161744 secs (47369170 bytes/sec)
+10000+0 records in
+10000+0 records out
+102400000 bytes transferred in 2.138938 secs (47874229 bytes/sec)
+10000+0 records in
+10000+0 records out
+102400000 bytes transferred in 2.187451 secs (46812480 bytes/sec)
+.................................................................
+Running DD test 100K
+Count = 1
+1+0 records in
+1+0 records out
+102400 bytes transferred in 0.011493 secs (8910035 bytes/sec)
+1+0 records in
+1+0 records out
+102400 bytes transferred in 0.012547 secs (8161509 bytes/sec)
+1+0 records in
+1+0 records out
+102400 bytes transferred in 0.012043 secs (8503062 bytes/sec)
+1+0 records in
+1+0 records out
+102400 bytes transferred in 0.011931 secs (8582569 bytes/sec)
+1+0 records in
+1+0 records out
+102400 bytes transferred in 0.011843 secs (8646100 bytes/sec)
+Count = 10
+10+0 records in
+10+0 records out
+1024000 bytes transferred in 0.027999 secs (36572957 bytes/sec)
+10+0 records in
+10+0 records out
+1024000 bytes transferred in 0.027892 secs (36712957 bytes/sec)
+10+0 records in
+10+0 records out
+1024000 bytes transferred in 0.027777 secs (36865550 bytes/sec)
+10+0 records in
+10+0 records out
+1024000 bytes transferred in 0.027310 secs (37495492 bytes/sec)
+10+0 records in
+10+0 records out
+1024000 bytes transferred in 0.027937 secs (36654057 bytes/sec)
+Count = 100
+100+0 records in
+100+0 records out
+10240000 bytes transferred in 0.184891 secs (55384028 bytes/sec)
+100+0 records in
+100+0 records out
+10240000 bytes transferred in 0.183397 secs (55835012 bytes/sec)
+100+0 records in
+100+0 records out
+10240000 bytes transferred in 0.183319 secs (55858861 bytes/sec)
+100+0 records in
+100+0 records out
+10240000 bytes transferred in 0.181387 secs (56453806 bytes/sec)
+100+0 records in
+100+0 records out
+10240000 bytes transferred in 0.181407 secs (56447501 bytes/sec)
+Count = 1000
+1000+0 records in
+1000+0 records out
+102400000 bytes transferred in 1.734578 secs (59034541 bytes/sec)
+1000+0 records in
+1000+0 records out
+102400000 bytes transferred in 1.726930 secs (59295984 bytes/sec)
+1000+0 records in
+1000+0 records out
+102400000 bytes transferred in 1.744748 secs (58690434 bytes/sec)
+1000+0 records in
+1000+0 records out
+102400000 bytes transferred in 1.732880 secs (59092375 bytes/sec)
+1000+0 records in
+1000+0 records out
+102400000 bytes transferred in 1.734925 secs (59022726 bytes/sec)
+.................................................................
+Running DD test 1M
+Count = 1
+1+0 records in
+1+0 records out
+1048576 bytes transferred in 0.100348 secs (10449380 bytes/sec)
+1+0 records in
+1+0 records out
+1048576 bytes transferred in 0.101182 secs (10363229 bytes/sec)
+1+0 records in
+1+0 records out
+1048576 bytes transferred in 0.101559 secs (10324750 bytes/sec)
+1+0 records in
+1+0 records out
+1048576 bytes transferred in 0.099318 secs (10557720 bytes/sec)
+1+0 records in
+1+0 records out
+1048576 bytes transferred in 0.100284 secs (10456100 bytes/sec)
+Count = 10
+10+0 records in
+10+0 records out
+10485760 bytes transferred in 0.257842 secs (40667340 bytes/sec)
+10+0 records in
+10+0 records out
+10485760 bytes transferred in 0.257428 secs (40732745 bytes/sec)
+10+0 records in
+10+0 records out
+10485760 bytes transferred in 0.258466 secs (40569280 bytes/sec)
+10+0 records in
+10+0 records out
+10485760 bytes transferred in 0.258657 secs (40539259 bytes/sec)
+10+0 records in
+10+0 records out
+10485760 bytes transferred in 0.260173 secs (40303077 bytes/sec)
+Count = 100
+100+0 records in
+100+0 records out
+104857600 bytes transferred in 1.828401 secs (57349359 bytes/sec)
+100+0 records in
+100+0 records out
+104857600 bytes transferred in 1.827379 secs (57381422 bytes/sec)
+100+0 records in
+100+0 records out
+104857600 bytes transferred in 1.837084 secs (57078272 bytes/sec)
+100+0 records in
+100+0 records out
+104857600 bytes transferred in 1.825008 secs (57455962 bytes/sec)
+100+0 records in
+100+0 records out
+104857600 bytes transferred in 1.828080 secs (57359405 bytes/sec)
+# 
+

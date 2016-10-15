@@ -1,0 +1,5752 @@
+
+# ./perfDir_splash_shell.sh 
+tput: no terminal type specified and no TERM environmental variable.
+Running LU Contiguous test.
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:102082368072
+	Hit:28803230877
+	LL:12296407
+	SC:11437768
+	Inv:1265066183
+	Inv-Hit:697759613
+
+Blocked Dense LU Factorization
+     512 by 512 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0     137731709        262440       6533044     130219220        712719
+
+                            TIMING INFORMATION
+Start time                        : 1418663841599640
+Initialization finish time        : 1418663851118683
+Overall finish time               : 1418663988850761
+Total time with initialization    :        147251121
+Total time without initialization :        137732078
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:108617443788
+	Hit:30908306613
+	LL:13037972
+	SC:12126830
+	Inv:1320562067
+	Inv-Hit:737809656
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:108627713064
+	Hit:30910918148
+	LL:13043379
+	SC:12131950
+	Inv:1320642676
+	Inv-Hit:737837502
+
+Blocked Dense LU Factorization
+     512 by 512 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0     196624067        331251       9121460     187140319         26735
+
+                            TIMING INFORMATION
+Start time                        : 1418663989314111
+Initialization finish time        : 1418663995274934
+Overall finish time               : 1418664191899323
+Total time with initialization    :        202585212
+Total time without initialization :        196624389
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:115648988240
+	Hit:33133172607
+	LL:14076323
+	SC:13088259
+	Inv:1383680580
+	Inv-Hit:781799317
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:115653364035
+	Hit:33134722515
+	LL:14082844
+	SC:13094349
+	Inv:1383776274
+	Inv-Hit:781833497
+
+Blocked Dense LU Factorization
+     512 by 512 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0     136813495        263350       6492920     129242830        810403
+
+                            TIMING INFORMATION
+Start time                        : 1418664192370405
+Initialization finish time        : 1418664198810278
+Overall finish time               : 1418664335624106
+Total time with initiali                            
+
+Blocked Dense LU Factorization
+     512 by 512 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+							PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0     165719868        308023       7732896     155822655       1852233
+
+                            TIMING INFORMATION
+Start time                        : 1418664336106857
+Initialization finish time        : 1418664346355511
+Overall finish time               : 1418664512076299
+Total time with initialization    :        175969442
+Total time without initialization :        165720788
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:128722784685
+	Hit:37303342356
+	LL:15694681
+	SC:14589865
+	Inv:1573387640
+	Inv-Hit:888793140
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:128727526566
+	Hit:37305016687
+	LL:15701968
+	SC:14596800
+	Inv:1573490060
+	Inv-Hit:888829968
+
+Blocked Dense LU Factorization
+     512 by 512 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0     196265237        331051       9093679     186810796         25852
+
+                            TIMING INFORMATION
+Start time                        : 1418664512477009
+Initialization finish time        : 1418664522248669
+Overall finish time               : 1418664718514213
+Total time with initialization    :        206037204
+Total time without initialization :        196265544
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:136020904336
+	Hit:39543665222
+	LL:16750242
+	SC:15566674
+	Inv:1654215232
+	Inv-Hit:943135473
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:136026193179
+	Hit:39545385256
+	LL:16758256
+	SC:15574250
+	Inv:1654329133
+	Inv-Hit:943174666
+
+Blocked Dense LU Factorization
+     512 by 512 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0     136753016        262480       6520555     129177021        789159
+
+                            TIMING INFORMATION
+Start time                        : 1418664719008008
+Initialization finish time        : 1418664727772469
+Overall finish time               : 1418664864525947
+Total time with initialization    :        145517939
+Total time without initialization :        136753478
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:142510094312
+	Hit:41641921655
+	LL:17470945
+	SC:16235906
+	Inv:1704683247
+	Inv-Hit:981969996
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:142517761174
+	Hit:41644072939
+	LL:17476217
+	SC:16240883
+	Inv:1704770033
+	Inv-Hit:982000645
+
+Blocked Dense LU Factorization
+     512 by 512 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0     165239267        309241       7647486     155657975       1620502
+
+                            TIMING INFORMATION
+Start time                        : 1418664865036798
+Initialization finish time        : 1418664873683687
+Overall finish time               : 1418665038923291
+Total time with initiali                            
+
+Blocked Dense LU Factorization
+     512 by 512 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+    
+							PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0     196715158        333486       9129040     187222658         26114
+
+                            TIMING INFORMATION
+Start time                        : 1418665039442081
+Initialization finish time        : 1418665049468506
+Overall finish time               : 1418665246184013
+Total time with initialization    :        206741932
+Total time without initialization :        196715507
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:156393853024
+	Hit:45945149042
+	LL:19378449
+	SC:18002114
+	Inv:1939067466
+	Inv-Hit:1110998200
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:156399038850
+	Hit:45946881115
+	LL:19383295
+	SC:18006669
+	Inv:1939153613
+	Inv-Hit:1111029661
+
+Blocked Dense LU Factorization
+     512 by 512 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0     136681505        261065       6469092     129228101        719014
+
+                            TIMING INFORMATION
+Start time                        : 1418665246664077
+Initialization finish time        : 1418665256525820
+Overall finish time               : 1418665393207650
+Total time with initialization    :        146543573
+Total time without initialization :        136681830
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:162966981799
+	Hit:48058038416
+	LL:20104942
+	SC:18676120
+	Inv:1990385620
+	Inv-Hit:1150125776
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:162977712820
+	Hit:48060813029
+	LL:20109931
+	SC:18680900
+	Inv:1990459506
+	Inv-Hit:1150150382
+
+Blocked Dense LU Factorization
+     512 by 512 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0     166051776        308675       7742536     156141143       1855374
+
+                            TIMING INFORMATION
+Start time                        : 1418665393774944
+Initialization finish time        : 1418665400566675
+Overall finish time               : 1418665566618692
+Total time with initiali                            
+
+Blocked Dense LU Factorization
+     512 by 512 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+							PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0     196323651        330443       9108472     186855937         24797
+
+                            TIMING INFORMATION
+Start time                        : 1418665567081795
+Initialization finish time        : 1418665575862219
+Overall finish time               : 1418665772186212
+Total time with initialization    :        205104417
+Total time without initialization :        196323993
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:176664335481
+	Hit:52352690305
+	LL:22015519
+	SC:20445264
+	Inv:2207359676
+	Inv-Hit:1270328055
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:176674420799
+	Hit:52355284204
+	LL:22021418
+	SC:20450876
+	Inv:2207440286
+	Inv-Hit:1270355141
+
+Blocked Dense LU Factorization
+     512 by 512 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0     135654517        261547       6474020     128417340        497462
+
+                            TIMING INFORMATION
+Start time                        : 1418665772733426
+Initialization finish time        : 1418665782609201
+Overall finish time               : 1418665918264053
+Total time with initialization    :        145530627
+Total time without initialization :        135654852
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:183221423217
+	Hit:54467578289
+	LL:22732247
+	SC:21111946
+	Inv:2258493808
+	Inv-Hit:1309763790
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:183225842757
+	Hit:54469120144
+	LL:22738804
+	SC:21118102
+	Inv:2258595556
+	Inv-Hit:1309800005
+
+Blocked Dense LU Factorization
+     512 by 512 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0     165455286        308013       7726100     155552548       1864492
+
+                            TIMING INFORMATION
+Start time                        : 1418665918736608
+Initialization finish time        : 1418665928554087
+Overall finish time               : 1418666094009720
+Total time with initiali
+Blocked Dense LU Factorization
+     128 by 128 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0       3439970         93730        445992       2752104        146722
+
+                            TIMING INFORMATION
+Start time                        : 1418666094548772
+Initialization finish time        : 1418666094827147
+Overall finish time               : 1418666098267417
+Total time with initialization    :          3718645
+Total time without initialization :          3440270
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:190027039439
+	Hit:56610651315
+	LL:23642432
+	SC:21955997
+	Inv:2400734715
+	Inv-Hit:1379157429
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:190031671254
+	Hit:56612277084
+	LL:23649660
+	SC:21962782
+	Inv:2400838097
+	Inv-Hit:1379195384
+
+Blocked Dense LU Factorization
+     128 by 128 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0       3412908         94661        447337       2714683        154883
+
+                            TIMING INFORMATION
+Start time                        : 1418666098734065
+Initialization finish time        : 1418666099030805
+Overall finish time               : 1418666102443956
+Total time with initialization    :          3709891
+Total time without initialization :          3413151
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:190152778316
+	Hit:56651023230
+	LL:23685625
+	SC:21996432
+	Inv:2402059536
+	Inv-Hit:1379956818
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:190162551327
+	Hit:56653552461
+	LL:23691784
+	SC:22002312
+	Inv:2402152356
+	Inv-Hit:1379986797
+
+Blocked Dense LU Factorization
+     128 by 128 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0       3422595         93790        444871       2731829        150870
+
+                            TIMING INFORMATION
+Start time                        : 1418666102884029
+Initialization finish time        : 1418666103158214
+Overall finish time               : 1418666106581039
+Total time with initialization    :          3697010
+Total time without initialization :          3422825
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:190291220259
+	Hit:56693788915
+	LL:23720431
+	SC:22028965
+	Inv:2403152882
+	Inv-Hit:1380668456
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:190302576330
+	Hit:56696692373
+	LL:23723875
+	SC:22032268
+	Inv:2403218569
+	Inv-Hit:1380691067
+
+Blocked Dense LU Factorization
+     128 by 128 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0       3425435         94603        445555       2737242        146964
+
+                            TIMING INFORMATION
+Start time                        : 1418666107122024
+Initialization finish time        : 1418666107397316
+Overall finish time               : 1418666110822972
+Total time with initialization    :          3700948
+Total time without initialization :          3425656
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:190424998068
+	Hit:56735755677
+	LL:23759924
+	SC:22066055
+	Inv:2404283868
+	Inv-Hit:1381394096
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:190433918456
+	Hit:56738176865
+	LL:23766296
+	SC:22072102
+	Inv:2404371117
+	Inv-Hit:1381423682
+
+Blocked Dense LU Factorization
+     128 by 128 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0       3381656         93054        444637       2677986        164766
+
+                            TIMING INFORMATION
+Start time                        : 1418666111253038
+Initialization finish time        : 1418666111547011
+Overall finish time               : 1418666114929016
+Total time with initialization    :          3675978
+Total time without initialization :          3382005
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:190569126245
+	Hit:56779607727
+	LL:23795122
+	SC:22098861
+	Inv:2405387347
+	Inv-Hit:1382109180
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:190580130841
+	Hit:56782427324
+	LL:23798578
+	SC:22102186
+	Inv:2405452731
+	Inv-Hit:1382131873
+
+Blocked Dense LU Factorization
+     128 by 128 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0       3461971         93690        447885       2769572        149608
+
+                            TIMING INFORMATION
+Start time                        : 1418666115467569
+Initialization finish time        : 1418666115740201
+Overall finish time               : 1418666119202580
+Total time with initialization    :          3735011
+Total time without initialization :          3462379
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:190715893388
+	Hit:56823967252
+	LL:23828958
+	SC:22130611
+	Inv:2406469712
+	Inv-Hit:1382817255
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:190720530444
+	Hit:56825599433
+	LL:23836211
+	SC:22137412
+	Inv:2406574017
+	Inv-Hit:1382857386
+
+Blocked Dense LU Factorization
+     128 by 128 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0       3386046         94070        435149       2691696        164047
+
+                            TIMING INFORMATION
+Start time                        : 1418666119662162
+Initialization finish time        : 1418666119934293
+Overall finish time               : 1418666123320776
+Total time with initialization    :          3658614
+Total time without initialization :          3386483
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:190848893603
+	Hit:56865709387
+	LL:23871448
+	SC:22170427
+	Inv:2407593218
+	Inv-Hit:1383547722
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:190855753173
+	Hit:56867706870
+	LL:23878995
+	SC:22177538
+	Inv:2407694852
+	Inv-Hit:1383582542
+
+Blocked Dense LU Factorization
+     128 by 128 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0       3377621         93423        441874       2671292        169860
+
+                            TIMING INFORMATION
+Start time                        : 1418666123797214
+Initialization finish time        : 1418666124094728
+Overall finish time               : 1418666127472706
+Total time with initialization    :          3675492
+Total time without initialization :          3377978
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:190984029297
+	Hit:56907635634
+	LL:23909783
+	SC:22206133
+	Inv:2408866670
+	Inv-Hit:1384326807
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:190988691840
+	Hit:56909259478
+	LL:23917048
+	SC:22212959
+	Inv:2408969945
+	Inv-Hit:1384364423
+
+Blocked Dense LU Factorization
+     128 by 128 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0       3395515         95861        439911       2703453        155237
+
+                            TIMING INFORMATION
+Start time                        : 1418666127921223
+Initialization finish time        : 1418666128189968
+Overall finish time               : 1418666131585806
+Total time with initialization    :          3664583
+Total time without initialization :          3395838
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:191118423637
+	Hit:56949527583
+	LL:23951889
+	SC:22245669
+	Inv:2410000581
+	Inv-Hit:1385057900
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:191129111778
+	Hit:56952292688
+	LL:23957006
+	SC:22250552
+	Inv:2410070494
+	Inv-Hit:1385081411
+
+Blocked Dense LU Factorization
+     128 by 128 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0       3441913         93534        446052       2755655        145569
+
+                            TIMING INFORMATION
+Start time                        : 1418666132086356
+Initialization finish time        : 1418666132361063
+Overall finish time               : 1418666135803199
+Total time with initialization    :          3716843
+Total time without initialization :          3442136
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:191258170057
+	Hit:56992615832
+	LL:23992605
+	SC:22283999
+	Inv:2411137757
+	Inv-Hit:1385787577
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:191262751152
+	Hit:56994249187
+	LL:23999795
+	SC:22290774
+	Inv:2411236279
+	Inv-Hit:1385824123
+
+Blocked Dense LU Factorization
+     128 by 128 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0       3387123         92898        445398       2684915        162691
+
+                            TIMING INFORMATION
+Start time                        : 1418666136186528
+Initialization finish time        : 1418666136485095
+Overall finish time               : 1418666139872487
+Total time with initialization    :          3685959
+Total time without initialization :          3387392
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:191392606088
+	Hit:57034464513
+	LL:24028537
+	SC:22317563
+	Inv:2412393269
+	Inv-Hit:1386565188
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:191403179979
+	Hit:57037169513
+	LL:24034251
+	SC:22323000
+	Inv:2412469186
+	Inv-Hit:1386590342
+
+Blocked Dense LU Factorization
+     128 by 128 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0       3464521         95226        450912       2774952        142315
+
+                            TIMING INFORMATION
+Start time                        : 1418666140402953
+Initialization finish time        : 1418666140678373
+Overall finish time               : 1418666144143167
+Total time with initialization    :          3740214
+Total time without initialization :          3464794
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:191538369754
+	Hit:57078608892
+	LL:24063581
+	SC:22350377
+	Inv:2413480695
+	Inv-Hit:1387272931
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:191543045456
+	Hit:57080225946
+	LL:24070801
+	SC:22357191
+	Inv:2413583500
+	Inv-Hit:1387312569
+
+Blocked Dense LU Factorization
+     128 by 128 Matrix
+     2 Processors
+     16 by 16 Element Blocks
+
+
+                            PROCESS STATISTICS
+              Total      Diagonal     Perimeter      Interior       Barrier
+ Proc         Time         Time         Time           Time          Time
+    0       3374933         93287        435713       2680989        163864
+
+                            TIMING INFORMATION
+Start time                        : 1418666144603513
+Initialization finish time        : 1418666144877995
+Overall finish time               : 1418666148253152
+Total time with initialization    :          3649639
+Total time without initialization :          3375157
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:191670256439
+	Hit:57120245709
+	LL:24103721
+	SC:22388024
+	Inv:2414607123
+	Inv-Hit:1388003225
+End
+Running WATER Nsquared test.
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:191675252629
+	Hit:57121962513
+	LL:24110989
+	SC:22394880
+	Inv:2414709987
+	Inv-Hit:1388040768
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999899999999995
+BOXL =  24.851010
+CUTOFF =   6.212752
+XS =   3.106380
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3        1.57495      0.05127     10.55761                      -2.15831
+           10.026        305.74022        -19.57198
+COMPUTESTART (after initialization) = 1418666151063737
+COMPUTEEND = 1418666484947144
+COMPUTETIME (after initialization) = 333883407
+Measured Time (2nd timestep onward) = 199780295
+Intramolecular time only (2nd timestep onward) = 2446569
+Intermolecular time only (2nd timestep onward) = 197308884
+Other time (2nd timestep onward) = 24842
+
+Exited Happily with XTT = 10.0255 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:200355112261
+	Hit:59549148001
+	LL:25756307
+	SC:23963260
+	Inv:2496703509
+	Inv-Hit:1426653229
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:200359543619
+	Hit:59550699310
+	LL:25762884
+	SC:23969423
+	Inv:2496805543
+	Inv-Hit:1426691473
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999899999999995
+BOXL =  24.851010
+CUTOFF =   6.212752
+XS =   3.106380
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3        1.57495      0.05127     10.55761                      -2.15831
+           10.026        305.74022        -19.57198
+COMPUTESTART (after initialization) = 1418666487840514
+COMPUTEEND = 1418666819155841
+COMPUTETIME (after initialization) = 331315327
+Measured Time (2nd timestep onward) = 197822982
+Intramolecular time only (2nd timestep onward) = 2454382
+Intermolecular time only (2nd timestep onward) = 195345287
+Other time (2nd timestep onward) = 23313
+
+Exited Happily with XTT = 10.02Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:209486397507
+	Hit:62057734364
+	LL:27531676
+	SC:25649122
+	Inv:2543017872
+	Inv-Hit:1452130276
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999899999999995
+BOXL =  24.851010
+CUTOFF =   6.212752
+XS =   3.106380
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3        1.57495      0.05127     10.55761                      -2.15831
+           10.026        305.74022        -19.57198
+COMPUTESTART (after initialization) = 1418666822313861
+COMPUTEEND = 1418667165457814
+COMPUTETIME (after initialization) = 343143953
+Measured Time (2nd timestep onward) = 205033586
+Intramolecular time only (2nd timestep onward) = 2450732
+Intermolecular time only (2nd timestep onward) = 202554162
+Other time (2nd timestep onward) = 28692
+
+Exited Happily with XTT = 10.0255 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:218581982264
+	Hit:64512467722
+	LL:29220601
+	SC:27258867
+	Inv:2666304835
+	Inv-Hit:1504353116
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:218588030788
+	Hit:64514297080
+	LL:29226560
+	SC:27264422
+	Inv:2666400981
+	Inv-Hit:1504386708
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999899999999995
+BOXL =  24.851010
+CUTOFF =   6.212752
+XS =   3.106380
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3        1.57495      0.05127     10.55761                      -2.15831
+           10.026        305.74022        -19.57198
+COMPUTESTART (after initialization) = 1418667168652339
+COMPUTEEND = 1418667497750097
+COMPUTETIME (after initialization) = 329097758
+Measured Time (2nd timestep onward) = 196709384
+Intramolecular time only (2nd timestep onward) = 2453883
+Intermolecular time only (2nd timestep onward) = 194231950
+Other time (2nd timestep onward) = 23551
+
+Exited Happily with XTT = 10.0255 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:227616756586
+	Hit:66987658400
+	LL:30855546
+	SC:28815110
+	Inv:2711333810
+	Inv-Hit:1529565779
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:227623745154
+	Hit:66989705381
+	LL:30860730
+	SC:28819996
+	Inv:2711425372
+	Inv-Hit:1529599479
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999899999999995
+BOXL =  24.851010
+CUTOFF =   6.212752
+XS =   3.106380
+ZERO = 1.55         3        1.57495      0.05127     10.55761                      -2.15831
+           10.026        305.74022        -19.57198
+COMPUTESTART (after initialization) = 1418667501026803
+COMPUTEEND = 1418667836574855
+COMPUTETIME (after initialization) = 335548052
+Measured Time (2nd timestep onward) = 199712861
+Intramolecular time only (2nd timestep onward) = 2450269
+Intermolecular time only (2nd timestep onward) = 197239186
+Other time (2nd timestep onward) = 23406
+
+Exited Happily with XTT = 10.0255 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:236464694525
+	Hit:69444668809
+	LL:32514399
+	SC:30395927
+	Inv:2794108427
+	Inv-Hit:1567886619
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:236469064646
+	Hit:69446247414
+	LL:32520913
+	SC:30402045
+	Inv:2794198161
+	Inv-Hit:1567914826
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999899999999995
+BOXL =  24.851010
+CUTOFF =   6.212752
+XS =   3.106380
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3        1.57495      0.05127     10.55761                      -2.15831
+           10.026        305.74022        -19.57198
+COMPUTESTART (after initialization) = 1418667839728303
+COMPUTEEND = 1418668169404496
+COMPUTETIME (after initialization) = 329676193
+Measured Time (2nd timestep onward) = 197188579
+Intramolecular time only (2nd timestep onward) = 2451378
+Intermolecular time only (2nd timestep onward) = 194712957
+Other time (2nd timestep onward) = 24244
+
+Exited Happily with XTT = 10.0255 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:245426567047
+	Hit:71906645398
+	LL:34129274
+	SC:31932944
+	Inv:2838331715
+	Inv-Hit:1592745805
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:245430971684
+	Hit:71908188976
+	LL:34135778
+	SC:31939040
+	Inv:2838433163
+	Inv-Hit:1592781822
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999899999999995
+BOXL =  24.851010
+CUTOFF =   6.212752
+XS =   3.106380
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3        1.57495      0.05127     10.55761                      -2.15831
+           10.026        305.74022        -19.57198
+COMPUTESTART (after initialization) = 1418668172517625
+COMPUTEEND = 1418668515017476
+COMPUTETIME (after initialization) = 342499851
+Measured Time (2nd timestep onward) = 204043666
+Intramolecular time only (2nd timestep onward) = 2454190
+Intermolecular time only (2nd timestep onward) = 201564906
+Other time (2nd timestep onward) = 24570
+
+Exited Happily with XTT = 10.02
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999899999999995
+BOXL =  24.851010
+CUTOFF =   6.212752
+XS =   3.106380
+ZERO = 1.55         3        1.57495      0.05127     10.55761                      -2.15831
+           10.026        305.74022        -19.57198
+COMPUTESTART (after initialization) = 1418668518280757
+COMPUTEEND = 1418668846711905
+COMPUTETIME (after initialization) = 328431148
+Measured Time (2nd timestep onward) = 195683096
+Intramolecular time only (2nd timestep onward) = 2452995
+Intermolecular time only (2nd timestep onward) = 193206473
+Other time (2nd timestep onward) = 23628
+
+Exited Happily with XTT = 10.0255 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:263382886289
+	Hit:76792937214
+	LL:37440284
+	SC:35083806
+	Inv:3006747239
+	Inv-Hit:1672783407
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:263388771418
+	Hit:76794818208
+	LL:37445321
+	SC:35088551
+	Inv:3006833984
+	Inv-Hit:1672811197
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999899999999995
+BOXL =  24.851010
+CUTOFF =   6.212752
+XS =   3.106380
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3        1.57495      0.05127     10.55761                      -2.15831
+           10.026        305.74022        -19.57198
+COMPUTESTART (after initialization) = 1418668849515471
+COMPUTEEND = 1418669187111394
+COMPUTETIME (after initialization) = 337595923
+Measured Time (2nd timestep onward) = 201721925
+Intramolecular time only (2nd timestep onward) = 2448098
+Intermolecular time only (2nd timestep onward) = 199244183
+Other time (2nd timestep onward) = 29644
+
+Exited Happily with XTT = 10.0255 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:272410921021
+	Hit:79285816804
+	LL:39098151
+	SC:36664062
+	Inv:3088299405
+	Inv-Hit:1710878390
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:272421346609
+	Hit:79288517202
+	LL:39102780
+	SC:36668506
+	Inv:3088382679
+	Inv-Hit:1710905356
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999899999999995
+BOXL =  24.851010
+CUTOFF =   6.212752
+XS =   3.106380
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3        1.57495      0.05127     10.55761                      -2.15831
+           10.026        305.74022        -19.57198
+COMPUTESTART (after initialization) = 1418669189893624
+COMPUTEEND = 1418669517971186
+COMPUTETIME (after initialization) = 328077562
+Measured Time (2nd timestep onward) = 196565391
+Intramolecular time only (2nd timestep onward) = 2450231
+Intermolecular time only (2nd timestep onward) = 194086671
+Other time (2nd timestep onward) = 28489
+
+Exited Happily with XTT = 10.02
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999899999999995
+BOXL =  24.851010
+CUTOFF =   6.212752
+XS =   3.106380
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3        1.57495      0.05127     10.55761                      -2.15831
+           10.026        305.74022        -19.57198
+COMPUTESTART (after initialization) = 1418669520555193
+COMPUTEEND = 1418669859198777
+COMPUTETIME (after initialization) = 338643584
+Measured Time (2nd timestep onward) = 200767426
+Intramolecular time only (2nd timestep onward) = 2451112
+Intermolecular time only (2nd timestep onward) = 198291789
+Other time (2nd timestep onward) = 24525
+
+Exited Happily with XTT = 10.0255 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:290048646175
+	Hit:84099010928
+	LL:42393451
+	SC:39799754
+	Inv:3258936742
+	Inv-Hit:1797590867
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:290053027604
+	Hit:84100593065
+	LL:42399977
+	SC:39805858
+	Inv:3259024845
+	Inv-Hit:1797618505
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999899999999995
+BOXL =  24.851010
+CUTOFF =   6.212752
+XS =   3.106380
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3        1.57495      0.05127     10.55761                      -2.15831
+           10.026        305.74022        -19.57198
+COMPUTESTART (after initialization) = 1418669862404875
+COMPUTEEND = 1418670189859449
+COMPUTETIME (after initialization) = 327454574
+Measured Time (2nd timestep onward) = 196477126
+Intramolecular time only (2nd timestep onward) = 2454958
+Intermolecular time only (2nd timestep onward) = 193998876
+Other time (2nd timestep onward) = 23292
+
+Exited Happily with XTT = 10.0255 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:298915788141
+	Hit:86542983605
+	LL:44020842
+	SC:41346155
+	Inv:3304280294
+	Inv-Hit:1823385702
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:298921956387
+	Hit:86544931867
+	LL:44026474
+	SC:41351488
+	Inv:3304371735
+	Inv-Hit:1823419763
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999899999999995
+BOXL =  24.851010
+CUTOFF =   6.212752
+XS =   3.106380
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3        1.57495      0.05127     10.55761                      -2.15831
+           10.026        305.74022        -19.57198
+COMPUTESTART (after initialization) = 1418670193120256
+COMPUTEEND = 1418670528612557
+COMPUTETIME (after initialization) = 335492301
+Measured Time (2nd timestep onward) = 201029910
+Intramolecular time only (2nd timestep onward) = 2454009
+Intermolecular time only (2nd timestep onward) = 198552511
+Other time (2nd timestep onward) = 23390
+
+Exited Happily with XTT = 10.0255 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:307767976261
+	Hit:89004019103
+	LL:45683238
+	SC:42930848
+	Inv:3387181818
+	Inv-Hit:1862212145
+End
+Running WATER Sequential test.
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:307772958779
+	Hit:89005728747
+	LL:45690556
+	SC:42937756
+	Inv:3387289548
+	Inv-Hit:1862253413
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+64 boxes with 2 processors
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+xprocs = 1	yprocs = 1	zprocs = 2
+x_inc = 4	 y_inc = 4	 z_inc = 2
+x_left = 0	 y_left = 0	 z_left = 0
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999999999999893
+BOXL =  24.851010
+CUTOFF =   6.212752
+BOX_LENGTH =   6.212752
+BOX_PER_SIDE = 4
+XS =   3.106376
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3     4711.30613   1586.02005      9.16081     -1.85845 
+         6304.629    1430180.83630        414.12462
+COMPUTESTART (after initialization) = 1418670531123127
+COMPUTEEND = 1418670868745120
+COMPUTETIME (after initialization) = 337621993
+Measured Time (2nd timestep onward) = 199079253
+Intramolecular time only (2nd timestep onward) = 2481960
+Intermolecular time only (2nd timestep onward) = 196583858
+Other time (2nd timestep onward) = 13435
+
+Exited Happily with XTT = 6304.63 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:316393128905
+	Hit:91425347040
+	LL:47417166
+	SC:44512119
+	Inv:3444798218
+	Inv-Hit:1897753911
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:316397778953
+	Hit:91427013277
+	LL:47424470
+	SC:44518983
+	Inv:3444897142
+	Inv-Hit:1897787002
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+64 boxes with 2 processors
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+xprocs = 1	yprocs = 1	zprocs = 2
+x_inc = 4	 y_inc = 4	 z_inc = 2
+x_left = 0	 y_left = 0	 z_left = 0
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999999999999893
+BOXL =  24.851010
+CUTOFF =   6.212752
+BOX_LENGTH =   6.212752
+BOX_PER_SIDE = 4
+XS =   3.106376
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3     4711.30613   1586.02005      9.16081     -1.85845 
+         6304.629    1430180.83630        414.12462
+COMPUTESTART (after initialization) = 1418670871047641
+COMPUTEEND = 1418671209987449
+COMPUTETIME (after initialization) = 338939808
+Measured Time (2nd timestep onward) = 200645951
+Intramolecular time only (2nd timestep onward) = 2494512
+Intermolecular time only (2nd timestep onward) = 198140986
+Other time (2nd timestep onward) = 10453
+
+Exited Happily with XTT = 6304.63 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:325013479329
+	Hit:93841856171
+	LL:49153471
+	SC:46101882
+	Inv:3503590138
+	Inv-Hit:1934344791
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:325023990392
+	Hit:93844542109
+	LL:49157579
+	SC:46105769
+	Inv:3503665820
+	Inv-Hit:1934370013
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+64 boxes with 2 processors
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+xprocs = 1	yprocs = 1	zprocs = 2
+x_inc = 4	 y_inc = 4	 z_inc = 2
+x_left = 0	 y_left = 0	 z_left = 0
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999999999999893
+BOXL =  24.851010
+CUTOFF =   6.212752
+BOX_LENGTH =   6.212752
+BOX_PER_SIDE = 4
+XS =   3.106376
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3     4711.30613   1586.02005      9.16081     -1.85845 
+         6304.629    1430180.83630        414.12462
+COMPUTESTART (after initialization) = 1418671212604649
+COMPUTEEND = 1418671552180711
+COMPUTETIME (after initialization) = 339576062
+Measured Time (2nd timestep onward) = 200751267
+Intramolecular time only (2nd timestep onward) = 2486464
+Intermolecular time only (2nd timestep onward) = 198254547
+Other time (2nd timestep onward) = 10256
+
+Exited Happily with XTT = 6304.63 (note: XTT va         3     4711.30613   1586.02005      9.16081     -1.85845 
+         6304.629    1430180.83630        414.12462
+COMPUTESTART (after initialization) = 1418671554768195
+COMPUTEEND = 1418671893789178
+COMPUTETIME (after initialization) = 339020983
+Measured Time (2nd timestep onward) = 200758250
+Intramolecular time only (2nd timestep onward) = 2495409
+Intermolecular time only (2nd timestep onward) = 198252380
+Other time (2nd timestep onward) = 10461
+
+Exited Happily with XTT = 6304.63 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:342363323731
+	Hit:98701729265
+	LL:52645516
+	SC:49296566
+	Inv:3619084238
+	Inv-Hit:2004641141
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:342367718932
+	Hit:98703310804
+	LL:52652078
+	SC:49302712
+	Inv:3619173506
+	Inv-Hit:2004669161
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+64 boxes with 2 processors
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+xprocs = 1	yprocs = 1	zprocs = 2
+x_inc = 4	 y_inc = 4	 z_inc = 2
+x_left = 0	 y_left = 0	 z_left = 0
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999999999999893
+BOXL =  24.851010
+CUTOFF =   6.212752
+BOX_LENGTH =   6.212752
+BOX_PER_SIDE = 4
+XS =   3.106376
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3     4711.30613   1586.02005      9.16081     -1.85845 
+         6304.629    1430180.83630        414.12462
+COMPUTESTART (after initialization) = 1418671896243302
+COMPUTEEND = 1418672234369651
+COMPUTETIME (after initialization) = 338126349
+Measured Time (2nd timestep onward) = 199797238
+Intramolecular time only (2nd timestep onward) = 2487937
+Intermolecular time only (2nd timestep onward) = 197298766
+Other time (2nd timestep onward) = 10535
+
+Exited Happily with XTT = 6304.63 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:351012175618
+	Hit:101129397393
+	LL:54385759
+	SC:50891739
+	Inv:3678965664
+	Inv-Hit:2041082781
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:351023114554
+	Hit:101132181105
+	LL:54388517
+	SC:50894375
+	Inv:3679025163
+	Inv-Hit:2041102843
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+64 boxes with 2 processors
+
+
+TEMPERATURE                     3     4711.30613   1586.02005      9.16081     -1.85845 
+         6304.629    1430180.83630        414.12462
+COMPUTESTART (after initialization) = 1418672236951615
+COMPUTEEND = 1418672574928544
+COMPUTETIME (after initialization) = 337976929
+Measured Time (2nd timestep onward) = 199049112
+Intramolecular time only (2nd timestep onward) = 2500366
+Intermolecular time only (2nd timestep onward) = 196538059
+Other time (2nd timestep onward) = 10687
+
+Exited Happily with XTT = 6304.63 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:359589827526
+	Hit:103528946778
+	LL:56121189
+	SC:52481944
+	Inv:3739448989
+	Inv-Hit:2078599057
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:359596569281
+	Hit:103531002562
+	LL:56127055
+	SC:52487500
+	Inv:3739544542
+	Inv-Hit:2078634873
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+64 boxes with 2 processors
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+xprocs = 1	yprocs = 1	zprocs = 2
+x_inc = 4	 y_inc = 4	 z_inc = 2
+x_left = 0	 y_left = 0	 z_left = 0
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999999999999893
+BOXL =  24.851010
+CUTOFF =   6.212752
+BOX_LENGTH =   6.212752
+BOX_PER_SIDE = 4
+XS =   3.106376
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3     4711.30613   1586.02005      9.16081     -1.85845 
+         6304.629    1430180.83630        414.12462
+COMPUTESTART (after initialization) = 1418672577077296
+COMPUTEEND = 1418672915890684
+COMPUTETIME (after initialization) = 338813388
+Measured Time (2nd timestep onward) = 200254838
+Intramolecular time only (2nd timestep onward) = 2486398
+Intermolecular time only (2nd timestep onward) = 197757912
+Other time (2nd timestep onward) = 10528
+
+Exited Happily with XTT = 6304.63 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:368214775015
+	Hit:105948936049
+	LL:57857402
+	SC:54069148
+	Inv:3797227565
+	Inv-Hit:2113737700
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:368219400149
+	Hit:105950590951
+	LL:57864599
+	SC:54075921
+	Inv:3797321893
+	Inv-Hit:2113768516
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+64 boxes with 2 processors
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+xprocs = 1	yprocs = 1	zprocs = 2
+x_inc = 4	 y_inc = 4	 z_inc = 2
+x_left = 0	 y_left = 0	 z_left = 0
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999999999999893
+BOXL =  24.851010
+CUTOFF =   6.212752
+BOX_LENGTH =   6.212752
+BOX_PER_SIDE = 4
+XS =   3.106376
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3     4711.30613   1586.02005      9.16081     -1.85845 
+         6304.629    1430180.83630        414.12462
+COMPUTESTART (after initialization) = 1418672918392415
+COMPUTEEND = 1418673258743874
+COMPUTETIME (after initialization) = 340351459
+Measured Time (2nd timestep onward) = 201089017
+Intramolecular time only (2nd timestep onward) = 2495603
+Intermolecular time only (2nd timestep onward) = 198583442
+Other time (2nd timestep onward) = 9972
+
+Exited Happily with XTT = 6304.63 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:376913867639
+	Hit:108373670486
+	LL:59601568
+	SC:55665687
+	Inv:3857397036
+	Inv-Hit:2150701942
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:376918499346
+	Hit:108375314287
+	LL:59608762
+	SC:55672476
+	Inv:3857495421
+	Inv-Hit:2150738459
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+64 boxes with 2 processors
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+xprocs = 1	yprocs = 1	zprocs = 2
+x_inc = 4	 y_inc = 4	 z_inc = 2
+x_left = 0	 y_left = 0	 z_left = 0
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999999999999893
+BOXL =  24.851010
+CUTOFF =   6.212752
+BOX_LENGTH =   6.212752
+BOX_PER_SIDE = 4
+XS =   3.106376
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3     4711.30613   1586.02005      9.16081     -1.85845 
+         6304.629    1430180.83630        414.12462
+COMPUTESTART (after initialization) = 1418673261203981
+COMPUTEEND = 1418673599897258
+COMPUTETIME (after initialization) = 338693277
+Measured Time (2nd timestep onward) = 200041530
+Intramolecular time only (2nd timestep onward) = 2485104
+Intermolecular time only (2nd timestep onward) = 197546166
+Other time (2nd timestep onward) = 10260
+
+Exited Happily with XTT = 6304.63 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:385506404224
+	Hit:110792191951
+	LL:61346851
+	SC:57252507
+	Inv:3915969071
+	Inv-Hit:2185714799
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:385511098676
+	Hit:110793808666
+	LL:61354089
+	SC:57259335
+	Inv:3916074452
+	Inv-Hit:2185755352
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+64 boxes with 2 processors
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =            3     4711.30613   1586.02005      9.16081     -1.85845 
+         6304.629    1430180.83630        414.12462
+COMPUTESTART (after initialization) = 1418673602145053
+COMPUTEEND = 1418673941141234
+COMPUTETIME (after initialization) = 338996181
+Measured Time (2nd timestep onward) = 200333686
+Intramolecular time only (2nd timestep onward) = 2482217
+Intermolecular time only (2nd timestep onward) = 197837967
+Other time (2nd timestep onward) = 13502
+
+Exited Happily with XTT = 6304.63 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:394127226044
+	Hit:113211250149
+	LL:63083385
+	SC:58836470
+	Inv:3974538251
+	Inv-Hit:2221923605
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:394132182944
+	Hit:113212970585
+	LL:63089023
+	SC:58841793
+	Inv:3974624308
+	Inv-Hit:2221950762
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+64 boxes with 2 processors
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+xprocs = 1	yprocs = 1	zprocs = 2
+x_inc = 4	 y_inc = 4	 z_inc = 2
+x_left = 0	 y_left = 0	 z_left = 0
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999999999999893
+BOXL =  24.851010
+CUTOFF =   6.212752
+BOX_LENGTH =   6.212752
+BOX_PER_SIDE = 4
+XS =   3.106376
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3     4711.30613   1586.02005      9.16081     -1.85845 
+         6304.629    1430180.83630        414.12462
+COMPUTESTART (after initialization) = 1418673943641278
+COMPUTEEND = 1418674280726219
+COMPUTETIME (after initialization) = 337084941
+Measured Time (2nd timestep onward) = 198706718
+Intramolecular time only (2nd timestep onward) = 2486255
+Intermolecular time only (2nd timestep onward) = 196206554
+Other time (2nd timestep onward) = 13909
+
+Exited Happily with XTT = 6304.63 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:402661838098
+	Hit:115609735120
+	LL:64817730
+	SC:60418816
+	Inv:4031641125
+	Inv-Hit:2257172373
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:402667479689
+	Hit:115611600307
+	LL:64823446
+	SC:60424267
+	Inv:4031729829
+	Inv-Hit:2257204261
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+64 boxes with 2 processors
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =            3     4711.30613   1586.02005      9.16081     -1.85845 
+         6304.629    1430180.83630        414.12462
+COMPUTESTART (after initialization) = 1418674283207865
+COMPUTEEND = 1418674622924729
+COMPUTETIME (after initialization) = 339716864
+Measured Time (2nd timestep onward) = 200799081
+Intramolecular time only (2nd timestep onward) = 2495743
+Intermolecular time only (2nd timestep onward) = 198290103
+Other time (2nd timestep onward) = 13235
+
+Exited Happily with XTT = 6304.63 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:411352099585
+	Hit:118031969347
+	LL:66566149
+	SC:62007473
+	Inv:4089780742
+	Inv-Hit:2293532808
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:411356509873
+	Hit:118033516807
+	LL:66572668
+	SC:62013588
+	Inv:4089879305
+	Inv-Hit:2293569491
+Using 2 procs on 3 steps of 512 mols
+Other parameters:
+	TSTEP = 1.50e-16
+	NORDER = 6
+	NSAVE = -1
+	NRST = 3000
+	NPRINT = 3
+	NFMC = 0
+	CUTOFF = 6.212752
+
+64 boxes with 2 processors
+
+
+TEMPERATURE                =   298.00 K
+DENSITY                    =  0.99800 G/C.C.
+NUMBER OF MOLECULES        =      512
+NUMBER OF PROCESSORS       =        2
+TIME STEP                  = 1.50e-01 SEC
+ORDER USED TO SOLVE F=MA   =        6 
+NO. OF TIME STEPS          =        3 
+FREQUENCY OF DATA SAVING   =       -1 
+FREQUENCY TO WRITE RST FILE=     3000 
+xprocs = 1	yprocs = 1	zprocs = 2
+x_inc = 4	 y_inc = 4	 z_inc = 2
+x_left = 0	 y_left = 0	 z_left = 0
+SPHERICAL CUTOFF RADIUS    =   6.2128 ANGSTROM
+
+NS = 7.9999999999999893
+BOXL =  24.851010
+CUTOFF =   6.212752
+BOX_LENGTH =   6.212752
+BOX_PER_SIDE = 4
+XS =   3.106376
+ZERO = 1.55319
+WCOS = 0.585882
+WSIN = 0.756950
+***** NEW RUN STARTING FROM REGULAR LATTICE *****
+         3     4711.30613   1586.02005      9.16081     -1.85845 
+         6304.629    1430180.83630        414.12462
+COMPUTESTART (after initialization) = 1418674625230918
+COMPUTEEND = 1418674963489585
+COMPUTETIME (after initialization) = 338258667
+Measured Time (2nd timestep onward) = 199847612
+Intramolecular time only (2nd timestep onward) = 2478417
+Intermolecular time only (2nd timestep onward) = 197359006
+Other time (2nd timestep onward) = 10189
+
+Exited Happily with XTT = 6304.63 (note: XTT value is garbage if NPRINT > NSTEP)
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:419972333402
+	Hit:120460877948
+	LL:68289143
+	SC:63581669
+	Inv:4144833660
+	Inv-Hit:2327105580
+End
+Running RADIX test.
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:419983075705
+	Hit:120463662287
+	LL:68293147
+	SC:63585513
+	Inv:4144911902
+	Inv-Hit:2327131647
+
+Integer Radix Sort
+     262144 Keys
+     2 Processors
+     Radix = 1024
+     Max key = 524288
+
+
+                 PROCESS STATISTICS
+               Total            Rank            Sort
+ Proc          Time             Time            Time
+    0         725509           63276          330884
+
+                 TIMING INFORMATION
+Start time                        : 1418674963950166
+Initialization finish time        : 1418675012811633
+Overall finish time               : 1418675013537142
+Total time with initialization    :         49586976
+Total time without initialization :           725509
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:421915722420
+	Hit:121106382646
+	LL:68615312
+	SC:63888339
+	Inv:4149575472
+	Inv-Hit:2329049884
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:421923380078
+	Hit:121108556156
+	LL:68621090
+	SC:63893818
+	Inv:4149668733
+	Inv-Hit:2329079964
+
+Integer Radix Sort
+     262144 Keys
+     2 Processors
+     Radix = 1024
+     Max key = 524288
+
+
+                 PROCESS STATISTICS
+               Total            Rank            Sort
+ Proc          Time             Time            Time
+    0         743029           67058          673479
+
+                 TIMING INFORMATION
+Start time                        : 1418675014089102
+Initialization finish time        : 1418675062881532
+Overall finish time               : 1418675063624561
+Total time with initialization    :         49535459
+Total time without initialization :           743029
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:423860543420
+	Hit:121752957056
+	LL:68899749
+	SC:64154011
+	Inv:4154216989
+	Inv-Hit:2330959536
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:423865199374
+	Hit:121754574320
+	LL:68906968
+	SC:64160807
+	Inv:4154322055
+	Inv-Hit:2330993185
+
+Integer Radix Sort
+     262144 Keys
+     2 Processors
+     Radix = 1024
+     Max key = 524288
+
+
+                 PROCESS STATISTICS
+               Total            Rank            Sort
+ Proc          Time             Time            Time
+    0         719893           64376          317702
+
+                 TIMING INFORMATION
+Start time                        : 1418675064276648
+Initialization finish time        : 1418675113080234
+Overall finish time               : 1418675113800127
+Total time with initialization    :         49523479
+Total time without initialization :           719893
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:425792741740
+	Hit:122394954656
+	LL:69249324
+	SC:64481995
+	Inv:4159083593
+	Inv-Hit:2332969289
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:425799341927
+	Hit:122396872907
+	LL:69256881
+	SC:64489116
+	Inv:4159201248
+	Inv-Hit:2333006627
+
+Integer Radix Sort
+     262144 Keys
+     2 Processors
+     Radix = 1024
+     Max key = 524288
+
+
+                 PROCESS STATISTICS
+               Total            Rank            Sort
+ Proc          Time             Time            Time
+    0         710001           64087          320326
+
+                 TIMING INFORMATION
+Start time                        : 1418675114411985
+Initialization finish time        : 1418675163286873
+Overall finish time               : 1418675163996874
+Total time with initialization    :         49584889
+Total time without initialization :           710001
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:427745076864
+	Hit:123043475298
+	LL:69523128
+	SC:64737886
+	Inv:4163720354
+	Inv-Hit:2334914412
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:427749732615
+	Hit:123045086955
+	LL:69530326
+	SC:64744667
+	Inv:4163826130
+	Inv-Hit:2334947967
+
+Integer Radix Sort
+     262144 Keys
+     2 Processors
+     Radix = 1024
+     Max key = 524288
+
+
+                 PROCESS STATISTICS
+               Total            Rank            Sort
+ Proc          Time             Time            Time
+    0         735358           65549          328331
+
+                 TIMING INFORMATION
+Start time                        : 1418675164646957
+Initialization finish time        : 1418675213384872
+Overall finish time               : 1418675214120230
+Total time with initialization    :         49473273
+Total time without initialization :           735358
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:429679712610
+	Hit:123687846521
+	LL:69855118
+	SC:65048953
+	Inv:4168221059
+	Inv-Hit:2336782568
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:429690544659
+	Hit:123690618117
+	LL:69859279
+	SC:65052942
+	Inv:4168293501
+	Inv-Hit:2336806678
+
+Integer Radix Sort
+     262144 Keys
+     2 Processors
+     Radix = 1024
+     Max key = 524288
+
+
+                 PROCESS STATISTICS
+               Total            Rank            Sort
+ Proc          Time             Time            Time
+    0         717004           64384          317939
+
+                 TIMING INFORMATION
+Start time                        : 1418675214704293
+Initialization finish time        : 1418675263726519
+Overall finish time               : 1418675264443523
+Total time with initialization    :         49739230
+Total time without initialization :           717004
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:431637973560
+	Hit:124338073385
+	LL:70183806
+	SC:65357589
+	Inv:4172943631
+	Inv-Hit:2338762020
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:431642895090
+	Hit:124339745223
+	LL:70190740
+	SC:65364148
+	Inv:4173047474
+	Inv-Hit:2338795581
+
+Integer Radix Sort
+     262144 Keys
+     2 Processors
+     Radix = 1024
+     Max key = 524288
+
+
+                 PROCESS STATISTICS
+               Total            Rank            Sort
+ Proc          Time             Time            Time
+    0         723748           64557          324944
+
+                 TIMING INFORMATION
+Start time                        : 1418675264959366
+Initialization finish time        : 1418675313758085
+Overall finish time               : 1418675314481833
+Total time with initialization    :         49522467
+Total time without initialization :           723748
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:433578614032
+	Hit:124983574321
+	LL:70479436
+	SC:65633821
+	Inv:4177426600
+	Inv-Hit:2340649955
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:433583523900
+	Hit:124985245491
+	LL:70486551
+	SC:65640543
+	Inv:4177529155
+	Inv-Hit:2340681411
+
+Integer Radix Sort
+     262144 Keys
+     2 Processors
+     Radix = 1024
+     Max key = 524288
+
+
+                 PROCESS STATISTICS
+               Total            Rank            Sort
+ Proc          Time             Time            Time
+    0         742605           65044          355952
+
+                 TIMING INFORMATION
+Start time                        : 1418675315073280
+Initialization finish time        : 1418675363611368
+Overall finish time               : 1418675364353973
+Total time with initialization    :         49280693
+Total time without initialization :           742605
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:435507897017
+	Hit:125627727501
+	LL:70786680
+	SC:65921976
+	Inv:4182112196
+	Inv-Hit:2342553885
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:435512745117
+	Hit:125629387218
+	LL:70793775
+	SC:65928653
+	Inv:4182219070
+	Inv-Hit:2342587821
+
+Integer Radix Sort
+     262144 Keys
+     2 Processors
+     Radix = 1024
+     Max key = 524288
+
+
+                 PROCESS STATISTICS
+               Total            Rank            Sort
+ Proc          Time             Time            Time
+    0         722615           63853          327195
+
+                 TIMING INFORMATION
+Start time                        : 1418675364902576
+Initialization finish time        : 1418675413652162
+Overall finish time               : 1418675414374777
+Total time with initialization    :         49472201
+Total time without initialization :           722615
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:437447998284
+	Hit:126272727346
+	LL:71089823
+	SC:66204115
+	Inv:4186565390
+	Inv-Hit:2344436194
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:437458940044
+	Hit:126275523183
+	LL:71093459
+	SC:66207612
+	Inv:4186638600
+	Inv-Hit:2344460422
+
+Integer Radix Sort
+     262144 Keys
+     2 Processors
+     Radix = 1024
+     Max key = 524288
+
+
+                 PROCESS STATISTICS
+               Total            Rank            Sort
+ Proc          Time             Time            Time
+    0         741270           64264          355514
+
+                 TIMING INFORMATION
+Start time                        : 1418675415103348
+Initialization finish time        : 1418675463972868
+Overall finish time               : 1418675464714138
+Total time with initialization    :         49610790
+Total time without initialization :           741270
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:439398864719
+	Hit:126919696074
+	LL:71398125
+	SC:66493606
+	Inv:4191373293
+	Inv-Hit:2346476894
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:439409772929
+	Hit:126922484428
+	LL:71401586
+	SC:66496934
+	Inv:4191441320
+	Inv-Hit:2346499644
+
+Integer Radix Sort
+     262144 Keys
+     2 Processors
+     Radix = 1024
+     Max key = 524288
+
+
+                 PROCESS STATISTICS
+               Total            Rank            Sort
+ Proc          Time             Time            Time
+    0         739096           64143          671724
+
+                 TIMING INFORMATION
+Start time                        : 1418675465296177
+Initialization finish time        : 1418675514112417
+Overall finish time               : 1418675514851513
+Total time with initialization    :         49555336
+Total time without initialization :           739096
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:441353007051
+	Hit:127568208975
+	LL:71698861
+	SC:66776037
+	Inv:4195929958
+	Inv-Hit:2348379760
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:441357623705
+	Hit:127569825357
+	LL:71706061
+	SC:66782810
+	Inv:4196033919
+	Inv-Hit:2348412999
+
+Integer Radix Sort
+     262144 Keys
+     2 Processors
+     Radix = 1024
+     Max key = 524288
+
+
+                 PROCESS STATISTICS
+               Total            Rank            Sort
+ Proc          Time             Time            Time
+    0         767918           65930          699985
+
+                 TIMING INFORMATION
+Start time                        : 1418675515398396
+Initialization finish time        : 1418675564244835
+Overall finish time               : 1418675565012753
+Total time with initialization    :         49614357
+Total time without initialization :           767918
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:443303011101
+	Hit:128215323585
+	LL:71977311
+	SC:67035124
+	Inv:4200574742
+	Inv-Hit:2350356310
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:443312885050
+	Hit:128217837059
+	LL:71983046
+	SC:67040577
+	Inv:4200667237
+	Inv-Hit:2350386474
+
+Integer Radix Sort
+     262144 Keys
+     2 Processors
+     Radix = 1024
+     Max key = 524288
+
+
+                 PROCESS STATISTICS
+               Total            Rank            Sort
+ Proc          Time             Time            Time
+    0         719967           64457          496535
+
+                 TIMING INFORMATION
+Start time                        : 1418675565727648
+Initialization finish time        : 1418675614610571
+Overall finish time               : 1418675615330538
+Total time with initialization    :         49602890
+Total time without initialization :           719967
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445250400529
+	Hit:128861861603
+	LL:72262701
+	SC:67300926
+	Inv:4205116938
+	Inv-Hit:2352286565
+End
+Running FFT easy test.
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445258242676
+	Hit:128864101079
+	LL:72268415
+	SC:67306332
+	Inv:4205210722
+	Inv-Hit:2352317515
+
+FFT with Blocking Transpose
+   1024 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   16 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0            217848           1912       0.00878
+
+                 TIMING INFORMATION
+Start time                        : 1418675616023548
+Initialization finish time        : 1418675616461174
+Overall finish time               : 1418675616679022
+Total time with initialization    :           655474
+Total time without initialization :           217848
+Overall transpose time            :             1912
+Overall transpose fraction        :          0.00878
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445293567412
+	Hit:128873952832
+	LL:72279701
+	SC:67316957
+	Inv:4205416195
+	Inv-Hit:2352398254
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445298213771
+	Hit:128875570646
+	LL:72286902
+	SC:67323740
+	Inv:4205522229
+	Inv-Hit:2352431993
+
+FFT with Blocking Transpose
+   1024 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   16 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0            216369           1757       0.00812
+
+                 TIMING INFORMATION
+Start time                        : 1418675617127510
+Initialization finish time        : 1418675617555091
+Overall finish time               : 1418675617771460
+Total time with initialization    :           643950
+Total time without initialization :           216369
+Overall transpose time            :             1757
+Overall transpose fraction        :          0.00812
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445326866456
+	Hit:128883823576
+	LL:72306243
+	SC:67342174
+	Inv:4205786147
+	Inv-Hit:2352524885
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445334562204
+	Hit:128886001624
+	LL:72312016
+	SC:67347674
+	Inv:4205878754
+	Inv-Hit:2352554392
+
+FFT with Blocking Transpose
+   1024 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   16 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0            219862           1774       0.00807
+
+                 TIMING INFORMATION
+Start time                        : 1418675618243466
+Initialization finish time        : 1418675618685812
+Overall finish time               : 1418675618905674
+Total time with initialization    :           662208
+Total time without initialization :           219862
+Overall transpose time            :             1774
+Overall transpose fraction        :          0.00807
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445371794810
+	Hit:128895949626
+	LL:72325996
+	SC:67360901
+	Inv:4206126004
+	Inv-Hit:2352647417
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445376419183
+	Hit:128897552179
+	LL:72333158
+	SC:67367661
+	Inv:4206230114
+	Inv-Hit:2352681311
+
+FFT with Blocking Transpose
+   1024 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   16 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0            218466           1805       0.00826
+
+                 TIMING INFORMATION
+Start time                        : 1418675619351231
+Initialization finish time        : 1418675619781054
+Overall finish time               : 1418675619999520
+Total time with initialization    :           648289
+Total time without initialization :           218466
+Overall transpose time            :             1805
+Overall transpose fraction        :          0.00826
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445407148898
+	Hit:128906359330
+	LL:72346900
+	SC:67380619
+	Inv:4206452686
+	Inv-Hit:2352766595
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445411788078
+	Hit:128907977690
+	LL:72354151
+	SC:67387448
+	Inv:4206557056
+	Inv-Hit:2352799633
+
+FFT with Blocking Transpose
+   1024 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   16 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0            217886           1777       0.00816
+
+                 TIMING INFORMATION
+Start time                        : 1418675620449919
+Initialization finish time        : 1418675620878233
+Overall finish time               : 1418675621096119
+Total time with initialization    :           646200
+Total time without initialization :           217886
+Overall transpose time            :             1777
+Overall transpose fraction        :          0.00816
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445438239251
+	Hit:128915876814
+	LL:72373867
+	SC:67406166
+	Inv:4206828863
+	Inv-Hit:2352894302
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445444745635
+	Hit:128917883839
+	LL:72378912
+	SC:67410910
+	Inv:4206920253
+	Inv-Hit:2352923442
+
+FFT with Blocking Transpose
+   1024 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   16 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0            217880           1892       0.00868
+
+                 TIMING INFORMATION
+Start time                        : 1418675621524713
+Initialization finish time        : 1418675621973457
+Overall finish time               : 1418675622191337
+Total time with initialization    :           666624
+Total time without initialization :           217880
+Overall transpose time            :             1892
+Overall transpose fraction        :          0.00868
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445484710009
+	Hit:128928388000
+	LL:72392346
+	SC:67423649
+	Inv:4207151695
+	Inv-Hit:2353008886
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445495638934
+	Hit:128931181752
+	LL:72396437
+	SC:67427556
+	Inv:4207222287
+	Inv-Hit:2353032562
+
+FFT with Blocking Transpose
+   1024 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   16 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0            218134           2027       0.00929
+
+                 TIMING INFORMATION
+Start time                        : 1418675622712739
+Initialization finish time        : 1418675623154465
+Overall finish time               : 1418675623372599
+Total time with initialization    :           659860
+Total time without initialization :           218134
+Overall transpose time            :             2027
+Overall transpose fraction        :          0.00929
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445537245945
+	Hit:128942078073
+	LL:72410429
+	SC:67440793
+	Inv:4207455372
+	Inv-Hit:2353122191
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445541861218
+	Hit:128943691178
+	LL:72417628
+	SC:67447582
+	Inv:4207565944
+	Inv-Hit:2353158789
+
+FFT with Blocking Transpose
+   1024 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   16 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0            217581           2316       0.01064
+
+                 TIMING INFORMATION
+Start time                        : 1418675623820123
+Initialization finish time        : 1418675624264221
+Overall finish time               : 1418675624481802
+Total time with initialization    :           661679
+Total time without initialization :           217581
+Overall transpose time            :             2316
+Overall transpose fraction        :          0.01064
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445579915104
+	Hit:128953808940
+	LL:72430565
+	SC:67459817
+	Inv:4207796822
+	Inv-Hit:2353242530
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445585308319
+	Hit:128955604262
+	LL:72436296
+	SC:67465253
+	Inv:4207893057
+	Inv-Hit:2353273207
+
+FFT with Blocking Transpose
+   1024 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   16 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0            219400           1758       0.00801
+
+                 TIMING INFORMATION
+Start time                        : 1418675624937463
+Initialization finish time        : 1418675625378999
+Overall finish time               : 1418675625598399
+Total time with initialization    :           660936
+Total time without initialization :           219400
+Overall transpose time            :             1758
+Overall transpose fraction        :          0.00801
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445614687174
+	Hit:128964192340
+	LL:72457932
+	SC:67485779
+	Inv:4208185328
+	Inv-Hit:2353377411
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445619875736
+	Hit:128965937955
+	LL:72464136
+	SC:67491669
+	Inv:4208284463
+	Inv-Hit:2353409020
+
+FFT with Blocking Transpose
+   1024 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   16 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0            217116           1752       0.00807
+
+                 TIMING INFORMATION
+Start time                        : 1418675625971342
+Initialization finish time        : 1418675626417166
+Overall finish time               : 1418675626634282
+Total time with initialization    :           662940
+Total time without initialization :           217116
+Overall transpose time            :             1752
+Overall transpose fraction        :          0.00807
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445657645453
+	Hit:128976190540
+	LL:72484003
+	SC:67510600
+	Inv:4208551101
+	Inv-Hit:2353509057
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445662686307
+	Hit:128977869132
+	LL:72491342
+	SC:67517517
+	Inv:4208666096
+	Inv-Hit:2353545833
+
+FFT with Blocking Transpose
+   1024 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   16 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0            218462           1918       0.00878
+
+                 TIMING INFORMATION
+Start time                        : 1418675627045615
+Initialization finish time        : 1418675627489692
+Overall finish time               : 1418675627708154
+Total time with initialization    :           662539
+Total time without initialization :           218462
+Overall transpose time            :             1918
+Overall transpose fraction        :          0.00878
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445695661157
+	Hit:128987089877
+	LL:72512405
+	SC:67537583
+	Inv:4208969310
+	Inv-Hit:2353652314
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445700292031
+	Hit:128988692825
+	LL:72519619
+	SC:67544369
+	Inv:4209079758
+	Inv-Hit:2353686745
+
+FFT with Blocking Transpose
+   1024 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   16 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0            218732           1893       0.00865
+
+                 TIMING INFORMATION
+Start time                        : 1418675628080252
+Initialization finish time        : 1418675628522559
+Overall finish time               : 1418675628741291
+Total time with initialization    :           661039
+Total time without initialization :           218732
+Overall transpose time            :             1893
+Overall transpose fraction        :          0.00865
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445740451929
+	Hit:128999224443
+	LL:72533808
+	SC:67557807
+	Inv:4209321925
+	Inv-Hit:2353777916
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445751005615
+	Hit:129001924752
+	LL:72538967
+	SC:67562714
+	Inv:4209405215
+	Inv-Hit:2353806088
+
+FFT with Blocking Transpose
+   1024 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   16 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0            216851           2422       0.01117
+
+                 TIMING INFORMATION
+Start time                        : 1418675629267247
+Initialization finish time        : 1418675629719496
+Overall finish time               : 1418675629936347
+Total time with initialization    :           669100
+Total time without initialization :           216851
+Overall transpose time            :             2422
+Overall transpose fraction        :          0.01117
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445787588137
+	Hit:129012078771
+	LL:72556821
+	SC:67579673
+	Inv:4209660925
+	Inv-Hit:2353898691
+End
+Running FFT hard test.
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:445792543242
+	Hit:129013780489
+	LL:72564069
+	SC:67586521
+	Inv:4209765110
+	Inv-Hit:2353930849
+
+FFT with Blocking Transpose
+   16384 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   64 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0           4707365          31095       0.00661
+
+                 TIMING INFORMATION
+Start time                        : 1418675630307994
+Initialization finish time        : 1418675636719561
+Overall finish time               : 1418675641426926
+Total time with initialization    :         11118932
+Total time without initialization :          4707365
+Overall transpose time            :            31095
+Overall transpose fraction        :          0.00661
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:446249718560
+	Hit:129134054500
+	LL:72646842
+	SC:67663889
+	Inv:4211419157
+	Inv-Hit:2354683742
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:446254539741
+	Hit:129135715759
+	LL:72654593
+	SC:67671228
+	Inv:4211532379
+	Inv-Hit:2354719582
+
+FFT with Blocking Transpose
+   16384 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   64 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0           4740009          37442       0.00790
+
+                 TIMING INFORMATION
+Start time                        : 1418675641810068
+Initialization finish time        : 1418675648235542
+Overall finish time               : 1418675652975551
+Total time with initialization    :         11165483
+Total time without initialization :          4740009
+Overall transpose time            :            37442
+Overall transpose fraction        :          0.00790
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:446710241085
+	Hit:129252131961
+	LL:72726513
+	SC:67738355
+	Inv:4213187931
+	Inv-Hit:2355487825
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:446718835734
+	Hit:129254460008
+	LL:72732327
+	SC:67743879
+	Inv:4213286006
+	Inv-Hit:2355519790
+
+FFT with Blocking Transpose
+   16384 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   64 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0           4736902          34156       0.00721
+
+                 TIMING INFORMATION
+Start time                        : 1418675653487685
+Initialization finish time        : 1418675659796153
+Overall finish time               : 1418675664533055
+Total time with initialization    :         11045370
+Total time without initialization :          4736902
+Overall transpose time            :            34156
+Overall transpose fraction        :          0.00721
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:447136577948
+	Hit:129361848708
+	LL:72807093
+	SC:67813777
+	Inv:4214903869
+	Inv-Hit:2356275461
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:447145320220
+	Hit:129364237428
+	LL:72813534
+	SC:67819941
+	Inv:4215004222
+	Inv-Hit:2356307446
+
+FFT with Blocking Transpose
+   16384 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   64 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0           4761766          37639       0.00790
+
+                 TIMING INFORMATION
+Start time                        : 1418675665047590
+Initialization finish time        : 1418675671481657
+Overall finish time               : 1418675676243423
+Total time with initialization    :         11195833
+Total time without initialization :          4761766
+Overall transpose time            :            37639
+Overall transpose fraction        :          0.00790
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:447608946488
+	Hit:129482234148
+	LL:72883624
+	SC:67885236
+	Inv:4216780683
+	Inv-Hit:2357114591
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:447618228571
+	Hit:129484658074
+	LL:72889693
+	SC:67891001
+	Inv:4216887619
+	Inv-Hit:2357148828
+
+FFT with Blocking Transpose
+   16384 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   64 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0           4744446          34991       0.00738
+
+                 TIMING INFORMATION
+Start time                        : 1418675676765807
+Initialization finish time        : 1418675683099608
+Overall finish time               : 1418675687844054
+Total time with initialization    :         11078247
+Total time without initialization :          4744446
+Overall transpose time            :            34991
+Overall transpose fraction        :          0.00738
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:448043861367
+	Hit:129593919705
+	LL:72967947
+	SC:67964062
+	Inv:4218655963
+	Inv-Hit:2357969963
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:448055035930
+	Hit:129596781828
+	LL:72971418
+	SC:67967399
+	Inv:4218728966
+	Inv-Hit:2357994853
+
+FFT with Blocking Transpose
+   16384 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   64 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0           4671467          27145       0.00581
+
+                 TIMING INFORMATION
+Start time                        : 1418675688319735
+Initialization finish time        : 1418675694587939
+Overall finish time               : 1418675699259406
+Total time with initialization    :         10939671
+Total time without initialization :          4671467
+Overall transpose time            :            27145
+Overall transpose fraction        :          0.00581
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:448450371226
+	Hit:129707718400
+	LL:73053104
+	SC:68043596
+	Inv:4220323485
+	Inv-Hit:2358723356
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:448460402340
+	Hit:129710270582
+	LL:73059102
+	SC:68049318
+	Inv:4220420407
+	Inv-Hit:2358755058
+
+FFT with Blocking Transpose
+   16384 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   64 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0           4703256          30282       0.00644
+
+                 TIMING INFORMATION
+Start time                        : 1418675699769954
+Initialization finish time        : 1418675706204608
+Overall finish time               : 1418675710907864
+Total time with initialization    :         11137910
+Total time without initialization :          4703256
+Overall transpose time            :            30282
+Overall transpose fraction        :          0.00644
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:448918586438
+	Hit:129830832700
+	LL:73134028
+	SC:68119388
+	Inv:4222118738
+	Inv-Hit:2359519974
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:448923219072
+	Hit:129832430509
+	LL:73141257
+	SC:68126178
+	Inv:4222236843
+	Inv-Hit:2359557119
+
+FFT with Blocking Transpose
+   16384 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   64 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0           4711299          34744       0.00737
+
+                 TIMING INFORMATION
+Start time                        : 1418675711312257
+Initialization finish time        : 1418675717634488
+Overall finish time               : 1418675722345787
+Total time with initialization    :         11033530
+Total time without initialization :          4711299
+Overall transpose time            :            34744
+Overall transpose fraction        :          0.00737
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:449339440298
+	Hit:129942554079
+	LL:73217974
+	SC:68197614
+	Inv:4224062368
+	Inv-Hit:2360359562
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:449344724994
+	Hit:129944346584
+	LL:73224061
+	SC:68203380
+	Inv:4224161437
+	Inv-Hit:2360392940
+
+FFT with Blocking Transpose
+   16384 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   64 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0           4693832          30776       0.00656
+
+                 TIMING INFORMATION
+Start time                        : 1418675722813478
+Initialization finish time        : 1418675729206762
+Overall finish time               : 1418675733900594
+Total time with initialization    :         11087116
+Total time without initialization :          4693832
+Overall transpose time            :            30776
+Overall transpose fraction        :          0.00656
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:449797372752
+	Hit:130063679663
+	LL:73298676
+	SC:68273002
+	Inv:4225738652
+	Inv-Hit:2361136418
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:449807468240
+	Hit:130066256136
+	LL:73304390
+	SC:68278404
+	Inv:4225838812
+	Inv-Hit:2361170040
+
+FFT with Blocking Transpose
+   16384 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   64 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0           4738874          37640       0.00794
+
+                 TIMING INFORMATION
+Start time                        : 1418675734423797
+Initialization finish time        : 1418675740853117
+Overall finish time               : 1418675745591991
+Total time with initialization    :         11168194
+Total time without initialization :          4738874
+Overall transpose time            :            37640
+Overall transpose fraction        :          0.00794
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:450273417782
+	Hit:130184971818
+	LL:73369616
+	SC:68338999
+	Inv:4227396274
+	Inv-Hit:2361900248
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:450278535564
+	Hit:130186696393
+	LL:73376388
+	SC:68345360
+	Inv:4227505048
+	Inv-Hit:2361934833
+
+FFT with Blocking Transpose
+   16384 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   64 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0           4702829          31094       0.00661
+
+                 TIMING INFORMATION
+Start time                        : 1418675746059402
+Initialization finish time        : 1418675752334082
+Overall finish time               : 1418675757036911
+Total time with initialization    :         10977509
+Total time without initialization :          4702829
+Overall transpose time            :            31094
+Overall transpose fraction        :          0.00661
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:450719475804
+	Hit:130302933268
+	LL:73456454
+	SC:68420782
+	Inv:4229094574
+	Inv-Hit:2362687806
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:450730152285
+	Hit:130305688844
+	LL:73461330
+	SC:68425479
+	Inv:4229169786
+	Inv-Hit:2362713245
+
+FFT with Blocking Transpose
+   16384 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   64 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0           4657155          27125       0.00582
+
+                 TIMING INFORMATION
+Start time                        : 1418675757541945
+Initialization finish time        : 1418675763824326
+Overall finish time               : 1418675768481481
+Total time with initialization    :         10939536
+Total time without initialization :          4657155
+Overall transpose time            :            27125
+Overall transpose fraction        :          0.00582
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:451155537848
+	Hit:130423133369
+	LL:73542323
+	SC:68501871
+	Inv:4230663556
+	Inv-Hit:2363430220
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:451164746143
+	Hit:130425572149
+	LL:73548238
+	SC:68507467
+	Inv:4230758759
+	Inv-Hit:2363462258
+
+FFT with Blocking Transpose
+   16384 Complex Doubles
+   2 Processors
+   65536 Cache lines
+   64 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0           4694706          33236       0.00708
+
+                 TIMING INFORMATION
+Start time                        : 1418675768935184
+Initialization finish time        : 1418675775289457
+Overall finish time               : 1418675779984163
+Total time with initialization    :         11048979
+Total time without initialization :          4694706
+Overall transpose time            :            33236
+Overall transpose fraction        :          0.00708
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:451593567495
+	Hit:130539881792
+	LL:73621865
+	SC:68576407
+	Inv:4232316177
+	Inv-Hit:2364188512
+End
+Running FMM 256 test.
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:451603383286
+	Hit:130542446289
+	LL:73627935
+	SC:68582158
+	Inv:4232407469
+	Inv-Hit:2364219281
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 256 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0      7111000       19639       11777       19800      994719     5761657        1074       49931      251445
+
+                                   TIMING INFORMATION
+Start time                        : 1418675780538480
+Initialization finish time        :        843731021
+Overall finish time               : 1418675793351065
+Total time with initialization    :         12812585
+Total time without initialization :          7112797
+
+Total time for steps 3 to 5 :      7112797
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:452078208405
+	Hit:130682947823
+	LL:73723380
+	SC:68671142
+	Inv:4235769813
+	Inv-Hit:2366290365
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:452088843484
+	Hit:130685647376
+	LL:73728541
+	SC:68676040
+	Inv:4235849863
+	Inv-Hit:2366317845
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 256 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0      7838067       19290       13101       19822     1031629     6457789        1051       58500      235918
+
+                                   TIMING INFORMATION
+Start time                        : 1418675794009951
+Initialization finish time        :        857797118
+Overall finish time               : 1418675808144226
+Total time with initialization    :         14134275
+Total time without initialization :          7838067
+
+Total time for steps 3 to 5 :      7838067
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:452580495909
+	Hit:130823618179
+	LL:73820826
+	SC:68761718
+	Inv:4242853591
+	Inv-Hit:2370346998
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:452591142660
+	Hit:130826351736
+	LL:73825583
+	SC:68766249
+	Inv:4242928624
+	Inv-Hit:2370373226
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 256 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0      6790307       16121       13315       12745      953524     5500988        1118       43318      248050
+
+                                   TIMING INFORMATION
+Start time                        : 1418675808831940
+Initialization finish time        :        871795515
+Overall finish time               : 1418675821094867
+Total time with initialization    :         12262927
+Total time without initialization :          6795459
+
+Total time for steps 3 to 5 :      6795459
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:453041469110
+	Hit:130962617308
+	LL:73920227
+	SC:68854919
+	Inv:4245642799
+	Inv-Hit:2372059326
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:453050624616
+	Hit:130965117782
+	LL:73925097
+	SC:68859554
+	Inv:4245728725
+	Inv-Hit:2372089813
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 256 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0      7785868       18860       14726       15382     1024403     6416400        1103       59173      234833
+
+                                   TIMING INFORMATION
+Start time                        : 1418675821709136
+Initialization finish time        :        885344233
+Overall finish time               : 1418675835639156
+Total time with initialization    :         13930020
+Total time without initialization :          7787580
+
+Total time for steps 3 to 5 :      7787580
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:453531582013
+	Hit:131103869329
+	LL:74017775
+	SC:68945354
+	Inv:4251262215
+	Inv-Hit:2375297321
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:453536187067
+	Hit:131105514805
+	LL:74024986
+	SC:68952141
+	Inv:4251365137
+	Inv-Hit:2375331220
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 256 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0      6866368       17722       10118       22877      963912     5557842        1146       42738      248924
+
+                                   TIMING INFORMATION
+Start time                        : 1418675836263697
+Initialization finish time        :        899162977
+Overall finish time               : 1418675848538408
+Total time with initialization    :         12274711
+Total time without initialization :          6867915
+
+Total time for steps 3 to 5 :      6867915
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:453988388027
+	Hit:131242372394
+	LL:74110621
+	SC:69031545
+	Inv:4254042356
+	Inv-Hit:2376994552
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:453993014964
+	Hit:131244025510
+	LL:74117838
+	SC:69038328
+	Inv:4254164264
+	Inv-Hit:2377032335
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 256 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0      7720804       18858       13015       13450     1014646     6361698        1090       57744      239361
+
+                                   TIMING INFORMATION
+Start time                        : 1418675849167480
+Initialization finish time        :        912781964
+Overall finish time               : 1418675863011826
+Total time with initialization    :         13844346
+Total time without initialization :          7720804
+
+Total time for steps 3 to 5 :      7720804
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:454464153835
+	Hit:131384500572
+	LL:74221722
+	SC:69134875
+	Inv:4257951413
+	Inv-Hit:2379275278
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:454468771707
+	Hit:131386147289
+	LL:74228929
+	SC:69141667
+	Inv:4258052407
+	Inv-Hit:2379307178
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 256 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0      7843838       19016       10471       24617     1030001     6459287        1984       58570      239007
+
+                                   TIMING INFORMATION
+Start time                        : 1418675863538709
+Initialization finish time        :        927195720
+Overall finish time               : 1418675877548598
+Total time with initialization    :         14009889
+Total time without initialization :          7843838
+
+Total time for steps 3 to 5 :      7843838
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:454955745628
+	Hit:131523052473
+	LL:74321878
+	SC:69227788
+	Inv:4264940351
+	Inv-Hit:2383254079
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:454960371998
+	Hit:131524700962
+	LL:74329123
+	SC:69234602
+	Inv:4265039968
+	Inv-Hit:2383286043
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 256 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0      7817124       18602       13402       19174     1027778     6446838        1981       59563      228878
+
+                                   TIMING INFORMATION
+Start time                        : 1418675878161716
+Initialization finish time        :        941765288
+Overall finish time               : 1418675892091453
+Total time with initialization    :         13929737
+Total time without initialization :          7821685
+
+Total time for steps 3 to 5 :      7821685
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:455450105554
+	Hit:131664750284
+	LL:74432366
+	SC:69330723
+	Inv:4270548298
+	Inv-Hit:2386476348
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:455460284438
+	Hit:131667366404
+	LL:74438125
+	SC:69336177
+	Inv:4270635400
+	Inv-Hit:2386505664
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 256 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0      7839420       18270       13982       13504     1026753     6468330        1070       58481      238084
+
+                                   TIMING INFORMATION
+Start time                        : 1418675892758950
+Initialization finish time        :        956528305
+Overall finish time               : 1418675906876767
+Total time with initialization    :         14117817
+Total time without initialization :          7839420
+
+Total time for steps 3 to 5 :      7839420
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:455950148145
+	Hit:131809549221
+	LL:74539383
+	SC:69430483
+	Inv:4275325496
+	Inv-Hit:2389283460
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:455960477630
+	Hit:131812241551
+	LL:74546148
+	SC:69436958
+	Inv:4275418478
+	Inv-Hit:2389313311
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 256 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0      7997418       18266       14029       15138     1030438     6623334        1214       58219      235775
+
+                                   TIMING INFORMATION
+Start time                        : 1418675907537190
+Initialization finish time        :        971423045
+Overall finish time               : 1418675921929524
+Total time with initialization    :         14392334
+Total time without initialization :          7998539
+
+Total time for steps 3 to 5 :      7998539
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:456469547077
+	Hit:131954002037
+	LL:74642916
+	SC:69526791
+	Inv:4282586730
+	Inv-Hit:2393292414
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:456474165298
+	Hit:131955648982
+	LL:74650157
+	SC:69533606
+	Inv:4282687345
+	Inv-Hit:2393325028
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 256 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0      7858749       19186       11228       21749     1033817     6475709        1257       58607      236205
+
+                                   TIMING INFORMATION
+Start time                        : 1418675922545948
+Initialization finish time        :        986263071
+Overall finish time               : 1418675936630875
+Total time with initialization    :         14084927
+Total time without initialization :          7858749
+
+Total time for steps 3 to 5 :      7858749
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:456966675228
+	Hit:132097191915
+	LL:74747602
+	SC:69624406
+	Inv:4288107193
+	Inv-Hit:2396453898
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:456977152756
+	Hit:132099873155
+	LL:74751968
+	SC:69628543
+	Inv:4288175490
+	Inv-Hit:2396476279
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 256 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0      7762744       18118       15019       11996     1023223     6399668        1127       58020      234612
+
+                                   TIMING INFORMATION
+Start time                        : 1418675937229718
+Initialization finish time        :       1000864674
+Overall finish time               : 1418675951136470
+Total time with initialization    :         13906752
+Total time without initialization :          7764443
+
+Total time for steps 3 to 5 :      7764443
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:457468453639
+	Hit:132243806396
+	LL:74847473
+	SC:69716996
+	Inv:4292019076
+	Inv-Hit:2398755954
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:457479094450
+	Hit:132246540226
+	LL:74852315
+	SC:69721611
+	Inv:4292097073
+	Inv-Hit:2398782843
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 256 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0      7431284       19906       10974       23904      975123     6004282        1625       51175      343056
+
+                                   TIMING INFORMATION
+Start time                        : 1418675951824698
+Initialization finish time        :       1015111732
+Overall finish time               : 1418675965052056
+Total time with initialization    :         13227358
+Total time without initialization :          7431284
+
+Total time for steps 3 to 5 :      7431284
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:457924240970
+	Hit:132373115725
+	LL:74940644
+	SC:69803446
+	Inv:4299088444
+	Inv-Hit:2402819308
+End
+Running FMM 2048 test.
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:457934825315
+	Hit:132375923921
+	LL:74948014
+	SC:69810494
+	Inv:4299181004
+	Inv-Hit:2402849851
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 2048 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0    113897352      150722      647497       23454    12452339   100215801        1194      361944       43242
+
+                                   TIMING INFORMATION
+Start time                        : 1418Creating a two cluster, non uniform distribution for 2048 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0    114698435      156453      565499      104016    12627390   100840763        1172      358322       43638
+
+                                   TIMING INFORMATION
+Start time                        : 1418676160185033
+Initialization finish time        :       1297633670
+Overall finish time               : 1418676354841187
+Total time with initialization    :        194656154
+Total time without initialization :        114698435
+
+Total time for steps 3 to 5 :    114698435
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:471078126122
+	Hit:136572922444
+	LL:76992960
+	SC:71695655
+	Inv:4372811791
+	Inv-Hit:2453913772
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:471082518437
+	Hit:136574481008
+	LL:76999713
+	SC:71701990
+	Inv:4372922894
+	Inv-Hit:2453951769
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 2048 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0    115147088      153879      623351       53082    12631935   101259091        1131      358447       65185
+
+                                   TIMING INFORMATION
+Start time                        : 1418676355288771
+Initialization finish time        :       1492703510
+Overall finish time               : 1418676550359656
+Total time with initialization    :        195070885
+Total time without initialization :        115147088
+
+Total time for steps 3 to 5 :    115147088
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:477644498152
+	Hit:138669683449
+	LL:78008112
+	SC:72633873
+	Inv:4411215486
+	Inv-Hit:2480041012
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:477651995039
+	Hit:138671798903
+	LL:78017059
+	SC:72642372
+	Inv:4411353649
+	Inv-Hit:2480086558
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 2048 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0    114406855      151389      579651      113251    12544273   100615930        1178      359251       40762
+
+                                   TIMING INFORMATION
+Start time                        : 1418676550954813
+Initialization finish time        :       1688449121
+Overall finish time               : 1418676745365033
+Total time with initialization    :        194410220
+Total time without initialization :        114406855
+
+Total time for steps 3 to 5 :    114406855
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:484211974740
+	Hit:140772653048
+	LL:79048128
+	SC:73594164
+	Inv:4448771349
+	Inv-Hit:2505707950
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:484217681397
+	Hit:140774506598
+	LL:79053606
+	SC:73599382
+	Inv:4448864453
+	Inv-Hit:2505741892
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 2048 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0    114492841      146002      594944       79904    12489760   100773302        1261      358497       47295
+
+                                   TIMING INFORMATION
+Start time                        : 1418676745847792
+Initialization finish time        :       1882930398
+Overall finish time               : 1418676939932299
+Total time with initialization    :        194084507
+Total time without initialization :        114492841
+
+Total time for steps 3 to 5 :    114492841
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:490770606688
+	Hit:142870169862
+	LL:80083673
+	SC:74550616
+	Inv:4489120929
+	Inv-Hit:2533257795
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:490776427189
+	Hit:142872079419
+	LL:80090457
+	SC:74557121
+	Inv:4489222940
+	Inv-Hit:2533295380
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 2048 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0    114362036      157325      679288       25458    12498224   100595625        1425      360349       43044
+
+                                   TIMING INFORMATION
+Start time                        : 1418676940402480
+Initialization finish time        :       2077335343
+Overall finish time               : 1418677134206436
+Total time with initialization    :        193803956
+Total time without initialization :        114362036
+
+Total time for steps 3 to 5 :    114362036
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:497330827516
+	Hit:144976530588
+	LL:81113916
+	SC:75502192
+	Inv:4526644196
+	Inv-Hit:2558770941
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:497335987778
+	Hit:144978276495
+	LL:81118819
+	SC:75506846
+	Inv:4526731252
+	Inv-Hit:2558803638
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 2048 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0    115216399      150458      641436       82698    12586628   101347181        1145      364365       41347
+
+                                   TIMING INFORMATION
+Start time                        : 1418677134657194
+Initialization finish time        :      -2022261415
+Overall finish time               : 1418677330431344
+Total time with initialization    :        195774150
+Total time without initialization :        115220718
+
+Total time for steps 3 to 5 :    115220718
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:503930354593
+	Hit:147078772797
+	LL:82151680
+	SC:76458060
+	Inv:4571589914
+	Inv-Hit:2587965143
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:503934795441
+	Hit:147080306330
+	LL:82158221
+	SC:76464198
+	Inv:4571705182
+	Inv-Hit:2588013455
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 2048 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0    114546476      159295      702045       25731    12490411   100757665        1176      360323       48712
+
+                                   TIMING INFORMATION
+Start time                        : 1418Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0    114628885      151804      628941       58859    12583410   100801642        1252      358777       43000
+
+                                   TIMING INFORMATION
+Start time                        : 1418677525862567
+Initialization finish time        :      -1631835274
+Overall finish time               : 1418677720269939
+Total time with initialization    :        194407372
+Total time without initialization :        114628885
+
+Total time for steps 3 to 5 :    114628885
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:517171287475
+	Hit:151320384987
+	LL:84175794
+	SC:78326141
+	Inv:4646490066
+	Inv-Hit:2638435332
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:517176476107
+	Hit:151322137859
+	LL:84182139
+	SC:78332142
+	Inv:4646587386
+	Inv-Hit:2638472535
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 2048 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0    114636037      158412      563421      104455    12621610   100790374        1208      357542       38058
+
+                                   TIMING INFORMATION
+Start time                        : 1418677720829206
+Initialization finish time        :      -1436847181
+Overall finish time               : 1418677915265209
+Total time with initialization    :        194436003
+Total time without initialization :        114636037
+
+Total time for steps 3 to 5 :    114636037
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:523743756932
+	Hit:153427506840
+	LL:85202944
+	SC:79274640
+	Inv:4683915642
+	Inv-Hit:2663734716
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:523755221444
+	Hit:153430441237
+	LL:85206458
+	SC:79278015
+	Inv:4683981312
+	Inv-Hit:2663757375
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 2048 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0    114783603      159116      642625       83513    12567490   100927176        1247      361017       40389
+
+                                   TIMING INFORMATION
+Start time                        : 1418677915879338
+Initialization finish time        :      -1241374027
+Overall finish time               : 1418678110885925
+Total time with initialization    :        195006587
+Total time without initialization :        114783603
+
+Total time for steps 3 to 5 :    114783603
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:530296459312
+	Hit:155521252938
+	LL:86217300
+	SC:80212501
+	Inv:4721783419
+	Inv-Hit:2689826837
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:530301516187
+	Hit:155522941522
+	LL:86222930
+	SC:80217818
+	Inv:4721881474
+	Inv-Hit:2689862910
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 2048 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0    114782043      156615      682721       24834    12488654   101016868        1308      359421       50491
+
+                                   TIMING INFORMATION
+Start time                        : 1418678111435154
+Initialization finish time        :      -1045528631
+Overall finish time               : 1418678306729766
+Total time with initialization    :        195294612
+Total time without initialization :        114782043
+
+Total time for steps 3 to 5 :    114782043
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:536887658809
+	Hit:157618124332
+	LL:87239231
+	SC:81152259
+	Inv:4760941622
+	Inv-Hit:2716431407
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:536895006693
+	Hit:157620277096
+	LL:87244976
+	SC:81157711
+	Inv:4761030187
+	Inv-Hit:2716463783
+warning: this program uses gets(), which is unsafe.
+Creating a two cluster, non uniform distribution for 2048 particles
+Starting FMM with 2 processors
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0    114881665      154038      632696       60059    12569403   101055053        1172      358294       49915
+
+                                   TIMING INFORMATION
+Start time                        : 1418678307322178
+Initialization finish time        :       -849852960
+Overall finish time               : 1418678502505074
+Total time with initialization    :        195182896
+Total time without initialization :        114881665
+
+Total time for steps 3 to 5 :    114881665
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:543484772450
+	Hit:159722242141
+	LL:88260152
+	SC:82097397
+	Inv:4798544504
+	Inv-Hit:2742318683
+End
+Running Ocean Contiguous test.
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:543494831348
+	Hit:159724865504
+	LL:88267054
+	SC:82104011
+	Inv:4798641612
+	Inv-Hit:2742350416
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         254282847           72202581             0.284
+
+                       TIMING INFORMATION
+Start time                        : 1418678503008481
+Initialization finish time        : 1418678642038341
+Overall finish time               : 1418678896354317
+Total time with initialization    :        393345836
+Total time without initialization :        254315976
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:554941367689
+	Hit:163346271786
+	LL:90284324
+	SC:83974502
+	Inv:4882941644
+	Inv-Hit:2792337584
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:554946220925
+	Hit:163347962846
+	LL:90292114
+	SC:83981856
+	Inv:4883052046
+	Inv-Hit:2792381719
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         254917684           72631020             0.285
+
+                       TIMING INFORMATION
+Start time                        : 1418678896995952
+Initialization finish time        : 1418679037720129
+Overall finish time               : 1418679292643967
+Total time with initialization    :        395648015
+Total time without initialization :        254923838
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:566291849318
+	Hit:166917550259
+	LL:92347966
+	SC:85889568
+	Inv:4982901171
+	Inv-Hit:2850172274
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:566296795179
+	Hit:166919242746
+	LL:92353657
+	SC:85894947
+	Inv:4982994781
+	Inv-Hit:2850207169
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         253156079           72609599             0.287
+
+                       TIMING INFORMATION
+Start time                        : 1418679293133938
+Initialization finish time        : 1418679432307606
+Overall finish time               : 1418679685497554
+Total time with initialization    :        392363616
+Total time without initialization :        253189948
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:577676217967
+	Hit:170514518955
+	LL:94363836
+	SC:87757820
+	Inv:5070568512
+	Inv-Hit:2902513056
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:577680854144
+	Hit:170516128411
+	LL:94371018
+	SC:87764594
+	Inv:5070670771
+	Inv-Hit:2902552337
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         254161524           72299440             0.284
+
+                       TIMING INFORMATION
+Start time                        : 1418679686123870
+Initialization finish time        : 1418679823320092
+Overall finish time               : 1418680077484301
+Total time with initialization    :        391360431
+Total time without initialization :        254164209
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:588946139126
+	Hit:174102347666
+	LL:96387553
+	SC:89634397
+	Inv:5155608215
+	Inv-Hit:2952565074
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:588950786413
+	Hit:174103945148
+	LL:96394776
+	SC:89641217
+	Inv:5155724250
+	Inv-Hit:2952611966
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         255837223           72392699             0.283
+
+                       TIMING INFORMATION
+Start time                        : 1418680078114583
+Initialization finish time        : 1418680218679160
+Overall finish time               : 1418680474547258
+Total time with initialization    :        396432675
+Total time without initialization :        255868098
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:600355802548
+	Hit:177680187885
+	LL:98501445
+	SC:91596147
+	Inv:5256538176
+	Inv-Hit:3011192171
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:600360973594
+	Hit:177681932672
+	LL:98507905
+	SC:91602269
+	Inv:5256634824
+	Inv-Hit:3011228912
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         254422232           72001324             0.283
+
+                       TIMING INFORMATION
+Start time                        : 1418680475041869
+Initialization finish time        : 1418680614644672
+Overall finish time               : 1418680869074228
+Total time with initialization    :        394032359
+Total time without iniSetting affinity to CPU 0
+*** Performance Counters ***
+	Miss:611840093792
+	Hit:181300084959
+	LL:100574366
+	SC:93521784
+	Inv:5344152512
+	Inv-Hit:3063108931
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         253829525           71862586             0.283
+
+                       TIMING INFORMATION
+Start time                        : 1418680869681486
+Initialization finish time        : 1418681008316663
+Overall finish time               : 1418681262178397
+Total time with initialization    :        392496911
+Total time without initialization :        253861734
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:623168718475
+	Hit:184896725377
+	LL:102688266
+	SC:95477995
+	Inv:5429432710
+	Inv-Hit:3113673056
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:623173373524
+	Hit:184898345473
+	LL:102695511
+	SC:95484803
+	Inv:5429538232
+	Inv-Hit:3113713104
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         256090961           72801966             0.284
+
+                       TIMING INFORMATION
+Start time                        : 1418681262812550
+Initialization finish time        : 1418681403491082
+Overall finish time               : 1418681659588000
+Total time with initialization    :        396775450
+Total time without initialization :        256096918
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:634515673096
+	Hit:188470232337
+	LL:104751603
+	SC:97391291
+	Inv:5529896145
+	Inv-Hit:3172127088
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:634524752563
+	Hit:188472651766
+	LL:104757021
+	SC:97396403
+	Inv:5529982198
+	Inv-Hit:3172156115
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         252755860           72017400             0.285
+
+                       TIMING INFORMATION
+Start time                        : 1418681660131848
+Initialization finish time        : 1418681798180960
+Overall finish time               : 1418682050968374
+Total time with initialization    :        390836526
+Total time without initialization :        252787414
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:645837952571
+	Hit:192050583132
+	LL:106755423
+	SC:99249514
+	Inv:5616859685
+	Inv-Hit:3224445554
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:645842554630
+	Hit:192052207032
+	LL:106762597
+	SC:99256290
+	Inv:5616959594
+	Inv-Hit:3224484015
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         252364525           72216064             0.286
+
+                       TIMING INFORMATION
+Start time                        : 1418682051594212
+Initialization finish time        : 1418682191168112
+Overall finish time               : 1418682443534675
+Total time with initialization    :        391940463
+Total time without iniSetting affinity to CPU 0
+*** Performance Counters ***
+	Miss:657173810004
+	Hit:195645339157
+	LL:108765084
+	SC:101114861
+	Inv:5703551092
+	Inv-Hit:3276406137
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         255467350           72878425             0.285
+
+                       TIMING INFORMATION
+Start time                        : 1418682444237666
+Initialization finish time        : 1418682584194817
+Overall finish time               : 1418682839698723
+Total time with initialization    :        395461057
+Total time without initialization :        255503906
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:668536788666
+	Hit:199212222727
+	LL:110833481
+	SC:103032401
+	Inv:5803838505
+	Inv-Hit:3334126896
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:668543762117
+	Hit:199214305601
+	LL:110839278
+	SC:103037900
+	Inv:5803931825
+	Inv-Hit:3334161981
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         254050051           72630098             0.286
+
+                       TIMING INFORMATION
+Start time                        : 1418682840349138
+Initialization finish time        : 1418682979254627
+Overall finish time               : 1418683233310906
+Total time with initialization    :        392961768
+Total time without initialization :        254056279
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:679878444151
+	Hit:202800234942
+	LL:112905941
+	SC:104956604
+	Inv:5895110406
+	Inv-Hit:3386454749
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:679882843246
+	Hit:202801777475
+	LL:112912506
+	SC:104962755
+	Inv:5895206758
+	Inv-Hit:3386490390
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         253507908           72403140             0.286
+
+                       TIMING INFORMATION
+Start time                        : 1418683233788377
+Initialization finish time        : 1418683372034480
+Overall finish time               : 1418683625575823
+Total time with initialization    :        391787446
+Total time without initialization :        253541343
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:691229148914
+	Hit:206394613414
+	LL:114932965
+	SC:106835887
+	Inv:5983844229
+	Inv-Hit:3438693349
+End
+Running Ocean Non Contiguous test.
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:691234213381
+	Hit:206396317130
+	LL:114940229
+	SC:106842742
+	Inv:5983957330
+	Inv-Hit:3438738744
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         329099068           93402045             0.284
+
+                       TIMING INFORMATION
+Start time                        : 1418683626208897
+Initialization finish time        : 1418683802694471
+Overall finish time               : 1418684131814701
+Total time with initialization    :        505605804
+Total time without initialization :        329120230
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:702827943384
+	Hit:210024563156
+	LL:117580505
+	SC:109322584
+	Inv:6092763485
+	Inv-Hit:3497534786
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:702838843691
+	Hit:210027354701
+	LL:117583964
+	SC:109325910
+	Inv:6092829234
+	Inv-Hit:3497557159
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         325623670           92849354             0.285
+
+                       TIMING INFORMATION
+Start time                        : 1418684132482922
+Initialization finish time        : 1418684304419283
+Overall finish time               : 1418684630064358
+Total time with initialization    :        497581436
+Total time without iniSetting affinity to CPU 0
+*** Performance Counters ***
+	Miss:714254169579
+	Hit:213590544842
+	LL:120097917
+	SC:111685441
+	Inv:6197776598
+	Inv-Hit:3552500748
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:714260046555
+	Hit:213592416198
+	LL:120104333
+	SC:111691472
+	Inv:6197871811
+	Inv-Hit:3552536966
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         328941047           93037061             0.283
+
+                       TIMING INFORMATION
+Start time                        : 1418684630861985
+Initialization finish time        : 1418684804437787
+Overall finish time               : 1418685133379244
+Total time with initialization    :        502517259
+Total time without initialization :        328941457
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:725939746607
+	Hit:217229912347
+	LL:122731209
+	SC:114158049
+	Inv:6307508324
+	Inv-Hit:3612969707
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:725950686593
+	Hit:217232715192
+	LL:122734656
+	SC:114161363
+	Inv:6307572549
+	Inv-Hit:3612991968
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         326050681           92492154             0.284
+
+                       TIMING INFORMATION
+Start time                        : 1418685134116822
+Initialization finish time        : 1418685307743585
+Overall finish time               : 1418685633794688
+Total time with initialization    :        499677866
+Total time without initialization :        326051103
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:737478964984
+	Hit:220841475229
+	LL:125322612
+	SC:116594792
+	Inv:6415138793
+	Inv-Hit:3671455937
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:737489561644
+	Hit:220844175490
+	LL:125325423
+	SC:116597486
+	Inv:6415198149
+	Inv-Hit:3671475624
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         326164344           92614689             0.284
+
+                       TIMING INFORMATION
+Start time                        : 1418685634514948
+Initialization finish time        : 1418685805407317
+Overall finish time               : 1418686131596243
+Total time with initialization    :        497081295
+Total time without initialization :        326188926
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:748948931183
+	Hit:224419926539
+	LL:127858069
+	SC:118972625
+	Inv:6517351915
+	Inv-Hit:3726568871
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:748957047236
+	Hit:224422186431
+	LL:127863907
+	SC:118978169
+	Inv:6517444818
+	Inv-Hit:3726602896
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         324872214           92426426             0.285
+
+                       TIMING INFORMATION
+Start time                        : 1418686132421306
+Initialization finish time        : 1418686305141786
+Overall finish time               : 1418686630014196
+Total time with initialization    :        497592890
+Total time without initialization :        324872410
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:760369211810
+	Hit:228005934158
+	LL:130449650
+	SC:121408846
+	Inv:6619936206
+	Inv-Hit:3782928183
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:760380234862
+	Hit:228008763587
+	LL:130453184
+	SC:121412256
+	Inv:6620003107
+	Inv-Hit:3782951091
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         327374301           93212773             0.285
+
+                       TIMING INFORMATION
+Start time                        : 1418686630679350
+Initialization finish time        : 1418686803915566
+Overall finish time               : 1418687131290708
+Total time with initialization    :        500611358
+Total time without initialization :        327375142
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:771884958873
+	Hit:231616420942
+	LL:133064487
+	SC:123865926
+	Inv:6728592519
+	Inv-Hit:3841544470
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:771889596823
+	Hit:231618056670
+	LL:133071749
+	SC:123872776
+	Inv:6728693357
+	Inv-Hit:3841583095
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         324228493           93191409             0.287
+
+                       TIMING INFORMATION
+Start time                        : 1418687131876118
+Initialization finish time        : 1418687304250954
+Overall finish time               : 1418687628504076
+Total time with initialization    :        496627958
+Total time without initialization :        324253122
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:783295417344
+	Hit:235175743653
+	LL:135609104
+	SC:126253931
+	Inv:6832801391
+	Inv-Hit:3896371256
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:783300057009
+	Hit:235177360263
+	LL:135616303
+	SC:126260708
+	Inv:6832903476
+	Inv-Hit:3896410440
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         324212470           92306442             0.285
+
+                       TIMING INFORMATION
+Start time                        : 1418687629268872
+Initialization finish time        : 1418687800845618
+Overall finish time               : 1418688125058487
+Total time with initialization    :        495789615
+Total time without initialization :        324212869
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:794646889187
+	Hit:238735616891
+	LL:138223727
+	SC:128711568
+	Inv:6934145956
+	Inv-Hit:3952449327
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:794651293674
+	Hit:238737142274
+	LL:138230297
+	SC:128717719
+	Inv:6934256358
+	Inv-Hit:3952492689
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         326979646           92813104             0.284
+
+                       TIMING INFORMATION
+Start time                        : 1418688125637293
+Initialization finish time        : 1418688299000279
+Overall finish time               : 1418688625980224
+Total time with initialization    :        500342931
+Total time without ini
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         326375481           92667205             0.284
+
+                       TIMING INFORMATION
+Start time                        : 1418688626628815
+Initialization finish time        : 1418688796814394
+Overall finish time               : 1418689123213313
+Total time with initialization    :        496584498
+Total time without initialization :        326398919
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:817649672549
+	Hit:245908656156
+	LL:143414007
+	SC:133584689
+	Inv:7146494048
+	Inv-Hit:4066420928
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:817656732202
+	Hit:245910746519
+	LL:143419715
+	SC:133590097
+	Inv:7146584460
+	Inv-Hit:4066454845
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         326978576           93344319             0.285
+
+                       TIMING INFORMATION
+Start time                        : 1418689124025596
+Initialization finish time        : 1418689296895298
+Overall finish time               : 1418689623897901
+Total time with initialization    :        499872305
+Total time without initialization :        327002603
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:829177971396
+	Hit:249521798139
+	LL:146015118
+	SC:136031284
+	Inv:7249936475
+	Inv-Hit:4122774207
+End
+Start
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:829182366836
+	Hit:249523341988
+	LL:146021650
+	SC:136037388
+	Inv:7250036380
+	Inv-Hit:4122810580
+
+Ocean simulation with W-cycle multigrid solver
+    Processors                         : 2
+    Grid size                          : 258 x 258
+    Grid resolution (meters)           : 20000.00
+    Time between relaxations (seconds) : 28800
+    Error tolerance                    : 1e-07
+
+
+                       PROCESS STATISTICS
+                  Total          Multigrid         Multigrid
+ Proc             Time             Time            Fraction
+    0         326354258           92773431             0.284
+
+                       TIMING INFORMATION
+Start time                        : 1418689624471298
+Initialization finish time        : 1418689796978241
+Overall finish time               : 1418690123332893
+Total time with initialization    :        498861595
+Total time without initialization :        326354652
+    (excludes first timestep)
+
+Setting affinity to CPU 0
+*** Performance Counters ***
+	Miss:840631584555
+	Hit:253112473927
+	LL:148628567
+	SC:138486049
+	Inv:7357414239
+	Inv-Hit:4181032177
+End
+
