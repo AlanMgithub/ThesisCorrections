@@ -1,0 +1,86 @@
+Warning: file 'mem64.hex' for memory 'mem_memory' has a gap at addresses 1024 to 8191.
+
+K:ª
+T:122
+V:9
+M:9
+H:49
+X:9
+Y:9
+K:128
+T:72
+V:59
+M:9
+H:49
+X:9
+Y:9
+K:256
+T:66
+V:96
+M:6
+H:49
+X:9
+Y:9
+K:384
+T:60
+V:95
+M:5
+H:49
+X:9
+Y:9
+K:512
+T:60
+V:113
+M:3
+H:49
+X:9
+Y:9
+K:640
+T:54
+V:144
+M:4
+H:49
+X:9
+Y:9
+K:768
+T:54
+V:166
+M:6
+H:49
+X:9
+Y:9
+K:896
+T:54
+V:176
+M:6
+H:49
+X:9
+Y:9Loaded module '../../cherilibs/trunk/peripherals/dram.so' (dram)
+Loaded module '../../cherilibs/trunk/peripherals/ethercap.so' (ethercap)
+Loaded module '../../cherilibs/trunk/peripherals/uart.so' (uart)
+Loaded module '../../cherilibs/trunk/peripherals/fb.so' (framebuffer)
+Loaded module '../../cherilibs/trunk/peripherals/sdcard.so' (sdcard)
+Loaded module '../../cherilibs/trunk/peripherals/virtio_block.so' (virtio_block)
+dram0: module dram
+dram0: address 0x0
+dram0: length 0x40000000
+dtb: module dram
+dtb: address 0x7f010000
+dtb: length 0x10000
+dtb: option path=./sim.dtb
+dtb: option type=mmap
+dtb: option cow=yes
+uart0: module uart
+uart0: address 0x7f000000
+uart0: length 0x20
+uart0: irq 0
+uart0: option type=stdio
+uart1: module uart
+uart1: address 0x7f001000
+uart1: length 0x20
+uart1: option type=null
+uart2: module uart
+uart2: address 0x7f002000
+uart2: length 0x20
+uart2: option type=null
+stream 0: /tmp/beri_debug_listen_socket_02807stream 1: /tmp/beri_debug_listen_socket_12807

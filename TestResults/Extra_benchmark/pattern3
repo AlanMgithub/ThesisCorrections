@@ -1,0 +1,526 @@
+4 January 2016
+1 Introduction
+10
+1.1 Strict or Relaxed Consistency? . . . . . . . . . . . . . . . . . . . . . . 10
+1.2 Avoiding Coherence Messaging . . . . . . . . . . . . . . . . . . . . . 10
+1.3 Reducing Side-Channel Leakage . . . . . . . . . . . . . . . . . . . . . 10
+1.4 Research directions . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+1.5 Contributions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+1.6 Dissertation Overview . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+11
+2.1 Memory Consistency . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+2.2 Cache Coherence . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+2.3 Time-based Coherence Protocols . . . . . . . . . . . . . . . . . . . . . 12
+2.3.1
+Time-based Coherence Related Research . . . . . . . . . . . . 14
+Cache Side-Channel Attacks . . . . . . . . . . . . . . . . . . . . . . . 17
+18
+3.1 BERI Architecture . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+3.2 Bluespec System Verilog . . . . . . . . . . . . . . . . . . . . . . . . . 19
+   3.5.1 Hardware and Software Tracing . . . . . . . . . . . . . . . . . 24
+3.5.4.1
+4.1
+4.2.1 Optimal Time-Counter Size . . . . . . . . . . . . . . . . . . . 33
+4.2.6.1 Non-Observable Relaxed Behaviour . . . . . . . . . . 37
+4.2.10 TODO: Beneficial BERI Memory Features . . . . . . . . . . . 51
+4.2.11 TODO: Regression Testing . . . . . . . . . . . . . . . . . . . . 52
+4.4.1 Example Trace . . . . . . . . . . . . . . . . . . . . . . . . . . 56
+5.1 Chapter Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63
+   5.2.1 Ocean . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 64
+5.2.7 Other Splash-2 Tests . . . . . . . . . . . . . . . . . . . . . . . 71
+5.2.8 Combined results . . . . . . . . . . . . . . . . . . . . . . . . . 71
+5.3 5.2.9 Capability Enhanced Coherence . . . . . . . . . . . . . . . . . 71
+   Extended Splash-2 Comparison . . . . . . . . . . . . . . . . . . . . . 71
+5.4 Parallel Benchmark Suite for BERI . . . . . . . . . . . . . . . . . . . 71
+5.4.1 Linear Scan Test . . . . . . . . . . . . . . . . . . . . . . . . . 72
+6.1 Effects of Coherence on SCAs . . . . . . . . . . . . . . . . . . . . . . 74
+6.2.1 6.2.3 
+6.3.1 Memory Footprint Analysis . . . . . . . . . . . . . . . . . . . 76
+6.3.4.1 6.3.4.3 Evaluation . . . . . . . . . . . . . . . . . . . . . . . 84
+Core Pinned Tests . . . . . . . . . . . . . . . . . . . 81
+. . . . . . . . . . . . . . . . . . . . 91
+6.3.4.5 Results . . . . . . . . . . . . . . . . . . . . . . . . . 91
+6.3.5.1
+6.4.1 6.4.2 
+6.5.1
+7.1 Field Contributions . . . . . . . . . . . . . . . . . . . . . . . . . . . . 99
+Engineering Contributions . . . . . . . . . . . . . . . . . . . . . . . . 100
+105
+3.1 BERI Pipeline . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+3.2 BERI Dual-Core Directory Coherence Processor . . . . . . . . . . . . 21
+4.1 D-Cache Tag’s, short TTC (16KB Size) . . . . . . . . . . . . . . . . . 34
+4.2 D-Cache Tag’s, long TTC (16KB Size) . . . . . . . . . . . . . . . . . 34
+4.7 WRC+sync+addr.axe . . . . . . . . . . . . . . . . . . . . . . . . . . 41
+4.10 Message Passing 1 and modified . . . . . . . . . . . . . . . . . . . . . 45
+4.11 Message Passing 2
+4.12 Barrier Implementation . . . . . . . . . . . . . . . . . . . . . . . . . . 46
+4.13 Litmus NOP Test . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 50
+4.14 D-Cache Tag’s, Dual-Core [Directory Coherence Default] (16KB Size) 54
+4.15 D-Cache Tag’s, Dual-Core [Directory Coherence using Short-Tag op-
+timization] (16KB Size) . . . . . . . . . . . . . . . . . . . . . . . . . . 54
+4.16 L2-Cache Tag’s, Dual-Core [Directory Coherence for D-Caches] (64KB
+4.17 L2-Cache Tag’s, Dual-Core [Time-Based Coherence] (64KB Size) . . . 55
+4.18 L2-Cache Tag’s, Quad-Core [Directory Coherence for D-Caches] (64KB
+4.19 Quartus Overheads . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61
+6.1 Prime+Probe Attack . . . . . . . . . . . . . . . . . . . . . . . . . . . 77
+6.2 Baremetal Core Pin 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . 88
+6.5 OS Core Pin 1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97
+4.1 Litmus: Message Passing Observed Outcomes . . . . . . . . . . . . . 46
+4.5 Litmus NOP Test Performance . . . . . . . . . . . . . . . . . . . . . 51
+5.1 Ocean Contiguous test parameters . . . . . . . . . . . . . . . . . . . . 65
+5.9 Radix test parameters . . . . . . . . . . . . . . . . . . . . . . . . . . 71
+6.1 Split-core Results (TODO: Needs work)
+1
+1.1
+1.2
+1.3
+1.4
+1.5
+1.6
+10
+2.1
+Companies like Intel are already moving to larger designs with 15 cores in the
+11
+12
+13
+2.3.1
+14
+updates a memory location and PE 1 requires the same data, coherence hardware
+could propagate the updated value to PE 1. In practice things are not quite as sim-
+grained but with overheads. A TLB self-invalidating scheme has been shown in [17],
+rates for still useful data [13]. Selective invalidation produces much lower miss-rates
+15
+assign. Tag overheads are reduced to 1 bit per line in [13] but clock overflow remains
+ity can further simplify the hardware [10][12][11][9]. The compiler directed scheme
+supported coherence form CMP’s has been described in [15], using synchronisation
+form of time-based coherence [20] improved in [19] using a self-invalidation predictor
+tency [31][34][16]. Further modification of directories using timestamps is shown in
+[25][9][14][28]. Most of this work is based on MESI style directories for X86, and
+16
+17
+3.1
+wick [5][4], the processor was extended to support MIPS R4000 [18] by Jonathan
+ure 3.1 shows a logical layout of the processor pipeline, control logic, and memory
+1. Instruction Fetch: The program counter is used to request an instruction from
+18
+Figure 3.1: BERI Pipeline
+19
+on a dual-core BERI, however multi-core version with up to 12 cores have been
+have been limited to 1-4 cores on Altera DE-4 Stratix-4, larger FPGA chips should
+1. Directory Coherence: The directory is contained within the L2 cache (Figure
+Core 1
+PIC 1
+The bottom 16 bits hold the core id and the top 16 bits contain the total core
+21
+Core 1
+PIC 1
+31
+16 15
+• L2: One LL/SC register per core (Same structure as shown in Figure 4.14).
+accessed with an LL. The cache Tag’s also hold a “Linked” field (Figure 4.16),
+3.5.1
+ations [21]. The model can provide a fixed guarantee for the behaviour of a specific
+3.5.4.1
+by its program.” [Quote by Lamport (1979), REF]
+4.1
+caches such as the L2 to hold all data present in the L1 caches. A non-inclusive policy
+instructions can target the L1 or the L2 caches. However, the effects of these in-
+policy, the Directory sends coherence messages to the L1’s whenever a cache instruc-
+31
+L1 caches are writethrough. Both coherence schemes benefit from this behaviour.
+4.2.1
+Figures 4.1 and 4.2 show hardware cache line overheads between different TTC
+values. Figures 4.1 and 4.3 compare Tag overheads with increasing cache capacity.
+31 30
+Figure 4.1: D-Cache Tag’s, short TTC (16KB Size)
+31
+20 19
+Figure 4.2: D-Cache Tag’s, long TTC (16KB Size)
+31
+Short counter values (Figure 4.1) result in an overhead of 4 bits per line, however,
+discussed further in Figure 4.17.
+(4.1)
+operation 1; operation 2; ...
+4.2.6.1
+1:
+1:
+M[0] == 1 (blocking)
+M[1] := 1
+M[1] == 1 (blocking)
+M[0] := 1
+T hread 0 T hread 1
+a : R[x] = 1 c5 : R[y] = 1
+b : W [y] = 1 d : W [x] = 1
+1:
+1:
+M[0] == 1
+M[1] := 1
+M[1] == 1 (blocking)
+M[0] := 1
+T hread 0 T hread 1
+a : R[x] = h 1 c 6 : R[y] = 1
+b : W [y] = 1 d : W [x] = 1
+update values of (x) and (y) respectively. Thread 1 at step (c:) depends on the store
+1:
+1:
+M[0] := 1
+M[1] := 1
+M[1] == 1 (blocking)
+T hread 0 T hread 1
+a : W [x] = 1 c 6 : R[y] = 1
+b : W [y] = 1
+cores. Thread 0 performs a store to (x) at (a:), which is observed by Thread 1 at
+(b:). Thread 1 proceeds to execute a SYNC instruction followed by a store to (y) at
+(c:). SYNC instructions only apply to the executing thread, if Threads 0 and 1 have
+1:
+1:
+1:
+M[0] := 1
+M[0] == 1
+M[1] := 1
+M[1] == 1 (blocking)
+T hread 1 
+a : W [x] = 1
+b : R[x] = 1 d 6 : R[y] = 1
+c : W [y] = 1
+41
+through a SYNC. Thread 1 performs two loads at (c:) and (d:), the later exhibits
+a dependency on the former. The interaction between Threads 0 and 1 is allowed
+1:
+1:
+M[0] := 1
+M[1] := 1
+M[1] == 1 (blocking)
+M[2] := 1
+T hread 0 T hread 1 T hread 2
+a : W [x] = 1 c 6 : R[y] = 1 e : W [z] = 1
+b : W [y] = 1 d : R[z] = 0
+either Thread 0 or 1, it can load the stale value of (x) from its private cache. Figure
+(a:) and (b:), and Thread 1 loads (x) and (y) at (c:) and (d:). If Thread 1 observes
+0: M[0] := 1
+0: M[1] := 1
+1: M[1] == 1
+1: sync
+1: M[0] == 0
+T hread 0 T hread 1
+a : W [x] = 1 c 6 : R[y] = 1
+b : W [y] = 1
+another threads will not be observed. Two versions of MP1 test were created in
+two load operations of thread 1, this test mimics the example shown in Figure 4.9.
+Figure 4.10 shows the code sequence used in the MP1 test. The default test is
+instruction in added into the sequence. Figure 4.11 shows the MP2 test. The two
+SYNC instructions (P0: line 3 and P1: line 2), ensure that this condition is never
+The barrier loop implemented in CHERI litmus is shown in Figure 4.12. The
+The test outcomes for MP1, MP1-mod and MP2 are documented in Table 4.1.
+The table shows the outcomes of a 1,000 iterations of the litmus tests in simulation.
+It is evident from the results that all test outcomes are only observable in MP1 and
+MP1-mod, and only in the case where the barrier implementation executes an extra
+An interesting test outcome is when the default MP1 in executed together with
+{0:r2=x; 0:r4=y; 1:r2=x; 1:r4=y;}
+1:
+li r1,1
+sb r1,0(r2)
+sb r1,0(r4)
+P1
+r1,0(r2)
+Exists (1:r3=1 /\ 1:r1=0)
+Figure 4.10: Message Passing 1 and modified
+{0:r2=x; 0:r4=y; 1:r2=x; 1:r4=y;}
+1:
+li r1,1
+sb r1,0(r2)
+sb r1,0(r4)
+P1
+lb r1,0(r2)
+Exists (1:r3=1 /\ 1:r1=0)
+Figure 4.11: Message Passing 2
+lifetime of 10,000 cache cycles is used to produce the results shown.
+a stronger consistency model and the final outcome (r3=1, r1=0) is never observed.
+1:
+10:
+$8, %1
+1b
+{Branch to label 1}
+Figure 4.12: Barrier Implementation
+The MP1-mod test with default barrier shows another interesting outcome for
+MP1
+MP1
+r3=1 r3=0 r3=0 r3=1
+r1=1 r1=1 r1=0 r1=0
+81
+517
+271
+71
+18
+107
+101
+115
+124
+1000
+913
+Table 4.1: Litmus: Message Passing Observed Outcomes
+11
+a store to (x) at time 0 and a store to (y) at time 1. At time 3, loads to both variables
+1: x := 1
+0: y := 1
+1: y == 0
+core[1].op(SW,’h2)
+core[1].op(LW,’h0)
+core[1].op(LW,’h0)
+1: y == 0
+performs a store to (x) at time 0 and a store to (y) at time 1. At time 3, (x) loads the
+1: x := 1
+0: y := 1
+1:
+core[1].op(SW,’h0)
+core[1].op(LW,’h2)
+core[1].getResponse
+y == 1
+Thread 1 updates the value of (x) again but thread 0 lodes the initial value of (x).
+1: x := 1
+2: x == 1
+1: x := 2
+core[0].op(LW,’h1)
+core[1].op(SW,’h1)
+core[2].op(LW,’h1)
+core[1].op(SW,’h1)
+core[1].getResponse
+core[0].op(LW,’h1)
+1:
+P1
+li r1,1 | li r3,1
+Figure 4.13: Litmus NOP Test
+4.13). Litmus tests require some register evaluation, hence, two initialisation in-
+The execution time of a Time-Based model with a time-out value of 10,000 and
+Inserting a SYNC instruction (Figure 4.12) reduces the slowdown to slightly over
+(>14×). At least 5 samples were taken for each test, there was no more than a 1%
+Comparing the default MP1 test run with and without the extra Barrier-SYNC,
+TODO: Test 1,000 & 100,000 time delays. The current results are based on
+10,000 self-inv time-out.
+180
+4.2.10
+• Write-through L1 caches. BERI’s write-back policy provides a guarantee that
+any data written to the L1 data cache will be immediately propagated to the
+51
+4.2.11
+sistency model. The checker tool tested a total of 1,000,000 memory operation
+however, the directory scheme can be implemented without this feature. Figure 4.14
+4.15 shows the Tag structure for an optimised directory coherence data cache. The
+As a result, an invalidate operation only blocks the cache for 1 cycle instead of 2.
+31
+Figure 4.14: D-Cache Tag’s, Dual-Core [Directory Coherence Default] (16KB Size)
+16 15 14
+31
+31 30
+Figure 4.15: D-Cache Tag’s, Dual-Core [Directory Coherence using Short-Tag opti-
+mization] (16KB Size)
+BRAM. For this reason a total of 16 bits are used in a 16KB data cache. One valid
+bit an 15 bottom bits of the physical address.
+and save 1 cycle. If the Short-Tag’s are valid and the select bits of the physical
+cache and the overheads for the directory scheme are shown in Figures 4.16 and
+4.18. For comparison, the L2 Tags for the Time-Based coherence model are shown
+in Figure 4.17. Since one bit per core is required to maintain directory coherence,
+the overhead is clear in Figure 4.18, where the overheads double for a quad-core
+31
+Figure 4.16: L2-Cache Tag’s, Dual-Core [Directory Coherence for D-Caches] (64KB
+31
+Figure 4.17: L2-Cache Tag’s, Dual-Core [Time-Based Coherence] (64KB Size)
+31
+Figure 4.18: L2-Cache Tag’s, Quad-Core [Directory Coherence for D-Caches] (64KB
+mechanism used in FreeBSD signalled core 1 through shared memory and then core
+0 proceeded with the boot. Many cycles later core 0 would signal core 1 again to
+were used, the line was likely evicted from the L2 and core 1 would never see the
+4.4.1
+operations of (x) by cores 1 and 2 would produce the most update value of the
+0: x := 1
+1: x == 1
+2: x == 1
+1: x == 2
+2: x == 1
+core[1].op(LW,’h3)
+core[1].op(LW,’h3)
+of this scheme is 1 cycle lost per Tag lookup for update comparison. Regardless of
+the Hit/Miss, 1 cycle is lost for the actual Tag comparison, data can we written or
+test simulation ran a 1,000,000 tests before declaring a pass.
+likey range is between 16-64 bits.
+be 4-20 bits. 4 bits per line for the optimised counter (4×512 bits for 16KB
+(20×512 bits for 16KB direct-mapped D-Cache, 64 bytes per line).
+• If Short-Tags are used then: 16×512 bits for 16KB direct-mapped D-Cache.
+Figure 4.19. FPGA register statistics for a dual-core build show that the Time-Based
+design requires ∼1% fewer registers than the Directory design.
+Quartus II 64-Bit – Version 13.1.0
+106,457 (58.4%)
+3,833,174
+101,134
+105,453 (57.8%)
+65,188
+3,796,310
+182,400
+182,400
+14,625,792
+14,625,792
+14,625,792
+Figure 4.19: Quartus Overheads
+61
+5.1
+5.2.1
+[2][1]. Additionally, a third of the operations to shared data were writes [2]. This is
+and a data cache structure (64 byte line size, 16KB capacity, direct mapped) similar
+to that used by BERI (32 byte line size, 16KB capacity, direct mapped), the test
+between cores and producer-consumer relationships are largely core local [1].
+1e-07
+Table 5.1: Ocean Contiguous test parameters
+5.1.
+16KB capacity, direct mapped) similar to that used by BERI (32 byte line size, 16KB
+using 2 processors [1].
+512 × 512
+16 × 16
+128 × 128
+16 × 16
+not affect other benchmarks as much [1]. Cache miss rates for 32 processors and the
+512
+miss rate is approximately 4% for the setup described in [Section 5.2.1]. Since FFT
+the region of 8-64 processors [29]. FFT shows strong all to all communication [1].
+1024
+16
+16384
+and Ocean’s. Using the test setup in [Section 5.2.1], the cache miss rate is around
+the true-sharing reduction by about 128-byte lines. If cache lines are larger than a
+producer-consumer patters [1].”
+[29].” When using the setup descirbed in [Section 5.2.1], the cache miss rate for this
+benchmark is around 12-15%. Radix does not scale linearly with processors, “for
+262144
+1024
+71
+5.4.1
+6.1
+6.2.1
+6.3.1
+system might necessitate the use of a single cache line. Figure 6.1 shows an example
+Line 1 - Unknown Line 1 - Trojan Evicted
+Line 1 - Trojan Line 1 - Trojan
+Figure 6.1: Prime+Probe Attack
+1. Initial cache state: At this point the cache is in an unknown state, likely to
+interrupts, exceptions, etc. These results are further illustrated in Section 6.3.5.1.
+The Prime+Probe attack is applied to the entire BERI data cache (16KB, 32 bytes
+per line, 512 lines). Such a measurement style is noisy since other code can affect the
+1. Prime: The trojan populates the entire data cache with its data.
+The BERI data cache used in this evaluation is 16KB in size with 32 bytes per
+caches are discussed further in Section 6.5.1.
+1. Time: This counter follows the standard MIPS model.
+6.3.4.1
+The core pin test executes the trojan and victim code on BERI core 0. Core 1 is
+81
+Location:/home/aam53/TestsForMIPSResults/BaremetalTestResults/20151106_
+16,000 bytes. The maximum range is just below the data cache capacity of 16KB.
+1. Trojan data load time: The number of cycles required for the trojan to read
+of its data. Thus only 512 loads and 512 stores are performed in the Prime phase.
+512 load operations. Any data not present in the data cache will result in a miss and
+interference from core 1.
+TODO: Combine chart discussion into something like [(a1)(a2)(a3)]
+(a1)(a2)(a3) The chart shows a linear relationship between the Trojan Probe phase total
+directory shows almost identical behaviour as the single-core in char (a1).
+may be invalidated due to L2 evictions caused by core 1. This difference
+(b1)(b2)(b3) Enhancing chart (a1) produces the pattern shown here. While (a1) appears
+granularity. Dual-core identical behaviour to single-core in chart (b1). Time-
+based: Enhancing chart (c1) shows a mostly fixed response time since the data
+(c1)(c2)(c3) The data cache provides the hit rate for the Trojan probe phase. A larger
+chart (c1). Time-based: TODO - Understand this behaviour TODO: WHY
+(d1)(d2)(d3) The miss rate should be inversely proportional to the hit rate shown in chart
+(c1). This is precisely what we observe.Dual-core identical behaviour to single-
+core in chart (d1). Time-based: TODO - Understand this behaviour.
+(a1)(a2)(a3) Shows that the performance of the victim is nearly identical for all three mod-
+(b1)(b2)(b3) The enhanced version still shows a linear execution overhead for the victim
+(c1)(c2)(c3) These charts compare very different coherence implementation properties. the
+(d1)(d2)(d3) As in the example above, no data is available in the single-core case as there
+(a1)(a2)(a3) The number of unique Trojan Probe execution time values observed is virtually
+(b1)(b2)(b3) The cross-correlation curves best display the relationship between the victim’s
+(c1)(c2)(c3) This chart shows a correlation between Trojan Probe hit and miss rates. As
+(d1)(d2)(d3) This chart looks at the relation between invalidate hits and misses, in the
+10000
+Figure 6.2: Baremetal Core Pin 1
+10000
+-1
+core 1. Baremetal testing allows the master control program to delegate code-core
+executed, core 1 is held in a wait loop. Once the trojan completes, it signals the
+core 1 to terminate the loop through shared memory. Core 1 then loads the victim
+91
+Probe Miss 7 513
+Table 6.1: Split-core Results (TODO: Needs work)
+6.3.5.1
+6.4.1
+6.5.1
+-1
+Figure 6.5: OS Core Pin 1
+-1
+7.1
+1. Bluecheck verification
+1. Core identification
+1. Coherence bugs
+100
+1. Bare metal
+101
+[1] N. Barrow-Williams, C. Fensch, and S. Moore. A communication characterisa-
+Guide, November 2004. 19
+bridge, Computer Laboratory, April 2013. 18
+2012 IEEE 30th International Conference on, pages 277–283. IEEE, 2012. 18
+ence schemes. In Supercomputing ’92., Proceedings, pages 661–672, Nov 1992.
+16
+of the 20th EUROMICRO Conference., pages 117–124, Sep 1994. 16
+102
+invalidation. SIGARCH Comput. Archit. News, 16(2):299–307, May 1988. 15
+Compilation Techniques (PACT), 2011 International Conference on, pages 155–
+166, Oct 2011. 16
+[10] L. Choi and Pen-Chung Yew. A compiler-directed cache coherence scheme
+773–782, Nov 1994. 16
+[11] L. Choi and Pen-Chung Yew. Compiler analysis for cache coherence: interpro-
+and Distributed Systems, IEEE Transactions on, 11(9):879–896, Sep 2000. 16
+[12] L. Choi and Pen-Chung Yew. Hardware and compiler-directed cache coherence
+Parallel and Distributed Systems, IEEE Transactions on, 11(4):375–394, Apr
+2000. 16
+[13] E. Darnell and K. Kennedy. Cache coherence using local knowledge. In Super-
+computing ’93. Proceedings, pages 720–729, Nov 1993. 15, 16
+[14] M. Elver and V. Nagarajan. Tso-cc: Consistency directed cache coherence for
+tso. In High Performance Computer Architecture (HPCA), 2014 IEEE 20th
+International Symposium on, pages 165–176, Feb 2014. 16
+[15] C. Fensch and M. Cintra. An os-based alternative to full hardware coherence on
+IEEE 14th International Symposium on, pages 355–366, Feb 2008. 16
+[16] Srinivas Devadas Omer Khan George Kurian, Qingchuan Shi. Osprey: Imple-
+ing invalidation-free data access. 16
+[17] Anthony Gutierrez, Joseph Pusdesris, Ronald G. Dreslinski, and Trevor Mudge.
+Lazy cache invalidation for self-modifying codes. In Proceedings of the 2012 In-
+Systems, CASES ’12, pages 151–160, New York, NY, USA, 2012. ACM. 15
+103
+[18] Joe Heinrich. MIPS R4000 User’s Manual. MIPS Technologies, second edition,
+1994. 18
+[19] An-Chow Lai and B. Falsafi. Selective, accurate, and timely self-invalidation
+27th International Symposium on, pages 139–148, June 2000. 16
+overhead in shared-memory multiprocessors. In Computer Architecture, 1995.
+1995. 16
+[21] Simon Moore Matthew Naylor. A checker for sparc memory consistency. Tech-
+nical report, University of Cambridge, 2015. 26
+IEEE Transactions on, 3(1):25–44, Jan 1992. 15
+in the PVS theorem prover. In Methods Symposium, page 139. Citeseer, 2010.
+19
+Distributed Processing with Applications (ISPA), 2012 IEEE 10th International
+Symposium on, pages 691–696, July 2012. 16
+ogy, 2011. 16
+(HPCA2013), 2013 IEEE 19th International Symposium on, pages 578–590,
+Feb 2013. 16
+coherence for gpu architectures. Micro, IEEE, 34(3):69–79, May 2014. 16
+104
+chit. News, 43(1):545–559, March 2015. 16
+chitecture, 1995. Proceedings., 22nd Annual International Symposium on, pages
+24–36, June 1995. 64, 65, 66, 67, 68, 69, 70, 71
+ory safety. Technical report, University of Cambridge, 2014. 18
+[31] Srinivas Devadas Xiangyao Yu. Tardis: Time traveling coherence algorithm for
+distributed shared memory. 16
+[32] XILINX. Axi reference guide. Technical report, XILINX, 2011. 20
+study. In Computer Architecture, 1996 23rd Annual International Symposium
+on, pages 283–283, May 1996. 16
+correctness for the tardis cache coherence protocol. CoRR, abs/1505.06459,
+2015. 16
+scheme for multiprocessor cache coherence. In Parallel Processing, 1996. Vol.3.
+Software., Proceedings of the 1996 International Conference on, volume 3, pages
+114–121 vol.3, Aug 1996. 15
+105

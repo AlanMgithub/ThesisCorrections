@@ -1,0 +1,254 @@
+Warning: file 'mem64.hex' for memory 'mem_memory' has a gap at addresses 2192 to 8191.
+
+K:ª
+T:200
+V:30
+M:0
+H:0
+X:0
+Y:0
+K:0
+T:176
+V:3
+M:3
+H:3
+X:3
+Y:3
+K:128
+T:205
+V:59
+M:9
+H:9
+X:9
+Y:9
+K:128
+T:193
+V:59
+M:9
+H:9
+X:9
+Y:9
+K:256
+T:227
+V:106
+M:6
+H:6
+X:6
+Y:6
+K:256
+T:227
+V:90
+M:0
+H:0
+X:0
+Y:0
+K:384
+T:261
+V:133
+M:3
+H:3
+X:3
+Y:3
+K:384
+T:261
+V:141
+M:1
+H:1
+X:1
+Y:1
+K:512
+T:283
+V:172
+M:2
+H:2
+X:2
+Y:2
+K:512
+T:289
+V:156
+M:6
+H:6
+X:6
+Y:6
+K:640
+T:323
+V:199
+M:9
+H:9
+X:9
+Y:9
+K:640
+T:323
+V:199
+M:9
+H:9
+X:9
+Y:9
+K:768
+T:412
+V:323
+M:3
+H:3
+X:3
+Y:3
+K:768
+T:357
+V:272
+M:2
+H:2
+X:2
+Y:2
+K:896
+T:391
+V:317
+M:7
+H:7
+X:7
+Y:7
+K:896
+T:391
+V:317
+M:7
+H:7
+X:7
+Y:7
+K:1024
+T:425
+V:362
+M:2
+H:2
+X:2
+Y:2
+K:1024
+T:500
+V:354
+M:4
+H:4
+X:4
+Y:4
+K:1152
+T:459
+V:405
+M:5
+H:5
+X:5
+Y:5
+K:1152
+T:459
+V:405
+M:5
+H:5
+X:5
+Y:5
+K:1280
+T:588
+V:442
+M:2
+H:2
+X:2
+Y:2
+K:1280
+T:588
+V:442
+M:2
+H:2
+X:2
+Y:2
+K:1408
+T:527
+V:493
+M:3
+H:3
+X:3
+Y:3
+K:1408
+T:527
+V:493
+M:3
+H:3
+X:3
+Y:3
+K:1536
+T:676
+V:530
+M:0
+H:0
+X:0
+Y:0
+K:1536
+T:676
+V:530
+M:0
+H:0
+X:0
+Y:0
+K:1664
+T:595
+V:581
+M:1
+H:1
+X:1
+Y:1
+K:1664
+T:595
+V:581
+M:1
+H:1
+X:1
+Y:1
+K:1792
+T:764
+V:618
+M:8
+H:8
+X:8
+Y:8
+K:1792
+T:764
+V:618
+M:8
+H:8
+X:8
+Y:8
+K:1920
+T:663
+V:669
+M:9
+H:9
+X:9
+Y:9
+K:1920
+T:663
+V:669
+M:9
+H:9
+X:9
+Y:9Loaded module '../../cherilibs/trunk/peripherals/dram.so' (dram)
+Loaded module '../../cherilibs/trunk/peripherals/ethercap.so' (ethercap)
+Loaded module '../../cherilibs/trunk/peripherals/uart.so' (uart)
+Loaded module '../../cherilibs/trunk/peripherals/fb.so' (framebuffer)
+Loaded module '../../cherilibs/trunk/peripherals/sdcard.so' (sdcard)
+Loaded module '../../cherilibs/trunk/peripherals/virtio_block.so' (virtio_block)
+dram0: module dram
+dram0: address 0x0
+dram0: length 0x40000000
+dtb: module dram
+dtb: address 0x7f010000
+dtb: length 0x10000
+dtb: option path=./sim.dtb
+dtb: option type=mmap
+dtb: option cow=yes
+uart0: module uart
+uart0: address 0x7f000000
+uart0: length 0x20
+uart0: irq 0
+uart0: option type=stdio
+uart1: module uart
+uart1: address 0x7f001000
+uart1: length 0x20
+uart1: option type=null
+uart2: module uart
+uart2: address 0x7f002000
+uart2: length 0x20
+uart2: option type=null
+stream 0: /tmp/beri_debug_listen_socket_02807stream 1: /tmp/beri_debug_listen_socket_12807

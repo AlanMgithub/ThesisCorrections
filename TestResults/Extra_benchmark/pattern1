@@ -1,0 +1,394 @@
+tiprocessor systems. Such mechanisms are complex to implement and can become
+tain order. This thesis explores an alternative approach focused on the lifespan of
+Cache coherency mechanisms have also been exploited to break security, since
+1.1 Strict or Relaxed Consistency? . . . . . . . . . . . . . . . . . . . . . . 10
+4.2.6.1 Non-Observable Relaxed Behaviour . . . . . . . . . . 37
+4.2.6.2 Observable Relaxed Behaviour . . . . . . . . . . . . 39
+4.4.1 Example Trace . . . . . . . . . . . . . . . . . . . . . . . . . . 56
+5.2.6 Radix . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 70
+   Extended Splash-2 Comparison . . . . . . . . . . . . . . . . . . . . . 71
+6.3.3 Experimental Set-up (TODO: redundant information here) . . 79
+4.4 LB+addrs.axe . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+4.5 LB+addrs.axe . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+4.6 MP+sync+addr.axe
+4.7 WRC+sync+addr.axe . . . . . . . . . . . . . . . . . . . . . . . . . . 41
+4.8 W+RWC+sync+addr+sync.axe . . . . . . . . . . . . . . . . . . . . . 42
+4.9 MP+syncs.axe . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43
+5.9 Radix test parameters . . . . . . . . . . . . . . . . . . . . . . . . . . 71
+Strict or Relaxed Consistency?
+The idea of reducing coherence traffic has lead us to explore alternative ways to
+Other architectures such as PowerPC, use relaxed memory consistency, reducing
+the urgency in coherence messaging (there are exceptions though). This lead us
+to wonder if explicit coherence messaging is absolutely necessary. Smaller systems
+of complexity is removed.
+of hardware to make shared updates visible can be relaxed, this in turn simplifies
+the complexity of the hardware memory model design.
+and ARM use extensions of MESI such as MOESI and MESIF. ARM designs are
+Multiprocessors (CMP), they use a fixed memory hierarchy and share a common
+MESI is a robust protocol that defines four states, each cache line can exist in one
+hardware complexity, power dissipation, latency, and other factors. As a result we
+guarantees even in the absence of explicit coherence messages.
+is being erased as software is designed to exploit maximum parallelism. Common
+enforces a very strong memory consistency, this in turn allows a much more relaxed
+more relaxed hardware schemes and expect the software to correctly handle parallel
+more relaxed that the PowerPC model, however it is still usable and provides a
+explicit inter-core communication messages. The scheme solely relies on private
+research where time-stamps are used for GPU coherence, but explicit coherence
+tore rates are achieved through physical proximity and the construction of memory.
+Data spatial and temporal locality is another critical factor for exploiting memory
+Typical coherence algorithms require explicit messaging between PE’s. If PE 0
+the cache and assisting an existing coherence mechanism. (NOTE: I have found no
+support for relaxed memory. Stale cached data was a real problem for program
+correctness [8]. Explicit invalidate instructions inserted by the compiler were used to
+but requires sequential invalidation of cache lines which is expensive.
+Caches have extra tag bits and counters that are used for coherence. Each shareable
+Improved compiler support and better exploitation of spacial and temporal local-
+ship of every block, explicit individual block invalidation requests, blocking on re-
+The Bluespec Extensible RISC Implementation (BERI) processor is based on a
+wick [5][4], the processor was extended to support MIPS R4000 [18] by Jonathan
+4. Execute: Arithmetic or assignment operations are performed at this stage.
+Execute
+ogy that allows extensible hardware designs. BSV adds a much needed level of
+or SystemC. BSD retains some of the structure and syntax of System Verilog but
+with the addition of Haskel syntax. These features improve the extensibility of the
+tions. The simulator has proven to be an excellent tool for the testing and debugging
+TODO: More information and/or examples required?
+core BERI supports a large number of cores, the design complexity and size is only
+have been limited to 1-4 cores on Altera DE-4 Stratix-4, larger FPGA chips should
+Bluespec compile time. Once built, the identifiers are fixed and can not be changed
+TODO: description of LL/SC in context of MIPS, what does the software expect
+such in the Execute stage. Additionally, SC is expected to return a success/fail
+Execute
+that signals the Writeback stage to expect a response. The Writeback stage feeds
+the SC result back into the Execute stage.
+• Execute checks with the CP0 LL/SC register, if success then proceed. It is
+still a pending write so the result will be sent back to Execute from Writeback.
+• Memory expects a response for SC.
+response expected.
+Terasic DE4 board equipped with a Stratix-4 FPGA. The board includes dual DDR2
+exception handling. The suite has been constructed by Stephen Murdoch, with test
+ations [21]. The model can provide a fixed guarantee for the behaviour of a specific
+program. Consistency tends to be a greater concern when executing parallel code,
+Sequential Consistency (SC) ”The result of any execution is the same as if
+the operations of all processors were executed in some sequential order, and the
+Relaxed Memory Order (RMO) TODO
+Even the basic consistency models exhibit vast amounts of non-determinism. The
+checker tool exhaustively enumerates all behaviour of a set of memory operations. A
+TODO: Insert example of a code check here
+The choice of an inclusion policy is design dependent, maximising total caching
+capacity necessitate an exclusive policy, a strictly inclusive policy requires lower level
+permits intermediate behaviour between strictly inclusive and excursive policies.
+any explicit coherence messaging, any policies is acceptable, however, since we do
+not enforce exclusive behaviour, caches follow the non-inclusive policy.
+herence is simpler is direct mapped caches as all addresses will have a fixed location.
+Set associative or fully associative designs require explicit cache lookups to find any
+As already established, direct mapped caches have a fixed policy. Set associative
+full eviction. With the exception of aliasing which is discussed further, large blocks
+design is not penalised by the side-effects of aliasing memory, as there is no explicit
+counter. Additionally mismatched tag-time-counters may exist where one of the
+invalid and updated when it is accessed next time (may not be accessed again). An
+write propagation through the write buffers. An RMO model allows a more relaxed
+the copy until the line is evicted or explicitly requested through coherence. BERI
+is in operation, however, there are two exceptions: cache initialisation and a syn-
+sum of: current time-counter value and a fixed offset. A range of offset values can
+be selected, in the default case of the protocol, the offset value is fixed at compile
+to the current time-counter value. The lifespan of the line is deemed expired when
+line is loaded into the cache and the TTC is set, its value is fixed until the cache
+line is either evicted or expired.
+Caches improve overall performance by exploiting spacial and temporal locality of
+Time-Based coherence model does not provide fixed line eviction guarantees, the
+(TODO: Explain FreeBSD locking mechanism). If a lock can not be acquired within
+must be considered. ASIC designs are more flexible, arbitrarily sized Tag’s, Data
+bits are used for cache indexing, the Tag is shrunk by 2 bits. This can be beneficial
+memory access has no side-effects. The operation is expected to return a response
+given core. The response is ignored by the pipeline as SYNC is not expected to
+tions as long as self-modifying code is not executed.
+The trace syntax has the following format [TODO: Reference - A checker for SPARC,
+operation. Each memory instruction executed by the checker follows this format.
+claims. Appropriate test labels should be used rather than the raw test names *.axe
+different to other relaxed models. While systems such as PowerPC state a number
+Non-Observable Relaxed Behaviour
+LB+addrs.axe In this example (Figure 4.4), both threads attempt to load values
+of (x) and (y) at steps (a:) and (c:) respectively. Both load operations are blocking,
+ditions are satisfied. Steps (b:) and (d:) perform stores to (y) and (x) respectively,
+structure of BERI does not support out of order execution of memory instructions
+a : R[x] = 1 c5 : R[y] = 1
+b : W [y] = 1 d : W [x] = 1
+Figure 4.4: LB+addrs.axe
+LB+sync+addr.axe The example shown in Figure 4.5 is similar to code sequence
+completed. Note that SYNC instructions only apply to the executing thread and are
+not expected to propagate memory operations from other threads. In this example
+an updated value of (x) was observed at (a:).
+a : R[x] = h 1 c 6 : R[y] = 1
+b : W [y] = 1 d : W [x] = 1
+Figure 4.5: LB+addrs.axe
+This example shows a cyclic dependency between all operations and barring a
+system (TODO: Too Strong?). This example is stronger than the one described
+Observable Relaxed Behaviour
+Testing of Time-Based BERI has revealed several relaxed consistency scenarios not
+MP+sync+addr.axe This scenario is observable on the Time-Based coherence
+cache and thus, loads to stale memory are allowed. The example shown in Figure
+update values of (x) and (y) respectively. Thread 1 at step (c:) depends on the store
+at (b:), the following operation at (d:) is a load of (x).
+a : W [x] = 1 c 6 : R[y] = 1
+d : R[x] = 0
+Figure 4.6: MP+sync+addr.axe
+the load of (x) at (d:) would always produce an updated value. On our Time-Based
+system, the load at (d:) can produce either the original or the updated value of (x),
+as the line could have expired in the private cache.
+Systems that rely on coherence messages may not exhibit this behaviour as eager
+WRC+sync+addr.axe Litmus tests are extendible to multiple threads. Figure
+cores. Thread 0 performs a store to (x) at (a:), which is observed by Thread 1 at
+(b:). Thread 1 proceeds to execute a SYNC instruction followed by a store to (y) at
+(c:). SYNC instructions only apply to the executing thread, if Threads 0 and 1 have
+2 in this example. The conditions between steps (c:), (d:) and (e:) are identical to
+the previous example (MP+sync+addr.axe). As we have already observed, even if
+the load of (y) at (d:) yields the latest value, the load of (x) at (e:) may produce
+a : W [x] = 1
+b : R[x] = 1 d 6 : R[y] = 1
+Figure 4.7: WRC+sync+addr.axe
+e : R[x] = 0
+W+RWC+sync+addr+sync.axe Figure 4.8, show another example where two
+through a SYNC. Thread 1 performs two loads at (c:) and (d:), the later exhibits
+and expected under BERI Time-Based coherence. Thread 2 performs a store at (e:),
+enforced by a sync and followed by a load of (x) at (f:).
+a : W [x] = 1 c 6 : R[y] = 1 e : W [z] = 1
+f : R[x] = 0
+Figure 4.8: W+RWC+sync+addr+sync.axe
+Since, Thread 2 is not explicitly dependant on any operations performed by
+either Thread 0 or 1, it can load the stale value of (x) from its private cache. Figure
+So far I have shown evidence that the Time-Based memory model is relaxed and
+exhibits more relaxed behaviour than some commercial hardware [TODO: Refer-
+ence]. The next example demonstrates that the Time-Based model can still provide
+MP+syncs.axe This example (Figure 4.9) shows how adequate use of SYNC
+operations enforced through SYNC’s. Thread 0 updates values of (x) and (y) at
+(a:) and (b:), and Thread 1 loads (x) and (y) at (c:) and (d:). If Thread 1 observes
+the updated value of (y) then it must not observe a stale value of (x), as the SYNC
+a : W [x] = 1 c 6 : R[y] = 1
+d : R[x] = 0
+Figure 4.9: MP+syncs.axe
+to keep stale data until a cache line expires or a SYNC instruction, stores from
+two load operations of thread 1, this test mimics the example shown in Figure 4.9.
+executed without the SYNC instruction (line 4). In the modified test, the SYNC
+execution time the test on Time-Based BERI (discussed in later sections). The
+expires, this loop could take a long time to execute, the SYNC instruction ensures
+MP1-mod, and only in the case where the barrier implementation executes an extra
+SYNC in the second loop. This proves the relaxed nature of Time-Based coherence.
+An interesting test outcome is when the default MP1 in executed together with
+{0:r2=x; 0:r4=y; 1:r2=x; 1:r4=y;}
+Exists (1:r3=1 /\ 1:r1=0)
+{0:r2=x; 0:r4=y; 1:r2=x; 1:r4=y;}
+Exists (1:r3=1 /\ 1:r1=0)
+the cache line timer does not expire during the duration of the test. A cache line
+The limtus tests were also executed on the Directory version of BERI and the
+This demonstrates expected TSO behaviour.
+follows the RMO consistency model. A few examples of testing the Time-Based
+memory model shown why stronger consistency is not supported. The example
+an extract of an AXE test failure running on a software simulation of Time-Based
+a store to (x) at time 0 and a store to (y) at time 1. At time 3, loads to both variables
+(x) and (y) produce initial values. This behaviour is not permitted by SC. A correct
+implementation would result in both (x) and (y) loading updated values.
+Initial: x==0, y==0
+0: x == 0
+1: x := 1
+0: x == 0
+performs a store to (x) at time 0 and a store to (y) at time 1. At time 3, (x) loads the
+A correct implementation would result in either: (x) and (y) both loading initial
+values, or (x) and (y) both loading updated values.
+Initial: x==0, y==0
+1: x := 1
+0: x == 0
+example shown in Table 4.4 shows a PSO analysis on Time-Based coherence. The
+test sequence updates the value of (x) and thread 2 observes the initial update.
+Thread 1 updates the value of (x) again but thread 0 lodes the initial value of (x).
+thread 0 did not follow expected PSO behaviour.
+Initial: x==0, y==0
+0: x == 0
+1: x := 1
+2: x == 1
+1: x := 2
+0: x == 0
+Litmus tests evaluate memory behaviour by executing instruction permutations. As
+a side effect, execution time varies depending on the memory model under test.
+some key performance differences. The Directory model exhibits strong memory
+self-invalidate. As a result the execution time is very high. Appropriate SYNC
+The execution time of a Time-Based model with a time-out value of 10,000 and
+(2×). The relative improvement in the execution time of Time-Based coherence is
+with each run, so the execution time variation can be attributed to OS behaviour.
+Comparing the default MP1 test run with and without the extra Barrier-SYNC,
+the SYNC instruction present in the branch delay slot is executed more than (>322×)
+as compared to the one without the barrier. This explains the huge performance
+model due to an eager coherence behaviour. There is a small penalty for executing
+irrelevant as we are interested in a direct comparison of execution time rather than
+Execution Time (sec)
+However, the scheme reduces the complexity of the cache design. TODO:
+ical for a relaxed memory architecture. Locks and other OS synchronisation
+primitives are based on LL/SC and an inconsistency will result in unexpected
+behaviour. TODO: More and better explanation.
+Time-based coherence can be added to many existing coherence models in order
+to reduce spontaneous coherence communication. Examples of such designs have
+permutations on the coherence model in simulation. Table 4.6 shows memory ex-
+BERI Directory protocol is the result of a refined exploration of communication
+A write-back cache will hold a dirty line until it is evicted. Without explicit barriers,
+Example Trace
+often focuses on modifying existing designs based on TSO, primarily X86 ISA vari-
+The example shown in Table 4.7 demonstrates no SC behaviour. The two load
+operations of (x) by cores 1 and 2 would produce the most update value of the
+Initial: x==0, y==0
+0: x := 1
+1: x == 1
+2: x == 1
+0: x := 2
+1: x == 2
+2: x == 1
+line (possibly (x) in this scenario) or performing another blocking operation, this
+core has exclusive access, and hence is the only one added to the list. The D-Caches
+• Extra control logic in the D-Cache: Tag-time-counter and time-counter com-
+counter will depend on the selection of the Cache Time Counter. Expected to
+• Extra control logic in the D-Cache: Invalidation and tag lookup logic.
+• Extra control logic in the L2 cache: Invalidation and sharer list evaluation
+Family Stratix IV
+distribution as well as reduce false sharing. Most of the application’s execution time
+the problem size increases, the algorithm will experience substantial capacity and
+bandwidth, communication overheads, and general processor execution speed.
+experiences a total cache miss rate of around 7%-8% [29]. The design is sufficiently
+the partition, and the second and third dimensions specify the x and y offset within
+Time Between Relaxations
+This benchmark focuses on matrix triangulation and is an HPC application. The
+kernel factors a dense matrix. It is an example of a dense linear algebra calculation
+[29]. The matrix A(n × n) is divided into an N × N array of B × B blocks (n = NB).
+“Blocking is performed in LU to exploit temporal locality on individual sub-matrix
+for roughly 25% of the total execution time. LU does not scale linearly with an
+half at 64 processors (Exact knowledge of the values is not critical to our research)
+capacity, direct mapped), the test experiences a total cache miss rate of around 2%.
+LU Contiguous unique value “This implementation implements the matrix to
+Matrix Size
+LU Non-Contiguous “This implementation implements the matrix to be fac-
+second test was evaluated using a different matrix size.
+Matrix Size
+Water is an example of a molecular dynamics HPC application. Compared to Ocean
+cells to find molecules that might be within the cutoff radius of molecules in the box
+from time to frequency domains. “The algorithm consists of n complex data points,
+and n root if unity complex data points. Both sets of data are arranged in n × n
+miss rate is approximately 4% for the setup described in [Section 5.2.1]. Since FFT
+the local data required which will lead to shared memory penalties. FFT exhibits
+Complex Doubles
+Complex Doubles
+Radix
+one iteration for each radix r digit of the keys. In each iteration, a processor passes
+histogram to permute its keys into a new array for the next iteration. This per-
+benchmark is around 12-15%. Radix does not scale linearly with processors, “for
+Radix the poor speedup at 64 processors is due to a parallel prefix computation in
+each phase that cannot be completely parallelised [29].” “Radix streams through
+not sharply defined, and which may or may not fit in the cache [29].” Radix pro-
+duces bursty communication traffic. “A much more dramatic example is provided
+by Radix. In the permutation phase of this program, a processor reads keys con-
+being sorted, the radix, and the number of processors, respectively. While the exact
+Radix
+Max Key
+Table 5.9: Radix test parameters
+Extended Splash-2 Comparison
+coherence mechanism. Algorithms have been selected from the examples provided
+many more. In this chapter we focus on timing memory operations and extracting
+[TODO: Reference], have shown successful cryptographic key extraction through
+cache/memory side-channels. In AES, the key value and the plain text affect the
+of the key with a high degree of certainty. In this chapter we discuss the extent and
+or memory segment). However, this just adds one level of complexity for the at-
+pabilities allow fixed memory segment allocation to applications. The given memory
+segment is exclusive to the processes. This mechanism provides robust protection
+algorithm is executed on a capability system, it will be safe against memory leaks
+[Ref: wiki, timing attack] use modular exponentiation in one of the steps. This
+operation calculates the remainder (z) when as integer (x) is raised to the power
+mechanism simple and easy to implement in the context of BERI architecture. Pri-
+rect mapped caches, in-order execution, no write buffers, no memory access reorder-
+controlled experiment that does not rely on cryptographic algorithms. A simple
+experiment used to analyse side-channel leakage on BERI is described in the next
+interfere with the cache behaviour and thereby extract information about a running
+system might necessitate the use of a single cache line. Figure 6.1 shows an example
+of a Prime+Probe attack. In order to simply the explanation, let us assume that
+Victim Executes
+cache, 4 memory lines in this example.
+3. Victim executes: The victim application is allowed to execute. In this example
+tions that executed between the Prime and Probe phases accessed line 2.
+The example shown is very simple but when it is scaled up to a full system, the
+interrupts, exceptions, etc. These results are further illustrated in Section 6.3.5.1.
+the cache during the Prime phase, each memory line is assigned a maximum lifes-
+pan value. When this value is exceeded the line is evicted. If sufficient time passes
+on our system, thus, no significant performance drop is expected for the critical
+evicted from the private cache. The later is an excellent SCA mitigation mechanism
+Experimental Set-up (TODO: redundant information
+appropriate noise filtering yields expected results. The main objective is to establish
+remove any unexpected noise due to other data in the cache, the critical application
+cache. The probe phase simply loads all the previously primed data, the execution
+2. Victim: The victim program is allowed to execute. This program loads and
+3. Probe: The trojan loads all of its data and measures the execution time of the
+limited to a line granularity. In order to reduce the execution time of the trojan,
+exact placement of the trojan byte within the line is irrelevant, as any other memory
+so in most cases the best trojan timing information is extracted when only the data
+line expiry mechanism (Time-Based coherence only).
+valid and the tag-time-counter had not expired (Time-Based coherence only).
+extract useful information from a shared cache such as [TODO: Reference]. Our
+Most of this data is extracted through the shared cache.
+The core pin test executes the trojan and victim code on BERI core 0. Core 1 is
+held in an infinite loop while the tests execute. Since both codes are executing on
+the same core, no explicit synchronisation is necessary.
+operates on a data set with a memory size ranging from 0 bytes to a maximum of
+16,000 bytes. The maximum range is just below the data cache capacity of 16KB.
+expiry (Time-Based coherence only).
+8. Victim execution time: Performance of the victim software.
+Expected behaviour The core 0 data cache is filled with data written during the
+Following the Prime operation, core 0 begins executing the victim code. This
+One the victim completes execution, the trojan begins the Probe phase. Counter
+execution of the Probe phase. One the phase completes, the counters are read again
+Higher trojan execution time and miss rates would suggest a larger victim data
+set. Repeated executions will varying victim data set sizes will allow profiling of
+actually extracts any values from the victim, only the memory foot print, which is
+sufficient in the case of something like a modular exponentiation algorithm.
+Observed behaviour - Single-core As expected with a processor with no pro-
+As the victims data set size is directly proportional to the execution time and
+the exact dimensions of the victim data set. The unique value comparison graph
+Probe execution times. The result shows sharp peak in the middle when arrays show
+maximum correlation.
+TODO: explain correlation curves.
+different performance on the Time-Based system. The execution time and miss rates
+time and the increasing victim data set. This behaviour is expected in a system
+does not merit a discussion. Observing the Trojan Probe execution time on
+for a fixed amount of time and if the victim code runtime is greater than this
+fixed value, the Probe phase will not provide any meaning full results as all
+based: Enhancing chart (c1) shows a mostly fixed response time since the data
+shows this expected behaviour. Dual-core identical behaviour to single-core in
+(b1)(b2)(b3) The enhanced version still shows a linear execution overhead for the victim
+(d1)(d2)(d3) As in the example above, no data is available in the single-core case as there
+(a1)(a2)(a3) The number of unique Trojan Probe execution time values observed is virtually
+the data cache. The additional execution time penalty is clearly visible as
+and the directory, we see a maximum value peak when the two sample sets are
+displays exactly that.
+In this test (TODO: needs a name), the trojan and victim code segments are ex-
+The split core test executes the trojan code on core 0 and the victim code on
+executed, core 1 is held in a wait loop. Once the trojan completes, it signals the
+memory address to execute trojan-probe code. The overheads of using the shred
+TODO: Fix split code test and run it even though no side channels are observed.
+Expected behaviour The test is designed to fit within the data caches, so any
+will be no direct interaction between the Trojan and Victim. The only exception is
+not expect to see any variation in Trojan Probe data.
+Observed behaviour - Directory The results confirmed our expectations, the
+Trojan Probe phase was not able to extract any useful information regarding the
+TODO: Analyse binaries to determine address spaces and figure out exact cache
+and trojan codes are spawned through the same executable fine, maintaining fine
+sufficient to observe the expected behaviour. In addition to Probing data caches, I
+of this data randomisation: self-invalidation timing, critical application execution
+• Application execution time: This factor ties in with self-invalidation timing,
+execution time will allow using a longer TTL.
+flush, and a critical application can use this before or after execution to en-
+however, other systems might require explicit cache line invalidate instructions
+explicitly call the OS and request cache invalidation.
+attacks on LLC’s and other lower levels of memory. By extrapolation, even if
+techniques exist, these can be more or less effective against different mitigation
+vulnerabilities. The experiments I have designed could be extended and integrate
+lenge of extracting useful timing information for the attacker, however, this tech-
+protection out of the box, more than the standard systems. However if any crit-
+• Exploration of cache coherence mechanisms
+• New time-based relaxed memory consistency scheme, more relaxed than RMO.
+Requires a name, perhaps very relaxed memory order (V-RMO)
+• Extensive testing and verification of V-RMO:
+[32] XILINX. Axi reference guide. Technical report, XILINX, 2011. 20
