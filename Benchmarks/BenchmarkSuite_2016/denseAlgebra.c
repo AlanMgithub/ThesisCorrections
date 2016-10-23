@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdint.h>
 #include <pthread.h>
 
 static void populateArray (size_t dimension, uint32_t array[]) {

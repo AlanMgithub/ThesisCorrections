@@ -11,8 +11,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define NTHREADS      4
-#define ARRAYSIZE   1000000
+#define NTHREADS      32
+#define ARRAYSIZE   10000000
 #define ITERATIONS   ARRAYSIZE / NTHREADS
 
 double  sum=0.0, a[ARRAYSIZE];

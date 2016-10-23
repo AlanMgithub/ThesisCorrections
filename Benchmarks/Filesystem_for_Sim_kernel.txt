@@ -1,0 +1,76 @@
+/sbin/mdconfig -a -t swap -s 128m
+/sbin/newfs /dev/md1
+/sbin/fsck /dev/md1
+/sbin/mount -t ufs /dev/md1 /mnt
+
+
+/sbin/sysctl -a | grep 'hw.machine\|hw.ncpu\|kern.ostype\|kern.osrelease\|kern.version\|kern.supported_archs\|kern.ident\|kern.smp.cpus\|hw.machine_arch\|hw.clockrate'
+/sbin/sysctl -a | grep 'hw.ncpu\|kern.ostype\|kern.osrelease\|kern.version\|kern.supported_archs\|kern.smp.cpus\|hw.machine_arch\|hw.clockrate'
+
+
+
+sudo dd if=WATER-NSQUARED of=/dev/sdb1 bs=1M count=1 
+
+dd if=/dev/altera_sdcard0s1 of=BENCH bs=1M count=1
+
+export LD_LIBRARY_PATH=/lib
+cherisdk/sdk/bin/clang -pthread test.c
+
+
+
+
+Booting hardware (use these in different windows)
+aam53@nutter:/local/scratch/aam53/Cheri/ctsrd$ nios2-terminal --instance 1
+aam53@nutter:/local/scratch/aam53/Cheri/ctsrd/cherilibs/trunk/tools/debug$ ./berictl loadbin 20150122-cheribsd-beri-de4-2core-mdroot-singleuser-kernel 0x100000
+aam53@nutter:/local/scratch/aam53/Cheri/ctsrd/cherilibs/trunk/tools/debug$ ./berictl -u4 boot
+
+
+
+
+
+../cherisdk/sdk/bin/clang -O3 -pthread -D_POSIX_C_SOURCE=200112 -static -integrated-as -msoft-float -Winline-asm -lrt BenchmarkSuite.c
+
+
+../cherisdk/sdk/bin/clang -O3 -static -integrated-as -msoft-float -Winline-asm -lrt mips_victim_memory_code.c 
+
+
+../cherisdk/sdk/bin/objdump -xsSD IPI_VICTIM_TEST > victim_output_objdump
+
+
+*** For Moldyn Benchmark ***
+Use (-lm) to build math.h functions
+
+
+*** Steps for running SPLASH-2 ***
+**********************************
+/sbin/mdconfig -a -t swap -s 128m
+/sbin/newfs /dev/md1
+/sbin/fsck /dev/md1
+/sbin/mount -t ufs /dev/md1 /mnt
+cd /mnt
+mkdir new_mount_point
+/sbin/mount_msdosfs /dev/altera_sdcard0s1 /mnt/new_mount_point/
+cp -r new_mount_point/splash_for_FreeBSD/* .
+./splash_shell.sh
+**********************************
+
+
+
+
+** Loading kernels from nutter
+1. Launch Quartus
+2. aam53@nutter:/local/scratch/aam53/Cheri/ctsrd/cherilibs/trunk/tools/debug$ ./berictl -c3 loadbin 20141215-cheribsd-beri-sim-2core-mdroot-singleuser-kernel 0x100000
+(9.2.3 = -c4, 9.2.1 = -c3, 5.2 = -c2, 3.1 = -c1)
+3. ./berictl -c3 boot
+4. ./step3-cable3-resume-terminal.sh
+
+
+
+
+** EDGE ROUTER
+ssh ubnt@edgerouter1.sm.cl.cam.ac.uk
+Password: ubntmips64
+scp -r some_file_here ubnt@edgerouter1.sm.cl.cam.ac.uk:/home/ubnt/tmp
+
+*** Build C files for MIPS CPU's
+mips-linux-gnu-gcc -EB -march=mips64 -static -std=gnu99 -pthread main.c

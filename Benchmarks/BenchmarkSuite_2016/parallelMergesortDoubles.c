@@ -17,8 +17,10 @@ $ ./mergesort [1000000]
 #include <sys/time.h>
 #include <string.h>
 
-#define DNUM 1000000
-#define THREAD_LEVEL 3
+//#define DNUM 1000000
+#define DNUM 10000000
+//#define THREAD_LEVEL 3
+#define THREAD_LEVEL 1
 
 //for sequential and parallel implementation
 void merge(double lyst[], double back[], int low, int mid, int high);
@@ -42,6 +44,9 @@ struct thread_data{
 //for the builtin qsort, for fun:
 int compare_doubles (const void *a, const void *b);
 
+volatile int loop_count = 0;
+#define TOTAL_COUNT 13
+
 /*
 Main method:
 -generate random list
@@ -52,6 +57,8 @@ int main (int argc, char *argv[])
 {
 	struct timeval start, end;
 	double diff;
+
+	printf("Test No. %d\n",loop_count);
 
 	srand(time(NULL)); //seed random
 	
@@ -100,7 +107,7 @@ int main (int argc, char *argv[])
 	memcpy(lyst, lystbck, NUM*sizeof(double));
 
 	gettimeofday(&start, NULL);
-	parallelMergesort(lyst, NUM, THREAD_LEVEL);
+	parallelMergesort(lyst, NUM, THREAD_LEVEL+loop_count);
 	gettimeofday(&end, NULL);
 
 	if (!isSorted(lyst, NUM))
@@ -135,7 +142,15 @@ int main (int argc, char *argv[])
 
 	free(lyst);
 	free(lystbck);
-	pthread_exit(NULL);
+
+	if (loop_count > TOTAL_COUNT){
+		pthread_exit(NULL);
+		exit(0);
+	}
+	else {
+		loop_count++;
+		main(1,NULL);
+	}
 }
 
 
@@ -305,7 +320,7 @@ void *parallelMergesortHelper(void *threadarg)
 	{
 		rc = pthread_create(&threads[t], &attr, parallelMergesortHelper,
 							(void *) &thread_data_array[t]);
-		printf("Thread\n");
+		//printf("Thread\n");
 		if (rc) 
 		{
     		printf("ERROR; return code from pthread_create() is %d\n", rc);
