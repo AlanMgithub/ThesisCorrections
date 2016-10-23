@@ -1,0 +1,28 @@
+#Makefile for Producer Consumer program
+#
+CC=gcc
+CFLAGS=-Wall -pthread
+#
+# Compiler Flags:
+#
+#	-Wall -- show all warnings
+#	-pthread -- use POSIX threads library
+pc: producer.o consumer.o linked_list.o prodcons.o
+	$(CC) $(CFLAGS) -o pc producer.o consumer.o linked_list.o prodcons.o
+
+prodcons.o: linked_list.h prodcons.h prodcons.c
+	$(CC) $(CFLAGS) -c prodcons.c
+
+producer.o: linked_list.h prodcons.h producer.c
+	$(CC) $(CFLAGS) -c producer.c
+
+consumer.o: linked_list.h prodcons.h consumer.c
+	$(CC) $(CFLAGS) -c consumer.c
+
+linked_list.o: linked_list.h linked_list.c
+	$(CC) $(CFLAGS) -c linked_list.c
+
+clean:
+	rm -f *~ core *.core
+	rm -f *.o
+#end of makefile
